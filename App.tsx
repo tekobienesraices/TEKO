@@ -10,6 +10,7 @@ import { Construction } from './pages/Construction';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { TermsConditions } from './pages/TermsConditions';
 import { CookiePolicy } from './pages/CookiePolicy';
+import { ZonePage } from './pages/ZonePage';
 import { MessageCircle } from 'lucide-react';
 
 const ScrollToTop = () => {
@@ -47,6 +48,7 @@ function App() {
             <Route path="/terrenos" element={<Catalog />} />
             <Route path="/propiedad/:id" element={<PropertyDetail />} />
             <Route path="/calculadora" element={<Calculator />} />
+            <Route path="/zona/:id" element={<ZonePage />} />
             <Route path="/construccion" element={<Construction />} />
             <Route path="/privacidad" element={<PrivacyPolicy />} />
             <Route path="/terminos" element={<TermsConditions />} />

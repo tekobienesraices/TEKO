@@ -1,9 +1,21 @@
+export interface Zone {
+  id: string;
+  name: string;
+  tagline: string;
+  description: string;
+  mapUrl: string;
+  heroImage: string;
+  highlights: string[];
+}
+
 export interface Property {
   id: string;
+  zoneId: string;
   title: string;
   location: string;
   price: number;
   size: number; // m2
+  dimensions?: string; // e.g. "12x30"
   monthlyPayment: number;
   description: string;
   image: string;
@@ -33,5 +45,17 @@ export interface LeadForm {
 export interface CalculatorState {
   propertyPrice: number;
   downPaymentPercent: number;
+  reinforcementPercent: number;
+  reinforcementPayments: number;
   termMonths: number;
+}
+
+export interface FinancingPlan {
+  name: string;
+  description: string;
+  downPayment: number;
+  reinforcement: number;
+  monthlyPayment: number;
+  totalPaid: number;
+  recommended?: boolean;
 }
