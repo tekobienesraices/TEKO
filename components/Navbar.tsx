@@ -34,10 +34,18 @@ export const Navbar: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <img
-              src="/logo-horizontal.png"
+              src="/logo-symbol.png"
               alt="TEKO"
-              className={`h-12 w-auto object-contain transition-all duration-300 ${scrolled ? 'brightness-0 invert' : ''}`}
+              className={`h-14 w-auto object-contain transition-all duration-300 ${scrolled ? 'brightness-0 invert' : ''}`}
             />
+            <div className="flex flex-col">
+              <span className={`text-2xl font-serif font-bold tracking-tight leading-none ${scrolled ? 'text-white' : 'text-teko-navy'}`}>
+                TEKO
+              </span>
+              <span className={`text-[0.6rem] uppercase tracking-widest font-medium ${scrolled ? 'text-white/60' : 'text-teko-navy/60'}`}>
+                Bienes Raíces
+              </span>
+            </div>
           </Link>
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
