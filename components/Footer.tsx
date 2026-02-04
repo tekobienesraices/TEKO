@@ -9,9 +9,12 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           {/* Brand */}
           <div className="space-y-6">
-            <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-tr-lg rounded-bl-lg bg-gradient-to-tr from-white to-teko-grey"></div>
-              <span className="text-xl font-serif font-bold">TEKO</span>
+            <div className="flex items-center gap-3">
+              <img
+                src="/logo-horizontal.png"
+                alt="TEKO"
+                className="h-12 w-auto object-contain brightness-0 invert"
+              />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
               Redefiniendo el futuro inmobiliario. Terrenos premium financiados y arquitectura de autor para quienes exigen lo mejor.

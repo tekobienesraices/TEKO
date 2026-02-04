@@ -32,13 +32,13 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className={`w-8 h-8 rounded-tr-xl rounded-bl-xl bg-gradient-to-tr from-teko-navy to-teko-grey ${scrolled ? 'border border-white/20' : ''}`}></div>
-            <span className={`text-2xl font-serif font-bold tracking-tight ${scrolled ? 'text-white' : 'text-teko-navy'} group-hover:opacity-80 transition-opacity`}>
-              TEKO
-            </span>
+          <Link to="/" className="flex items-center gap-3 group">
+            <img
+              src="/logo-horizontal.png"
+              alt="TEKO"
+              className={`h-12 w-auto object-contain transition-all duration-300 ${scrolled ? 'brightness-0 invert' : ''}`}
+            />
           </Link>
-
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
