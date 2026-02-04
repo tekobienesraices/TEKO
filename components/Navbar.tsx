@@ -23,7 +23,7 @@ export const Navbar: React.FC = () => {
 
   const navLinks = [
     { name: 'Terrenos', path: '/terrenos' },
-    { name: 'Construcción', path: '/construccion' },
+    { name: 'Inversión', path: '/blog' },
     { name: 'Calculadora', path: '/calculadora' },
     { name: 'Nosotros', path: '/nosotros' },
   ];

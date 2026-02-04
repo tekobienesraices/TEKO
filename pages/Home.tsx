@@ -25,7 +25,7 @@ export const Home: React.FC = () => {
           <div className="absolute inset-0 bg-gradient-to-b from-teko-navy/40 via-teko-navy/20 to-slate-50 z-10" />
           <img
             src="/hero-sunset.png"
-            alt="Terreno con atardecer en Paraguay"
+            alt="Venta de terrenos en cuotas en San Bernardino y Areguá Paraguay"
             className="w-full h-full object-cover"
           />
         </motion.div>
@@ -49,8 +49,8 @@ export const Home: React.FC = () => {
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-5xl md:text-7xl font-serif font-bold text-white leading-tight mb-6"
           >
-            Construí tu futuro <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300">desde hoy</span>
+            Terrenos en cuotas <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300">en Paraguay</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -58,7 +58,7 @@ export const Home: React.FC = () => {
             transition={{ delay: 0.6 }}
             className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto"
           >
-            Accedé a terrenos exclusivos con financiación propia y hacé realidad tu casa a medida con nuestro sistema de construcción integral.
+            Accedé a loteamientos exclusivos con financiación propia y cuotas fijas en guaraníes. Hacé realidad tu casa a medida en las mejores zonas del país.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -80,9 +80,9 @@ export const Home: React.FC = () => {
       <section className="relative z-30 -mt-20 px-4 pb-20">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { icon: Map, title: "Comprar Terreno", desc: "Ubicaciones estratégicas con alta plusvalía.", link: "/terrenos" },
-            { icon: HomeIcon, title: "Construir mi Casa", desc: "Arquitectura de autor llave en mano.", link: "/construccion" },
-            { icon: TrendingUp, title: "Invertir Capital", desc: "Retorno asegurado en ladrillos.", link: "/inversion" }
+            { icon: Map, title: "Lotes Financiados", desc: "Ubicaciones estratégicas con alta plusvalía en Cordillera y Central.", link: "/terrenos" },
+            { icon: HomeIcon, title: "Terrenos en Sanber", desc: "Arquitectura de autor llave en mano en San Bernardino.", link: "/terrenos?zona=san-bernardino" },
+            { icon: TrendingUp, title: "Invertir en Paraguay", desc: "El mejor retorno asegurado en bienes raíces.", link: "/inversion" }
           ].map((item, idx) => (
             <motion.div
               key={idx}

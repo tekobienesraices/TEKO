@@ -213,3 +213,59 @@ export const FINANCING_CONFIG = {
   defaultReinforcementPayments: 3,
   whatsappNumber: '595983783349'
 };
+
+// ==========================================
+// BLOG / GUÍA DEL INVERSOR
+// ==========================================
+export interface BlogPost {
+  id: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  date: string;
+  author: string;
+  category: string;
+  image: string;
+  readTime: string;
+}
+
+export const blogPosts: BlogPost[] = [
+  {
+    id: 'plusvalia-paraguay-2026',
+    title: '5 zonas con mayor plusvalía en Paraguay para el 2026',
+    excerpt: 'Descubrí dónde están las oportunidades de inversión más rentables en el mercado inmobiliario paraguayo actual.',
+    content: 'Paraguay se ha consolidado como un destino atractivo para inversores locales y extranjeros. Con una economía estable y beneficios fiscales competitivos, el sector inmobiliario lidera las proyecciones de crecimiento. Las 5 zonas destacadas incluyen San Bernardino por su exclusividad, Areguá por su cercanía estratégica, y nuevos polos de desarrollo en Cordillera.',
+    date: '15 de Febrero, 2026',
+    author: 'Equipo TEKO',
+    category: 'Inversión',
+    image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=800',
+    readTime: '6 min'
+  },
+  {
+    id: 'guia-compra-terreno-cuotas',
+    title: 'Cómo comprar tu primer terreno a cuotas siendo joven',
+    excerpt: 'Una guía paso a paso para dar el primer paso hacia tu patrimonio sin descapitalizarte.',
+    content: 'Comprar un terreno es la decisión financiera más importante de tu vida temprana. En este artículo te explicamos cómo funcionan los préstamos inmobiliarios y por qué la financiación propia de TEKO es la mejor opción para jóvenes que buscan capitalizarse cuota a cuota, sin requisitos bancarios complejos.',
+    date: '10 de Febrero, 2026',
+    author: 'Asesoría TEKO',
+    category: 'Educación',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800',
+    readTime: '5 min'
+  },
+  {
+    id: 'seguridad-juridica-loteamientos',
+    title: 'Seguridad jurídica: ¿Qué papeles pedir al comprar un lote?',
+    excerpt: 'Evitá estafas y dolores de cabeza. Te contamos todo sobre la escritura inmediata y los títulos de propiedad.',
+    content: 'Al momento de adquirir un loteamiento en Paraguay, es vital verificar la cuenta corriente catastral, la resolución municipal de loteamiento y la disponibilidad de escritura inmediata. En TEKO, garantizamos que cada propiedad cuenta con respaldo legal total para tu tranquilidad.',
+    date: '05 de Febrero, 2026',
+    author: 'Legal TEKO',
+    category: 'Legal',
+    image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800',
+    readTime: '8 min'
+  }
+];
+
+// Helper function to get post by ID
+export const getPostById = (postId: string): BlogPost | undefined => {
+  return blogPosts.find(p => p.id === postId);
+};
