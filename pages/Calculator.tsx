@@ -1,15 +1,22 @@
 import React, { useState, useMemo } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Calculator as CalcIcon, Send, ChevronDown, ChevronUp, Sparkles, AlertCircle, Check } from 'lucide-react';
+import { Calculator as CalcIcon, Send, ChevronDown, ChevronUp, Sparkles, AlertCircle, Check, Info } from 'lucide-react';
 import { Button } from '../components/Button';
 import { PRICE_RANGE, FINANCING_CONFIG } from '../data';
 
-// Interest configuration
+// ===========================================
+// MODELO DE FINANCIAMIENTO - INTERÉS SIMPLE
+// ===========================================
+// Tasa anual: 15.6%
+// 12 meses: SIN INTERÉS
+// 13-72 meses: INTERÉS SIMPLE sobre capital financiado
+// Fórmula: Interés = Capital × (tasa_anual × años)
+// ===========================================
+
 const INTEREST_CONFIG = {
   zeroInterestMonths: 12,      // 12 meses sin interés
-  monthlyRate: 0.013,          // 1.3% mensual
-  annualRate: 0.156            // 15.6% anual
+  annualRate: 0.156,           // 15.6% anual
 };
 
 interface PaymentScheduleItem {
@@ -35,62 +42,69 @@ export const Calculator: React.FC = () => {
   // Check if interest applies
   const hasInterest = months > INTEREST_CONFIG.zeroInterestMonths;
 
-  // Calculations
+  // ===========================================
+  // CÁLCULOS - INTERÉS SIMPLE
+  // ===========================================
   const calculations = useMemo(() => {
-    const downPayment = Math.round(price * downPaymentPct / 100);
-    const reinforcement = useReinforcement ? Math.round(price * reinforcementPct / 100) : 0;
-    const saldoFinanciado = price - downPayment - reinforcement;
-    const reinforcementPerPayment = useReinforcement ? Math.round(reinforcement / reinforcementPayments) : 0;
+    // 1. Calcular entrega
+    const entrega = Math.round(price * downPaymentPct / 100);
 
-    let cuotaMensual: number;
-    let totalFinanciado: number;
-    let interesTotal: number;
+    // 2. Restar entrega al precio
+    const capitalBase = price - entrega;
 
-    if (months <= INTEREST_CONFIG.zeroInterestMonths) {
-      // 12 meses o menos: SIN INTERÉS
-      cuotaMensual = Math.ceil(saldoFinanciado / months / 10000) * 10000;
-      totalFinanciado = cuotaMensual * months;
-      interesTotal = 0;
-    } else {
-      // Más de 12 meses: CON INTERÉS (fórmula de amortización)
-      // M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1 ]
-      const i = INTEREST_CONFIG.monthlyRate;
-      const n = months;
-      const P = saldoFinanciado;
+    // 3. Calcular refuerzo (opcional)
+    const refuerzoTotal = useReinforcement ? Math.round(price * reinforcementPct / 100) : 0;
+    const refuerzoPorPago = useReinforcement ? Math.round(refuerzoTotal / reinforcementPayments) : 0;
 
-      const factor = Math.pow(1 + i, n);
-      cuotaMensual = Math.ceil(P * (i * factor) / (factor - 1) / 10000) * 10000;
-      totalFinanciado = cuotaMensual * months;
-      interesTotal = totalFinanciado - saldoFinanciado;
+    // 4. Restar refuerzo si existe
+    const capitalFinanciado = capitalBase - refuerzoTotal;
+
+    // 5. Calcular interés SIMPLE (solo si más de 12 meses)
+    let interesTotal = 0;
+    if (hasInterest) {
+      const años = months / 12;
+      // Interés Simple: I = C × r × t
+      interesTotal = Math.round(capitalFinanciado * INTEREST_CONFIG.annualRate * años);
     }
 
-    // Adjust last payment for rounding
-    const lastPaymentAdjustment = hasInterest
-      ? totalFinanciado - (cuotaMensual * (months - 1))
-      : saldoFinanciado - (cuotaMensual * (months - 1));
+    // 6. Total financiado = capital + interés
+    const totalFinanciado = capitalFinanciado + interesTotal;
 
-    const totalPaid = downPayment + reinforcement + totalFinanciado;
-    const differenceVsCash = totalPaid - price;
+    // 7. Calcular cuota mensual con redondeo comercial
+    const cuotaSinRedondear = totalFinanciado / months;
+    const cuotaMensual = Math.ceil(cuotaSinRedondear / 10000) * 10000; // Redondeo a 10k
+
+    // Ajustar última cuota por diferencia de redondeo
+    const sumaCuotasNormales = cuotaMensual * (months - 1);
+    const ultimaCuota = totalFinanciado - sumaCuotasNormales;
+
+    // Total a pagar (entrega + refuerzo + cuotas)
+    const totalPagar = entrega + refuerzoTotal + totalFinanciado;
+
+    // Diferencia vs contado
+    const diferenciaVsContado = totalPagar - price;
 
     return {
-      downPayment,
-      reinforcement,
-      saldoFinanciado,
-      cuotaMensual,
-      totalFinanciado,
+      entrega,
+      capitalBase,
+      refuerzoTotal,
+      refuerzoPorPago,
+      capitalFinanciado,
       interesTotal,
-      lastPaymentAdjustment: Math.max(lastPaymentAdjustment, cuotaMensual),
-      reinforcementPerPayment,
-      totalPaid,
-      differenceVsCash,
-      reinforcementPayments: useReinforcement ? reinforcementPayments : 0
+      totalFinanciado,
+      cuotaMensual,
+      ultimaCuota: Math.max(ultimaCuota, 0),
+      totalPagar,
+      diferenciaVsContado,
+      años: months / 12,
+      tasaAplicada: hasInterest ? INTEREST_CONFIG.annualRate * (months / 12) : 0
     };
   }, [price, downPaymentPct, useReinforcement, reinforcementPct, reinforcementPayments, months, hasInterest]);
 
   // Generate payment schedule
   const schedule = useMemo((): PaymentScheduleItem[] => {
     const items: PaymentScheduleItem[] = [];
-    let accumulated = calculations.downPayment;
+    let accumulated = calculations.entrega;
 
     const reinforcementMonths = useReinforcement
       ? Array.from({ length: reinforcementPayments }, (_, i) => (i + 1) * 12)
@@ -98,17 +112,17 @@ export const Calculator: React.FC = () => {
 
     for (let m = 1; m <= months; m++) {
       if (reinforcementMonths.includes(m)) {
-        accumulated += calculations.reinforcementPerPayment;
+        accumulated += calculations.refuerzoPorPago;
         items.push({
           month: m,
           type: 'refuerzo',
-          amount: calculations.reinforcementPerPayment,
+          amount: calculations.refuerzoPorPago,
           accumulated
         });
       }
 
       const isLastMonth = m === months;
-      const cuota = isLastMonth ? calculations.lastPaymentAdjustment : calculations.cuotaMensual;
+      const cuota = isLastMonth ? calculations.ultimaCuota : calculations.cuotaMensual;
       accumulated += cuota;
       items.push({
         month: m,
@@ -124,19 +138,19 @@ export const Calculator: React.FC = () => {
   // Generate WhatsApp message
   const generateWhatsAppMessage = () => {
     const interestText = hasInterest
-      ? `📊 *Tasa:* 1.3% mensual (15.6% anual)`
-      : `✅ *Sin interés* (hasta 12 cuotas)`;
+      ? `📊 *Interés (${(INTEREST_CONFIG.annualRate * 100).toFixed(1)}% anual × ${calculations.años} años):* Gs. ${calculations.interesTotal.toLocaleString()}`
+      : `✅ *Sin interés* (12 cuotas)`;
 
     const msg = `*TEKO - Mi Plan de Financiación*
     
 📍 *Precio del terreno:* Gs. ${price.toLocaleString()}
-💰 *Entrega (${downPaymentPct}%):* Gs. ${calculations.downPayment.toLocaleString()}
-${useReinforcement ? `📈 *Refuerzo (${reinforcementPct}%):* Gs. ${calculations.reinforcement.toLocaleString()} en ${reinforcementPayments} pagos` : ''}
-📊 *Saldo a financiar:* Gs. ${calculations.saldoFinanciado.toLocaleString()}
-🗓️ *Plazo:* ${months} meses
+💰 *Entrega (${downPaymentPct}%):* Gs. ${calculations.entrega.toLocaleString()}
+${useReinforcement ? `📈 *Refuerzo (${reinforcementPct}%):* Gs. ${calculations.refuerzoTotal.toLocaleString()} en ${reinforcementPayments} pago(s)` : ''}
+📊 *Capital financiado:* Gs. ${calculations.capitalFinanciado.toLocaleString()}
 ${interestText}
+🗓️ *Plazo:* ${months} meses
 💵 *Cuota mensual:* Gs. ${calculations.cuotaMensual.toLocaleString()}
-💰 *Total a pagar:* Gs. ${calculations.totalPaid.toLocaleString()}
+💰 *Total a pagar:* Gs. ${calculations.totalPagar.toLocaleString()}
 
 Me interesa recibir más información sobre este plan.`;
 
@@ -190,7 +204,7 @@ Me interesa recibir más información sobre este plan.`;
               <div>
                 <label className="flex justify-between text-sm font-medium text-slate-700 mb-3">
                   <span>Entrega Inicial ({downPaymentPct}%)</span>
-                  <span className="font-bold text-teko-navy">{formatCurrency(calculations.downPayment)}</span>
+                  <span className="font-bold text-teko-navy">{formatCurrency(calculations.entrega)}</span>
                 </label>
                 <input
                   type="range"
@@ -210,7 +224,7 @@ Me interesa recibir más información sobre este plan.`;
               {/* Reinforcement Toggle */}
               <div className="bg-slate-50 rounded-xl p-4">
                 <div className="flex items-center justify-between mb-4">
-                  <span className="font-medium text-slate-700">¿Incluir refuerzos anuales?</span>
+                  <span className="font-medium text-slate-700">¿Incluir refuerzos?</span>
                   <button
                     onClick={() => setUseReinforcement(!useReinforcement)}
                     className={`relative w-14 h-8 rounded-full transition-colors ${useReinforcement ? 'bg-teko-gold' : 'bg-slate-300'
@@ -234,7 +248,7 @@ Me interesa recibir más información sobre este plan.`;
                       <div>
                         <label className="flex justify-between text-sm text-slate-600 mb-2">
                           <span>Refuerzo ({reinforcementPct}%)</span>
-                          <span className="font-bold text-teko-gold">{formatCurrency(calculations.reinforcement)}</span>
+                          <span className="font-bold text-teko-gold">{formatCurrency(calculations.refuerzoTotal)}</span>
                         </label>
                         <input
                           type="range"
@@ -245,6 +259,7 @@ Me interesa recibir más información sobre este plan.`;
                           onChange={(e) => setReinforcementPct(Number(e.target.value))}
                           className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-teko-gold"
                         />
+                        <p className="text-xs text-slate-400 mt-1">Mínimo 20% del precio</p>
                       </div>
 
                       <div>
@@ -264,7 +279,7 @@ Me interesa recibir más información sobre este plan.`;
                           ))}
                         </div>
                         <p className="text-xs text-slate-400 mt-2">
-                          {formatCurrency(calculations.reinforcementPerPayment)} por pago anual
+                          {formatCurrency(calculations.refuerzoPorPago)} por pago
                         </p>
                       </div>
                     </motion.div>
@@ -280,7 +295,7 @@ Me interesa recibir más información sobre este plan.`;
                   </label>
                   {hasInterest ? (
                     <span className="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded-full font-medium">
-                      Con interés
+                      {(INTEREST_CONFIG.annualRate * 100).toFixed(1)}% anual
                     </span>
                   ) : (
                     <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full font-medium flex items-center gap-1">
@@ -306,10 +321,10 @@ Me interesa recibir más información sobre este plan.`;
                 {hasInterest && (
                   <div className="mt-3 p-3 bg-amber-50 border border-amber-200 rounded-lg">
                     <div className="flex items-start gap-2">
-                      <AlertCircle size={16} className="text-amber-600 flex-shrink-0 mt-0.5" />
+                      <Info size={16} className="text-amber-600 flex-shrink-0 mt-0.5" />
                       <p className="text-xs text-amber-700">
-                        A partir de 13 cuotas se aplica una tasa de <strong>1.3% mensual</strong> (15.6% anual).
-                        Para 0% de interés, elegí 12 meses.
+                        <strong>Interés simple {(INTEREST_CONFIG.annualRate * 100).toFixed(1)}% anual</strong> sobre el capital financiado.
+                        En {months} meses ({calculations.años} años) = {(calculations.tasaAplicada * 100).toFixed(1)}% total.
                       </p>
                     </div>
                   </div>
@@ -338,34 +353,43 @@ Me interesa recibir más información sobre este plan.`;
                   <span className="text-slate-400 text-sm">durante {months} meses</span>
                 </motion.div>
 
-                {/* Summary */}
+                {/* Summary - Flujo detallado */}
                 <div className="space-y-3 mb-6 border-t border-white/10 pt-6">
                   <div className="flex justify-between text-sm">
-                    <span className="text-slate-400">Entrega inicial</span>
-                    <span className="font-medium">{formatCurrency(calculations.downPayment)}</span>
+                    <span className="text-slate-400">Precio del terreno</span>
+                    <span className="font-medium">{formatCurrency(price)}</span>
+                  </div>
+                  <div className="flex justify-between text-sm">
+                    <span className="text-slate-400">Entrega ({downPaymentPct}%)</span>
+                    <span className="font-medium text-green-400">- {formatCurrency(calculations.entrega)}</span>
                   </div>
                   {useReinforcement && (
                     <div className="flex justify-between text-sm">
-                      <span className="text-slate-400">Refuerzo total</span>
-                      <span className="font-medium">{formatCurrency(calculations.reinforcement)}</span>
+                      <span className="text-slate-400">Refuerzo ({reinforcementPct}%)</span>
+                      <span className="font-medium text-green-400">- {formatCurrency(calculations.refuerzoTotal)}</span>
                     </div>
                   )}
-                  <div className="flex justify-between text-sm">
-                    <span className="text-slate-400">Saldo financiado</span>
-                    <span className="font-medium">{formatCurrency(calculations.saldoFinanciado)}</span>
+                  <div className="flex justify-between text-sm border-t border-white/10 pt-2">
+                    <span className="text-slate-400">Capital financiado</span>
+                    <span className="font-medium">{formatCurrency(calculations.capitalFinanciado)}</span>
                   </div>
 
                   {/* Interest row - only show if there IS interest */}
                   {hasInterest && (
                     <div className="flex justify-between text-sm">
-                      <span className="text-amber-400">Interés (1.3% mensual)</span>
+                      <span className="text-amber-400">+ Interés simple ({(calculations.tasaAplicada * 100).toFixed(1)}%)</span>
                       <span className="font-medium text-amber-400">+ {formatCurrency(calculations.interesTotal)}</span>
                     </div>
                   )}
 
+                  <div className="flex justify-between text-sm border-t border-white/10 pt-2">
+                    <span className="text-slate-400">Total en cuotas</span>
+                    <span className="font-medium">{formatCurrency(calculations.totalFinanciado)}</span>
+                  </div>
+
                   <div className="flex justify-between text-sm border-t border-white/10 pt-3">
-                    <span className="text-slate-400">Total a pagar</span>
-                    <span className="font-bold text-lg">{formatCurrency(calculations.totalPaid)}</span>
+                    <span className="text-white font-medium">TOTAL A PAGAR</span>
+                    <span className="font-bold text-lg text-teko-gold">{formatCurrency(calculations.totalPagar)}</span>
                   </div>
                 </div>
 
@@ -376,7 +400,7 @@ Me interesa recibir más información sobre este plan.`;
                       <>
                         <AlertCircle className="text-amber-400 flex-shrink-0 mt-0.5" size={20} />
                         <p className="text-sm text-slate-300">
-                          <strong className="text-amber-400">Tasa fija 1.3% mensual.</strong> Si preferís sin interés, elegí 12 cuotas y ahorrate {formatCurrency(calculations.interesTotal)}.
+                          <strong className="text-amber-400">Interés simple aplicado.</strong> Si elegís 12 cuotas, ahorrarías {formatCurrency(calculations.interesTotal)}.
                         </p>
                       </>
                     ) : (
@@ -430,7 +454,7 @@ Me interesa recibir más información sobre este plan.`;
                   <div className="bg-slate-50 rounded-lg p-4">
                     <div className="grid grid-cols-4 gap-4 text-xs font-medium text-slate-500 mb-2 pb-2 border-b border-slate-200">
                       <span>Mes</span>
-                      <span>Tipo</span>
+                      <span>Concepto</span>
                       <span className="text-right">Monto</span>
                       <span className="text-right">Acumulado</span>
                     </div>
@@ -438,8 +462,8 @@ Me interesa recibir más información sobre este plan.`;
                       <div className="grid grid-cols-4 gap-4 py-2 text-sm">
                         <span className="font-medium">0</span>
                         <span className="text-teko-gold font-medium">Entrega</span>
-                        <span className="text-right">{formatCurrency(calculations.downPayment)}</span>
-                        <span className="text-right font-medium">{formatCurrency(calculations.downPayment)}</span>
+                        <span className="text-right">{formatCurrency(calculations.entrega)}</span>
+                        <span className="text-right font-medium">{formatCurrency(calculations.entrega)}</span>
                       </div>
                       {schedule.slice(0, 24).map((item, idx) => (
                         <div key={idx} className={`grid grid-cols-4 gap-4 py-2 text-sm ${item.type === 'refuerzo' ? 'bg-teko-gold/5' : ''}`}>
@@ -466,7 +490,7 @@ Me interesa recibir más información sobre este plan.`;
 
         {/* Disclaimer */}
         <p className="text-center text-xs text-slate-400 mt-6 max-w-xl mx-auto">
-          Calculadora informativa. Los valores son estimativos. Financiación hasta 12 cuotas sin interés, a partir de 13 cuotas aplica 1.3% mensual (15.6% anual). Consulte condiciones vigentes.
+          Calculadora informativa. 12 cuotas sin interés. A partir de 13 cuotas se aplica interés simple del 15.6% anual sobre el capital financiado. Consulte condiciones vigentes.
         </p>
 
         {/* Back to zones */}
