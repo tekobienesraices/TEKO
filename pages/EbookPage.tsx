@@ -39,8 +39,10 @@ export const EbookPage: React.FC = () => {
         setError('');
 
         try {
-            // Send to Edge Function
-            const response = await fetch(import.meta.env.VITE_SUPABASE_FUNCTION_URL || '/api/send-ebook', {
+            // Send to Edge Function (Non-blocking for download)
+            // We start the request but don't strictly wait for it to authorize the download
+            // This ensures the user gets the file even if the backend is slow/misconfigured
+            fetch(import.meta.env.VITE_SUPABASE_FUNCTION_URL || '/api/send-ebook', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -48,14 +50,27 @@ export const EbookPage: React.FC = () => {
                     source: 'Ebook Landing Page',
                     timestamp: new Date().toISOString()
                 })
-            });
+            }).catch(console.error); // Log error but don't stop flow
 
-            if (!response.ok) throw new Error('Error al enviar');
+            // Small delay to simulate processing and feel robust
+            await new Promise(resolve => setTimeout(resolve, 800));
 
             setIsSuccess(true);
             setFormData({ nombre: '', email: '', telefono: '' });
+
+            // Auto download fallback
+            setTimeout(() => {
+                const link = document.createElement('a');
+                link.href = '/guia-teko.pdf';
+                link.download = 'Guia-TEKO-Inverti-con-Claridad.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }, 1000);
+
         } catch (err) {
-            setError('Hubo un error. Por favor intentá de nuevo o contactanos por WhatsApp.');
+            // Even if something fails deeply, we let them download
+            setIsSuccess(true);
         } finally {
             setIsSubmitting(false);
         }
@@ -117,12 +132,29 @@ export const EbookPage: React.FC = () => {
                                 <motion.div
                                     initial={{ opacity: 0, scale: 0.9 }}
                                     animate={{ opacity: 1, scale: 1 }}
-                                    className="bg-green-50 border border-green-200 rounded-2xl p-8 text-center w-full max-w-md"
+                                    className="bg-white border-2 border-teko-gold/20 rounded-2xl p-8 text-center w-full max-w-md shadow-xl"
                                 >
-                                    <CheckCircle size={48} className="text-green-500 mx-auto mb-4" />
-                                    <h3 className="text-xl font-bold text-green-800 mb-2">¡Listo!</h3>
-                                    <p className="text-green-700">
-                                        Revisá tu correo. Tu guía está en camino.
+                                    <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                                        <CheckCircle size={32} />
+                                    </div>
+                                    <h3 className="text-2xl font-serif font-bold text-teko-navy mb-2">¡Felicitaciones!</h3>
+                                    <p className="text-slate-600 mb-6">
+                                        Ya podés descargar tu guía.
+                                    </p>
+
+                                    <a
+                                        href="/guia-teko.pdf"
+                                        download="Guia-TEKO-Inverti-con-Claridad.pdf"
+                                        className="block w-full"
+                                    >
+                                        <Button variant="gold" fullWidth size="lg" className="animate-pulse hover:animate-none">
+                                            <Download size={20} className="mr-2" />
+                                            Descargar PDF Ahora
+                                        </Button>
+                                    </a>
+
+                                    <p className="text-xs text-slate-400 mt-4">
+                                        La descarga comenzará automáticamente.
                                     </p>
                                 </motion.div>
                             ) : (
@@ -180,7 +212,7 @@ export const EbookPage: React.FC = () => {
                                         disabled={isSubmitting}
                                     >
                                         {isSubmitting ? (
-                                            <><Loader2 size={20} className="animate-spin mr-2" /> Enviando...</>
+                                            <><Loader2 size={20} className="animate-spin mr-2" /> Preparando...</>
                                         ) : (
                                             <><Download size={20} className="mr-2" /> Descargar Gratis</>
                                         )}
@@ -257,13 +289,13 @@ export const EbookPage: React.FC = () => {
                         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
                             <h3 className="font-bold text-lg mb-2">¿Es realmente gratis?</h3>
                             <p className="text-white/70">
-                                Sí, 100% gratis. Solo necesitamos tu email para enviártela.
+                                Sí, 100% gratis. Solo necesitamos tu email para desbloquear la descarga.
                             </p>
                         </div>
                         <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6">
-                            <h3 className="font-bold text-lg mb-2">¿Cuánto tiempo tarda en llegar?</h3>
+                            <h3 className="font-bold text-lg mb-2">¿Cuánto tiempo tarda en descargar?</h3>
                             <p className="text-white/70">
-                                Inmediatamente. Recibirás la guía en tu email en segundos.
+                                Inmediatamente después de completar el formulario.
                             </p>
                         </div>
                     </div>
