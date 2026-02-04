@@ -1,27 +1,28 @@
 import React from 'react';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: 'primary' | 'secondary' | 'outline' | 'ghost';
+  variant?: 'primary' | 'secondary' | 'outline' | 'ghost' | 'gold';
   size?: 'sm' | 'md' | 'lg';
   fullWidth?: boolean;
   children: React.ReactNode;
 }
 
-export const Button: React.FC<ButtonProps> = ({ 
-  variant = 'primary', 
-  size = 'md', 
-  fullWidth = false, 
-  children, 
+export const Button: React.FC<ButtonProps> = ({
+  variant = 'primary',
+  size = 'md',
+  fullWidth = false,
+  children,
   className = '',
-  ...props 
+  ...props
 }) => {
   const baseStyles = "inline-flex items-center justify-center rounded-lg font-medium transition-all duration-300 focus:outline-none disabled:opacity-50 disabled:cursor-not-allowed";
-  
+
   const variants = {
-    primary: "bg-teko-navy text-white hover:bg-slate-800 shadow-lg hover:shadow-xl hover:-translate-y-0.5 border border-transparent",
+    primary: "bg-teko-navy text-white hover:bg-teko-gold shadow-lg hover:shadow-xl hover:-translate-y-0.5 border border-transparent",
     secondary: "bg-teko-grey text-teko-navy hover:bg-slate-300 shadow-md hover:shadow-lg hover:-translate-y-0.5",
     outline: "bg-transparent border-2 border-teko-navy text-teko-navy hover:bg-teko-navy hover:text-white",
     ghost: "bg-transparent text-teko-navy hover:bg-slate-100",
+    gold: "bg-teko-gold text-white hover:bg-teko-navy shadow-lg hover:shadow-xl hover:-translate-y-0.5 border border-transparent",
   };
 
   const sizes = {
@@ -33,7 +34,7 @@ export const Button: React.FC<ButtonProps> = ({
   const widthStyle = fullWidth ? "w-full" : "";
 
   return (
-    <button 
+    <button
       className={`${baseStyles} ${variants[variant]} ${sizes[size]} ${widthStyle} ${className}`}
       {...props}
     >
