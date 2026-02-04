@@ -7,6 +7,9 @@ import { Catalog } from './pages/Catalog';
 import { PropertyDetail } from './pages/PropertyDetail';
 import { Calculator } from './pages/Calculator';
 import { Construction } from './pages/Construction';
+import { PrivacyPolicy } from './pages/PrivacyPolicy';
+import { TermsConditions } from './pages/TermsConditions';
+import { CookiePolicy } from './pages/CookiePolicy';
 import { MessageCircle } from 'lucide-react';
 
 const ScrollToTop = () => {
@@ -45,6 +48,9 @@ function App() {
             <Route path="/propiedad/:id" element={<PropertyDetail />} />
             <Route path="/calculadora" element={<Calculator />} />
             <Route path="/construccion" element={<Construction />} />
+            <Route path="/privacidad" element={<PrivacyPolicy />} />
+            <Route path="/terminos" element={<TermsConditions />} />
+            <Route path="/cookies" element={<CookiePolicy />} />
             {/* Fallback routes for demo pages not fully implemented but required by nav */}
             <Route path="/nosotros" element={<Home />} />
             <Route path="/inversion" element={<Home />} />
