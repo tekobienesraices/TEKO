@@ -37,7 +37,7 @@ export const PropertyDetail: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          
+
           {/* Main Content */}
           <div className="lg:col-span-2 space-y-10">
             {/* Specs */}
@@ -90,7 +90,7 @@ export const PropertyDetail: React.FC = () => {
                 </div>
               </div>
             </div>
-            
+
             {/* Map Placeholder */}
             <div className="h-64 bg-slate-100 rounded-xl flex items-center justify-center border border-slate-200">
               <span className="text-slate-400 flex items-center gap-2">
@@ -104,7 +104,7 @@ export const PropertyDetail: React.FC = () => {
             <div className="sticky top-28 bg-white p-6 rounded-2xl shadow-xl border border-slate-100">
               <div className="mb-6">
                 <span className="text-slate-500 text-sm">Precio de lista</span>
-                <div className="text-4xl font-bold text-teko-navy">${property.price.toLocaleString()}</div>
+                <div className="text-4xl font-bold text-teko-navy">Gs. {property.price.toLocaleString()}</div>
               </div>
 
               <div className="mb-8 p-4 bg-teko-navy/5 rounded-lg border border-teko-navy/10">
@@ -116,15 +116,15 @@ export const PropertyDetail: React.FC = () => {
               </div>
 
               <div className="space-y-3">
-                <Button 
-                  fullWidth 
-                  size="lg" 
+                <Button
+                  fullWidth
+                  size="lg"
                   onClick={() => setModalOpen(true)}
                   className="shadow-teko-navy/20"
                 >
                   Consultar Disponibilidad
                 </Button>
-                
+
                 <Link to={`/calculadora?price=${property.price}`} className="block">
                   <Button fullWidth variant="secondary">
                     Personalizar Plan de Pagos
@@ -138,7 +138,7 @@ export const PropertyDetail: React.FC = () => {
 
               <div className="mt-6 text-center">
                 <p className="text-xs text-slate-400">
-                  Reserva online 100% segura. <br/>Garantía de devolución 48hs.
+                  Reserva online 100% segura. <br />Garantía de devolución 48hs.
                 </p>
               </div>
             </div>

@@ -18,13 +18,6 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, title = "
     try {
       const APPS_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz3mtA8VT0DeUO9XO2OdHWbSDrVV8nK96iaIQAT6QQUrsU9TL1utemNjQ96VObk1dQk/exec';
 
-      if (APPS_SCRIPT_URL === 'PENDING_USER_SETUP') {
-        // Fallback: just log and show success while waiting for setup
-        console.log('Lead Captured (pending API setup):', { ...data, source });
-        await new Promise(resolve => setTimeout(resolve, 1000));
-        return;
-      }
-
       await fetch(APPS_SCRIPT_URL, {
         method: 'POST',
         mode: 'no-cors',

@@ -6,9 +6,9 @@ import { properties } from '../data';
 import { Button } from '../components/Button';
 
 export const Catalog: React.FC = () => {
-  const [filterPrice, setFilterPrice] = useState<number>(100000);
+  const [filterPrice, setFilterPrice] = useState<number>(600000000);
   const [filterSize, setFilterSize] = useState<number>(0);
-  
+
   const filteredProps = useMemo(() => {
     return properties.filter(p => p.price <= filterPrice && p.size >= filterSize);
   }, [filterPrice, filterSize]);
@@ -27,7 +27,7 @@ export const Catalog: React.FC = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
         <div className="flex flex-col lg:flex-row gap-8">
-          
+
           {/* Filters Sidebar */}
           <div className="w-full lg:w-64 flex-shrink-0 space-y-8">
             <div className="bg-white p-6 rounded-xl shadow-sm border border-slate-100 sticky top-28">
@@ -39,13 +39,13 @@ export const Catalog: React.FC = () => {
               <div className="space-y-6">
                 <div>
                   <label className="block text-sm font-medium text-slate-700 mb-2">
-                    Precio Máximo: ${filterPrice.toLocaleString()}
+                    Precio Máximo: Gs. {filterPrice.toLocaleString()}
                   </label>
-                  <input 
-                    type="range" 
-                    min="20000" 
-                    max="100000" 
-                    step="5000"
+                  <input
+                    type="range"
+                    min="200000000"
+                    max="600000000"
+                    step="50000000"
                     value={filterPrice}
                     onChange={(e) => setFilterPrice(Number(e.target.value))}
                     className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-teko-navy"
@@ -56,10 +56,10 @@ export const Catalog: React.FC = () => {
                   <label className="block text-sm font-medium text-slate-700 mb-2">
                     Superficie Mínima: {filterSize} m²
                   </label>
-                  <input 
-                    type="range" 
-                    min="0" 
-                    max="2000" 
+                  <input
+                    type="range"
+                    min="0"
+                    max="2000"
                     step="100"
                     value={filterSize}
                     onChange={(e) => setFilterSize(Number(e.target.value))}
@@ -71,11 +71,11 @@ export const Catalog: React.FC = () => {
                   <p className="text-xs text-slate-400 mb-4">
                     Mostrando {filteredProps.length} propiedades
                   </p>
-                  <Button 
-                    fullWidth 
-                    variant="ghost" 
+                  <Button
+                    fullWidth
+                    variant="ghost"
                     size="sm"
-                    onClick={() => { setFilterPrice(100000); setFilterSize(0); }}
+                    onClick={() => { setFilterPrice(600000000); setFilterSize(0); }}
                   >
                     Limpiar Filtros
                   </Button>
@@ -96,16 +96,16 @@ export const Catalog: React.FC = () => {
                   className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transition-all border border-slate-100 group"
                 >
                   <div className="relative aspect-[16/10] overflow-hidden">
-                    <img 
-                      src={prop.image} 
-                      alt={prop.title} 
+                    <img
+                      src={prop.image}
+                      alt={prop.title}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                       <p className="text-white font-bold text-lg">{prop.location}</p>
                     </div>
                   </div>
-                  
+
                   <div className="p-5">
                     <div className="flex justify-between items-start mb-4">
                       <div>
@@ -113,7 +113,7 @@ export const Catalog: React.FC = () => {
                         <p className="text-slate-500 text-sm">{prop.size} m² totales</p>
                       </div>
                       <div className="text-right">
-                        <span className="block text-xl font-bold text-teko-navy">${prop.price.toLocaleString()}</span>
+                        <span className="block text-xl font-bold text-teko-navy">Gs. {prop.price.toLocaleString()}</span>
                       </div>
                     </div>
 
@@ -130,21 +130,21 @@ export const Catalog: React.FC = () => {
                         <Button fullWidth variant="outline">Ver Detalles</Button>
                       </Link>
                       <Link to={`/calculadora?price=${prop.price}`} className="flex-1">
-                         <Button fullWidth variant="secondary">Cuota</Button>
+                        <Button fullWidth variant="secondary">Cuota</Button>
                       </Link>
                     </div>
                   </div>
                 </motion.div>
               ))}
             </div>
-            
+
             {filteredProps.length === 0 && (
               <div className="text-center py-20">
                 <p className="text-slate-400 text-lg">No encontramos terrenos con esos criterios.</p>
-                <Button 
-                  variant="ghost" 
+                <Button
+                  variant="ghost"
                   className="mt-4"
-                  onClick={() => { setFilterPrice(100000); setFilterSize(0); }}
+                  onClick={() => { setFilterPrice(600000000); setFilterSize(0); }}
                 >
                   Ver todos
                 </Button>

@@ -24,8 +24,8 @@ export const Home: React.FC = () => {
         >
           <div className="absolute inset-0 bg-gradient-to-b from-teko-navy/40 via-teko-navy/20 to-slate-50 z-10" />
           <img
-            src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2700&auto=format&fit=crop"
-            alt="Luxury Home"
+            src="/hero-sunset.png"
+            alt="Terreno con atardecer en Paraguay"
             className="w-full h-full object-cover"
           />
         </motion.div>
@@ -146,7 +146,7 @@ export const Home: React.FC = () => {
                   <div className="flex justify-between items-center border-t border-slate-100 pt-4">
                     <div>
                       <span className="block text-xs text-slate-400">Precio Total</span>
-                      <span className="font-bold text-lg">${prop.price.toLocaleString()}</span>
+                      <span className="font-bold text-lg">Gs. {prop.price.toLocaleString()}</span>
                     </div>
                     <div className="text-right">
                       <span className="block text-xs text-slate-400">Cuota desde</span>
