@@ -33,10 +33,10 @@ export const Calculator: React.FC = () => {
   // State
   const [price, setPrice] = useState(initialPrice);
   const [downPaymentPct, setDownPaymentPct] = useState(FINANCING_CONFIG.minDownPaymentPercent);
-  const [useReinforcement, setUseReinforcement] = useState(true);
+  const [useReinforcement, setUseReinforcement] = useState(false); // Apagado por defecto
   const [reinforcementPct, setReinforcementPct] = useState(FINANCING_CONFIG.minReinforcementPercent);
   const [reinforcementPayments, setReinforcementPayments] = useState(FINANCING_CONFIG.defaultReinforcementPayments);
-  const [months, setMonths] = useState(12); // Default to 12 months (0% interest)
+  const [months, setMonths] = useState(60); // Default 60 meses (más accesible)
   const [showSchedule, setShowSchedule] = useState(false);
 
   // Check if interest applies
@@ -171,7 +171,7 @@ Me interesa recibir más información sobre este plan.`;
             Armá tu Plan de Financiación
           </h1>
           <p className="text-slate-500 max-w-xl mx-auto">
-            Configurá tu inversión en segundos. <strong>12 cuotas sin interés</strong> o hasta 72 meses con tasa fija.
+            Configurá tu inversión en segundos. Plazos flexibles hasta 72 meses.
           </p>
         </div>
 
@@ -270,8 +270,8 @@ Me interesa recibir más información sobre este plan.`;
                               key={n}
                               onClick={() => setReinforcementPayments(n)}
                               className={`flex-1 py-2 rounded-lg text-sm font-medium transition-all ${reinforcementPayments === n
-                                  ? 'bg-teko-gold text-white'
-                                  : 'bg-white text-slate-600 hover:bg-slate-100'
+                                ? 'bg-teko-gold text-white'
+                                : 'bg-white text-slate-600 hover:bg-slate-100'
                                 }`}
                             >
                               {n}
@@ -287,17 +287,13 @@ Me interesa recibir más información sobre este plan.`;
                 </AnimatePresence>
               </div>
 
-              {/* Term - WITH INTEREST INDICATOR */}
+              {/* Term */}
               <div>
                 <div className="flex justify-between items-center mb-3">
                   <label className="text-sm font-medium text-slate-700">
                     Plazo: <span className="text-teko-navy font-bold">{months} meses</span>
                   </label>
-                  {hasInterest ? (
-                    <span className="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded-full font-medium">
-                      {(INTEREST_CONFIG.annualRate * 100).toFixed(1)}% anual
-                    </span>
-                  ) : (
+                  {!hasInterest && (
                     <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full font-medium flex items-center gap-1">
                       <Check size={12} /> Sin interés
                     </span>
@@ -317,17 +313,11 @@ Me interesa recibir más información sobre este plan.`;
                   <span>{FINANCING_CONFIG.maxTermMonths} meses</span>
                 </div>
 
-                {/* Interest explanation */}
+                {/* Interest info - subtle, not scary */}
                 {hasInterest && (
-                  <div className="mt-3 p-3 bg-amber-50 border border-amber-200 rounded-lg">
-                    <div className="flex items-start gap-2">
-                      <Info size={16} className="text-amber-600 flex-shrink-0 mt-0.5" />
-                      <p className="text-xs text-amber-700">
-                        <strong>Interés simple {(INTEREST_CONFIG.annualRate * 100).toFixed(1)}% anual</strong> sobre el capital financiado.
-                        En {months} meses ({calculations.años} años) = {(calculations.tasaAplicada * 100).toFixed(1)}% total.
-                      </p>
-                    </div>
-                  </div>
+                  <p className="text-xs text-slate-500 mt-3">
+                    Incluye interés simple del {(INTEREST_CONFIG.annualRate * 100).toFixed(1)}% anual.
+                  </p>
                 )}
               </div>
             </div>
@@ -393,24 +383,17 @@ Me interesa recibir más información sobre este plan.`;
                   </div>
                 </div>
 
-                {/* Tip - Dynamic based on interest */}
-                <div className={`backdrop-blur-sm rounded-xl p-4 mb-6 ${hasInterest ? 'bg-amber-500/20' : 'bg-green-500/20'}`}>
+                {/* Tip - Always positive */}
+                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 mb-6">
                   <div className="flex items-start gap-3">
-                    {hasInterest ? (
-                      <>
-                        <AlertCircle className="text-amber-400 flex-shrink-0 mt-0.5" size={20} />
-                        <p className="text-sm text-slate-300">
-                          <strong className="text-amber-400">Interés simple aplicado.</strong> Si elegís 12 cuotas, ahorrarías {formatCurrency(calculations.interesTotal)}.
-                        </p>
-                      </>
-                    ) : (
-                      <>
-                        <Sparkles className="text-green-400 flex-shrink-0 mt-0.5" size={20} />
-                        <p className="text-sm text-slate-300">
-                          <strong className="text-green-400">¡Sin intereses!</strong> Pagás lo mismo que de contado dividido en 12 cuotas.
-                        </p>
-                      </>
-                    )}
+                    <Sparkles className="text-teko-gold flex-shrink-0 mt-0.5" size={20} />
+                    <p className="text-sm text-slate-300">
+                      {hasInterest ? (
+                        <><strong className="text-white">Cuota fija.</strong> Sabés exactamente cuánto pagás cada mes durante todo el plazo.</>
+                      ) : (
+                        <><strong className="text-green-400">¡Sin intereses!</strong> Pagás lo mismo que de contado dividido en 12 cuotas.</>
+                      )}
+                    </p>
                   </div>
                 </div>
 
