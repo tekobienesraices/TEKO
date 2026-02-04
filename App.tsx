@@ -11,6 +11,7 @@ import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { TermsConditions } from './pages/TermsConditions';
 import { CookiePolicy } from './pages/CookiePolicy';
 import { ZonePage } from './pages/ZonePage';
+import { EbookPage } from './pages/EbookPage';
 import { MessageCircle } from 'lucide-react';
 
 const ScrollToTop = () => {
@@ -53,6 +54,7 @@ function App() {
             <Route path="/privacidad" element={<PrivacyPolicy />} />
             <Route path="/terminos" element={<TermsConditions />} />
             <Route path="/cookies" element={<CookiePolicy />} />
+            <Route path="/guia" element={<EbookPage />} />
             {/* Fallback routes for demo pages not fully implemented but required by nav */}
             <Route path="/nosotros" element={<Home />} />
             <Route path="/inversion" element={<Home />} />

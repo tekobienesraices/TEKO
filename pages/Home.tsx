@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { ArrowRight, TrendingUp, Home as HomeIcon, Map } from 'lucide-react';
+import { ArrowRight, TrendingUp, Home as HomeIcon, Map, Download } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
 import { LeadModal } from '../components/LeadModal';
@@ -237,6 +237,40 @@ export const Home: React.FC = () => {
                 </div>
               </motion.div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Ebook Lead Magnet */}
+      <section className="py-20 bg-gradient-to-br from-teko-navy to-slate-800 relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-teko-gold/20 rounded-full blur-3xl -mr-48 -mt-48" />
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="inline-block px-4 py-1 bg-teko-gold/20 text-teko-gold text-sm font-medium rounded-full mb-4">
+                Recurso Gratuito
+              </span>
+              <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
+                Comprá con Claridad,<br />Invertí con Seguridad
+              </h2>
+              <p className="text-slate-300 mb-6">
+                Descargá gratis nuestra guía con todo lo que necesitás saber antes de comprar tu terreno.
+                Sin letra chica, sin compromisos.
+              </p>
+              <Link to="/guia">
+                <Button variant="gold" size="lg">
+                  <Download size={20} className="mr-2" />
+                  Descargar Guía Gratis
+                </Button>
+              </Link>
+            </div>
+            <div className="flex justify-center">
+              <img
+                src="/ebook-cover.png"
+                alt="Guía TEKO"
+                className="max-w-[250px] drop-shadow-2xl"
+              />
+            </div>
           </div>
         </div>
       </section>
