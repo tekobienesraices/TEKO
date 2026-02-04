@@ -18,9 +18,9 @@ const ScrollToTop = () => {
 };
 
 const WhatsAppButton = () => (
-  <a 
-    href="https://wa.me/5491112345678" 
-    target="_blank" 
+  <a
+    href="https://wa.me/595983783349"
+    target="_blank"
     rel="noopener noreferrer"
     className="fixed bottom-8 right-8 z-50 group flex items-center justify-center"
     aria-label="Contactar por WhatsApp"
@@ -46,9 +46,9 @@ function App() {
             <Route path="/calculadora" element={<Calculator />} />
             <Route path="/construccion" element={<Construction />} />
             {/* Fallback routes for demo pages not fully implemented but required by nav */}
-            <Route path="/nosotros" element={<Home />} /> 
-            <Route path="/inversion" element={<Home />} /> 
-            <Route path="/contacto" element={<Home />} /> 
+            <Route path="/nosotros" element={<Home />} />
+            <Route path="/inversion" element={<Home />} />
+            <Route path="/contacto" element={<Home />} />
           </Routes>
         </main>
         <Footer />
