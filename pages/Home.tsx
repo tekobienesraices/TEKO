@@ -246,7 +246,7 @@ export const Home: React.FC = () => {
         <div className="absolute top-0 right-0 w-96 h-96 bg-teko-gold/20 rounded-full blur-3xl -mr-48 -mt-48" />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div>
+            <div className="order-2 lg:order-1">
               <span className="inline-block px-4 py-1 bg-teko-gold/20 text-teko-gold text-sm font-medium rounded-full mb-4">
                 Recurso Gratuito
               </span>
@@ -264,7 +264,7 @@ export const Home: React.FC = () => {
                 </Button>
               </Link>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center order-1 lg:order-2">
               <img
                 src="/ebook-cover.png"
                 alt="Guía TEKO"
