@@ -36,7 +36,7 @@ export const Navbar: React.FC = () => {
             <img
               src="/logo-symbol.png"
               alt="TEKO"
-              className={`h-14 w-auto object-contain transition-all duration-300 ${scrolled ? 'brightness-0 invert' : ''}`}
+              className="h-14 w-auto object-contain transition-all duration-300"
             />
             <div className="flex flex-col">
               <span className={`text-2xl font-serif font-bold tracking-tight leading-none ${scrolled ? 'text-white' : 'text-teko-navy'}`}>
