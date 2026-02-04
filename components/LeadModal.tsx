@@ -15,10 +15,26 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, title = "
   const { register, handleSubmit, formState: { errors, isSubmitting, isSubmitSuccessful }, reset } = useForm<LeadForm>();
 
   const onSubmit = async (data: LeadForm) => {
-    // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1500));
-    console.log('Lead Captured:', { ...data, source });
-    // Keep modal open for success message briefly or handle as needed
+    try {
+      // TODO: Replace with actual Google Apps Script URL from user
+      const APPS_SCRIPT_URL = 'PENDING_USER_SETUP';
+
+      if (APPS_SCRIPT_URL === 'PENDING_USER_SETUP') {
+        // Fallback: just log and show success while waiting for setup
+        console.log('Lead Captured (pending API setup):', { ...data, source });
+        await new Promise(resolve => setTimeout(resolve, 1000));
+        return;
+      }
+
+      await fetch(APPS_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...data, source })
+      });
+    } catch (error) {
+      console.error('Error submitting lead:', error);
+    }
   };
 
   if (!isOpen) return null;
@@ -26,10 +42,10 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, title = "
   return (
     <div className="fixed inset-0 z-[60] flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
       <div className="relative w-full max-w-md bg-white rounded-2xl shadow-2xl p-8 overflow-hidden">
-        
+
         {/* Close Button */}
-        <button 
-          onClick={() => { reset(); onClose(); }} 
+        <button
+          onClick={() => { reset(); onClose(); }}
           className="absolute top-4 right-4 text-slate-400 hover:text-teko-navy transition-colors"
         >
           <X size={24} />
@@ -54,7 +70,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, title = "
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
               <div>
                 <label className="block text-xs font-medium text-slate-700 uppercase tracking-wide mb-1">Nombre Completo</label>
-                <input 
+                <input
                   {...register("name", { required: true })}
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-teko-navy focus:ring-0 transition-colors"
                   placeholder="Ej. Juan Pérez"
@@ -64,29 +80,39 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, title = "
 
               <div>
                 <label className="block text-xs font-medium text-slate-700 uppercase tracking-wide mb-1">WhatsApp</label>
-                <input 
+                <input
                   {...register("phone", { required: true })}
                   type="tel"
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-teko-navy focus:ring-0 transition-colors"
-                  placeholder="+54 9 11..."
+                  placeholder="+595 9..."
                 />
                 {errors.phone && <span className="text-xs text-red-500">Requerido para contacto</span>}
               </div>
-              
-              <div className="hidden">
-                 {/* Hidden field for simpler forms, but good for tracking */}
-                 <input {...register("interest")} value="comprar" />
+
+              <div>
+                <label className="block text-xs font-medium text-slate-700 uppercase tracking-wide mb-1">Email (opcional)</label>
+                <input
+                  {...register("email")}
+                  type="email"
+                  className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-teko-navy focus:ring-0 transition-colors"
+                  placeholder="tu@email.com"
+                />
               </div>
 
-              <Button 
-                type="submit" 
-                fullWidth 
-                disabled={isSubmitting} 
+              <div className="hidden">
+                {/* Hidden field for simpler forms, but good for tracking */}
+                <input {...register("interest")} value="comprar" />
+              </div>
+
+              <Button
+                type="submit"
+                fullWidth
+                disabled={isSubmitting}
                 className="mt-4 bg-gradient-to-r from-teko-navy to-slate-800"
               >
                 {isSubmitting ? 'Enviando...' : 'Recibir Información'}
               </Button>
-              
+
               <p className="text-xs text-center text-slate-400 mt-4">
                 Tus datos están protegidos. No enviamos spam.
               </p>

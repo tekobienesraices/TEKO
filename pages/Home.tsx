@@ -4,6 +4,7 @@ import { ArrowRight, TrendingUp, Home as HomeIcon, Map } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
 import { LeadModal } from '../components/LeadModal';
+import { SocialBanner } from '../components/SocialBanner';
 import { properties, testimonials } from '../data';
 
 export const Home: React.FC = () => {
@@ -17,24 +18,24 @@ export const Home: React.FC = () => {
       {/* Hero Section */}
       <section className="relative h-screen min-h-[700px] flex items-center justify-center overflow-hidden">
         {/* Parallax Background */}
-        <motion.div 
+        <motion.div
           style={{ y: y1 }}
           className="absolute inset-0 z-0"
         >
           <div className="absolute inset-0 bg-gradient-to-b from-teko-navy/40 via-teko-navy/20 to-slate-50 z-10" />
-          <img 
-            src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2700&auto=format&fit=crop" 
-            alt="Luxury Home" 
+          <img
+            src="https://images.unsplash.com/photo-1600607686527-6fb886090705?q=80&w=2700&auto=format&fit=crop"
+            alt="Luxury Home"
             className="w-full h-full object-cover"
           />
         </motion.div>
 
         {/* Content */}
-        <motion.div 
+        <motion.div
           style={{ opacity }}
           className="relative z-20 text-center max-w-4xl px-4 mt-20"
         >
-          <motion.span 
+          <motion.span
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
@@ -42,16 +43,16 @@ export const Home: React.FC = () => {
           >
             Bienes Raíces Premium
           </motion.span>
-          <motion.h1 
+          <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-5xl md:text-7xl font-serif font-bold text-white leading-tight mb-6"
           >
-            Construí tu futuro <br/>
+            Construí tu futuro <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300">desde hoy</span>
           </motion.h1>
-          <motion.p 
+          <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
@@ -59,7 +60,7 @@ export const Home: React.FC = () => {
           >
             Accedé a terrenos exclusivos con financiación propia y hacé realidad tu casa a medida con nuestro sistema de construcción integral.
           </motion.p>
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
@@ -130,9 +131,9 @@ export const Home: React.FC = () => {
                 className="group relative bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border border-slate-100"
               >
                 <div className="aspect-[4/3] overflow-hidden">
-                  <img 
-                    src={prop.image} 
-                    alt={prop.title} 
+                  <img
+                    src={prop.image}
+                    alt={prop.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-teko-navy uppercase">
@@ -159,7 +160,7 @@ export const Home: React.FC = () => {
               </motion.div>
             ))}
           </div>
-          
+
           <div className="mt-10 text-center md:hidden">
             <Link to="/terrenos">
               <Button variant="outline" fullWidth>Ver todo el catálogo</Button>
@@ -174,11 +175,11 @@ export const Home: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6">Más que un terreno,<br/>un proyecto de vida.</h2>
+              <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6">Más que un terreno,<br />un proyecto de vida.</h2>
               <p className="text-slate-300 text-lg mb-8 leading-relaxed">
                 En TEKO combinamos la solidez de la tierra con la flexibilidad financiera que necesitás. No somos intermediarios, somos desarrolladores comprometidos con el crecimiento de tu patrimonio.
               </p>
-              
+
               <ul className="space-y-6">
                 {[
                   "Financiación propia en cuotas fijas.",
@@ -199,12 +200,12 @@ export const Home: React.FC = () => {
                 <Button variant="secondary" onClick={() => setModalOpen(true)}>Hablar con un Director</Button>
               </div>
             </div>
-            
+
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl opacity-20 blur-xl"></div>
-              <img 
-                src="https://images.unsplash.com/photo-1556912173-3db996ea8c3f?q=80&w=2670&auto=format&fit=crop" 
-                alt="TEKO Team" 
+              <img
+                src="https://images.unsplash.com/photo-1556912173-3db996ea8c3f?q=80&w=2670&auto=format&fit=crop"
+                alt="TEKO Team"
                 className="relative rounded-2xl shadow-2xl border border-white/10"
               />
             </div>
@@ -218,7 +219,7 @@ export const Home: React.FC = () => {
           <h2 className="text-3xl font-serif font-bold text-center text-teko-navy mb-16">Historias TEKO</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {testimonials.map((t, i) => (
-              <motion.div 
+              <motion.div
                 key={i}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -227,7 +228,7 @@ export const Home: React.FC = () => {
                 className="bg-white p-8 rounded-xl shadow-sm border border-slate-100"
               >
                 <div className="flex gap-1 mb-4">
-                  {[1,2,3,4,5].map(s => <div key={s} className="w-4 h-4 text-yellow-400 fill-current">★</div>)}
+                  {[1, 2, 3, 4, 5].map(s => <div key={s} className="w-4 h-4 text-yellow-400 fill-current">★</div>)}
                 </div>
                 <p className="text-slate-600 italic mb-6">"{t.text}"</p>
                 <div>
@@ -239,6 +240,9 @@ export const Home: React.FC = () => {
           </div>
         </div>
       </section>
+
+      {/* Social Media Banner */}
+      <SocialBanner />
 
       {/* CTA Bottom */}
       <section className="py-20 bg-white border-t border-slate-100">
