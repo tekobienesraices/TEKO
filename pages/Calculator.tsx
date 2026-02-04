@@ -1,9 +1,16 @@
 import React, { useState, useMemo } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Calculator as CalcIcon, Send, ChevronDown, ChevronUp, Sparkles, Check } from 'lucide-react';
+import { Calculator as CalcIcon, Send, ChevronDown, ChevronUp, Sparkles, AlertCircle, Check } from 'lucide-react';
 import { Button } from '../components/Button';
 import { PRICE_RANGE, FINANCING_CONFIG } from '../data';
+
+// Interest configuration
+const INTEREST_CONFIG = {
+  zeroInterestMonths: 12,      // 12 meses sin interés
+  monthlyRate: 0.013,          // 1.3% mensual
+  annualRate: 0.156            // 15.6% anual
+};
 
 interface PaymentScheduleItem {
   month: number;
@@ -22,18 +29,47 @@ export const Calculator: React.FC = () => {
   const [useReinforcement, setUseReinforcement] = useState(true);
   const [reinforcementPct, setReinforcementPct] = useState(FINANCING_CONFIG.minReinforcementPercent);
   const [reinforcementPayments, setReinforcementPayments] = useState(FINANCING_CONFIG.defaultReinforcementPayments);
-  const [months, setMonths] = useState(60);
+  const [months, setMonths] = useState(12); // Default to 12 months (0% interest)
   const [showSchedule, setShowSchedule] = useState(false);
+
+  // Check if interest applies
+  const hasInterest = months > INTEREST_CONFIG.zeroInterestMonths;
 
   // Calculations
   const calculations = useMemo(() => {
     const downPayment = Math.round(price * downPaymentPct / 100);
     const reinforcement = useReinforcement ? Math.round(price * reinforcementPct / 100) : 0;
     const saldoFinanciado = price - downPayment - reinforcement;
-    const cuotaMensual = Math.ceil(saldoFinanciado / months / 10000) * 10000; // Round to 10k
-    const lastPaymentAdjustment = saldoFinanciado - (cuotaMensual * (months - 1));
     const reinforcementPerPayment = useReinforcement ? Math.round(reinforcement / reinforcementPayments) : 0;
-    const totalPaid = downPayment + reinforcement + (cuotaMensual * (months - 1)) + lastPaymentAdjustment;
+
+    let cuotaMensual: number;
+    let totalFinanciado: number;
+    let interesTotal: number;
+
+    if (months <= INTEREST_CONFIG.zeroInterestMonths) {
+      // 12 meses o menos: SIN INTERÉS
+      cuotaMensual = Math.ceil(saldoFinanciado / months / 10000) * 10000;
+      totalFinanciado = cuotaMensual * months;
+      interesTotal = 0;
+    } else {
+      // Más de 12 meses: CON INTERÉS (fórmula de amortización)
+      // M = P [ i(1 + i)^n ] / [ (1 + i)^n – 1 ]
+      const i = INTEREST_CONFIG.monthlyRate;
+      const n = months;
+      const P = saldoFinanciado;
+
+      const factor = Math.pow(1 + i, n);
+      cuotaMensual = Math.ceil(P * (i * factor) / (factor - 1) / 10000) * 10000;
+      totalFinanciado = cuotaMensual * months;
+      interesTotal = totalFinanciado - saldoFinanciado;
+    }
+
+    // Adjust last payment for rounding
+    const lastPaymentAdjustment = hasInterest
+      ? totalFinanciado - (cuotaMensual * (months - 1))
+      : saldoFinanciado - (cuotaMensual * (months - 1));
+
+    const totalPaid = downPayment + reinforcement + totalFinanciado;
     const differenceVsCash = totalPaid - price;
 
     return {
@@ -41,26 +77,26 @@ export const Calculator: React.FC = () => {
       reinforcement,
       saldoFinanciado,
       cuotaMensual,
-      lastPaymentAdjustment,
+      totalFinanciado,
+      interesTotal,
+      lastPaymentAdjustment: Math.max(lastPaymentAdjustment, cuotaMensual),
       reinforcementPerPayment,
       totalPaid,
       differenceVsCash,
       reinforcementPayments: useReinforcement ? reinforcementPayments : 0
     };
-  }, [price, downPaymentPct, useReinforcement, reinforcementPct, reinforcementPayments, months]);
+  }, [price, downPaymentPct, useReinforcement, reinforcementPct, reinforcementPayments, months, hasInterest]);
 
   // Generate payment schedule
   const schedule = useMemo((): PaymentScheduleItem[] => {
     const items: PaymentScheduleItem[] = [];
     let accumulated = calculations.downPayment;
 
-    // Add reinforcement payments (annual by default)
     const reinforcementMonths = useReinforcement
       ? Array.from({ length: reinforcementPayments }, (_, i) => (i + 1) * 12)
       : [];
 
     for (let m = 1; m <= months; m++) {
-      // Check if this month has a reinforcement
       if (reinforcementMonths.includes(m)) {
         accumulated += calculations.reinforcementPerPayment;
         items.push({
@@ -71,7 +107,6 @@ export const Calculator: React.FC = () => {
         });
       }
 
-      // Regular monthly payment
       const isLastMonth = m === months;
       const cuota = isLastMonth ? calculations.lastPaymentAdjustment : calculations.cuotaMensual;
       accumulated += cuota;
@@ -88,14 +123,20 @@ export const Calculator: React.FC = () => {
 
   // Generate WhatsApp message
   const generateWhatsAppMessage = () => {
+    const interestText = hasInterest
+      ? `📊 *Tasa:* 1.3% mensual (15.6% anual)`
+      : `✅ *Sin interés* (hasta 12 cuotas)`;
+
     const msg = `*TEKO - Mi Plan de Financiación*
     
 📍 *Precio del terreno:* Gs. ${price.toLocaleString()}
 💰 *Entrega (${downPaymentPct}%):* Gs. ${calculations.downPayment.toLocaleString()}
-${useReinforcement ? `📈 *Refuerzo (${reinforcementPct}%):* Gs. ${calculations.reinforcement.toLocaleString()} en ${reinforcementPayments} pagos` : '❌ *Sin refuerzo*'}
+${useReinforcement ? `📈 *Refuerzo (${reinforcementPct}%):* Gs. ${calculations.reinforcement.toLocaleString()} en ${reinforcementPayments} pagos` : ''}
 📊 *Saldo a financiar:* Gs. ${calculations.saldoFinanciado.toLocaleString()}
 🗓️ *Plazo:* ${months} meses
+${interestText}
 💵 *Cuota mensual:* Gs. ${calculations.cuotaMensual.toLocaleString()}
+💰 *Total a pagar:* Gs. ${calculations.totalPaid.toLocaleString()}
 
 Me interesa recibir más información sobre este plan.`;
 
@@ -116,7 +157,7 @@ Me interesa recibir más información sobre este plan.`;
             Armá tu Plan de Financiación
           </h1>
           <p className="text-slate-500 max-w-xl mx-auto">
-            Configurá tu inversión en segundos. Sin intereses, sin letra chica. Con 20% de entrega ya sos dueño.
+            Configurá tu inversión en segundos. <strong>12 cuotas sin interés</strong> o hasta 72 meses con tasa fija.
           </p>
         </div>
 
@@ -231,11 +272,22 @@ Me interesa recibir más información sobre este plan.`;
                 </AnimatePresence>
               </div>
 
-              {/* Term */}
+              {/* Term - WITH INTEREST INDICATOR */}
               <div>
-                <label className="block text-sm font-medium text-slate-700 mb-3">
-                  Plazo: <span className="text-teko-navy font-bold">{months} meses</span>
-                </label>
+                <div className="flex justify-between items-center mb-3">
+                  <label className="text-sm font-medium text-slate-700">
+                    Plazo: <span className="text-teko-navy font-bold">{months} meses</span>
+                  </label>
+                  {hasInterest ? (
+                    <span className="text-xs bg-amber-100 text-amber-700 px-2 py-1 rounded-full font-medium">
+                      Con interés
+                    </span>
+                  ) : (
+                    <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full font-medium flex items-center gap-1">
+                      <Check size={12} /> Sin interés
+                    </span>
+                  )}
+                </div>
                 <input
                   type="range"
                   min={12}
@@ -246,9 +298,22 @@ Me interesa recibir más información sobre este plan.`;
                   className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-teko-navy"
                 />
                 <div className="flex justify-between text-xs text-slate-400 mt-2">
-                  <span>12 meses</span>
+                  <span className="text-green-600 font-medium">12 meses (0%)</span>
                   <span>{FINANCING_CONFIG.maxTermMonths} meses</span>
                 </div>
+
+                {/* Interest explanation */}
+                {hasInterest && (
+                  <div className="mt-3 p-3 bg-amber-50 border border-amber-200 rounded-lg">
+                    <div className="flex items-start gap-2">
+                      <AlertCircle size={16} className="text-amber-600 flex-shrink-0 mt-0.5" />
+                      <p className="text-xs text-amber-700">
+                        A partir de 13 cuotas se aplica una tasa de <strong>1.3% mensual</strong> (15.6% anual).
+                        Para 0% de interés, elegí 12 meses.
+                      </p>
+                    </div>
+                  </div>
+                )}
               </div>
             </div>
 
@@ -289,19 +354,39 @@ Me interesa recibir más información sobre este plan.`;
                     <span className="text-slate-400">Saldo financiado</span>
                     <span className="font-medium">{formatCurrency(calculations.saldoFinanciado)}</span>
                   </div>
+
+                  {/* Interest row - only show if there IS interest */}
+                  {hasInterest && (
+                    <div className="flex justify-between text-sm">
+                      <span className="text-amber-400">Interés (1.3% mensual)</span>
+                      <span className="font-medium text-amber-400">+ {formatCurrency(calculations.interesTotal)}</span>
+                    </div>
+                  )}
+
                   <div className="flex justify-between text-sm border-t border-white/10 pt-3">
                     <span className="text-slate-400">Total a pagar</span>
                     <span className="font-bold text-lg">{formatCurrency(calculations.totalPaid)}</span>
                   </div>
                 </div>
 
-                {/* Tip */}
-                <div className="bg-white/10 backdrop-blur-sm rounded-xl p-4 mb-6">
+                {/* Tip - Dynamic based on interest */}
+                <div className={`backdrop-blur-sm rounded-xl p-4 mb-6 ${hasInterest ? 'bg-amber-500/20' : 'bg-green-500/20'}`}>
                   <div className="flex items-start gap-3">
-                    <Sparkles className="text-teko-gold flex-shrink-0 mt-0.5" size={20} />
-                    <p className="text-sm text-slate-300">
-                      <strong className="text-white">Sin intereses.</strong> El valor total es igual al precio de contado. Financiación directa TEKO.
-                    </p>
+                    {hasInterest ? (
+                      <>
+                        <AlertCircle className="text-amber-400 flex-shrink-0 mt-0.5" size={20} />
+                        <p className="text-sm text-slate-300">
+                          <strong className="text-amber-400">Tasa fija 1.3% mensual.</strong> Si preferís sin interés, elegí 12 cuotas y ahorrate {formatCurrency(calculations.interesTotal)}.
+                        </p>
+                      </>
+                    ) : (
+                      <>
+                        <Sparkles className="text-green-400 flex-shrink-0 mt-0.5" size={20} />
+                        <p className="text-sm text-slate-300">
+                          <strong className="text-green-400">¡Sin intereses!</strong> Pagás lo mismo que de contado dividido en 12 cuotas.
+                        </p>
+                      </>
+                    )}
                   </div>
                 </div>
 
@@ -381,7 +466,7 @@ Me interesa recibir más información sobre este plan.`;
 
         {/* Disclaimer */}
         <p className="text-center text-xs text-slate-400 mt-6 max-w-xl mx-auto">
-          Calculadora informativa. Los valores son estimativos y están sujetos a disponibilidad del lote seleccionado. Consulte condiciones vigentes con un asesor TEKO.
+          Calculadora informativa. Los valores son estimativos. Financiación hasta 12 cuotas sin interés, a partir de 13 cuotas aplica 1.3% mensual (15.6% anual). Consulte condiciones vigentes.
         </p>
 
         {/* Back to zones */}
