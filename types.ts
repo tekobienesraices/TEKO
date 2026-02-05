@@ -20,6 +20,7 @@ export interface Property {
   monthlyPayment: number;
   description: string;
   image: string;
+  videoUrl?: string;
   features: string[];
   type: 'terreno' | 'casa';
   coordinates: { lat: number; lng: number };

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { MapPin, Check, Ruler, Calendar, Share2, ArrowLeft } from 'lucide-react';
-import { properties } from '../data';
+import { MapPin, Check, Ruler, Calendar, Share2, ArrowLeft, ExternalLink } from 'lucide-react';
+import { properties, zones } from '../data';
 import { Button } from '../components/Button';
 import { LeadModal } from '../components/LeadModal';
 import { GrowthTimeline } from '../components/GrowthTimeline';
@@ -92,11 +92,40 @@ export const PropertyDetail: React.FC = () => {
               </div>
             </div>
 
-            {/* Map Placeholder */}
-            <div className="h-64 bg-slate-100 rounded-xl flex items-center justify-center border border-slate-200">
-              <span className="text-slate-400 flex items-center gap-2">
-                <MapPin /> Mapa de ubicación interactivo
-              </span>
+            {/* Map Preview */}
+            <div className="space-y-4">
+              <h3 className="text-2xl font-serif font-bold text-teko-navy mb-4">Ubicación Estratégica</h3>
+              <div className="relative group rounded-2xl overflow-hidden border-2 border-slate-100 shadow-xl aspect-video bg-slate-100 flex items-center justify-center">
+                {/* Background Decoration */}
+                <div className="absolute inset-0 opacity-40 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] bg-slate-200" />
+
+                {/* Visual Content */}
+                <div className="relative z-10 text-center p-8">
+                  <div className="w-16 h-16 bg-white rounded-full flex items-center justify-center text-teko-navy shadow-lg mx-auto mb-4 group-hover:scale-110 transition-transform duration-500">
+                    <MapPin size={32} />
+                  </div>
+                  <h4 className="text-xl font-bold text-teko-navy mb-2">Mapa Interactivo</h4>
+                  <p className="text-slate-500 mb-6 max-w-sm mx-auto">
+                    Explorá el entorno, servicios cercanos y accesos principales directamente en Google Maps.
+                  </p>
+
+                  <a
+                    href={zones.find(z => z.id === property.zoneId)?.mapUrl || '#'}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Button variant="gold" className="shadow-lg">
+                      Ver en Google Maps
+                      <ExternalLink size={18} className="ml-2" />
+                    </Button>
+                  </a>
+                </div>
+
+                {/* Coordinates Badge */}
+                <div className="absolute bottom-4 left-4 px-3 py-1.5 bg-white/90 backdrop-blur-sm rounded-lg text-[10px] font-mono text-slate-500 border border-slate-200 shadow-sm">
+                  {property.coordinates.lat}, {property.coordinates.lng}
+                </div>
+              </div>
             </div>
             {/* Growth Evidence */}
             <div className="py-8">

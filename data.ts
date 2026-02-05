@@ -9,7 +9,7 @@ export const zones: Zone[] = [
     name: 'Costa Salinas',
     tagline: 'Reserva de Patrimonio en el Eje Residencial más Dinámico',
     description: 'Costa Salinas es una oportunidad de posicionamiento estratégico en el mercado inmobiliario. Localizado en un punto de expansión urbana comprobada, este desarrollo ofrece el equilibrio perfecto entre seguridad jurídica y proyección habitacional. Un enclave diseñado para proteger el capital familiar mediante tierra con plusvalía orgánica superior al mercado.',
-    mapUrl: 'https://maps.app.goo.gl/3eiR8YMugtKjJLZp7',
+    mapUrl: 'https://maps.app.goo.gl/XDMHDZXgcjQy4h3p6',
     heroImage: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&h=800&fit=crop',
     highlights: [
       'Escritura inmediata',
@@ -39,7 +39,7 @@ export const properties: Property[] = [
     image: '/properties/costa-salinas-drone-1.jpg',
     features: ['Ubicación Estratégica', 'Plusvalía Acelerada', 'Entorno en Crecimiento', 'Descuento Especial'],
     type: 'terreno',
-    coordinates: { lat: -25.30, lng: -57.27 },
+    coordinates: { lat: -25.3203, lng: -57.4434 },
     status: 'available'
   },
   {
@@ -56,7 +56,7 @@ export const properties: Property[] = [
     image: '/properties/costa-salinas-drone-2.jpg',
     features: ['Vecindario Consolidado', 'Servicios Listos', 'Alta Demanda', 'Descuento Familiar'],
     type: 'terreno',
-    coordinates: { lat: -25.31, lng: -57.28 },
+    coordinates: { lat: -25.3210, lng: -57.4440 },
     status: 'available'
   }
 ];
