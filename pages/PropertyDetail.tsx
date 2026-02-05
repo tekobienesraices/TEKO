@@ -116,6 +116,14 @@ export const PropertyDetail: React.FC = () => {
             <div className="sticky top-28 bg-white p-6 rounded-2xl shadow-xl border border-slate-100">
               <div className="mb-6">
                 <span className="text-slate-500 text-sm">Precio de lista</span>
+                {property.originalPrice && (
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-lg text-slate-400 line-through">Gs. {property.originalPrice.toLocaleString()}</span>
+                    <span className="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">
+                      Oferta 5M OFF
+                    </span>
+                  </div>
+                )}
                 <div className="text-4xl font-bold text-teko-navy">Gs. {property.price.toLocaleString()}</div>
               </div>
 

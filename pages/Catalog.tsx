@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { MapPin, ArrowRight, Check } from 'lucide-react';
+import { MapPin, ArrowRight, Check, Sparkles } from 'lucide-react';
 import { zones, properties, getPropertiesByZone } from '../data';
 import { Button } from '../components/Button';
 
@@ -14,8 +14,12 @@ export const Catalog: React.FC = () => {
           <h1 className="text-4xl md:text-5xl font-serif font-bold text-teko-navy mb-4">
             Invertí en tu Futuro
           </h1>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-600 text-white rounded-full font-bold text-sm uppercase tracking-wider mb-6 animate-pulse">
+            <Sparkles size={16} />
+            Descuento Especial: Gs. 5.000.000 OFF en todos los lotes
+          </div>
           <p className="text-slate-500 max-w-2xl mx-auto text-lg">
-            Lotes premium en zonas de alta valorización. Documentación al día, financiación directa y con 20% de entrega ya sos dueño.
+            Lotes premium en zonas de alta valorización. Aprovechá nuestra bonificación exclusiva por tiempo limitado.
           </p>
         </div>
       </div>

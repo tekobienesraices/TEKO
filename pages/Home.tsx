@@ -154,12 +154,15 @@ export const Home: React.FC = () => {
                   <p className="text-slate-500 text-sm mb-4">{prop.location}</p>
                   <div className="flex justify-between items-center border-t border-slate-100 pt-4">
                     <div>
-                      <span className="block text-xs text-slate-400">Precio Total</span>
-                      <span className="font-bold text-lg">Gs. {prop.price.toLocaleString()}</span>
+                      <span className="block text-xs text-slate-400">Inversión Final</span>
+                      {prop.originalPrice && (
+                        <span className="block text-[10px] text-slate-400 line-through">Gs. {prop.originalPrice.toLocaleString()}</span>
+                      )}
+                      <span className="font-bold text-lg text-teko-navy">Gs. {prop.price.toLocaleString()}</span>
                     </div>
                     <div className="text-right">
                       <span className="block text-xs text-slate-400">Cuota desde</span>
-                      <span className="font-bold text-lg text-teko-navy">${prop.monthlyPayment}</span>
+                      <span className="font-bold text-lg text-teko-gold">Gs. {prop.monthlyPayment.toLocaleString()}</span>
                     </div>
                   </div>
                   <Link to={`/propiedad/${prop.id}`}>

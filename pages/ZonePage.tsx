@@ -149,7 +149,17 @@ export const ZonePage: React.FC = () => {
                                     <h3 className="text-xl font-bold text-teko-navy mb-2">{prop.title}</h3>
                                     <p className="text-slate-500 text-sm mb-4">{prop.size} m² • {prop.dimensions}</p>
 
-                                    <div className="flex items-baseline gap-2 mb-4">
+                                    <div className="flex flex-col mb-4">
+                                        {prop.originalPrice && (
+                                            <div className="flex items-center gap-2 mb-1">
+                                                <span className="text-slate-400 line-through text-sm">
+                                                    Gs. {prop.originalPrice.toLocaleString()}
+                                                </span>
+                                                <span className="bg-red-100 text-red-600 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">
+                                                    - Gs. {(prop.originalPrice - prop.price).toLocaleString()}
+                                                </span>
+                                            </div>
+                                        )}
                                         <span className="text-2xl font-bold text-teko-navy">Gs. {prop.price.toLocaleString()}</span>
                                     </div>
 
