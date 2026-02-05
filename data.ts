@@ -7,8 +7,8 @@ export const zones: Zone[] = [
   {
     id: 'costa-salinas',
     name: 'Costa Salinas',
-    tagline: 'Donde el atardecer es tuyo',
-    description: 'Un enclave privilegiado con vistas espectaculares y acceso directo a la naturaleza. Lotes premium con documentación al día y financiación directa. A minutos de todo, lejos del ruido.',
+    tagline: 'Reserva de Patrimonio en el Eje Residencial más Dinámico',
+    description: 'Costa Salinas es una oportunidad de posicionamiento estratégico en el mercado inmobiliario. Localizado en un punto de expansión urbana comprobada, este desarrollo ofrece el equilibrio perfecto entre seguridad jurídica y proyección habitacional. Un enclave diseñado para proteger el capital familiar mediante tierra con plusvalía orgánica superior al mercado.',
     mapUrl: 'https://maps.app.goo.gl/3eiR8YMugtKjJLZp7',
     heroImage: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&h=800&fit=crop',
     highlights: [
