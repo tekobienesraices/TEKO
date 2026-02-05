@@ -4,6 +4,7 @@ import { MapPin, Check, Ruler, Calendar, Share2, ArrowLeft } from 'lucide-react'
 import { properties } from '../data';
 import { Button } from '../components/Button';
 import { LeadModal } from '../components/LeadModal';
+import { GrowthTimeline } from '../components/GrowthTimeline';
 
 export const PropertyDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
@@ -97,6 +98,17 @@ export const PropertyDetail: React.FC = () => {
                 <MapPin /> Mapa de ubicación interactivo
               </span>
             </div>
+            {/* Growth Evidence */}
+            <div className="py-8">
+              <h3 className="text-2xl font-serif font-bold text-teko-navy mb-4">Plusvalía Comprobada</h3>
+              <p className="text-slate-600 mb-6">
+                Invertir en Costa Salinas no es una apuesta, es una certeza. Mirá cómo el tiempo ha multiplicado el valor de la tierra en esta misma zona:
+              </p>
+              <div className="rounded-2xl overflow-hidden border border-slate-200 shadow-lg">
+                <GrowthTimeline />
+              </div>
+            </div>
+
           </div>
 
           {/* Sidebar Sticky */}
