@@ -9,7 +9,6 @@ const timelineData = [
         image: '/growth/2010.jpg',
         title: 'El Inicio: Visión Temprana',
         desc: 'Un terreno raw (virgen), invisible para la mayoría. Solo los inversores con visión detectaron el potencial de la nueva infraestructura proyectada.',
-        stat: 'Valor del m²: $5 USD',
         insight: 'El momento de mayor riesgo percibido, pero de retorno exponencial.'
     },
     {
@@ -166,14 +165,10 @@ export const GrowthTimeline: React.FC = () => {
                                     {currentData.desc}
                                 </p>
 
-                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-10">
-                                    <div className="bg-white/5 rounded-xl p-5 border border-white/10">
-                                        <p className="text-slate-400 text-sm mb-1 uppercase tracking-wider">Apreciación Estimada</p>
-                                        <p className="text-2xl font-bold text-white">{currentData.stat}</p>
-                                    </div>
-                                    <div className="bg-teko-gold/10 rounded-xl p-5 border border-teko-gold/20">
-                                        <p className="text-teko-gold text-sm mb-1 uppercase tracking-wider font-bold">Lección de Inversor</p>
-                                        <p className="text-sm text-white/90 italic">"{currentData.insight}"</p>
+                                <div className="mt-8 mb-10">
+                                    <div className="bg-teko-gold/10 rounded-xl p-6 border border-teko-gold/20">
+                                        <p className="text-teko-gold text-sm mb-2 uppercase tracking-wider font-bold">Lección de Inversor</p>
+                                        <p className="text-lg text-white/90 italic">"{currentData.insight}"</p>
                                     </div>
                                 </div>
 
