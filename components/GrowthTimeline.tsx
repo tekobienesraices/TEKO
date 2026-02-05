@@ -1,39 +1,37 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, ChevronLeft, ChevronRight, TrendingUp, Clock, Map } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import { Button } from './Button';
 
 const timelineData = [
     {
         year: '2010',
         image: '/growth/2010.jpg',
-        title: 'El Inicio: Visión Temprana',
-        desc: 'Un terreno raw (virgen), invisible para la mayoría. Solo los inversores con visión detectaron el potencial de la nueva infraestructura proyectada.',
-        insight: 'El momento de mayor riesgo percibido, pero de retorno exponencial.'
+        title: 'Fase 0: El Valor del Silencio',
+        desc: 'Tierra raw sin servicios. El mercado ignoraba la zona, pero el análisis de expansión urbana indicaba que este era el punto de entrada óptimo para capturar la máxima plusvalía futura.',
+        insight: 'En Real Estate, el mayor margen se captura cuando compras lo que otros todavía no ven.'
     },
     {
         year: '2015',
         image: '/growth/2015.jpg',
-        title: 'Desarrollo: La Primera Ola',
-        desc: 'Apertura de caminos y llegada de los primeros servicios básicos. "Costa Salinas" comienza a sonar en el mercado.',
-        stat: 'Valor del m²: $15 USD',
-        insight: 'Quien compró en 2010 ya triplicó su capital en 5 años (300% ROI).'
+        title: 'Infraestructura: El Motor de Valor',
+        desc: 'Apertura de ejes viales y consolidación de la red eléctrica. La preventa temprana se agota mientras el capital invertido comienza su fase de aceleración.',
+        insight: 'La llegada de la infraestructura básica suele duplicar el valor del m² en menos de 24 meses.'
     },
     {
         year: '2020',
         image: '/growth/2020.jpg',
-        title: 'Consolidación: El Boom Demográfico',
-        desc: 'La mancha urbana alcanza la zona. Construcción de casas quintas, comercios y aumento masivo de la demanda.',
-        stat: 'Valor del m²: $35 USD',
-        insight: 'La tierra se vuelve escasa. El mercado valida la zona como premium.'
+        title: 'Consolidación: El Efecto Multiplicador',
+        desc: 'Densificación urbana masiva. La construcción de viviendas proyecta un entorno residencial de primer nivel, validando la tesis de inversión original.',
+        insight: 'La escasez de tierra en zonas ya urbanizadas empuja los precios hacia arriba de forma orgánica.'
     },
     {
         year: '2025',
         image: '/growth/2025.jpg',
-        title: 'Actualidad: Zona Consolidada',
-        desc: 'Hoy, Costa Salinas es una realidad tangible. Una zona vibrante con alta calidad de vida. Y esto recién empieza.',
-        stat: 'Valor del m²: $55+ USD',
-        insight: 'Tu oportunidad no es "haber comprado antes". Es entender que el ciclo se repite.'
+        title: 'Madurez: Patrimonio Líquido',
+        desc: 'Una comunidad vibrante y consolidada. Lo que era una oportunidad de inversión hoy es un activo de alta liquidez y valor de reventa premium.',
+        insight: 'Tu patrimonio hoy depende de las decisiones con visión de futuro que tomes ahora.'
     }
 ];
 
@@ -172,9 +170,11 @@ export const GrowthTimeline: React.FC = () => {
                                     </div>
                                 </div>
 
-                                <Button variant="gold" size="lg" className="w-full sm:w-auto shadow-lg shadow-teko-gold/20 hover:shadow-teko-gold/40">
-                                    Ver Oportunidades en Costa Salinas
-                                </Button>
+                                <Link to="/zona/costa-salinas">
+                                    <Button variant="gold" size="lg" className="w-full sm:w-auto shadow-lg shadow-teko-gold/20 hover:shadow-teko-gold/40">
+                                        Ver Oportunidades en Costa Salinas
+                                    </Button>
+                                </Link>
                             </motion.div>
                         </AnimatePresence>
                     </div>
