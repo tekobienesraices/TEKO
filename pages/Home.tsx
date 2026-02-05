@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom';
 import { Button } from '../components/Button';
 import { LeadModal } from '../components/LeadModal';
 import { SocialBanner } from '../components/SocialBanner';
+import { GrowthTimeline } from '../components/GrowthTimeline';
 import { properties, testimonials } from '../data';
 
 export const Home: React.FC = () => {
@@ -112,6 +113,9 @@ export const Home: React.FC = () => {
           ))}
         </div>
       </section>
+
+      {/* Growth Timeline - Costa Salinas Case Study */}
+      <GrowthTimeline />
 
       {/* Featured Properties */}
       <section className="py-20 bg-white">
