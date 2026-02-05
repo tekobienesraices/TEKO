@@ -44,45 +44,50 @@ export const Home: React.FC = () => {
             Bienes Raíces Premium
           </motion.span>
           <motion.h1
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
             className="text-5xl md:text-7xl font-serif font-bold text-white leading-tight mb-6"
           >
-            Terrenos en cuotas <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300">en Paraguay</span>
+            Tu terreno propio, <br />
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-300">tu legado en Paraguay</span>
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
-            className="text-lg md:text-xl text-white/80 mb-10 max-w-2xl mx-auto"
+            className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto font-medium"
           >
-            Accedé a loteamientos exclusivos con financiación propia y cuotas fijas en guaraníes. Hacé realidad tu casa a medida en las mejores zonas del país.
+            Dejá de alquilar y empezá a invertir en tu futuro. Accedé hoy a terrenos titulados en las zonas de mayor crecimiento, con financiación propia a sola firma y cuotas en guaraníes.
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
+            className="flex flex-col sm:flex-row gap-4 justify-center"
           >
             <Link to="/terrenos">
-              <Button size="lg" className="min-w-[200px]">Ver Terrenos</Button>
+              <Button variant="gold" size="lg" className="w-full sm:w-auto shadow-xl shadow-teko-gold/20 hover:shadow-teko-gold/40 transition-shadow">
+                Ver Lotes Disponibles
+              </Button>
             </Link>
-            <Link to="/calculadora">
-              <Button variant="secondary" size="lg" className="min-w-[200px]">Calcular Cuota</Button>
+            <Link to="/guia">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto backdrop-blur-md border-white/30 hover:bg-white/10">
+                <Download className="mr-2 h-5 w-5" />
+                Guía de Inversión Gratis
+              </Button>
             </Link>
           </motion.div>
         </motion.div>
       </section>
 
-      {/* Branching UX - Quick Actions */}
+      {/* Quick Actions / Value Proposition */}
       <section className="relative z-30 -mt-20 px-4 pb-20">
         <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
           {[
-            { icon: Map, title: "Lotes Financiados", desc: "Ubicaciones estratégicas con alta plusvalía en Cordillera y Central.", link: "/terrenos" },
-            { icon: HomeIcon, title: "Terrenos en Sanber", desc: "Arquitectura de autor llave en mano en San Bernardino.", link: "/terrenos?zona=san-bernardino" },
-            { icon: TrendingUp, title: "Invertir en Paraguay", desc: "El mejor retorno asegurado en bienes raíces.", link: "/inversion" }
+            { icon: Map, title: "Lotes Listos para Transferir", desc: "Seguridad jurídica total. Tu terreno en Cordillera y Central con título inmediato.", link: "/terrenos" },
+            { icon: HomeIcon, title: "Financiación Propia", desc: "Sin bancos, sin burocracia. Aprobación en 24hs con mínimos requisitos.", link: "/calculadora" },
+            { icon: TrendingUp, title: "Inversión Inteligente", desc: "Hacé crecer tu capital en guaraníes con tierra, el activo más seguro.", link: "/inversion" }
           ].map((item, idx) => (
             <motion.div
               key={idx}
