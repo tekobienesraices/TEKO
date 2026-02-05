@@ -17,20 +17,6 @@ export const zones: Zone[] = [
       '20% de entrega y sos dueño',
       'Financiación hasta 72 cuotas'
     ]
-  },
-  {
-    id: 'naranjaty',
-    name: 'Naranjaty',
-    tagline: 'Tu inversión, tu futuro',
-    description: 'El nuevo polo de desarrollo inmobiliario. Terrenos amplios en zona de alta valorización con todos los servicios. Ideal para familias que buscan calidad de vida sin alejarse de la ciudad.',
-    mapUrl: 'https://maps.app.goo.gl/8gL4JtWeL1ajhRjT9',
-    heroImage: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&h=800&fit=crop',
-    highlights: [
-      'Zona de alta valorización',
-      'Acceso pavimentado',
-      'Servicios básicos disponibles',
-      'Comunidad en crecimiento'
-    ]
   }
 ];
 
@@ -42,7 +28,7 @@ export const properties: Property[] = [
   {
     id: 'cs-001',
     zoneId: 'costa-salinas',
-    title: 'Costa Salinas: Residencial Alta Gama (A)',
+    title: 'Costa Salinas: Residencial Alta Gama',
     location: 'Costa Salinas - Zona de Alta Valorización',
     originalPrice: 125000000,
     price: 120000000,
@@ -54,23 +40,6 @@ export const properties: Property[] = [
     features: ['Ubicación Estratégica', 'Plusvalía Acelerada', 'Entorno en Crecimiento', 'Descuento Especial'],
     type: 'terreno',
     coordinates: { lat: -25.30, lng: -57.27 },
-    status: 'available'
-  },
-  {
-    id: 'cs-002',
-    zoneId: 'costa-salinas',
-    title: 'Costa Salinas: Residencial Alta Gama (B)',
-    location: 'Costa Salinas - Zona de Alta Valorización',
-    originalPrice: 124000000,
-    price: 119000000,
-    size: 450,
-    dimensions: '15x30',
-    monthlyPayment: 1322222,
-    description: 'Oportunidad de posicionamiento en el sector más exclusivo. Este lote ofrece las mismas ventajas competitivas de plusvalía y entorno, con un ajuste en precio por tiempo limitado. Ideal para inversores inteligentes que saben detectar el valor antes que el resto vea el pico de precio.',
-    image: '/properties/costa-salinas-drone-1.jpg',
-    features: ['Enegía Eléctrica', 'Acceso Todo el Año', 'Alta Valorización', 'Plan Inversor'],
-    type: 'terreno',
-    coordinates: { lat: -25.29, lng: -57.26 },
     status: 'available'
   },
   {
@@ -89,57 +58,6 @@ export const properties: Property[] = [
     type: 'terreno',
     coordinates: { lat: -25.31, lng: -57.28 },
     status: 'available'
-  },
-  // NARANJATY - Lotes
-  {
-    id: 'nj-001',
-    zoneId: 'naranjaty',
-    title: 'Lote Familiar NJ-01',
-    location: 'Naranjaty',
-    originalPrice: 86000000,
-    price: 81000000,
-    size: 360,
-    dimensions: '12x30',
-    monthlyPayment: 900000,
-    description: 'Perfecto para familias. Zona tranquila con vecinos consolidados. Cerca de escuelas y servicios esenciales.',
-    image: 'https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=800',
-    features: ['Zona familiar', 'Servicios cercanos', 'Documentación al día', 'Financiación flexible'],
-    type: 'terreno',
-    coordinates: { lat: -25.35, lng: -57.30 },
-    status: 'available'
-  },
-  {
-    id: 'nj-002',
-    zoneId: 'naranjaty',
-    title: 'Lote Céntrico NJ-02',
-    location: 'Naranjaty',
-    originalPrice: 110000000,
-    price: 105000000,
-    size: 420,
-    dimensions: '14x30',
-    monthlyPayment: 1167000,
-    description: 'Ubicación céntrica dentro del loteamiento. Acceso directo a la calle principal. Ideal para comercio o vivienda.',
-    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800',
-    features: ['Ubicación céntrica', 'Acceso principal', 'Versatilidad de uso', 'Alta demanda'],
-    type: 'terreno',
-    coordinates: { lat: -25.36, lng: -57.31 },
-    status: 'available'
-  },
-  {
-    id: 'nj-003',
-    zoneId: 'naranjaty',
-    title: 'Lote Amplio NJ-03',
-    location: 'Naranjaty',
-    price: 125000000,
-    size: 480,
-    dimensions: '16x30',
-    monthlyPayment: 1389000,
-    description: 'Para quienes buscan espacio. Terreno amplio con posibilidad de subdivisión futura o construcción de casa grande con jardín.',
-    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800',
-    features: ['Mayor superficie', 'Posible subdivisión', 'Ideal inversión', 'Documentación al día'],
-    type: 'terreno',
-    coordinates: { lat: -25.34, lng: -57.29 },
-    status: 'reserved'
   }
 ];
 
