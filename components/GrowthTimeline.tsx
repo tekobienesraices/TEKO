@@ -9,7 +9,7 @@ const timelineData = [
         year: '2010',
         image: '/growth/2010.jpg',
         title: 'Fase 0: El Valor del Silencio',
-        desc: 'Tierra raw sin servicios. El mercado ignoraba la zona, pero el análisis de expansión urbana indicaba que este era el punto de entrada óptimo para capturar la máxima plusvalía futura.',
+        desc: 'Tierra virgen sin servicios. El mercado ignoraba la zona, pero el análisis de expansión urbana indicaba que este era el punto de entrada óptimo para capturar la máxima plusvalía futura.',
         insight: 'En Real Estate, el mayor margen se captura cuando compras lo que otros todavía no ven.'
     },
     {

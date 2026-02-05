@@ -29,7 +29,7 @@ export const Navbar: React.FC = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'glass-dark py-3 shadow-lg' : isHome ? 'bg-transparent py-6' : 'bg-white/95 backdrop-blur-md py-4 shadow-md'}`}>
+    <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md py-3 shadow-md' : isHome ? 'bg-transparent py-6' : 'bg-white/95 backdrop-blur-md py-4 shadow-md'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
@@ -37,13 +37,13 @@ export const Navbar: React.FC = () => {
             <img
               src="/logo-symbol.png"
               alt="TEKO"
-              className={`h-14 w-auto object-contain transition-all duration-300 ${!scrolled && !isHome ? 'brightness-0 opacity-90' : ''}`}
+              className={`h-14 w-auto object-contain transition-all duration-300 ${!scrolled && isHome ? 'brightness-0 invert' : ''}`}
             />
             <div className="flex flex-col">
-              <span className={`text-2xl font-serif font-bold tracking-tight leading-none ${scrolled || isHome ? 'text-white' : 'text-teko-navy'}`}>
+              <span className={`text-2xl font-serif font-bold tracking-tight leading-none ${!scrolled && isHome ? 'text-white' : 'text-teko-navy'}`}>
                 TEKO
               </span>
-              <span className={`text-0.6rem uppercase tracking-widest font-medium ${scrolled || isHome ? 'text-white/80' : 'text-teko-navy/70'}`}>
+              <span className={`text-0.6rem uppercase tracking-widest font-medium ${!scrolled && isHome ? 'text-white/80' : 'text-teko-navy/70'}`}>
                 Bienes Raíces
               </span>
             </div>
@@ -54,13 +54,13 @@ export const Navbar: React.FC = () => {
               <Link
                 key={link.name}
                 to={link.path}
-                className={`text-sm font-medium transition-colors hover:text-teko-gold ${scrolled || isHome ? 'text-white/90' : 'text-teko-navy'}`}
+                className={`text-sm font-medium transition-colors hover:text-teko-gold ${!scrolled && isHome ? 'text-white/90' : 'text-teko-navy'}`}
               >
                 {link.name}
               </Link>
             ))}
             <Link to="/contacto">
-              <Button variant={scrolled ? "secondary" : "primary"} size="sm">
+              <Button variant={!scrolled && isHome ? "primary" : "secondary"} size="sm">
                 Contacto
               </Button>
             </Link>
@@ -70,7 +70,7 @@ export const Navbar: React.FC = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`p-2 rounded-md ${scrolled || isHome ? 'text-white' : 'text-teko-navy'}`}
+              className={`p-2 rounded-md ${!scrolled && isHome ? 'text-white' : 'text-teko-navy'}`}
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>

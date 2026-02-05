@@ -75,7 +75,7 @@ export const Home: React.FC = () => {
             <Link to="/guia">
               <Button variant="outline" size="lg" className="w-full sm:w-auto backdrop-blur-md border-white/30 hover:bg-white/10">
                 <Download className="mr-2 h-5 w-5" />
-                Guía de Inversión Gratis
+                Bajá tu guía gratuita
               </Button>
             </Link>
           </motion.div>
@@ -253,35 +253,105 @@ export const Home: React.FC = () => {
         </div>
       </section>
 
+      {/* FAQ Section for GEO (Generative Engine Optimization) */}
+      <section className="py-20 bg-white border-t border-slate-100">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-serif font-bold text-teko-navy mb-4">Preguntas Frecuentes</h2>
+            <p className="text-slate-500">Todo lo que necesitás saber para invertir con seguridad en TEKO.</p>
+          </div>
+
+          <div className="space-y-6">
+            {[
+              {
+                q: "¿Cuáles son los requisitos para comprar?",
+                a: "En TEKO simplificamos el proceso. Solo necesitás tu Cédula de Identidad vigente y abonar la primera cuota. No requerimos garantes ni trámites bancarios burocráticos."
+              },
+              {
+                q: "¿Ofrecen financiación propia?",
+                a: "Sí, somos desarrolladores y financiamos nuestros propios lotes. Ofrecemos planes de hasta 60 meses (5 años) con cuotas fijas en Guaraníes, sin sorpresas."
+              },
+              {
+                q: "¿Dónde están ubicados los terrenos?",
+                a: "Seleccionamos estratégicamente zonas de alto crecimiento y plusvalía en Paraguay: San Bernardino (zona alta), Areguá (barrios cerrados), Caacupé y Luque."
+              },
+              {
+                q: "¿Puedo construir inmediatamente?",
+                a: "Depende del plan elegido. En la mayoría de nuestros desarrollos, podés empezar a construir al abonar el 25% del valor total o al cancelar el terreno, según el contrato específico."
+              },
+              {
+                q: "¿Tienen oficina física?",
+                a: "Operamos con un modelo 100% digital para reducir costos y trasladar ese ahorro al precio final de tu lote. Coordinamos visitas guiadas presenciales a todos los terrenos cuando lo desees."
+              }
+            ].map((faq, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className="bg-slate-50 rounded-2xl p-6 md:p-8 hover:bg-slate-100 transition-colors"
+                itemScope
+                itemProp="mainEntity"
+                itemType="https://schema.org/Question"
+              >
+                <h3 className="text-lg font-bold text-teko-navy mb-3 flex items-start gap-3" itemProp="name">
+                  <span className="text-teko-gold text-xl">Q.</span> {faq.q}
+                </h3>
+                <div itemScope itemProp="acceptedAnswer" itemType="https://schema.org/Answer">
+                  <p className="text-slate-600 pl-8 leading-relaxed" itemProp="text">{faq.a}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Ebook Lead Magnet */}
       <section className="py-20 bg-gradient-to-br from-teko-navy to-slate-800 relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-teko-gold/20 rounded-full blur-3xl -mr-48 -mt-48" />
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <div className="order-2 lg:order-1">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+            {/* Valid for Mobile & Desktop: Text content logic */}
+            <div className="order-1 lg:order-1 text-center lg:text-left">
               <span className="inline-block px-4 py-1 bg-teko-gold/20 text-teko-gold text-sm font-medium rounded-full mb-4">
                 Recurso Gratuito
               </span>
               <h2 className="text-3xl md:text-4xl font-serif font-bold text-white mb-4">
                 Comprá con Claridad,<br />Invertí con Seguridad
               </h2>
-              <p className="text-slate-300 mb-6">
-                Descargá gratis nuestra guía con todo lo que necesitás saber antes de comprar tu terreno.
-                Sin letra chica, sin compromisos.
+              <p className="text-slate-300 mb-6 mx-auto lg:mx-0 max-w-md lg:max-w-none">
+                Bajá gratis nuestra guía con los secretos para no equivocarte al comprar tu lote.
+                Sin letras chicas, directo al punto.
               </p>
-              <Link to="/guia">
-                <Button variant="gold" size="lg">
-                  <Download size={20} className="mr-2" />
-                  Descargar Guía Gratis
-                </Button>
-              </Link>
+
+              {/* Desktop Button - Hidden on Mobile */}
+              <div className="hidden lg:block">
+                <Link to="/guia">
+                  <Button variant="gold" size="lg">
+                    <Download size={20} className="mr-2" />
+                    Descargar Guía Gratis
+                  </Button>
+                </Link>
+              </div>
             </div>
-            <div className="flex justify-center order-1 lg:order-2">
+
+            {/* Image & Mobile Button */}
+            <div className="flex flex-col items-center order-2 lg:order-2">
               <img
                 src="/ebook-cover.png"
                 alt="Guía TEKO"
-                className="max-w-[250px] drop-shadow-2xl"
+                className="max-w-[250px] drop-shadow-2xl mb-8 lg:mb-0"
               />
+
+              {/* Mobile Button - Visible only on Mobile */}
+              <div className="lg:hidden w-full max-w-[250px]">
+                <Link to="/guia">
+                  <Button variant="gold" size="lg" fullWidth>
+                    <Download size={20} className="mr-2" />
+                    Descargar Guía Gratis
+                  </Button>
+                </Link>
+              </div>
             </div>
           </div>
         </div>
