@@ -29,7 +29,7 @@ export const ZonePage: React.FC = () => {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="relative min-h-screen h-auto py-24 lg:py-40 flex items-center justify-center">
+            <section className="relative min-h-screen h-auto pt-32 pb-20 md:pt-48 md:pb-32 flex flex-col items-center">
                 <div className="absolute inset-0">
                     <img
                         src={zone.heroImage}
@@ -60,8 +60,8 @@ export const ZonePage: React.FC = () => {
                         {/* Price highlight */}
                         <div className="bg-teko-gold text-white px-6 py-6 md:px-10 md:py-8 rounded-2xl md:rounded-3xl shadow-2xl mb-10 w-full max-w-md transform hover:scale-105 transition-transform">
                             <span className="block text-xs md:text-sm uppercase tracking-widest mb-2 opacity-90 font-bold">Lotes Desde</span>
-                            <div className="text-3xl md:text-5xl font-black mb-2">Gs. 81.000.000</div>
-                            <p className="text-xs md:text-sm opacity-90 font-medium">Con 20% de entrega sos dueño</p>
+                            <div className="text-3xl md:text-5xl font-black mb-2">Gs. {minPrice.toLocaleString()}</div>
+                            <p className="text-xs md:text-sm opacity-90 font-medium">Financiación propia a sola firma</p>
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">

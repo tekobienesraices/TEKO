@@ -8,7 +8,7 @@ export const zones: Zone[] = [
     id: 'costa-salinas',
     name: 'Costa Salinas',
     tagline: 'Asegurá tu futuro en la zona que más crece',
-    description: 'Dejá de alquilar y asegurá tu pedazo de tierra hoy. En Costa Salinas te ofrecemos lotes con título inmediato en la zona de mayor crecimiento de Paraguay. Protegé tus ahorros de la inflación con cuotas fijas en Guaraníes. Tu futuro y el de tu familia empiezan con terreno propio.',
+    description: 'Asegurá tu terreno con cuotas fijas en Guaraníes. Invertí en tierra, protegete de la inflación y construí tu legado hoy mismo.',
     mapUrl: 'https://maps.app.goo.gl/XDMHDZXgcjQy4h3p6',
     heroImage: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&h=800&fit=crop',
     highlights: [
