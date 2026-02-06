@@ -11,9 +11,9 @@ export const Footer: React.FC = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <img
-                src="/logo-vertical.png"
+                src="/logo-vertical-white.png"
                 alt="TEKO"
-                className="h-40 w-auto object-contain brightness-0 invert"
+                className="h-40 w-auto object-contain"
               />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
