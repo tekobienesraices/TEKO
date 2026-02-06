@@ -83,7 +83,7 @@ export const Contact: React.FC = () => {
                                 </div>
                                 <div>
                                     <p className="text-sm text-slate-500 font-medium">WhatsApp</p>
-                                    <p className="text-teko-navy font-bold">+595 983 783 349</p>
+                                    <p className="text-teko-navy font-bold">+595 974 202 163</p>
                                 </div>
                             </a>
 
