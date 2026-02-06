@@ -33,11 +33,13 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <img
-            src="/logo-horizontal.png"
-            alt="TEKO"
-            className={`h-16 w-auto object-contain transition-all duration-300 ${!scrolled && isHome ? 'brightness-0 invert' : ''}`}
-          />
+          <Link to="/" className="flex items-center">
+            <img
+              src="/logo-horizontal.png"
+              alt="TEKO"
+              className={`h-16 w-auto object-contain transition-all duration-300 cursor-pointer ${!scrolled && isHome ? 'brightness-0 invert' : ''}`}
+            />
+          </Link>
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (

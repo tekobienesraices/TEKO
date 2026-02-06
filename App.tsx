@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
+import { Loader } from './components/Loader';
 import { Home } from './pages/Home';
 import { Catalog } from './pages/Catalog';
 import { PropertyDetail } from './pages/PropertyDetail';
@@ -41,34 +42,37 @@ const WhatsAppButton = () => (
 
 function App() {
   return (
-    <Router>
-      <ScrollToTop />
-      <div className="flex flex-col min-h-screen font-sans bg-white selection:bg-teko-navy selection:text-white">
-        <Navbar />
-        <main className="flex-grow">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/terrenos" element={<Catalog />} />
-            <Route path="/propiedad/:id" element={<PropertyDetail />} />
-            <Route path="/calculadora" element={<Calculator />} />
-            <Route path="/zona/:id" element={<ZonePage />} />
-            <Route path="/construccion" element={<Construction />} />
-            <Route path="/privacidad" element={<PrivacyPolicy />} />
-            <Route path="/terminos" element={<TermsConditions />} />
-            <Route path="/cookies" element={<CookiePolicy />} />
-            <Route path="/guia" element={<EbookPage />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:id" element={<BlogPost />} />
-            {/* Fallback routes for demo pages not fully implemented but required by nav */}
-            <Route path="/nosotros" element={<Home />} />
-            <Route path="/inversion" element={<Home />} />
-            <Route path="/contacto" element={<Home />} />
-          </Routes>
-        </main>
-        <Footer />
-        <WhatsAppButton />
-      </div>
-    </Router>
+    <>
+      <Loader />
+      <Router>
+        <ScrollToTop />
+        <div className="flex flex-col min-h-screen font-sans bg-white selection:bg-teko-navy selection:text-white">
+          <Navbar />
+          <main className="flex-grow">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/terrenos" element={<Catalog />} />
+              <Route path="/propiedad/:id" element={<PropertyDetail />} />
+              <Route path="/calculadora" element={<Calculator />} />
+              <Route path="/zona/:id" element={<ZonePage />} />
+              <Route path="/construccion" element={<Construction />} />
+              <Route path="/privacidad" element={<PrivacyPolicy />} />
+              <Route path="/terminos" element={<TermsConditions />} />
+              <Route path="/cookies" element={<CookiePolicy />} />
+              <Route path="/guia" element={<EbookPage />} />
+              <Route path="/blog" element={<Blog />} />
+              <Route path="/blog/:id" element={<BlogPost />} />
+              {/* Fallback routes for demo pages not fully implemented but required by nav */}
+              <Route path="/nosotros" element={<Home />} />
+              <Route path="/inversion" element={<Home />} />
+              <Route path="/contacto" element={<Home />} />
+            </Routes>
+          </main>
+          <Footer />
+          <WhatsAppButton />
+        </div>
+      </Router>
+    </>
   );
 }
 
