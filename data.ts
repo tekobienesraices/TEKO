@@ -156,127 +156,197 @@ export const blogPosts: BlogPost[] = [
   {
     id: 'plusvalia-paraguay-2026',
     title: 'Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)',
-    excerpt: 'Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento "La Era Dorada" de la inversión en tierra.',
-    content: `
-      <p class="lead">Si tenés ahorros en guaraníes durmiendo en una caja de ahorro, estás perdiendo dinero cada día. La inflación es el impuesto silencioso que se come tu esfuerzo. Pero existe un refugio que, históricamente en Paraguay, nunca ha fallado: la tierra.</p>
-
+    excerpt: 'Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento "La Era Dorada".',
+    content: `<p class="lead">Si tenés ahorros en guaraníes durmiendo en una caja de ahorro, estás perdiendo dinero cada día. La inflación es el impuesto silencioso. Pero existe un refugio: la tierra.</p>
       <h3>1. El Fenómeno de la Expansión Urbana</h3>
-      <p>Asunción ya no da abasto. El crecimiento demográfico está empujando las fronteras de la ciudad hacia el departamento Central y Cordillera a una velocidad vertiginosa. Lo que hoy ves como "lejos", en 3 años será "barrio residencial".</p>
-      <p>Comprar tierra en zonas de expansión (como Areguá o San Bernardino) no es solo comprar metros cuadrados; es comprar <strong>tiempo futuro a precio de hoy</strong>. Estás adquiriendo un activo que la ciudad inevitablemente necesitará.</p>
-
-      <h3>2. La Matemática de la Plusvalía Orgánica</h3>
-      <p>A diferencia de un vehículo que pierde 20% de su valor al salir de la concesionaria, un terreno bien ubicado hace lo contrario. Analicemos los datos de TEKO:</p>
-      <ul>
-        <li><strong>Año 1:</strong> Comprás en pre-venta (Barrio sin servicios completos).</li>
-        <li><strong>Año 2:</strong> Llega la luz y el agua (Tu lote sube 15%).</li>
-        <li><strong>Año 3:</strong> Se construyen las primeras 5 casas (Tu lote sube otro 20%).</li>
-        <li><strong>Año 5:</strong> El barrio está consolidado. Tu lote vale el doble.</li>
-      </ul>
-      <p>Esto no es especulación; es desarrollo urbano. Y vos podés ser dueño de esa curva de crecimiento.</p>
-
-      <h3>3. Financiación en Guaraníes: Tu Escudo contra el Dólar</h3>
-      <p>Muchos inversores cometen el error de endeudarse en dólares. En TEKO, nuestra filosofía es proteger al trabajador paraguayo. Por eso, nuestros planes son <strong>100% en Guaraníes y a Cuota Fija</strong>.</p>
-      <p>¿Qué significa esto? Que si el dólar sube, tu cuota sigue igual. Si hay inflación, tu cuota (en términos reales) vale menos, pero tu terreno vale más. Es la ecuación perfecta para ganar patrimonio.</p>
-
-      <div class="bg-teko-navy/5 p-6 rounded-xl my-8 border-l-4 border-teko-gold">
-        <h4 class="text-teko-navy font-bold text-lg mb-2">💡 Consejo de Experto:</h4>
-        <p class="mb-0">No esperes a "juntar toda la plata". El tiempo es el factor más importante. Es mejor congelar el precio hoy con una entrega mínima, que esperar 2 años y pagar un 40% más caro por el mismo lote.</p>
-      </div>
-
-      <h3>Conclusión: El Momento es Ahora</h3>
-      <p>Para el 2030, se estima que el valor de la tierra en el Gran Asunción se habrá duplicado nuevamente. La pregunta no es si la tierra va a subir de precio, la pregunta es: <strong>¿Vas a ser dueño o vas a ver cómo otros se enriquecen?</strong></p>
-      <p>En TEKO te lo hacemos fácil. Sin trámites bancarios, sin garantes. Solo tu cédula y las ganas de progresar.</p>
-    `,
+      <p>Asunción ya no da abasto. El crecimiento demográfico empuja las fronteras hacia Central y Cordillera. Lo que hoy ves como "lejos", en 3 años será "barrio residencial".</p>
+      <h3>2. La Matemática de la Plusvalía</h3>
+      <ul><li><strong>Año 1:</strong> Comprás en pre-venta</li><li><strong>Año 2:</strong> Llega luz y agua (+15%)</li><li><strong>Año 3:</strong> Primeras casas (+20%)</li><li><strong>Año 5:</strong> Barrio consolidado (valor duplicado)</li></ul>
+      <h3>3. Financiación en Guaraníes</h3>
+      <p>Cuotas 100% en Guaraníes a tasa fija. Si el dólar sube, tu cuota sigue igual.</p>`,
     date: '15 de Febrero, 2026',
-    author: 'Equipo de Inversión TEKO',
-    category: 'Inversión Estratégica',
+    author: 'Equipo TEKO',
+    category: 'Inversión',
     image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200',
-    readTime: '8 min de lectura profunda'
+    readTime: '8 min'
   },
   {
     id: 'guia-compra-terreno-cuotas',
-    title: 'Guía Definitiva: De Inquilino a Propietario (Sin Morir en el Intento)',
-    excerpt: 'Romper el ciclo del alquiler es posible si sabés cómo usar la "Deuda Buena" a tu favor. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual.',
-    content: `
-      <p>Hay un mito peligroso en nuestra sociedad: "La deuda es mala". Falso. La deuda de consumo (tarjetas, auto, ropa) es mala. Pero la <strong>Deuda de Inversión</strong> es la única herramienta que permite a una persona común construir riqueza acelerada.</p>
-
-      <h3>Paso 1: Entender el Costo de Oportunidad</h3>
-      <p>Supongamos que pagás Gs. 2.000.000 de alquiler. Al final del año, gastaste Gs. 24.000.000. ¿Qué te quedó? Nada. Solo recibos.</p>
-      <p>Ahora, imaginá que destinás parte de ese flujo a una cuota de TEKO. Digamos Gs. 900.000. Al final de 5 años, no tenés recibos; tenés un <strong>Título de Propiedad</strong>. Un pedazo de Paraguay que es tuyo, heredable y vendible.</p>
-
-      <h3>Paso 2: La Regla del 30%</h3>
-      <p>Los expertos financieros sugieren que tu cuota inmobiliaria no supere el 30% de tus ingresos netos. En TEKO diseñamos nuestros planes para que encajen en salarios reales. Con nuestro sistema de refuerzos anuales (usando tu aguinaldo), podés bajar tu cuota mensual a niveles ridículamente accesibles.</p>
-
-      <h3>Paso 3: Vencer el Miedo al Compromiso</h3>
-      <p>"¿Y si me quedo sin trabajo?" Es el miedo #1. Pero pensalo así: Si te quedás sin trabajo, igual tenés que pagar alquiler (y si no pagás, te echan). En cambio, un terreno es capital. Si tenés una urgencia real, podés vender el terreno, recuperar tu capital y probablemente ganar una diferencia por la plusvalía acumulada.</p>
-
-      <h3>Paso 4: La Ubicación lo es Todo</h3>
-      <p>No compres "barato" en medio de la nada. Comprá en zonas con <strong>Proyección</strong>.</p>
-      <ul>
-        <li>¿Hay rutas proyectadas cerca?</li>
-        <li>¿Hay comercios abriendo en la zona?</li>
-        <li>¿Hay servicios básicos?</li>
-      </ul>
-      <p>En TEKO no vendemos "yuyales". Vendemos lotes en barrios planificados donde nosotros mismos invertiríamos.</p>
-
-      <div class="bg-green-50 p-6 rounded-xl my-8 border border-green-200">
-        <h4 class="text-green-800 font-bold text-lg mb-2">🚀 Hacé la prueba ahora mismo</h4>
-        <p class="mb-4 text-green-700">Usá nuestra calculadora interactiva para ver cómo quedaría tu plan de pagos real.</p>
-        <a href="/calculadora" class="inline-block bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700 transition-colors">Ir a la Calculadora</a>
-      </div>
-
-      <h3>Tu Futuro Empieza Hoy</h3>
-      <p>Nadie se arrepiente de haber comprado tierra hace 10 años. Solo se arrepienten de no haber comprado más. No seas el que dentro de 5 años diga "ojalá hubiera aprovechado".</p>
-    `,
+    title: 'Guía Definitiva: De Inquilino a Propietario (Sin Bancos)',
+    excerpt: 'Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual.',
+    content: `<p>Hay un mito: "La deuda es mala". Falso. La Deuda de Inversión es la herramienta que permite construir riqueza.</p>
+      <h3>El Costo de Oportunidad</h3>
+      <p>Pagás Gs. 2.000.000 de alquiler = Gs. 24.000.000/año. ¿Qué te quedó? Nada. Con TEKO, Gs. 900.000/mes = Título de Propiedad.</p>
+      <h3>La Regla del 30%</h3>
+      <p>Tu cuota no debe superar el 30% de ingresos. Con refuerzos anuales (aguinaldo), bajás la cuota mensual.</p>`,
     date: '10 de Febrero, 2026',
-    author: 'Asesoría Financiera TEKO',
+    author: 'Asesoría TEKO',
     category: 'Educación Financiera',
     image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200',
-    readTime: '10 min de lectura maestra'
+    readTime: '10 min'
   },
   {
     id: 'seguridad-juridica-loteamientos',
-    title: 'Los 7 Peligros de Comprar Sin Título (y Cómo Blindar tu Dinero)',
-    excerpt: 'El mercado informal está lleno de trampas. "Derecheras", "Cesión de Derechos", "Sin papeles". Te explicamos por qué NUNCA debés poner tu dinero ahí y cómo verificar que una inmobiliaria es seria.',
-    content: `
-      <p>Lo barato sale caro. Y en bienes raíces, lo barato sin papeles sale carísimo: puede costarte los ahorros de toda tu vida. En Paraguay, lamentablemente, abundan las ofertas de terrenos "con posesión inmediata" pero sin respaldo legal.</p>
-
-      <h3>Peligro #1: La "Cesión de Derechos" no es un Título</h3>
-      <p>Muchos vendedores te ofrecen una cesión de derechos de ocupación. <strong>Cuidado.</strong> Eso no te hace dueño de la tierra. La tierra sigue siendo del Estado o de un tercero. Si el verdadero dueño aparece, te desalojan y perdés todo lo construido.</p>
-
-      <h3>Peligro #2: La Doble Venta</h3>
-      <p>Sin un registro catastral correcto, un estafador puede vender el mismo "lote" a 5 personas diferentes. Cuando vayas a alambrar, te vas a encontrar con otros 4 "dueños". En TEKO, cada lote tiene su Cuenta Corriente Catastral individualizada.</p>
-
-      <h3>La Garantía TEKO: Tu Tranquilidad es Negociable</h3>
-      <p>Nosotros no jugamos con tu seguridad. Nuestra promesa es simple:</p>
-      <ol>
-        <li><strong>Loteamientos Aprobados:</strong> Todos nuestros proyectos tienen resolución municipal.</li>
-        <li><strong>Impuestos al Día:</strong> No te transferimos deudas ocultas.</li>
-        <li><strong>Escritura Inmediata:</strong> Si querés pagar al contado, escrituramos ya. Si financiás, escrituramos al terminar de pagar (o al llegar a un porcentaje pactado).</li>
-      </ol>
-
-      <h3>Checklist de Seguridad para el Comprador Inteligente</h3>
-      <p>Antes de soltar un solo guaraní, exigí esto:</p>
-      <ul>
-        <li>✅ Plano georreferenciado aprobado por Catastro.</li>
-        <li>✅ Resolución de la Municipalidad aprobando el loteamiento.</li>
-        <li>✅ Informe de condición de dominio (libre de gravámenes).</li>
-        <li>✅ Contrato de compra-venta certificado por escribanía.</li>
-      </ul>
-
-      <p>En TEKO, te mostramos toda esta carpeta <strong>antes</strong> de que firmes nada. Porque la confianza se demuestra con papeles, no con palabras.</p>
-
-      <div class="bg-slate-100 p-8 rounded-2xl text-center my-10">
-        <h3 class="font-serif font-bold text-teko-navy text-2xl mb-4">¿Querés verificar nuestros papeles?</h3>
-        <p class="mb-6">Nuestros asesores legales están disponibles para mostrarte toda la documentación de nuestros loteamientos. Transparencia total.</p>
-        <a href="https://wa.me/595983783349?text=Hola,%20quisiera%20agendar%20una%20reunión%20para%20ver%20documentación" class="bg-teko-navy text-white font-bold py-3 px-8 rounded-full hover:bg-slate-800 transition-colors">Hablar con Asesor Legal</a>
-      </div>
-    `,
+    title: 'Los 7 Peligros de Comprar Sin Título (Protegé tu Dinero)',
+    excerpt: 'El mercado informal está lleno de trampas. Te explicamos por qué NUNCA debés comprar sin papeles y cómo verificar que una inmobiliaria es seria.',
+    content: `<h3>Peligro #1: Cesión de Derechos NO es Título</h3>
+      <p>Muchos venden cesión de derechos. Eso no te hace dueño. Si el verdadero dueño aparece, te desalojan.</p>
+      <h3>La Garantía TEKO</h3>
+      <ol><li>Loteamientos Aprobados por municipalidad</li><li>Impuestos al Día</li><li>Escritura Inmediata al pagar</li></ol>`,
     date: '05 de Febrero, 2026',
-    author: 'Departamento Legal TEKO',
+    author: 'Dto. Legal TEKO',
     category: 'Seguridad Legal',
     image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200',
-    readTime: '6 min de lectura vital'
+    readTime: '6 min'
+  },
+  {
+    id: 'terrenos-cuotas-capiata-2026',
+    title: 'Terrenos en Cuotas en Capiatá 2026: Guía Completa de Zonas y Precios',
+    excerpt: 'Capiatá se consolida como el destino #1 para familias que buscan lotes accesibles. Analizamos las mejores zonas, precios del metro cuadrado y proyección de valorización.',
+    content: `<p class="lead">Capiatá ha experimentado un crecimiento exponencial en los últimos años, posicionándose como la alternativa ideal para quienes buscan terrenos accesibles sin alejarse demasiado de Asunción.</p>
+      <h3>¿Por qué Capiatá?</h3>
+      <ul><li>A solo 15 km del centro de Asunción</li><li>Excelente conectividad por Ruta 2</li><li>Servicios básicos en expansión</li><li>Precios 40% más accesibles que Lambaré</li></ul>
+      <h3>Zonas con Mayor Proyección</h3>
+      <p><strong>Costa Salinas:</strong> Zona residencial consolidándose, ideal para familias. Lotes desde Gs. 81.000.000.</p>
+      <h3>Financiación Directa</h3>
+      <p>En TEKO ofrecemos planes hasta 72 meses sin bancos, sin Informconf, con cuotas fijas en guaraníes.</p>`,
+    date: '01 de Febrero, 2026',
+    author: 'Research TEKO',
+    category: 'Análisis de Mercado',
+    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200',
+    readTime: '7 min'
+  },
+  {
+    id: 'como-comprar-terreno-sin-banco',
+    title: 'Cómo Comprar Terreno sin Banco en Paraguay: Guía Paso a Paso 2026',
+    excerpt: 'Olvidate de los trámites bancarios interminables. Descubrí cómo acceder a tu terreno propio con financiamiento directo, sin garantes y con aprobación en 24 horas.',
+    content: `<p class="lead">El sistema bancario tradicional exige requisitos que la mayoría de trabajadores paraguayos no pueden cumplir. Pero existe otra forma.</p>
+      <h3>Requisitos para Financiamiento Directo TEKO</h3>
+      <ul><li>Cédula de Identidad vigente</li><li>Comprobante de ingreso (boleta de sueldo o factura)</li><li>20% de entrega inicial</li></ul>
+      <h3>Proceso en 3 Pasos</h3>
+      <ol><li><strong>Elegí tu lote:</strong> Visitá nuestro catálogo online</li><li><strong>Simulá tu plan:</strong> Usá nuestra calculadora interactiva</li><li><strong>Reservá:</strong> Con tu entrega inicial, el lote es tuyo</li></ol>
+      <p><strong>No importa si estás en Informconf.</strong> Evaluamos tu capacidad de pago real, no un score crediticio.</p>`,
+    date: '28 de Enero, 2026',
+    author: 'Equipo Comercial TEKO',
+    category: 'Financiación',
+    image: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200',
+    readTime: '5 min'
+  },
+  {
+    id: 'lotes-financiados-central-cordillera',
+    title: 'Lotes Financiados en Central y Cordillera: Mapa de Oportunidades 2026',
+    excerpt: 'Los departamentos de Central y Cordillera concentran las mejores oportunidades de inversión inmobiliaria. Te mostramos dónde comprar y por qué.',
+    content: `<p class="lead">La expansión del Gran Asunción hacia Central y Cordillera es inevitable. Los inversores inteligentes están posicionándose ahora.</p>
+      <h3>Departamento Central</h3>
+      <p>Capiatá, Itauguá, Areguá y San Bernardino lideran el ranking de valorización.</p>
+      <h3>Departamento Cordillera</h3>
+      <p>Caacupé, Piribebuy y Altos ofrecen terrenos con vistas extraordinarias y potencial turístico.</p>
+      <h3>Factores de Valorización</h3>
+      <ul><li>Nuevas rutas y autopistas</li><li>Desarrollo comercial en expansión</li><li>Migración de familias buscando calidad de vida</li></ul>`,
+    date: '25 de Enero, 2026',
+    author: 'Análisis TEKO',
+    category: 'Mercado Inmobiliario',
+    image: 'https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200',
+    readTime: '8 min'
+  },
+  {
+    id: 'inversion-terreno-vs-departamento',
+    title: 'Terreno vs Departamento: Dónde Invertir tu Dinero en Paraguay 2026',
+    excerpt: 'Analizamos con números reales cuál inversión genera mayor retorno: comprar un terreno para construir o un departamento listo. Los resultados te sorprenderán.',
+    content: `<p class="lead">La eterna pregunta del inversor paraguayo. Veamos los números fríos.</p>
+      <h3>Escenario A: Departamento de 2 habitaciones</h3>
+      <ul><li>Inversión: USD 85.000</li><li>Renta mensual: USD 400</li><li>Retorno anual: 5.6%</li><li>Valorización: 3-5% anual</li></ul>
+      <h3>Escenario B: Terreno en zona de expansión</h3>
+      <ul><li>Inversión: USD 15.000</li><li>Valorización año 1-3: 15-25% anual</li><li>Potencial de venta: 100% ganancia en 5 años</li></ul>
+      <h3>Conclusión</h3>
+      <p>Para inversores con capital limitado, el terreno ofrece mayor retorno porcentual y menor riesgo de vacancia.</p>`,
+    date: '20 de Enero, 2026',
+    author: 'Inversiones TEKO',
+    category: 'Estrategia Inversión',
+    image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1200',
+    readTime: '6 min'
+  },
+  {
+    id: 'mejores-zonas-invertir-paraguay-2026',
+    title: 'Las 10 Mejores Zonas para Invertir en Paraguay 2026 (Ranking Actualizado)',
+    excerpt: 'Basados en datos de plusvalía, desarrollo de infraestructura y proyección urbana, te presentamos el ranking definitivo de zonas para invertir este año.',
+    content: `<p class="lead">No todos los terrenos son iguales. La ubicación determina el 80% de tu rentabilidad futura.</p>
+      <h3>Top 10 Zonas 2026</h3>
+      <ol><li><strong>Costa Salinas (Capiatá):</strong> +18% plusvalía anual promedio</li><li><strong>Areguá Centro:</strong> Turismo + residencial = combo ganador</li><li><strong>San Bernardino:</strong> El clásico que nunca falla</li><li><strong>Luque (zona aeropuerto):</strong> Desarrollo comercial explosivo</li><li><strong>Mariano Roque Alonso:</strong> Hub logístico emergente</li></ol>
+      <h3>Criterios de Evaluación</h3>
+      <ul><li>Accesibilidad vial</li><li>Proyectos de infraestructura pública</li><li>Servicios básicos disponibles</li><li>Seguridad del barrio</li></ul>`,
+    date: '15 de Enero, 2026',
+    author: 'Research TEKO',
+    category: 'Rankings',
+    image: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1200',
+    readTime: '9 min'
+  },
+  {
+    id: 'construir-casa-en-terreno-propio',
+    title: 'Cuánto Cuesta Construir una Casa en Paraguay 2026: Guía de Precios por m²',
+    excerpt: 'Desde Gs. 850.000 hasta Gs. 2.500.000 por metro cuadrado. Te explicamos qué incluye cada rango y cómo planificar tu construcción paso a paso.',
+    content: `<p class="lead">Tener el terreno es el primer paso. Ahora veamos cómo transformarlo en tu hogar.</p>
+      <h3>Rangos de Construcción 2026</h3>
+      <ul><li><strong>Económico (Gs. 850.000-1.200.000/m²):</strong> Construcción tradicional, terminaciones estándar</li><li><strong>Medio (Gs. 1.200.000-1.800.000/m²):</strong> Mejor calidad de materiales, diseño personalizado</li><li><strong>Premium (Gs. 1.800.000+/m²):</strong> Arquitectura de autor, materiales importados</li></ul>
+      <h3>TEKO Construcciones</h3>
+      <p>Ofrecemos planes de construcción llave en mano con financiación incluida. Consultá nuestros planes Essential y Luxury.</p>`,
+    date: '10 de Enero, 2026',
+    author: 'TEKO Construcciones',
+    category: 'Construcción',
+    image: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?w=1200',
+    readTime: '7 min'
+  },
+  {
+    id: 'primera-casa-propia-jovenes-paraguay',
+    title: 'Tu Primera Casa Propia: Guía para Jóvenes que Ganan el Mínimo en Paraguay',
+    excerpt: 'Sí, es posible. Con estrategia y disciplina, podés dejar de alquilar y empezar a construir patrimonio aunque ganes el salario mínimo.',
+    content: `<p class="lead">El 67% de los jóvenes paraguayos creen que jamás podrán tener casa propia. Están equivocados.</p>
+      <h3>La Estrategia del Hormiguero</h3>
+      <p>No necesitás juntar todo el dinero. Necesitás empezar HOY con lo que tenés.</p>
+      <h3>Plan de Acción</h3>
+      <ol><li><strong>Mes 1-6:</strong> Ahorrá Gs. 500.000/mes para tu entrega inicial</li><li><strong>Mes 7:</strong> Reservá tu lote con Gs. 3.000.000</li><li><strong>Mes 8+:</strong> Cuotas de Gs. 900.000 (similar a un alquiler)</li></ol>
+      <h3>El Resultado</h3>
+      <p>En 5 años, en vez de recibos de alquiler, tenés un título de propiedad. Esa es la diferencia.</p>`,
+    date: '05 de Enero, 2026',
+    author: 'Comunidad TEKO',
+    category: 'Para Jóvenes',
+    image: 'https://images.unsplash.com/photo-1516156008625-3a9d6067fab5?w=1200',
+    readTime: '6 min'
+  },
+  {
+    id: 'errores-comprar-terreno-paraguay',
+    title: 'Los 5 Errores que Destruyen tu Inversión en Terrenos (Y Cómo Evitarlos)',
+    excerpt: 'Cada año, cientos de paraguayos pierden dinero por cometer estos errores evitables. Aprendé de la experiencia ajena y protegé tu capital.',
+    content: `<h3>Error #1: Comprar por Precio, No por Ubicación</h3>
+      <p>Un terreno "barato" en medio de la nada puede costarte 10 años de espera sin valorización.</p>
+      <h3>Error #2: No Verificar Documentación</h3>
+      <p>La cesión de derechos NO es escritura. Exigí todos los papeles antes de pagar.</p>
+      <h3>Error #3: Endeudarse en Dólares</h3>
+      <p>Si tus ingresos son en guaraníes, tu deuda debe ser en guaraníes. Punto.</p>
+      <h3>Error #4: No Considerar Costos Adicionales</h3>
+      <p>Impuestos, transferencias, cerramientos. Calculá un 10% extra para imprevistos.</p>
+      <h3>Error #5: Esperar el "Momento Perfecto"</h3>
+      <p>El momento perfecto fue hace 5 años. El segundo mejor momento es AHORA.</p>`,
+    date: '01 de Enero, 2026',
+    author: 'Asesoría TEKO',
+    category: 'Consejos',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1200',
+    readTime: '5 min'
+  },
+  {
+    id: 'heredar-terreno-hijos-paraguay',
+    title: 'Cómo Dejar un Terreno a tus Hijos: Guía de Sucesión en Paraguay',
+    excerpt: 'La tierra es la mejor herencia. Pero sin planificación legal, puede convertirse en una pesadilla familiar. Te explicamos cómo proteger tu legado.',
+    content: `<p class="lead">Un terreno bien titulado es la herencia más sólida que podés dejar. Pero el proceso de sucesión debe planificarse.</p>
+      <h3>Opciones Legales</h3>
+      <ul><li><strong>Testamento:</strong> Determinás exactamente quién recibe qué</li><li><strong>Donación en vida:</strong> Transferís ahora y evitás conflictos futuros</li><li><strong>Sucesión natural:</strong> Herederos legales reciben según la ley</li></ul>
+      <h3>Consejo TEKO</h3>
+      <p>Si comprás un terreno pensando en tus hijos, poné el título a nombre de ellos desde el inicio. Evitás trámites futuros.</p>`,
+    date: '28 de Diciembre, 2025',
+    author: 'Legal TEKO',
+    category: 'Planificación',
+    image: 'https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=1200',
+    readTime: '6 min'
   }
 ];
 
