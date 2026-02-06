@@ -29,7 +29,7 @@ export const ZonePage: React.FC = () => {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="relative min-h-[85vh] h-auto py-32 lg:py-48 flex items-center justify-center overflow-hidden">
+            <section className="relative min-h-screen h-auto py-24 lg:py-40 flex items-center justify-center">
                 <div className="absolute inset-0">
                     <img
                         src={zone.heroImage}
@@ -39,29 +39,29 @@ export const ZonePage: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-teko-navy via-teko-navy/60 to-transparent" />
                 </div>
 
-                <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto w-full">
+                <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto w-full flex flex-col items-center">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
-                        className="flex flex-col items-center"
+                        className="flex flex-col items-center w-full"
                     >
                         <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm mb-6">
                             <MapPin size={16} />
                             {zone.name}
                         </span>
-                        <h1 className="text-5xl md:text-6xl font-serif font-bold mb-4">
-                            {zone.tagline}
+                        <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold mb-6 leading-tight">
+                            {zone.name}: <span className="text-teko-gold">Eje Residencial más Dinámico</span>
                         </h1>
-                        <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+                        <p className="text-base md:text-lg lg:text-xl text-slate-200 mb-8 max-w-2xl mx-auto leading-relaxed px-2">
                             {zone.description}
                         </p>
 
                         {/* Price highlight */}
-                        <div className="inline-block bg-teko-gold text-white px-8 py-4 rounded-2xl mb-8">
-                            <span className="block text-sm uppercase tracking-wider opacity-80">Lotes desde</span>
-                            <span className="block text-3xl font-bold">Gs. {minPrice.toLocaleString()}</span>
-                            <span className="block text-sm mt-1">Con 20% de entrega sos dueño</span>
+                        <div className="bg-teko-gold text-white px-6 py-6 md:px-10 md:py-8 rounded-2xl md:rounded-3xl shadow-2xl mb-10 w-full max-w-md transform hover:scale-105 transition-transform">
+                            <span className="block text-xs md:text-sm uppercase tracking-widest mb-2 opacity-90 font-bold">Lotes Desde</span>
+                            <div className="text-3xl md:text-5xl font-black mb-2">Gs. 81.000.000</div>
+                            <p className="text-xs md:text-sm opacity-90 font-medium">Con 20% de entrega sos dueño</p>
                         </div>
 
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">

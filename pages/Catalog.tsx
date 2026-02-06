@@ -11,15 +11,15 @@ export const Catalog: React.FC = () => {
       {/* Header */}
       <div className="bg-gradient-to-b from-slate-50 to-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-serif font-bold text-teko-navy mb-4">
-            Invertí en tu Futuro
+          <h1 className="text-4xl md:text-6xl font-serif font-black text-teko-navy mb-6 tracking-tight">
+            Invertí en tu <span className="text-teko-gold text-italic">Futuro</span>
           </h1>
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-600 text-white rounded-full font-bold text-sm uppercase tracking-wider mb-6 animate-pulse">
             <Sparkles size={16} />
             Descuento Especial: Gs. 5.000.000 OFF en todos los lotes
           </div>
-          <p className="text-slate-500 max-w-2xl mx-auto text-lg">
-            Lotes premium en zonas de alta valorización. Aprovechá nuestra bonificación exclusiva por tiempo limitado.
+          <p className="text-slate-500 max-w-2xl mx-auto text-lg md:text-xl font-medium leading-relaxed">
+            Lotes premium en zonas de alta valorización con seguridad jurídica total. Aprovechá nuestra bonificación exclusiva por lanzamiento.
           </p>
         </div>
       </div>

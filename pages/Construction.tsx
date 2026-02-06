@@ -14,9 +14,9 @@ export const Construction: React.FC = () => {
       <section className="bg-teko-navy text-white py-20 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1621501103258-2ad5e884e9c6?q=80&w=2669&auto=format&fit=crop')] bg-cover bg-center opacity-10"></div>
         <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
-          <h1 className="text-5xl md:text-6xl font-serif font-bold mb-6">Tu casa, sin complicaciones</h1>
-          <p className="text-xl text-slate-300 max-w-2xl mx-auto mb-10">
-            Sistema Llave en Mano. Nosotros nos encargamos del diseño, materiales y construcción. Vos solo te encargás de disfrutar.
+          <h1 className="text-5xl md:text-7xl font-serif font-black mb-6 tracking-tight">Tu casa propia, <br /><span className="text-teko-gold">sin burocracia</span></h1>
+          <p className="text-xl md:text-2xl text-slate-300 max-w-2xl mx-auto mb-10 font-medium leading-relaxed">
+            Sistema Llave en Mano Premium. Desde el plano hasta la entrega de llaves, nosotros lideramos el proceso para que vos solo proyectes tu futuro.
           </p>
         </div>
       </section>
@@ -27,15 +27,15 @@ export const Construction: React.FC = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-serif font-bold text-teko-navy">Proceso Constructivo TEKO</h2>
           </div>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {[
-              { icon: Hammer, title: "1. Diseño", text: "Definimos el modelo y personalizamos los detalles con nuestros arquitectos." },
-              { icon: CheckCircle2, title: "2. Aprobación", text: "Gestionamos permisos municipales y planos de obra completos." },
-              { icon: Clock, title: "3. Ejecución", text: "Obra rápida con reportes semanales de avance vía WhatsApp." },
-              { icon: Key, title: "4. Entrega", text: "Recibís la llave de tu casa lista para habitar, limpia y probada." }
+              { icon: Hammer, title: "1. Diseño Proyectual", text: "Personalizamos cada espacio con arquitectos de primer nivel." },
+              { icon: CheckCircle2, title: "2. Gestión Integral", text: "Nos ocupamos de todos los permisos y planos municipales." },
+              { icon: Clock, title: "3. Construcción Ágil", text: "Obra optimizada con reportes semanales de avance vía WhatsApp." },
+              { icon: Key, title: "4. Entrega de Llaves", text: "Tu hogar listo para habitar, con garantía de calidad TEKO." }
             ].map((step, idx) => (
-              <motion.div 
+              <motion.div
                 key={idx}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -68,7 +68,7 @@ export const Construction: React.FC = () => {
                 </div>
                 <div className="p-8 flex-1 flex flex-col">
                   <p className="text-slate-600 mb-8 flex-1">{plan.description}</p>
-                  
+
                   <div className="space-y-3 mb-8">
                     {plan.features.map((f, i) => (
                       <div key={i} className="flex items-center gap-3">

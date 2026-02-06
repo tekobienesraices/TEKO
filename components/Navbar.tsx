@@ -52,7 +52,7 @@ export const Navbar: React.FC = () => {
               </Link>
             ))}
             <Link to="/contacto">
-              <Button variant={!scrolled && isHome ? "primary" : "secondary"} size="sm">
+              <Button variant={!scrolled && isHome ? "gold" : "primary"} size="sm" className="font-bold tracking-tight px-6">
                 Contacto
               </Button>
             </Link>
@@ -86,7 +86,7 @@ export const Navbar: React.FC = () => {
             ))}
             <div className="pt-4 border-t border-white/10">
               <Link to="/contacto" className="block">
-                <Button fullWidth variant="secondary">Agendar Asesoría</Button>
+                <Button fullWidth variant="primary">Agendar Asesoría</Button>
               </Link>
             </div>
           </div>

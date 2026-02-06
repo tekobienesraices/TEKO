@@ -14,28 +14,25 @@ export const PropertyDetail: React.FC = () => {
   if (!property) return <Navigate to="/terrenos" />;
 
   return (
-    <div className="pt-20 min-h-screen bg-white">
+    <div className="pt-0 min-h-screen bg-white">
       {/* Nav Back */}
-      <div className="max-w-7xl mx-auto px-4 py-4">
-        <Link to="/terrenos" className="inline-flex items-center text-slate-500 hover:text-teko-navy transition-colors">
-          <ArrowLeft size={16} className="mr-2" /> Volver al catálogo
-        </Link>
-      </div>
-
-      {/* Gallery / Hero */}
-      <div className="h-[50vh] md:h-[60vh] relative w-full overflow-hidden">
-        <img src={property.image} alt={property.title} className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-black/20"></div>
-        <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-teko-navy/90 to-transparent pt-32 pb-10 px-4">
-          <div className="max-w-7xl mx-auto">
-            <h1 className="text-4xl md:text-5xl font-serif font-bold text-white mb-2">{property.title}</h1>
-            <div className="flex items-center text-white/90 gap-2 text-lg">
-              <MapPin size={20} /> {property.location}
-            </div>
+      {/* Hero Section */}
+      <section className="relative h-[60vh] min-h-[400px] overflow-hidden">
+        <img
+          src={property.image}
+          alt={property.title}
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-teko-navy/80 to-transparent" />
+        <div className="absolute bottom-10 left-0 w-full">
+          <div className="max-w-7xl mx-auto px-4">
+            <Link to="/terrenos" className="inline-flex items-center text-white/80 hover:text-white mb-6 bg-white/10 backdrop-blur-md px-4 py-2 rounded-full transition-all text-sm font-medium">
+              <ArrowLeft size={16} className="mr-2" /> Volver al catálogo
+            </Link>
+            <h1 className="text-4xl md:text-6xl font-serif font-bold text-white tracking-tight">{property.title}</h1>
           </div>
         </div>
-      </div>
-
+      </section>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
 
@@ -66,6 +63,14 @@ export const PropertyDetail: React.FC = () => {
             {/* Description */}
             <div>
               <h3 className="text-2xl font-serif font-bold text-teko-navy mb-4">Sobre esta propiedad</h3>
+              <div className="flex flex-wrap items-center gap-4 mb-6">
+                <span className="px-4 py-1.5 bg-teko-navy text-white rounded-full text-xs font-bold uppercase tracking-widest shadow-lg">
+                  {property.status === 'reserved' ? 'Reservado' : 'Disponible'}
+                </span>
+                <span className="flex items-center gap-1.5 text-slate-500 font-semibold">
+                  <MapPin size={18} className="text-teko-gold" /> {property.location}
+                </span>
+              </div>
               <p className="text-slate-600 leading-relaxed text-lg">
                 {property.description} Ubicado en una de las zonas con mayor proyección de crecimiento, este lote ofrece el equilibrio perfecto entre naturaleza y conectividad. Ideal para quienes buscan construir no solo una casa, sino un legado familiar.
               </p>

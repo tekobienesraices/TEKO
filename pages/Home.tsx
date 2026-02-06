@@ -189,7 +189,7 @@ export const Home: React.FC = () => {
             <div>
               <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6">Más que un terreno,<br />un proyecto de vida.</h2>
               <p className="text-slate-300 text-lg mb-8 leading-relaxed">
-                En TEKO combinamos la solidez de la tierra con la flexibilidad financiera que necesitás. No somos intermediarios, somos desarrolladores comprometidos con el crecimiento de tu patrimonio.
+                En TEKO elevamos el estándar inmobiliario en Paraguay. Combinamos la solidez de la tierra con una estructura financiera diseñada para el inversor moderno. No somos solo desarrolladores; somos tus aliados en la creación de patrimonio real.
               </p>
 
               <ul className="space-y-6">
@@ -197,7 +197,7 @@ export const Home: React.FC = () => {
                   "Financiación propia en cuotas fijas.",
                   "Escritura inmediata en todos nuestros desarrollos.",
                   "Equipo de arquitectos para tu proyecto ejecutivo.",
-                  "Seguimiento de obra en tiempo real via App."
+                  "Seguridad jurídica y acompañamiento profesional."
                 ].map((item, i) => (
                   <li key={i} className="flex items-center gap-4">
                     <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-green-400">

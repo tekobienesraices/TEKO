@@ -367,6 +367,11 @@ Me interesa recibir más información sobre este plan.`;
                   </div>
                 </div>
 
+                {/* Security Badge */}
+                <div className="flex items-center justify-center gap-2 mb-6 text-teko-gold/80 text-xs font-bold uppercase tracking-widest border border-teko-gold/30 py-2 rounded-lg bg-teko-gold/5">
+                  <Check size={14} /> Título Propio e Inmediato
+                </div>
+
                 {/* Actions */}
                 <div className="space-y-3">
                   <a
