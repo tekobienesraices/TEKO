@@ -73,7 +73,7 @@ export const Home: React.FC = () => {
               </Button>
             </Link>
             <Link to="/guia">
-              <Button variant="outline" size="lg" className="w-full sm:w-auto backdrop-blur-md border-white/30 hover:bg-white/10">
+              <Button variant="outline" size="lg" className="w-full sm:w-auto bg-white/10 backdrop-blur-md border-white/40 text-white hover:bg-white hover:text-teko-navy font-semibold">
                 <Download className="mr-2 h-5 w-5" />
                 Bajá tu guía gratuita
               </Button>
@@ -88,7 +88,7 @@ export const Home: React.FC = () => {
           {[
             { icon: Map, title: "Lotes Listos para Transferir", desc: "Seguridad jurídica total. Tu terreno en Cordillera y Central con título inmediato.", link: "/terrenos" },
             { icon: HomeIcon, title: "Financiación Propia", desc: "Sin bancos, sin burocracia. Aprobación en 24hs con mínimos requisitos.", link: "/calculadora" },
-            { icon: TrendingUp, title: "Inversión Inteligente", desc: "Hacé crecer tu capital en guaraníes con tierra, el activo más seguro.", link: "/inversion" }
+            { icon: TrendingUp, title: "Inversión Inteligente", desc: "Hacé crecer tu capital en guaraníes con tierra, el activo más seguro.", link: "/blog" }
           ].map((item, idx) => (
             <motion.div
               key={idx}
@@ -265,19 +265,15 @@ export const Home: React.FC = () => {
             {[
               {
                 q: "¿Cuáles son los requisitos para comprar?",
-                a: "En TEKO simplificamos el proceso. Solo necesitás tu Cédula de Identidad vigente y abonar la primera cuota. No requerimos garantes ni trámites bancarios burocráticos."
+                a: "Simplificamos todo. Solo necesitás tu Cédula de Identidad y un comprobante de ingreso (o última factura). En TEKO no importa si estás en Informconf."
               },
               {
-                q: "¿Ofrecen financiación propia?",
-                a: "Sí, somos desarrolladores y financiamos nuestros propios lotes. Ofrecemos planes de hasta 60 meses (5 años) con cuotas fijas en Guaraníes, sin sorpresas."
+                q: "¿Ofrecen financiación?",
+                a: "Podés financiar tu terreno hasta en 72 meses. Además, si elegís cancelar tu lote en 12 meses, el plan es totalmente sin intereses."
               },
               {
                 q: "¿Dónde están ubicados los terrenos?",
-                a: "Seleccionamos estratégicamente zonas de alto crecimiento y plusvalía en Paraguay: San Bernardino (zona alta), Areguá (barrios cerrados), Caacupé y Luque."
-              },
-              {
-                q: "¿Puedo construir inmediatamente?",
-                a: "Depende del plan elegido. En la mayoría de nuestros desarrollos, podés empezar a construir al abonar el 25% del valor total o al cancelar el terreno, según el contrato específico."
+                a: "Actualmente disponemos de ubicaciones estratégicas y de alta plusvalía exclusivamente en la ciudad de Capiatá."
               },
               {
                 q: "¿Tienen oficina física?",
@@ -338,7 +334,7 @@ export const Home: React.FC = () => {
             {/* Image & Mobile Button */}
             <div className="flex flex-col items-center order-2 lg:order-2">
               <img
-                src="/ebook-cover.png"
+                src="/ebook-cover-white.png"
                 alt="Guía TEKO"
                 className="max-w-[250px] drop-shadow-2xl mb-8 lg:mb-0"
               />

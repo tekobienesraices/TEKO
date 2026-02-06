@@ -25,7 +25,7 @@ export const Navbar: React.FC = () => {
     { name: 'Terrenos', path: '/terrenos' },
     { name: 'Inversión', path: '/blog' },
     { name: 'Calculadora', path: '/calculadora' },
-    { name: 'Nosotros', path: '/nosotros' },
+    { name: 'Nosotros', path: '/' },
   ];
 
   return (
@@ -35,18 +35,10 @@ export const Navbar: React.FC = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-3 group">
             <img
-              src="/logo-symbol.png"
+              src="/logo-header-full.png"
               alt="TEKO"
-              className={`h-14 w-auto object-contain transition-all duration-300 ${!scrolled && isHome ? 'brightness-0 invert' : ''}`}
+              className={`h-16 w-auto object-contain transition-all duration-300 ${!scrolled && isHome ? 'brightness-0 invert' : ''}`}
             />
-            <div className="flex flex-col">
-              <span className={`text-2xl font-serif font-bold tracking-tight leading-none ${!scrolled && isHome ? 'text-white' : 'text-teko-navy'}`}>
-                TEKO
-              </span>
-              <span className={`text-0.6rem uppercase tracking-widest font-medium ${!scrolled && isHome ? 'text-white/80' : 'text-teko-navy/70'}`}>
-                Bienes Raíces
-              </span>
-            </div>
           </Link>
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
@@ -86,6 +78,7 @@ export const Navbar: React.FC = () => {
               <Link
                 key={link.name}
                 to={link.path}
+                onClick={() => setIsOpen(false)}
                 className="block px-3 py-3 text-base font-medium text-white hover:bg-white/10 rounded-md"
               >
                 {link.name}

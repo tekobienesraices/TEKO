@@ -160,7 +160,7 @@ export const PropertyDetail: React.FC = () => {
                 <span className="block text-xs text-teko-navy font-bold uppercase tracking-wide mb-1">Financiación TEKO</span>
                 <div className="flex justify-between items-baseline">
                   <span className="text-sm text-slate-600">Cuota desde</span>
-                  <span className="text-2xl font-bold text-teko-navy">${property.monthlyPayment}</span>
+                  <span className="text-2xl font-bold text-teko-navy">Gs. {property.monthlyPayment.toLocaleString()}</span>
                 </div>
               </div>
 

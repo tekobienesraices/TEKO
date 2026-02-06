@@ -29,7 +29,7 @@ export const ZonePage: React.FC = () => {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="relative h-[70vh] min-h-[500px] flex items-center justify-center overflow-hidden">
+            <section className="relative min-h-[85vh] h-auto py-32 lg:py-48 flex items-center justify-center overflow-hidden">
                 <div className="absolute inset-0">
                     <img
                         src={zone.heroImage}
@@ -39,11 +39,12 @@ export const ZonePage: React.FC = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-teko-navy via-teko-navy/60 to-transparent" />
                 </div>
 
-                <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto">
+                <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto w-full">
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.6 }}
+                        className="flex flex-col items-center"
                     >
                         <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm mb-6">
                             <MapPin size={16} />
@@ -71,7 +72,7 @@ export const ZonePage: React.FC = () => {
                                 </Button>
                             </Link>
                             <a href={zone.mapUrl} target="_blank" rel="noopener noreferrer">
-                                <Button variant="outline" size="lg" className="border-white text-white hover:bg-white hover:text-teko-navy">
+                                <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-white hover:text-teko-navy">
                                     Ver ubicación
                                     <ExternalLink size={16} className="ml-2" />
                                 </Button>
@@ -155,12 +156,12 @@ export const ZonePage: React.FC = () => {
                                                 <span className="text-slate-400 line-through text-sm">
                                                     Gs. {prop.originalPrice.toLocaleString()}
                                                 </span>
-                                                <span className="bg-red-100 text-red-600 text-[10px] font-bold px-2 py-0.5 rounded-full uppercase tracking-tighter">
-                                                    - Gs. {(prop.originalPrice - prop.price).toLocaleString()}
+                                                <span className="bg-red-500 text-white text-[12px] font-bold px-2 py-1 rounded shadow-sm transform -rotate-2 uppercase tracking-wide">
+                                                    AHORRÁS Gs. {(prop.originalPrice - prop.price).toLocaleString()}
                                                 </span>
                                             </div>
                                         )}
-                                        <span className="text-2xl font-bold text-teko-navy">Gs. {prop.price.toLocaleString()}</span>
+                                        <span className="text-3xl font-extrabold text-teko-navy tracking-tight">Gs. {prop.price.toLocaleString()}</span>
                                     </div>
 
                                     <div className="bg-slate-50 rounded-lg p-3 mb-4">

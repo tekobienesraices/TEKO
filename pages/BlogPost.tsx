@@ -1,4 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, User, Clock, Share2, Facebook, Twitter } from 'lucide-react';
@@ -18,8 +19,42 @@ export const BlogPost: React.FC = () => {
         );
     }
 
+    // Schema.org Structured Data
+    const schemaData = {
+        "@context": "https://schema.org",
+        "@type": "BlogPosting",
+        "headline": post.title,
+        "image": post.image,
+        "author": {
+            "@type": "Organization",
+            "name": post.author
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "TEKO Bienes Raíces",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://teko.com.py/logo-symbol.png"
+            }
+        },
+        "datePublished": "2026-02-15", // Idealmente esto vendría de la data real
+        "description": post.excerpt,
+        "articleBody": post.content.replace(/<[^>]*>?/gm, "") // Strip HTML for schema
+    };
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [id]);
+
     return (
         <div className="pt-24 pb-20 bg-white">
+            <Helmet>
+                <title>{post.title} | Blog TEKO</title>
+                <meta name="description" content={post.excerpt} />
+                <script type="application/ld+json">
+                    {JSON.stringify(schemaData)}
+                </script>
+            </Helmet>
             {/* Hero Header */}
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
                 <Link to="/blog" className="inline-flex items-center gap-2 text-slate-500 hover:text-teko-navy transition-colors mb-8 group">
@@ -76,19 +111,12 @@ export const BlogPost: React.FC = () => {
                     <p className="text-xl text-slate-600 leading-relaxed font-medium mb-10">
                         {post.excerpt}
                     </p>
-                    <div className="text-slate-700 leading-relaxed space-y-6">
-                        <p>{post.content}</p>
-                        {/* Add more placeholder content to make it look like a real article */}
-                        <h2 className="text-2xl font-serif font-bold text-teko-navy mt-12 mb-4">¿Por qué este es el momento ideal?</h2>
-                        <p>
-                            Históricamente, la tierra ha sido el activo más seguro en Paraguay. Con la expansión de la infraestructura vial y la creciente demanda de viviendas financiadas, los loteamientos que hoy parecen lejanos serán los centros urbanos del mañana.
-                        </p>
-                        <blockquote className="border-l-4 border-teko-gold pl-6 py-4 italic text-teko-navy font-serif text-xl bg-slate-50 rounded-r-xl">
-                            "La mejor inversión en la tierra es, simplemente, la tierra misma."
-                        </blockquote>
-                        <p>
-                            Invertir en cuotas permite que el terreno se pague solo a través de la capitalización por plusvalía. En TEKO, acompañamos este proceso con asesoría integral para que cada guaraní invertido cuente.
-                        </p>
+                    <div className="text-slate-700 leading-relaxed space-y-6 blog-content">
+                        {/* Render HTML content safely since it comes from our internal data file */}
+                        <div
+                            dangerouslySetInnerHTML={{ __html: post.content }}
+                            className="prose prose-slate prose-lg max-w-none prose-headings:font-serif prose-headings:font-bold prose-headings:text-teko-navy prose-a:text-teko-gold prose-strong:text-teko-navy"
+                        />
                     </div>
 
                     <div className="mt-16 pt-8 border-t border-slate-100 flex items-center justify-between">

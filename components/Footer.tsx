@@ -11,9 +11,9 @@ export const Footer: React.FC = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-3">
               <img
-                src="/logo-horizontal.png"
+                src="/logo-vertical-footer.png"
                 alt="TEKO"
-                className="h-12 w-auto object-contain brightness-0 invert"
+                className="h-40 w-auto object-contain brightness-0 invert"
               />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
@@ -36,6 +36,7 @@ export const Footer: React.FC = () => {
               <li><Link to="/construccion" className="hover:text-white transition-colors">Constructora TEKO</Link></li>
               <li><Link to="/calculadora" className="hover:text-white transition-colors">Simulador de Cuotas</Link></li>
               <li><Link to="/inversion" className="hover:text-white transition-colors">Inversores</Link></li>
+              <li><Link to="/blog" className="hover:text-white transition-colors">Guía del Inversor</Link></li>
             </ul>
           </div>
 

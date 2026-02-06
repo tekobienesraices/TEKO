@@ -21,7 +21,7 @@ const timelineData = [
     },
     {
         year: '2020',
-        image: '/growth/2020.jpg',
+        image: '/growth/2020-v2.jpg',
         title: 'Consolidación: El Efecto Multiplicador',
         desc: 'Densificación urbana masiva. La construcción de viviendas proyecta un entorno residencial de primer nivel, validando la tesis de inversión original.',
         insight: 'La escasez de tierra en zonas ya urbanizadas empuja los precios hacia arriba de forma orgánica.'

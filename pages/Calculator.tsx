@@ -37,7 +37,6 @@ export const Calculator: React.FC = () => {
   const [reinforcementPct, setReinforcementPct] = useState(FINANCING_CONFIG.minReinforcementPercent);
   const [reinforcementPayments, setReinforcementPayments] = useState(FINANCING_CONFIG.defaultReinforcementPayments);
   const [months, setMonths] = useState(60); // Default 60 meses (más accesible)
-  const [showSchedule, setShowSchedule] = useState(false);
 
   // Check if interest applies
   const hasInterest = months > INTEREST_CONFIG.zeroInterestMonths;
@@ -137,20 +136,13 @@ export const Calculator: React.FC = () => {
 
   // Generate WhatsApp message
   const generateWhatsAppMessage = () => {
-    const interestText = hasInterest
-      ? `📊 *Interés (${(INTEREST_CONFIG.annualRate * 100).toFixed(1)}% anual × ${calculations.años} años):* Gs. ${calculations.interesTotal.toLocaleString()}`
-      : `✅ *Sin interés* (12 cuotas)`;
-
     const msg = `*TEKO - Mi Plan de Financiación*
     
 📍 *Precio del terreno:* Gs. ${price.toLocaleString()}
 💰 *Entrega (${downPaymentPct}%):* Gs. ${calculations.entrega.toLocaleString()}
 ${useReinforcement ? `📈 *Refuerzo (${reinforcementPct}%):* Gs. ${calculations.refuerzoTotal.toLocaleString()} en ${reinforcementPayments} pago(s)` : ''}
-📊 *Capital financiado:* Gs. ${calculations.capitalFinanciado.toLocaleString()}
-${interestText}
 🗓️ *Plazo:* ${months} meses
 💵 *Cuota mensual:* Gs. ${calculations.cuotaMensual.toLocaleString()}
-💰 *Total a pagar:* Gs. ${calculations.totalPagar.toLocaleString()}
 
 Me interesa recibir más información sobre este plan.`;
 
@@ -295,7 +287,7 @@ Me interesa recibir más información sobre este plan.`;
                   </label>
                   {!hasInterest && (
                     <span className="text-xs bg-green-100 text-green-700 px-2 py-1 rounded-full font-medium flex items-center gap-1">
-                      <Check size={12} /> Sin interés
+                      <Check size={12} /> Promoción sin intereses
                     </span>
                   )}
                 </div>
@@ -313,12 +305,7 @@ Me interesa recibir más información sobre este plan.`;
                   <span>{FINANCING_CONFIG.maxTermMonths} meses</span>
                 </div>
 
-                {/* Interest info - subtle, not scary */}
-                {hasInterest && (
-                  <p className="text-xs text-slate-500 mt-3">
-                    Incluye interés simple del {(INTEREST_CONFIG.annualRate * 100).toFixed(1)}% anual.
-                  </p>
-                )}
+                {/* Interest info hidden for sales optimization */}
               </div>
             </div>
 
@@ -364,23 +351,8 @@ Me interesa recibir más información sobre este plan.`;
                     <span className="font-medium">{formatCurrency(calculations.capitalFinanciado)}</span>
                   </div>
 
-                  {/* Interest row - only show if there IS interest */}
-                  {hasInterest && (
-                    <div className="flex justify-between text-sm">
-                      <span className="text-amber-400">+ Interés simple ({(calculations.tasaAplicada * 100).toFixed(1)}%)</span>
-                      <span className="font-medium text-amber-400">+ {formatCurrency(calculations.interesTotal)}</span>
-                    </div>
-                  )}
-
-                  <div className="flex justify-between text-sm border-t border-white/10 pt-2">
-                    <span className="text-slate-400">Total en cuotas</span>
-                    <span className="font-medium">{formatCurrency(calculations.totalFinanciado)}</span>
-                  </div>
-
-                  <div className="flex justify-between text-sm border-t border-white/10 pt-3">
-                    <span className="text-white font-medium">TOTAL A PAGAR</span>
-                    <span className="font-bold text-lg text-teko-gold">{formatCurrency(calculations.totalPagar)}</span>
-                  </div>
+                  {/* Interest row - only show if there IS interest (Hidden for sales optimization) */}
+                  {/* Total to Pay removed for sales optimization */}
                 </div>
 
                 {/* Tip - Always positive */}
@@ -388,11 +360,9 @@ Me interesa recibir más información sobre este plan.`;
                   <div className="flex items-start gap-3">
                     <Sparkles className="text-teko-gold flex-shrink-0 mt-0.5" size={20} />
                     <p className="text-sm text-slate-300">
-                      {hasInterest ? (
-                        <><strong className="text-white">Cuota fija.</strong> Sabés exactamente cuánto pagás cada mes durante todo el plazo.</>
-                      ) : (
-                        <><strong className="text-green-400">¡Sin intereses!</strong> Pagás lo mismo que de contado dividido en 12 cuotas.</>
-                      )}
+                      <p className="text-sm text-slate-300">
+                        <strong className="text-white">Cuota fija en Guaraníes.</strong> Tu inversión está segura y tu pago mensual no cambia.
+                      </p>
                     </p>
                   </div>
                 </div>
@@ -407,81 +377,26 @@ Me interesa recibir más información sobre este plan.`;
                   >
                     <Button variant="gold" fullWidth size="lg">
                       <Send size={18} className="mr-2" />
-                      Enviar plan por WhatsApp
+                      Lo quiero: Enviar plan por WhatsApp
                     </Button>
                   </a>
-
-                  <button
-                    onClick={() => setShowSchedule(!showSchedule)}
-                    className="w-full flex items-center justify-center gap-2 text-slate-400 hover:text-white text-sm py-2 transition-colors"
-                  >
-                    Ver cronograma completo
-                    {showSchedule ? <ChevronUp size={16} /> : <ChevronDown size={16} />}
-                  </button>
                 </div>
               </div>
             </div>
           </div>
-
-          {/* Payment Schedule */}
-          <AnimatePresence>
-            {showSchedule && (
-              <motion.div
-                initial={{ height: 0, opacity: 0 }}
-                animate={{ height: 'auto', opacity: 1 }}
-                exit={{ height: 0, opacity: 0 }}
-                className="border-t border-slate-100 overflow-hidden"
-              >
-                <div className="p-6 max-h-96 overflow-y-auto">
-                  <h3 className="font-bold text-teko-navy mb-4">Cronograma de Pagos</h3>
-                  <div className="bg-slate-50 rounded-lg p-4">
-                    <div className="grid grid-cols-4 gap-4 text-xs font-medium text-slate-500 mb-2 pb-2 border-b border-slate-200">
-                      <span>Mes</span>
-                      <span>Concepto</span>
-                      <span className="text-right">Monto</span>
-                      <span className="text-right">Acumulado</span>
-                    </div>
-                    <div className="divide-y divide-slate-100">
-                      <div className="grid grid-cols-4 gap-4 py-2 text-sm">
-                        <span className="font-medium">0</span>
-                        <span className="text-teko-gold font-medium">Entrega</span>
-                        <span className="text-right">{formatCurrency(calculations.entrega)}</span>
-                        <span className="text-right font-medium">{formatCurrency(calculations.entrega)}</span>
-                      </div>
-                      {schedule.slice(0, 24).map((item, idx) => (
-                        <div key={idx} className={`grid grid-cols-4 gap-4 py-2 text-sm ${item.type === 'refuerzo' ? 'bg-teko-gold/5' : ''}`}>
-                          <span className="font-medium">{item.month}</span>
-                          <span className={item.type === 'refuerzo' ? 'text-teko-gold font-medium' : 'text-slate-600'}>
-                            {item.type === 'refuerzo' ? 'Refuerzo' : 'Cuota'}
-                          </span>
-                          <span className="text-right">{formatCurrency(item.amount)}</span>
-                          <span className="text-right font-medium">{formatCurrency(item.accumulated)}</span>
-                        </div>
-                      ))}
-                      {schedule.length > 24 && (
-                        <div className="py-3 text-center text-slate-400 text-sm">
-                          ... y {schedule.length - 24} pagos más hasta completar {months} meses
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                </div>
-              </motion.div>
-            )}
-          </AnimatePresence>
         </div>
+      </div>
 
-        {/* Disclaimer */}
-        <p className="text-center text-xs text-slate-400 mt-6 max-w-xl mx-auto">
-          Calculadora informativa. 12 cuotas sin interés. A partir de 13 cuotas se aplica interés simple del 15.6% anual sobre el capital financiado. Consulte condiciones vigentes.
-        </p>
+      {/* Disclaimer - Simplified and Trust focused */}
+      <p className="text-center text-xs text-slate-400 mt-6 max-w-xl mx-auto opacity-60">
+        *Calculadora de uso estimativo. Los planes pueden ajustarse a tu medida. Consultá con un asesor para congelar el precio de tu lote hoy mismo.
+      </p>
 
-        {/* Back to zones */}
-        <div className="text-center mt-8">
-          <Link to="/terrenos" className="text-teko-navy hover:text-teko-gold font-medium text-sm inline-flex items-center gap-2">
-            ← Ver todos los lotes disponibles
-          </Link>
-        </div>
+      {/* Back to zones */}
+      <div className="text-center mt-8">
+        <Link to="/terrenos" className="text-teko-navy hover:text-teko-gold font-medium text-sm inline-flex items-center gap-2">
+          ← Ver todos los lotes disponibles
+        </Link>
       </div>
     </div>
   );
