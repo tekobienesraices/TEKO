@@ -35,37 +35,19 @@ export const Loader: React.FC = () => {
                     className="fixed inset-0 z-[9999] flex flex-col items-center justify-center bg-[#0a1628] overflow-hidden"
                 >
                     <div className="relative flex flex-col items-center">
-                        {/* TEKO Text - Elegant Reveal */}
+                        {/* Logo Image - Elegant Reveal */}
                         <motion.div
                             className="relative overflow-hidden"
+                            initial={{ opacity: 0, scale: 0.9, filter: "blur(10px)" }}
+                            animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
+                            transition={{ duration: 1.5, ease: "easeOut" }}
                         >
-                            <motion.h1
-                                className="text-7xl md:text-8xl font-serif font-light text-white tracking-widest relative z-10"
-                                initial={{ opacity: 0, y: 20, filter: "blur(10px)" }}
-                                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                                transition={{ duration: 1.2, ease: "easeOut" }}
-                            >
-                                TEKO
-                            </motion.h1>
+                            <img
+                                src="/logo-loader.png"
+                                alt="TEKO Bienes Raíces"
+                                className="w-48 md:w-64 h-auto object-contain"
+                            />
                         </motion.div>
-
-                        {/* Gold Divider Line - Expands smoothly */}
-                        <motion.div
-                            className="h-[1px] bg-[#D4AF37] mt-8"
-                            initial={{ width: 0, opacity: 0 }}
-                            animate={{ width: "100px", opacity: 1 }}
-                            transition={{ delay: 0.8, duration: 1.2, ease: "easeInOut" }}
-                        />
-
-                        {/* Subtitle - Fades in */}
-                        <motion.p
-                            className="text-[#D4AF37] text-xs md:text-sm tracking-[0.4em] uppercase mt-6 font-medium font-sans"
-                            initial={{ opacity: 0 }}
-                            animate={{ opacity: 0.8 }}
-                            transition={{ delay: 1.5, duration: 1.0 }}
-                        >
-                            Bienes Raíces
-                        </motion.p>
                     </div>
                 </motion.div>
             )}
