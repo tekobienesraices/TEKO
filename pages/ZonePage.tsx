@@ -29,56 +29,65 @@ export const ZonePage: React.FC = () => {
     return (
         <div className="min-h-screen bg-white">
             {/* Hero Section */}
-            <section className="relative min-h-screen h-auto pt-32 pb-20 md:pt-48 md:pb-32 flex flex-col items-center">
-                <div className="absolute inset-0">
+            <section className="relative min-h-[90vh] flex items-center justify-center pt-24 pb-16 lg:pt-32 lg:pb-24">
+                {/* Background with optimized contrast */}
+                <div className="absolute inset-0 z-0">
                     <img
                         src={zone.heroImage}
                         alt={zone.name}
                         className="w-full h-full object-cover"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-teko-navy via-teko-navy/60 to-transparent" />
+                    <div className="absolute inset-0 bg-teko-navy/60 backdrop-brightness-[0.8] lg:bg-gradient-to-r lg:from-teko-navy/90 lg:via-teko-navy/60 lg:to-transparent" />
                 </div>
 
-                <div className="relative z-10 text-center text-white px-4 max-w-4xl mx-auto w-full flex flex-col items-center">
-                    <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}
-                        className="flex flex-col items-center w-full"
-                    >
-                        <span className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full text-sm mb-6">
-                            <MapPin size={16} />
-                            {zone.name}
-                        </span>
-                        <h1 className="text-4xl md:text-5xl lg:text-7xl font-serif font-bold mb-6 leading-tight">
-                            {zone.name}: <span className="text-teko-gold">Eje Residencial más Dinámico</span>
-                        </h1>
-                        <p className="text-base md:text-lg lg:text-xl text-slate-200 mb-8 max-w-2xl mx-auto leading-relaxed px-2">
-                            {zone.description}
-                        </p>
+                <div className="relative z-10 w-full max-w-7xl mx-auto px-6 h-full flex flex-col justify-center">
+                    <div className="max-w-3xl">
+                        <motion.div
+                            initial={{ opacity: 0, x: -30 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.8 }}
+                        >
+                            <span className="inline-flex items-center gap-2 px-4 py-2 bg-teko-gold text-white rounded-full text-xs font-bold uppercase tracking-widest mb-6 shadow-lg">
+                                <MapPin size={14} /> {zone.name}
+                            </span>
+                            <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-black text-white mb-6 leading-[1.1] drop-shadow-md">
+                                Invertí en la zona de <br />
+                                <span className="text-teko-gold">Mayor Crecimiento</span>
+                            </h1>
+                            <p className="text-lg md:text-xl text-slate-100 mb-10 leading-relaxed max-w-2xl drop-shadow-sm font-medium">
+                                {zone.description || 'Asegurá tu pedazo de tierra hoy con cuotas fijas en Guaraníes. Sin bancos, con título inmediato y seguridad jurídica total.'}
+                            </p>
 
-                        {/* Price highlight */}
-                        <div className="bg-teko-gold text-white px-6 py-6 md:px-10 md:py-8 rounded-2xl md:rounded-3xl shadow-2xl mb-10 w-full max-w-md transform hover:scale-105 transition-transform">
-                            <span className="block text-xs md:text-sm uppercase tracking-widest mb-2 opacity-90 font-bold">Lotes Desde</span>
-                            <div className="text-3xl md:text-5xl font-black mb-2">Gs. {minPrice.toLocaleString()}</div>
-                            <p className="text-xs md:text-sm opacity-90 font-medium">Financiación propia a sola firma</p>
-                        </div>
+                            {/* Price Badge - Compact & Integrated */}
+                            <div className="flex flex-wrap items-center gap-6 mb-12">
+                                <div className="bg-white/10 backdrop-blur-xl border border-white/20 p-6 rounded-2xl shadow-2xl inline-block">
+                                    <span className="block text-[10px] uppercase tracking-widest text-teko-gold font-black mb-1">Lotes Desde</span>
+                                    <div className="text-3xl md:text-4xl font-black text-white tracking-tight">
+                                        Gs. {minPrice.toLocaleString()}
+                                    </div>
+                                    <div className="text-xs text-slate-300 mt-1 font-semibold">
+                                        Financiación a sola firma
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link to={`/calculadora?price=${minPrice}`}>
-                                <Button variant="gold" size="lg">
-                                    Calcular mi cuota
-                                    <ArrowRight size={18} className="ml-2" />
-                                </Button>
-                            </Link>
-                            <a href={zone.mapUrl} target="_blank" rel="noopener noreferrer">
-                                <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-md border-white/20 text-white hover:bg-white hover:text-teko-navy">
-                                    Ver ubicación
-                                    <ExternalLink size={16} className="ml-2" />
-                                </Button>
-                            </a>
-                        </div>
-                    </motion.div>
+                            {/* Actions Group */}
+                            <div className="flex flex-col xs:flex-row items-center gap-4">
+                                <Link to={`/calculadora?price=${minPrice}`} className="w-full xs:w-auto">
+                                    <Button variant="gold" size="lg" className="w-full text-lg font-black px-10 py-5 rounded-xl shadow-[0_10px_30px_rgba(202,160,77,0.4)]">
+                                        Ver Precios y Cuotas
+                                        <ArrowRight size={20} className="ml-3" />
+                                    </Button>
+                                </Link>
+                                <a href={zone.mapUrl} target="_blank" rel="noopener noreferrer" className="w-full xs:w-auto">
+                                    <Button variant="outline" size="lg" className="w-full bg-white/5 backdrop-blur-sm border-white/30 text-white hover:bg-white hover:text-teko-navy font-bold py-5 rounded-xl">
+                                        Explorar Mapa
+                                        <ExternalLink size={18} className="ml-3" />
+                                    </Button>
+                                </a>
+                            </div>
+                        </motion.div>
+                    </div>
                 </div>
             </section>
 
