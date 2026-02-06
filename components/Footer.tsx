@@ -13,7 +13,7 @@ export const Footer: React.FC = () => {
               <img
                 src="/logo-vertical.png"
                 alt="TEKO"
-                className="h-40 w-auto object-contain"
+                className="h-40 w-auto object-contain brightness-0 invert"
               />
             </div>
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">

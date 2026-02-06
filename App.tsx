@@ -15,6 +15,8 @@ import { ZonePage } from './pages/ZonePage';
 import { EbookPage } from './pages/EbookPage';
 import { Blog } from './pages/Blog';
 import { BlogPost } from './pages/BlogPost';
+import { Contact } from './pages/Contact';
+import { About } from './pages/About';
 import { MessageCircle } from 'lucide-react';
 
 const ScrollToTop = () => {
@@ -63,9 +65,9 @@ function App() {
               <Route path="/blog" element={<Blog />} />
               <Route path="/blog/:id" element={<BlogPost />} />
               {/* Fallback routes for demo pages not fully implemented but required by nav */}
-              <Route path="/nosotros" element={<Home />} />
-              <Route path="/inversion" element={<Home />} />
-              <Route path="/contacto" element={<Home />} />
+              <Route path="/nosotros" element={<About />} />
+              <Route path="/inversion" element={<Blog />} />
+              <Route path="/contacto" element={<Contact />} />
             </Routes>
           </main>
           <Footer />
