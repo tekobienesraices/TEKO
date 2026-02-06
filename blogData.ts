@@ -183,7 +183,7 @@ export const blogPosts: BlogPost[] = [
     date: '15 de Febrero, 2026',
     author: 'Equipo TEKO',
     category: 'Inversión',
-    image: '/properties/costa-salinas-drone-1.jpg',
+    image: '/images/blog/revista-mandua-chart.webp',
     readTime: '12 min'
   },
   {
@@ -292,7 +292,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Asesoría TEKO',
     category: 'Educación Financiera',
-    image: '/properties/costa-salinas-drone-2.jpg',
+    image: '/images/blog/family-house.jpg',
     readTime: '15 min'
   },
   {
@@ -438,7 +438,7 @@ export const blogPosts: BlogPost[] = [
     date: '05 de Febrero, 2026',
     author: 'Dto. Legal TEKO',
     category: 'Seguridad Legal',
-    image: '/images/capiata/capiata-progreso-2.jpg',
+    image: '/images/blog/legal-docs.jpg',
     readTime: '18 min'
   },
   {
@@ -589,7 +589,7 @@ export const blogPosts: BlogPost[] = [
     date: '01 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: '/images/capiata/capiata-progreso-3.jpg',
+    image: '/images/blog/capitata-aerial.jpg',
     readTime: '16 min'
   }
 ];
