@@ -43,6 +43,7 @@ export const blogPosts: BlogPost[] = [
       <h2>Espacios Públicos y Servicios</h2>
       <p>No todo es asfalto. La ciudad también renueva su rostro cívico y social:</p>
       <h3>Tekojoja Roga (Palacio de Justicia)</h3>
+      <img src="/images/blog/tekojoja-roga.jpg" alt="Palacio de Justicia Capiatá - Tekojoja Roga" class="w-full h-auto rounded-lg my-4 shadow-sm" />
       <p>La descentralización de servicios judiciales trae consigo un flujo constante de profesionales y comercios gastronómicos y de servicios a la zona, dinamizando la economía local.</p>
 
       <h3>Renovación Urbana</h3>
