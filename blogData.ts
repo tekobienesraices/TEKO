@@ -3,23 +3,23 @@
 // ==========================================
 
 export interface BlogPost {
-    id: string;
-    title: string;
-    excerpt: string;
-    content: string;
-    date: string;
-    author: string;
-    category: string;
-    image: string;
-    readTime: string;
+  id: string;
+  title: string;
+  excerpt: string;
+  content: string;
+  date: string;
+  author: string;
+  category: string;
+  image: string;
+  readTime: string;
 }
 
 export const blogPosts: BlogPost[] = [
-    {
-        id: 'plusvalia-paraguay-2026',
-        title: 'Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)',
-        excerpt: 'Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento "La Era Dorada" para invertir en terrenos.',
-        content: `
+  {
+    id: 'plusvalia-paraguay-2026',
+    title: 'Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)',
+    excerpt: 'Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento "La Era Dorada" para invertir en terrenos.',
+    content: `
       <p class="lead">Si tenés ahorros en guaraníes durmiendo en una caja de ahorro, estás perdiendo dinero cada día. La inflación es el impuesto silencioso que nadie te avisa pero todos pagamos. Sin embargo, existe un refugio que los paraguayos conocemos desde siempre: <strong>la tierra</strong>.</p>
 
       <p>En este artículo vamos a analizar en profundidad por qué 2026 representa una ventana de oportunidad histórica para invertir en terrenos en Paraguay, especialmente en zonas como Capiatá, y cómo podés aprovechar este momento antes de que los precios suban aún más.</p>
@@ -61,6 +61,32 @@ export const blogPosts: BlogPost[] = [
       </table>
 
       <p>Este patrón se repite sistemáticamente en todos los desarrollos de la zona. La clave está en <strong>entrar temprano</strong>, cuando los precios todavía son accesibles.</p>
+
+      <h2>Precios del Mercado Inmobiliario 2026 (Datos de Revista Mandu'a)</h2>
+
+      <p>Según los últimos datos publicados por <strong>Revista Mandu'a</strong> y análisis del mercado paraguayo, estos son los precios promedio por metro cuadrado en febrero 2026:</p>
+
+      <h3>Asunción - Barrios Premium (USD/m²)</h3>
+      <table>
+        <tr><th>Barrio</th><th>Precio USD/m²</th></tr>
+        <tr><td>Villa Morra</td><td>USD 748 - 1.000</td></tr>
+        <tr><td>Manorá</td><td>USD 786</td></tr>
+        <tr><td>Las Lomas</td><td>USD 742</td></tr>
+        <tr><td>Mariscal López</td><td>USD 713</td></tr>
+        <tr><td>Recoleta</td><td>USD 663</td></tr>
+      </table>
+
+      <h3>Gran Asunción - Opciones Accesibles</h3>
+      <table>
+        <tr><th>Municipio</th><th>Precio Gs./m²</th><th>Precio USD/m²</th></tr>
+        <tr><td><strong>Capiatá (Costa Salinas)</strong></td><td><strong>Gs. 225.000</strong></td><td><strong>USD 30</strong></td></tr>
+        <tr><td>Capiatá (Yvyraró)</td><td>Gs. 319.000</td><td>USD 43</td></tr>
+        <tr><td>Luque</td><td>Gs. 400.000+</td><td>USD 54+</td></tr>
+        <tr><td>San Lorenzo</td><td>Gs. 500.000+</td><td>USD 67+</td></tr>
+        <tr><td>Lambaré</td><td>Gs. 800.000+</td><td>USD 108+</td></tr>
+      </table>
+
+      <p><strong>Conclusión:</strong> Capiatá ofrece los mejores precios por m² del Gran Asunción con proyección de valorización del 10-15% anual según expertos del sector inmobiliario. En Luque, por ejemplo, la tierra se valorizó más del 100% en la última década.</p>
 
       <h2>¿Por Qué Capiatá es el Epicentro del Crecimiento?</h2>
 
@@ -112,17 +138,17 @@ export const blogPosts: BlogPost[] = [
 
       <p>En TEKO, hacemos que comprar tu terreno sea simple, seguro y accesible. Sin bancos, sin burocracia, con título inmediato.</p>
     `,
-        date: '15 de Febrero, 2026',
-        author: 'Equipo TEKO',
-        category: 'Inversión',
-        image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200',
-        readTime: '12 min'
-    },
-    {
-        id: 'guia-compra-terreno-cuotas',
-        title: 'Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)',
-        excerpt: 'Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.',
-        content: `
+    date: '15 de Febrero, 2026',
+    author: 'Equipo TEKO',
+    category: 'Inversión',
+    image: 'https://images.unsplash.com/photo-1449844908441-8829872d2607?w=1200',
+    readTime: '12 min'
+  },
+  {
+    id: 'guia-compra-terreno-cuotas',
+    title: 'Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)',
+    excerpt: 'Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.',
+    content: `
       <p class="lead">Hay un mito profundamente arraigado en Paraguay: "Para comprar algo propio necesitás mucha plata o ir al banco". Falso. En esta guía te demostramos con números reales cómo pasar de inquilino a propietario usando exactamente el mismo dinero que hoy gastás en alquiler.</p>
 
       <h2>La Verdad Sobre el Alquiler que Nadie Te Cuenta</h2>
@@ -221,17 +247,17 @@ export const blogPosts: BlogPost[] = [
 
       <p>¿Listo para cambiar tu futuro? Contactanos hoy y empezá el camino hacia tu terreno propio.</p>
     `,
-        date: '10 de Febrero, 2026',
-        author: 'Asesoría TEKO',
-        category: 'Educación Financiera',
-        image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200',
-        readTime: '15 min'
-    },
-    {
-        id: 'seguridad-juridica-loteamientos',
-        title: 'Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)',
-        excerpt: 'El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.',
-        content: `
+    date: '10 de Febrero, 2026',
+    author: 'Asesoría TEKO',
+    category: 'Educación Financiera',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=1200',
+    readTime: '15 min'
+  },
+  {
+    id: 'seguridad-juridica-loteamientos',
+    title: 'Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)',
+    excerpt: 'El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.',
+    content: `
       <p class="lead">Cada año, cientos de familias paraguayas pierden todo lo que invirtieron en terrenos por caer en estafas o comprar sin documentación en regla. Esta guía puede ahorrarte millones de guaraníes y años de problemas legales.</p>
 
       <h2>La Realidad del Mercado Inmobiliario Informal</h2>
@@ -367,17 +393,17 @@ export const blogPosts: BlogPost[] = [
 
       <p><strong>Con TEKO, dormís tranquilo.</strong> Todos nuestros terrenos cumplen con cada punto de esta lista. Te invitamos a verificarlo personalmente.</p>
     `,
-        date: '05 de Febrero, 2026',
-        author: 'Dto. Legal TEKO',
-        category: 'Seguridad Legal',
-        image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200',
-        readTime: '18 min'
-    },
-    {
-        id: 'terrenos-cuotas-capiata-2026',
-        title: 'Terrenos en Cuotas en Capiatá 2026: Guía Completa de Zonas, Precios y Oportunidades',
-        excerpt: 'Capiatá se consolida como el destino #1 para familias paraguayas que buscan lotes accesibles. Analizamos las mejores zonas, precios actuales del metro cuadrado y proyección de valorización para 2026.',
-        content: `
+    date: '05 de Febrero, 2026',
+    author: 'Dto. Legal TEKO',
+    category: 'Seguridad Legal',
+    image: 'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=1200',
+    readTime: '18 min'
+  },
+  {
+    id: 'terrenos-cuotas-capiata-2026',
+    title: 'Terrenos en Cuotas en Capiatá 2026: Guía Completa de Zonas, Precios y Oportunidades',
+    excerpt: 'Capiatá se consolida como el destino #1 para familias paraguayas que buscan lotes accesibles. Analizamos las mejores zonas, precios actuales del metro cuadrado y proyección de valorización para 2026.',
+    content: `
       <p class="lead">Capiatá ha experimentado una transformación extraordinaria en la última década. Lo que antes era considerado "muy lejos de Asunción" hoy es una de las ciudades con mayor crecimiento demográfico y valorización inmobiliaria de todo el Departamento Central.</p>
 
       <h2>Por Qué Capiatá es la Mejor Opción para Comprar Terreno en 2026</h2>
@@ -518,15 +544,15 @@ export const blogPosts: BlogPost[] = [
 
       <p>Coordinamos visitas personalizadas todos los días. Contactanos por WhatsApp y te llevamos a conocer tu futuro terreno.</p>
     `,
-        date: '01 de Febrero, 2026',
-        author: 'Research TEKO',
-        category: 'Análisis de Mercado',
-        image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200',
-        readTime: '16 min'
-    }
+    date: '01 de Febrero, 2026',
+    author: 'Research TEKO',
+    category: 'Análisis de Mercado',
+    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200',
+    readTime: '16 min'
+  }
 ];
 
 // Helper function to get post by ID
 export const getPostById = (postId: string): BlogPost | undefined => {
-    return blogPosts.find(p => p.id === postId);
+  return blogPosts.find(p => p.id === postId);
 };
