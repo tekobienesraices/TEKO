@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, User, Clock, Share2, Facebook, Twitter } from 'lucide-react';
@@ -44,17 +44,36 @@ export const BlogPost: React.FC = () => {
 
     useEffect(() => {
         window.scrollTo(0, 0);
-    }, [id]);
+
+        // Manual SEO Update
+        if (post) {
+            document.title = `${post.title} | Blog TEKO`;
+
+            // Update Meta Description
+            let metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) {
+                metaDesc.setAttribute('content', post.excerpt);
+            }
+
+            // Inject Schema.org
+            const scriptId = 'blog-post-schema';
+            let script = document.getElementById(scriptId);
+            if (!script) {
+                script = document.createElement('script');
+                (script as HTMLScriptElement).type = 'application/ld+json';
+                script.id = scriptId;
+                document.head.appendChild(script);
+            }
+            script.textContent = JSON.stringify(schemaData);
+        }
+
+        return () => {
+            // Clean up if necessary
+        };
+    }, [id, post]);
 
     return (
         <div className="pt-24 pb-20 bg-white">
-            <Helmet>
-                <title>{post.title} | Blog TEKO</title>
-                <meta name="description" content={post.excerpt} />
-                <script type="application/ld+json">
-                    {JSON.stringify(schemaData)}
-                </script>
-            </Helmet>
             {/* Hero Header */}
             <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 mb-12">
                 <Link to="/blog" className="inline-flex items-center gap-2 text-slate-500 hover:text-teko-navy transition-colors mb-8 group">
@@ -148,6 +167,6 @@ export const BlogPost: React.FC = () => {
                     </div>
                 </div>
             </section>
-        </div>
+        </div >
     );
 };
