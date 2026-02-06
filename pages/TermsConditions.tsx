@@ -92,7 +92,7 @@ export const TermsConditions: React.FC = () => {
                         <div className="bg-slate-50 rounded-lg p-4">
                             <p className="text-slate-600">
                                 📧 <a href="mailto:tekobienesraices@gmail.com" className="text-teko-navy font-medium hover:underline">tekobienesraices@gmail.com</a><br />
-                                📱 <a href="https://wa.me/595983783349" className="text-teko-navy font-medium hover:underline">+595 983 783 349</a>
+                                📱 <a href="https://wa.me/595974202163" className="text-teko-navy font-medium hover:underline">+595 974 202 163</a>
                             </p>
                         </div>
                     </div>

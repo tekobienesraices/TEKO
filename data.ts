@@ -134,7 +134,7 @@ export const FINANCING_CONFIG = {
   maxReinforcementPercent: 50,
   maxTermMonths: 72,
   defaultReinforcementPayments: 3,
-  whatsappNumber: '595983783349'
+  whatsappNumber: '595974202163'
 };
 
 // ==========================================

@@ -16,7 +16,7 @@ export const Contact: React.FC = () => {
         // In a real app, this would send data to a backend
         // For now, we'll open WhatsApp with the message
         const text = `Hola, soy ${formState.name}. Mi correo es ${formState.email}. ${formState.message}`;
-        window.open(`https://wa.me/595983783349?text=${encodeURIComponent(text)}`, '_blank');
+        window.open(`https://wa.me/595974202163?text=${encodeURIComponent(text)}`, '_blank');
     };
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -76,7 +76,7 @@ export const Contact: React.FC = () => {
                         <h2 className="text-3xl font-serif font-bold text-teko-navy mb-8">Envianos un Mensaje</h2>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-                            <a href="https://wa.me/595983783349" target="_blank" rel="noopener noreferrer"
+                            <a href="https://wa.me/595974202163" target="_blank" rel="noopener noreferrer"
                                 className="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-all group">
                                 <div className="w-12 h-12 bg-green-100 text-green-600 rounded-full flex items-center justify-center group-hover:bg-green-600 group-hover:text-white transition-colors">
                                     <MessageCircle size={24} />

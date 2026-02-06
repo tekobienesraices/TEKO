@@ -228,7 +228,7 @@ export const ZonePage: React.FC = () => {
                             </Button>
                         </Link>
                         <a
-                            href={`https://wa.me/595983783349?text=Hola! Me interesa información sobre los lotes en ${zone.name}`}
+                            href={`https://wa.me/595974202163?text=Hola! Me interesa información sobre los lotes en ${zone.name}`}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
