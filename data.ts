@@ -10,7 +10,7 @@ export const zones: Zone[] = [
     tagline: 'Asegurá tu futuro en la zona que más crece',
     description: 'Asegurá tu terreno con cuotas fijas en Guaraníes. Invertí en tierra, protegete de la inflación y construí tu legado hoy mismo.',
     mapUrl: 'https://maps.app.goo.gl/XDMHDZXgcjQy4h3p6',
-    heroImage: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1200&h=800&fit=crop',
+    heroImage: '/properties/costa-salinas-drone-1.jpg',
     highlights: [
       'Título al instante',
       'Papeles 100% en regla',
@@ -81,7 +81,7 @@ export const constructionPlans: ConstructionPlan[] = [
     description: 'Diseño inteligente y funcional. La entrada perfecta a tu hogar propio con terminaciones de calidad.',
     pricePerSqm: 850,
     features: ['Construcción Tradicional', 'Aberturas DVH', 'Pisos Porcelanato', 'Grifería Primera Marca', 'Entrega en 8 meses'],
-    image: 'https://picsum.photos/600/400?random=10'
+    image: '/images/blog/family-house.jpg'
   },
   {
     id: 'luxury',
@@ -89,7 +89,7 @@ export const constructionPlans: ConstructionPlan[] = [
     description: 'Arquitectura de vanguardia, espacios amplios y detalles de categoría superior para un estilo de vida exigente.',
     pricePerSqm: 1200,
     features: ['Diseño Personalizado', 'Domótica Integrada', 'Losa Radiante', 'Revestimientos Importados', 'Entrega en 12 meses'],
-    image: 'https://picsum.photos/600/400?random=11'
+    image: '/properties/costa-salinas-drone-2.jpg'
   }
 ];
 

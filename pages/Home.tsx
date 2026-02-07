@@ -216,8 +216,8 @@ export const Home: React.FC = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl opacity-20 blur-xl"></div>
               <img
-                src="https://images.unsplash.com/photo-1556912173-3db996ea8c3f?q=80&w=2670&auto=format&fit=crop"
-                alt="TEKO Team"
+                src="/images/blog/family-house.jpg"
+                alt="Familia TEKO"
                 className="relative rounded-2xl shadow-2xl border border-white/10"
               />
             </div>
@@ -334,7 +334,7 @@ export const Home: React.FC = () => {
             {/* Image & Mobile Button */}
             <div className="flex flex-col items-center order-2 lg:order-2">
               <img
-                src="/ebook-cover-white.png"
+                src="/ebook-cover.png"
                 alt="Guía TEKO"
                 className="max-w-[250px] drop-shadow-2xl mb-8 lg:mb-0"
               />
