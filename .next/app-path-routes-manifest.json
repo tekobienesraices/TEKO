@@ -1,1 +1,23 @@
-{"/_not-found/page":"/_not-found","/icon.png/route":"/icon.png","/apple-icon.png/route":"/apple-icon.png","/blog/page":"/blog","/page":"/","/blog/[id]/page":"/blog/[id]","/nosotros/page":"/nosotros","/guia/page":"/guia","/contacto/page":"/contacto","/cookies/page":"/cookies","/construccion/page":"/construccion","/calculadora/page":"/calculadora","/privacidad/page":"/privacidad","/terminos/page":"/terminos","/propiedad/[id]/page":"/propiedad/[id]","/terrenos/page":"/terrenos","/venta-terrenos-capiata/page":"/venta-terrenos-capiata","/terrenos-baratos-paraguay/page":"/terrenos-baratos-paraguay","/zona/[id]/page":"/zona/[id]","/lotes-cuotas-paraguay/page":"/lotes-cuotas-paraguay"}
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/apple-icon.png/route": "/apple-icon.png",
+  "/blog/[id]/page": "/blog/[id]",
+  "/blog/page": "/blog",
+  "/calculadora/page": "/calculadora",
+  "/construccion/page": "/construccion",
+  "/contacto/page": "/contacto",
+  "/cookies/page": "/cookies",
+  "/guia/page": "/guia",
+  "/icon.png/route": "/icon.png",
+  "/lotes-cuotas-paraguay/page": "/lotes-cuotas-paraguay",
+  "/nosotros/page": "/nosotros",
+  "/page": "/",
+  "/privacidad/page": "/privacidad",
+  "/propiedad/[id]/page": "/propiedad/[id]",
+  "/terminos/page": "/terminos",
+  "/terrenos-baratos-paraguay/page": "/terrenos-baratos-paraguay",
+  "/terrenos/page": "/terrenos",
+  "/venta-terrenos-capiata/page": "/venta-terrenos-capiata",
+  "/zona/[id]/page": "/zona/[id]"
+}

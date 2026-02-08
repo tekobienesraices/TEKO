@@ -1,1 +1,177 @@
-{"version":3,"pages404":true,"caseSensitive":false,"basePath":"","redirects":[{"source":"/:path+/","destination":"/:path+","internal":true,"statusCode":308,"regex":"^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"}],"headers":[],"dynamicRoutes":[{"page":"/blog/[id]","regex":"^/blog/([^/]+?)(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/blog/(?<nxtPid>[^/]+?)(?:/)?$"},{"page":"/propiedad/[id]","regex":"^/propiedad/([^/]+?)(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/propiedad/(?<nxtPid>[^/]+?)(?:/)?$"},{"page":"/zona/[id]","regex":"^/zona/([^/]+?)(?:/)?$","routeKeys":{"nxtPid":"nxtPid"},"namedRegex":"^/zona/(?<nxtPid>[^/]+?)(?:/)?$"}],"staticRoutes":[{"page":"/","regex":"^/(?:/)?$","routeKeys":{},"namedRegex":"^/(?:/)?$"},{"page":"/_not-found","regex":"^/_not\\-found(?:/)?$","routeKeys":{},"namedRegex":"^/_not\\-found(?:/)?$"},{"page":"/apple-icon.png","regex":"^/apple\\-icon\\.png(?:/)?$","routeKeys":{},"namedRegex":"^/apple\\-icon\\.png(?:/)?$"},{"page":"/blog","regex":"^/blog(?:/)?$","routeKeys":{},"namedRegex":"^/blog(?:/)?$"},{"page":"/calculadora","regex":"^/calculadora(?:/)?$","routeKeys":{},"namedRegex":"^/calculadora(?:/)?$"},{"page":"/construccion","regex":"^/construccion(?:/)?$","routeKeys":{},"namedRegex":"^/construccion(?:/)?$"},{"page":"/contacto","regex":"^/contacto(?:/)?$","routeKeys":{},"namedRegex":"^/contacto(?:/)?$"},{"page":"/cookies","regex":"^/cookies(?:/)?$","routeKeys":{},"namedRegex":"^/cookies(?:/)?$"},{"page":"/guia","regex":"^/guia(?:/)?$","routeKeys":{},"namedRegex":"^/guia(?:/)?$"},{"page":"/icon.png","regex":"^/icon\\.png(?:/)?$","routeKeys":{},"namedRegex":"^/icon\\.png(?:/)?$"},{"page":"/lotes-cuotas-paraguay","regex":"^/lotes\\-cuotas\\-paraguay(?:/)?$","routeKeys":{},"namedRegex":"^/lotes\\-cuotas\\-paraguay(?:/)?$"},{"page":"/nosotros","regex":"^/nosotros(?:/)?$","routeKeys":{},"namedRegex":"^/nosotros(?:/)?$"},{"page":"/privacidad","regex":"^/privacidad(?:/)?$","routeKeys":{},"namedRegex":"^/privacidad(?:/)?$"},{"page":"/terminos","regex":"^/terminos(?:/)?$","routeKeys":{},"namedRegex":"^/terminos(?:/)?$"},{"page":"/terrenos","regex":"^/terrenos(?:/)?$","routeKeys":{},"namedRegex":"^/terrenos(?:/)?$"},{"page":"/terrenos-baratos-paraguay","regex":"^/terrenos\\-baratos\\-paraguay(?:/)?$","routeKeys":{},"namedRegex":"^/terrenos\\-baratos\\-paraguay(?:/)?$"},{"page":"/venta-terrenos-capiata","regex":"^/venta\\-terrenos\\-capiata(?:/)?$","routeKeys":{},"namedRegex":"^/venta\\-terrenos\\-capiata(?:/)?$"}],"dataRoutes":[],"rsc":{"header":"RSC","varyHeader":"RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch","prefetchHeader":"Next-Router-Prefetch","didPostponeHeader":"x-nextjs-postponed","contentTypeHeader":"text/x-component","suffix":".rsc","prefetchSuffix":".prefetch.rsc"},"rewrites":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/blog/[id]",
+      "regex": "^/blog/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/blog/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/propiedad/[id]",
+      "regex": "^/propiedad/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/propiedad/(?<nxtPid>[^/]+?)(?:/)?$"
+    },
+    {
+      "page": "/zona/[id]",
+      "regex": "^/zona/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/zona/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/apple-icon.png",
+      "regex": "^/apple\\-icon\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/apple\\-icon\\.png(?:/)?$"
+    },
+    {
+      "page": "/blog",
+      "regex": "^/blog(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/blog(?:/)?$"
+    },
+    {
+      "page": "/calculadora",
+      "regex": "^/calculadora(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/calculadora(?:/)?$"
+    },
+    {
+      "page": "/construccion",
+      "regex": "^/construccion(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/construccion(?:/)?$"
+    },
+    {
+      "page": "/contacto",
+      "regex": "^/contacto(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/contacto(?:/)?$"
+    },
+    {
+      "page": "/cookies",
+      "regex": "^/cookies(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/cookies(?:/)?$"
+    },
+    {
+      "page": "/guia",
+      "regex": "^/guia(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/guia(?:/)?$"
+    },
+    {
+      "page": "/icon.png",
+      "regex": "^/icon\\.png(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/icon\\.png(?:/)?$"
+    },
+    {
+      "page": "/lotes-cuotas-paraguay",
+      "regex": "^/lotes\\-cuotas\\-paraguay(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/lotes\\-cuotas\\-paraguay(?:/)?$"
+    },
+    {
+      "page": "/nosotros",
+      "regex": "^/nosotros(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/nosotros(?:/)?$"
+    },
+    {
+      "page": "/privacidad",
+      "regex": "^/privacidad(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/privacidad(?:/)?$"
+    },
+    {
+      "page": "/terminos",
+      "regex": "^/terminos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terminos(?:/)?$"
+    },
+    {
+      "page": "/terrenos",
+      "regex": "^/terrenos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terrenos(?:/)?$"
+    },
+    {
+      "page": "/terrenos-baratos-paraguay",
+      "regex": "^/terrenos\\-baratos\\-paraguay(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/terrenos\\-baratos\\-paraguay(?:/)?$"
+    },
+    {
+      "page": "/venta-terrenos-capiata",
+      "regex": "^/venta\\-terrenos\\-capiata(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/venta\\-terrenos\\-capiata(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

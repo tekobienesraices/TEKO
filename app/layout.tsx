@@ -77,6 +77,11 @@ export const metadata: Metadata = {
     alternates: {
         canonical: 'https://www.tekobienesraicespy.com',
     },
+    icons: {
+        icon: '/icon.png',
+        shortcut: '/favicon.ico',
+        apple: '/apple-icon.png',
+    },
 };
 
 // JSON-LD Structured Data
