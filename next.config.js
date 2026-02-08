@@ -1,8 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    distDir: 'dist', // CRUCIAL: Mantenemos 'dist' para que Vercel encuentre el build
-    // NOTA: Eliminamos 'output: export' para habilitar Serverless (arregla 404 en recargas y favicons dinámicos)
+    output: 'export',      // Vuelve a ser estático (para compatibilidad con carpeta 'dist')
+    distDir: 'dist',       // Carpeta que Vercel espera
+    trailingSlash: true,   // CRÍTICO: Crea carpetas /ruta/index.html para que el refresh funcione siempre
+    images: {
+        unoptimized: true, // Necesario para modo export
+    },
 }
 
 export default nextConfig
