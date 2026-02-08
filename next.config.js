@@ -1,10 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    output: 'export', // Revertido a Static Export para compatibilidad total con tu Vercel
-    distDir: 'dist',  // Mantener salida en dist
+    output: 'export',
+    distDir: 'dist',
+    trailingSlash: true, // Forzar estructura de carpetas (ej: /terrenos/index.html) para evitar 404 al recargar
     images: {
-        unoptimized: true, // Necesario para Static Export
+        unoptimized: true,
     },
 }
 
