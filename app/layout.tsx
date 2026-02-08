@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Inter, Playfair_Display } from 'next/font/google';
 import './globals.css';
 import { Navbar } from '@/components/Navbar';
@@ -82,6 +82,14 @@ export const metadata: Metadata = {
         shortcut: '/favicon.ico',
         apple: '/apple-icon.png',
     },
+};
+
+export const viewport: Viewport = {
+    themeColor: '#0c1c2e',
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+    userScalable: false,
 };
 
 // JSON-LD Structured Data
