@@ -15,8 +15,8 @@ export interface Property {
   location: string;
   price: number;
   originalPrice?: number;
-  size: number; // m2
-  dimensions?: string; // e.g. "12x30"
+  size?: number; // m2 (Optional now)
+  dimensions?: string; // e.g. "12x30" (Optional now)
   monthlyPayment: number;
   description: string;
   image: string;

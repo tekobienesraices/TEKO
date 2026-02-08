@@ -43,15 +43,7 @@ export default function PropiedadPage({ property, zone }: Props) {
                     <div className="lg:col-span-2 space-y-10">
                         {/* Specs */}
                         <div className="flex flex-wrap gap-6 p-6 bg-slate-50 rounded-xl border border-slate-100">
-                            <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm text-teko-navy">
-                                    <Ruler size={20} />
-                                </div>
-                                <div>
-                                    <span className="block text-xs text-slate-400 uppercase">Superficie</span>
-                                    <span className="font-bold text-teko-navy">{property.size} m²</span>
-                                </div>
-                            </div>
+
                             <div className="flex items-center gap-3">
                                 <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center shadow-sm text-teko-navy">
                                     <Calendar size={20} />

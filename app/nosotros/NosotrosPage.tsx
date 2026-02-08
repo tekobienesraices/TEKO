@@ -133,7 +133,7 @@ export default function NosotrosPage() {
                         ¿Listo para formar parte de la Familia TEKO?
                     </h2>
                     <p className="text-xl text-slate-600 mb-8">
-                        Más de 500 familias ya confiaron en nosotros para construir su patrimonio. Hoy es tu turno.
+                        Unite a la nueva generación de propietarios en Paraguay. Hoy es tu turno de construir tu patrimonio.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link href="/terrenos">

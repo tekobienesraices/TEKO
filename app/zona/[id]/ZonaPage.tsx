@@ -138,16 +138,11 @@ export default function ZonaPage({ zone, properties }: Props) {
                                             <span className="text-white font-bold text-lg uppercase tracking-wider">Reservado</span>
                                         </div>
                                     )}
-                                    {prop.dimensions && (
-                                        <span className="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-sm font-medium text-teko-navy">
-                                            {prop.dimensions}m
-                                        </span>
-                                    )}
                                 </div>
 
                                 <div className="p-6">
                                     <h3 className="text-xl font-bold text-teko-navy mb-2">{prop.title}</h3>
-                                    <p className="text-slate-500 text-sm mb-4">{prop.size} m² • {prop.dimensions}</p>
+                                    <p className="text-slate-500 text-sm mb-4">{prop.location}</p>
 
                                     <div className="flex flex-col mb-4">
                                         {prop.originalPrice && (

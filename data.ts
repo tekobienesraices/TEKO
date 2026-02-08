@@ -35,8 +35,6 @@ export const properties: Property[] = [
     location: 'Costa Salinas - Zona de Alto Valor',
     originalPrice: 125000000,
     price: 120000000,
-    size: 450,
-    dimensions: '15x30',
     monthlyPayment: 1333333,
     description: 'La seguridad que buscás para tu capital. En un contexto económico incierto, la tierra es el único refugio que nunca pierde valor. Costa Salinas te ofrece posesión inmediata, documentos al día y la certeza de que tu dinero está creciendo mes a mes. Es hoy.',
     image: '/properties/costa-salinas-drone-1.jpg',
@@ -52,8 +50,6 @@ export const properties: Property[] = [
     location: 'Costa Salinas - Barrio Tranquilo',
     originalPrice: 86000000,
     price: 81000000,
-    size: 360,
-    dimensions: '12x30',
     monthlyPayment: 900000,
     description: 'Imaginá a tus hijos jugando en su propio patio. Costa Salinas es un barrio consolidado, seguro y lleno de vida. Dejá de pagar alquiler y empezá a pagar por lo que será tuyo para siempre. La mejor herencia es un techo propio.',
     image: '/properties/costa-salinas-drone-2.jpg',
@@ -101,19 +97,19 @@ export const constructionPlans: ConstructionPlan[] = [
 // ==========================================
 export const testimonials = [
   {
-    name: "Carlos M.",
-    role: "Propietario en Costa Salinas",
-    text: "Con solo el 20% de entrega ya tenía mi lote. El proceso fue transparente y la documentación impecable."
+    name: "Oportunidad de Inversión",
+    role: "Plusvalía Asegurada",
+    text: "Al invertir en etapa de lanzamiento, asegurás el precio más bajo posible antes de que la zona se desarrolle por completo."
   },
   {
-    name: "Ana y Pedro",
-    role: "Familia en Naranjaty",
-    text: "Buscábamos un lugar tranquilo para criar a nuestros hijos. Naranjaty superó nuestras expectativas."
+    name: "Sin Burocracia",
+    role: "Trato Directo",
+    text: "Olvidate de los bancos e informes comerciales. La financiación es propia, a sola firma y con aprobación inmediata."
   },
   {
-    name: "Sofía L.",
-    role: "Inversionista",
-    text: "La financiación sin intereses fue clave. Mi terreno ya se valorizó un 30% en menos de un año."
+    name: "Patrimonio Seguro",
+    role: "Tierra Propia",
+    text: "La tierra es el único bien que nunca se deprecia. Protegé tus ahorros de la inflación invirtiendo en ladrillos y tierra."
   }
 ];
 
