@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     reactStrictMode: true,
-    distDir: 'dist', // Restaurado para coincidir con la configuración de salida de Vercel
+    output: 'export', // Revertido a Static Export para compatibilidad total con tu Vercel
+    distDir: 'dist',  // Mantener salida en dist
+    images: {
+        unoptimized: true, // Necesario para Static Export
+    },
 }
 
 export default nextConfig
