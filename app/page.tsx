@@ -27,7 +27,7 @@ export default function HomePage() {
                 >
                     <div className="absolute inset-0 bg-gradient-to-b from-teko-navy/40 via-teko-navy/20 to-slate-50 z-10" />
                     <img
-                        src="/hero-inicio.jpg"
+                        src="/hero-sunset.png"
                         alt="Venta de terrenos en cuotas en San Bernardino y Areguá Paraguay"
                         className="w-full h-full object-cover"
                     />
