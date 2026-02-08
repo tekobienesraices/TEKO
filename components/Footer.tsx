@@ -1,6 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Instagram, Facebook, Linkedin, Mail, Phone } from 'lucide-react';
+import Link from 'next/link';
+import { Instagram, Facebook, Mail, Phone } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -32,11 +32,11 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Explorar</h4>
             <ul className="space-y-4 text-sm text-slate-400">
-              <li><Link to="/terrenos" className="hover:text-white transition-colors">Catálogo de Terrenos</Link></li>
-              <li><Link to="/construccion" className="hover:text-white transition-colors">Constructora TEKO</Link></li>
-              <li><Link to="/calculadora" className="hover:text-white transition-colors">Simulador de Cuotas</Link></li>
-              <li><Link to="/inversion" className="hover:text-white transition-colors">Inversores</Link></li>
-              <li><Link to="/blog" className="hover:text-white transition-colors">Guía del Inversor</Link></li>
+              <li><Link href="/terrenos" className="hover:text-white transition-colors">Catálogo de Terrenos</Link></li>
+              <li><Link href="/construccion" className="hover:text-white transition-colors">Constructora TEKO</Link></li>
+              <li><Link href="/calculadora" className="hover:text-white transition-colors">Simulador de Cuotas</Link></li>
+              <li><Link href="/blog" className="hover:text-white transition-colors">Inversores</Link></li>
+              <li><Link href="/blog" className="hover:text-white transition-colors">Guía del Inversor</Link></li>
             </ul>
           </div>
 
@@ -44,9 +44,9 @@ export const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Legal</h4>
             <ul className="space-y-4 text-sm text-slate-400">
-              <li><Link to="/privacidad" className="hover:text-white transition-colors">Política de Privacidad</Link></li>
-              <li><Link to="/terminos" className="hover:text-white transition-colors">Términos y Condiciones</Link></li>
-              <li><Link to="/cookies" className="hover:text-white transition-colors">Política de Cookies</Link></li>
+              <li><Link href="/privacidad" className="hover:text-white transition-colors">Política de Privacidad</Link></li>
+              <li><Link href="/terminos" className="hover:text-white transition-colors">Términos y Condiciones</Link></li>
+              <li><Link href="/cookies" className="hover:text-white transition-colors">Política de Cookies</Link></li>
             </ul>
           </div>
 

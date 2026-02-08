@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { ArrowRight, ChevronLeft, ChevronRight, TrendingUp, Clock, Map } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 import { Button } from './Button';
 
 const timelineData = [
@@ -170,7 +170,7 @@ export const GrowthTimeline: React.FC = () => {
                                     </div>
                                 </div>
 
-                                <Link to="/zona/costa-salinas">
+                                <Link href="/zona/costa-salinas">
                                     <Button variant="gold" size="lg" className="w-full sm:w-auto shadow-lg shadow-teko-gold/20 hover:shadow-teko-gold/40">
                                         Ver Oportunidades en Costa Salinas
                                     </Button>

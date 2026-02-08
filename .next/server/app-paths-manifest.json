@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/blog/[id]/page": "app/blog/[id]/page.js",
+  "/blog/page": "app/blog/page.js",
+  "/calculadora/page": "app/calculadora/page.js",
+  "/construccion/page": "app/construccion/page.js",
+  "/contacto/page": "app/contacto/page.js",
+  "/cookies/page": "app/cookies/page.js",
+  "/guia/page": "app/guia/page.js",
+  "/nosotros/page": "app/nosotros/page.js",
+  "/page": "app/page.js",
+  "/privacidad/page": "app/privacidad/page.js",
+  "/propiedad/[id]/page": "app/propiedad/[id]/page.js",
+  "/terminos/page": "app/terminos/page.js",
+  "/terrenos/page": "app/terrenos/page.js",
+  "/zona/[id]/page": "app/zona/[id]/page.js"
+}

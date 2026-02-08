@@ -1,5 +1,8 @@
 import { Property, ConstructionPlan, Zone } from './types';
 
+// Re-export types for cleaner imports
+export type { Property, ConstructionPlan, Zone } from './types';
+
 // ==========================================
 // ZONAS - Áreas de desarrollo inmobiliario
 // ==========================================

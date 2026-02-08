@@ -1,0 +1,18 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/blog/[id]/page": "/blog/[id]",
+  "/blog/page": "/blog",
+  "/calculadora/page": "/calculadora",
+  "/construccion/page": "/construccion",
+  "/contacto/page": "/contacto",
+  "/cookies/page": "/cookies",
+  "/guia/page": "/guia",
+  "/nosotros/page": "/nosotros",
+  "/page": "/",
+  "/privacidad/page": "/privacidad",
+  "/propiedad/[id]/page": "/propiedad/[id]",
+  "/terminos/page": "/terminos",
+  "/terrenos/page": "/terrenos",
+  "/zona/[id]/page": "/zona/[id]"
+}

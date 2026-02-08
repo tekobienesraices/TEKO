@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/zona/layout,_N_T_/zona/[id]/layout,_N_T_/zona/[id]/page,_N_T_/zona/costa-salinas"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/zona/$d$id/__PAGE__",
+    "/zona/$d$id",
+    "/zona",
+    "/_index",
+    "/_head"
+  ]
+}

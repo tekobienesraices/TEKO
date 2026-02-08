@@ -1,13 +1,16 @@
+'use client';
+
 import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, User } from 'lucide-react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { Menu, X } from 'lucide-react';
 import { Button } from './Button';
 
 export const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
-  const location = useLocation();
-  const isHome = location.pathname === '/';
+  const pathname = usePathname();
+  const isHome = pathname === '/';
 
   useEffect(() => {
     const handleScroll = () => {
@@ -19,7 +22,7 @@ export const Navbar: React.FC = () => {
 
   useEffect(() => {
     setIsOpen(false);
-  }, [location]);
+  }, [pathname]);
 
   const navLinks = [
     { name: 'Terrenos', path: '/terrenos' },
@@ -33,7 +36,7 @@ export const Navbar: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           {/* Logo */}
-          <Link to="/" className="flex items-center">
+          <Link href="/" className="flex items-center">
             <img
               src="/logo-horizontal.png"
               alt="TEKO"
@@ -45,13 +48,13 @@ export const Navbar: React.FC = () => {
             {navLinks.map((link) => (
               <Link
                 key={link.name}
-                to={link.path}
+                href={link.path}
                 className={`text-sm font-medium transition-colors hover:text-teko-gold ${!scrolled && isHome ? 'text-white/90' : 'text-teko-navy'}`}
               >
                 {link.name}
               </Link>
             ))}
-            <Link to="/contacto">
+            <Link href="/contacto">
               <Button variant={!scrolled && isHome ? "gold" : "primary"} size="sm" className="font-bold tracking-tight px-6">
                 Contacto
               </Button>
@@ -77,7 +80,7 @@ export const Navbar: React.FC = () => {
             {navLinks.map((link) => (
               <Link
                 key={link.name}
-                to={link.path}
+                href={link.path}
                 onClick={() => setIsOpen(false)}
                 className="block px-3 py-3 text-base font-medium text-white hover:bg-white/10 rounded-md"
               >
@@ -85,7 +88,7 @@ export const Navbar: React.FC = () => {
               </Link>
             ))}
             <div className="pt-4 border-t border-white/10">
-              <Link to="/contacto" className="block">
+              <Link href="/contacto" className="block">
                 <Button fullWidth variant="primary">Agendar Asesoría</Button>
               </Link>
             </div>
