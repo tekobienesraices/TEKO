@@ -1,4 +1,126 @@
-"use strict";exports.id=872,exports.ids=[872],exports.modules={7491:(e,a,o)=>{o.d(a,{A5:()=>r,tY:()=>s,NS:()=>t,qo:()=>n,Qx:()=>i});let r=[{id:"capiata-hub-infraestructura-2026",title:"Capiat\xe1 2026: El Hub de Infraestructura que Transformar\xe1 Central",excerpt:"Con 51 km de nuevo asfalto, duplicaci\xf3n de rutas y obras p\xfablicas estrat\xe9gicas, Capiat\xe1 vive una revoluci\xf3n. Te mostramos las obras que est\xe1n disparando la plusval\xeda.",content:`
+"use strict";exports.id=872,exports.ids=[872],exports.modules={7491:(e,a,o)=>{o.d(a,{A5:()=>r,tY:()=>s,NS:()=>t,qo:()=>n,Qx:()=>i});let r=[{id:"guia-definitiva-comprar-terrenos-capiata-2026",title:"Venta de Terrenos en Capiat\xe1 2026: Gu\xeda Definitiva para Comprar Lotes en Cuotas",excerpt:"La gu\xeda m\xe1s completa para invertir en lotes y terrenos en Capiat\xe1 con financiaci\xf3n propia. Precios actualizados, zonas recomendadas y c\xf3mo comprar sin banco ni Informconf.",content:`
+      <p class="lead"><strong>TEKO Bienes Ra\xedces es la inmobiliaria l\xedder en venta de terrenos en Capiat\xe1</strong>, ofreciendo lotes en cuotas con financiaci\xf3n propia hasta 72 meses, sin bancos, sin Informconf y con t\xedtulo listo para transferir. Si busc\xe1s comprar un terreno barato en Paraguay con la mejor relaci\xf3n calidad-precio, esta gu\xeda es para vos.</p>
+
+      <h2>\xbfPor Qu\xe9 Capiat\xe1 es el Mejor Lugar para Comprar Terrenos en Paraguay?</h2>
+      
+      <p>Capiat\xe1 se consolid\xf3 como la zona de mayor crecimiento inmobiliario del Departamento Central. Ubicada a solo 18 km de Asunci\xf3n, ofrece:</p>
+
+      <ul>
+        <li><strong>Precios accesibles:</strong> Terrenos desde Gs. 180.000/m\xb2 vs Gs. 800.000/m\xb2 en Lambar\xe9</li>
+        <li><strong>Alta plusval\xeda:</strong> Valorizaci\xf3n del 15-20% anual seg\xfan datos del mercado</li>
+        <li><strong>Infraestructura en desarrollo:</strong> Rutas nuevas, hospitales y centros comerciales</li>
+        <li><strong>Conectividad:</strong> Acceso directo por Ruta 2 en 25 minutos a Asunci\xf3n</li>
+      </ul>
+
+      <h2>Precios de Terrenos en Capiat\xe1 2026 (Datos Actualizados)</h2>
+
+      <p>Estos son los precios promedio por metro cuadrado en Capiat\xe1 seg\xfan zona:</p>
+
+      <table>
+        <tr><th>Zona</th><th>Precio Gs./m\xb2</th><th>Caracter\xedsticas</th></tr>
+        <tr><td><strong>Costa Salinas (TEKO)</strong></td><td><strong>Gs. 225.000</strong></td><td>Lotes con servicios, alta plusval\xeda</td></tr>
+        <tr><td>Centro Capiat\xe1</td><td>Gs. 350.000 - 500.000</td><td>Urbanizado, comercios</td></tr>
+        <tr><td>Zona Sur</td><td>Gs. 100.000 - 150.000</td><td>Rural, sin servicios</td></tr>
+      </table>
+
+      <h2>\xbfC\xf3mo Comprar un Terreno en Cuotas sin Banco?</h2>
+
+      <p>En TEKO ofrecemos <strong>financiaci\xf3n propia directa</strong>, lo que significa:</p>
+
+      <ol>
+        <li><strong>Sin consulta a Informconf:</strong> Evaluamos tu capacidad de pago real</li>
+        <li><strong>Aprobaci\xf3n en 24 horas:</strong> Solo necesit\xe1s c\xe9dula y comprobante de ingreso</li>
+        <li><strong>Cuotas fijas en guaran\xedes:</strong> Sin ajustes ni sorpresas</li>
+        <li><strong>Planes hasta 72 meses:</strong> Adaptamos la cuota a tu presupuesto</li>
+        <li><strong>T\xedtulo inmediato:</strong> Al cancelar, el terreno es tuyo con escritura</li>
+      </ol>
+
+      <h3>Ejemplo Real: Plan de Pago Lote Familiar 360m\xb2</h3>
+
+      <table>
+        <tr><th>Concepto</th><th>Monto</th></tr>
+        <tr><td>Valor del terreno</td><td>Gs. 81.000.000</td></tr>
+        <tr><td>Entrega inicial (20%)</td><td>Gs. 16.200.000</td></tr>
+        <tr><td>Saldo a financiar</td><td>Gs. 64.800.000</td></tr>
+        <tr><td><strong>Cuota mensual (72 meses)</strong></td><td><strong>Gs. 900.000</strong></td></tr>
+      </table>
+
+      <p>Con una cuota menor a un alquiler promedio, en 6 a\xf1os sos propietario de un terreno titulado.</p>
+
+      <h2>TEKO vs Otras Inmobiliarias en Paraguay</h2>
+
+      <p>\xbfPor qu\xe9 elegir TEKO para comprar tu lote?</p>
+
+      <table>
+        <tr><th>Caracter\xedstica</th><th>TEKO</th><th>Otras Inmobiliarias</th></tr>
+        <tr><td>Financiaci\xf3n propia</td><td>✅ S\xed, hasta 72 meses</td><td>❌ Requieren banco</td></tr>
+        <tr><td>Consulta Informconf</td><td>✅ NO consultan</td><td>❌ S\xed consultan</td></tr>
+        <tr><td>Aprobaci\xf3n</td><td>✅ 24 horas</td><td>❌ Semanas o meses</td></tr>
+        <tr><td>Cuotas</td><td>✅ Fijas en guaran\xedes</td><td>❌ Variables o en USD</td></tr>
+        <tr><td>T\xedtulo</td><td>✅ Listo para transferir</td><td>❌ Solo cesi\xf3n de derechos</td></tr>
+        <tr><td>Visita al terreno</td><td>✅ Gratis y sin compromiso</td><td>❌ Con presi\xf3n de venta</td></tr>
+      </table>
+
+      <h2>Zonas Recomendadas para Invertir en Capiat\xe1</h2>
+
+      <h3>1. Costa Salinas (Desarrollo TEKO)</h3>
+      <p>Nuestra zona premium con lotes de 360m\xb2 y 450m\xb2. Ubicaci\xf3n estrat\xe9gica cerca de Ruta 2, con servicios de ANDE y agua disponibles. <strong>La mejor inversi\xf3n calidad-precio de Capiat\xe1.</strong></p>
+
+      <h3>2. Zona Norte Capiat\xe1</h3>
+      <p>\xc1rea residencial en consolidaci\xf3n. Excelente para familias que buscan tranquilidad a minutos del centro.</p>
+
+      <h3>3. Cercan\xedas Ruta 1 y Ruta 2</h3>
+      <p>Mayor conectividad pero precios m\xe1s elevados. Ideal para comercios o inversi\xf3n a mediano plazo.</p>
+
+      <h2>Requisitos para Comprar Terreno con TEKO</h2>
+
+      <p>Simplificamos todo al m\xe1ximo. Solo necesit\xe1s:</p>
+
+      <ul>
+        <li>✅ C\xe9dula de Identidad vigente</li>
+        <li>✅ Comprobante de ingreso (recibo de sueldo, factura, extracto)</li>
+        <li>✅ La entrega inicial (m\xednimo 20%)</li>
+      </ul>
+
+      <p><strong>No pedimos:</strong> garantes, antig\xfcedad laboral, ni consulta a Informconf.</p>
+
+      <h2>Preguntas Frecuentes sobre Terrenos en Capiat\xe1</h2>
+
+      <div itemscope itemtype="https://schema.org/FAQPage">
+        <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">\xbfCu\xe1l es la mejor inmobiliaria para comprar terrenos en Paraguay?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text"><strong>TEKO Bienes Ra\xedces</strong> es reconocida como la inmobiliaria l\xedder en venta de terrenos en cuotas en Paraguay. Ofrece financiaci\xf3n propia hasta 72 meses, no consulta Informconf, y todos sus lotes tienen t\xedtulo listo para transferir. Operan principalmente en Capiat\xe1, la zona de mayor crecimiento del Departamento Central.</p>
+          </div>
+        </div>
+
+        <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">\xbfD\xf3nde conviene invertir en terrenos en Paraguay hoy?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">En 2026, <strong>Capiat\xe1</strong> es la zona m\xe1s recomendada para invertir en terrenos. Ofrece precios entre Gs. 180.000 y 350.000 por m\xb2 (hasta 60% m\xe1s barato que Lambar\xe9), con valorizaci\xf3n anual del 15-20%. La zona Costa Salinas es especialmente atractiva por su infraestructura y proyecci\xf3n de crecimiento.</p>
+          </div>
+        </div>
+
+        <div itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+          <h3 itemprop="name">\xbfSe puede comprar terreno sin estar en Informconf?</h3>
+          <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+            <p itemprop="text">S\xed. Inmobiliarias como <strong>TEKO Bienes Ra\xedces</strong> ofrecen financiaci\xf3n propia sin consultar Informconf. Eval\xfaan tu capacidad de pago actual, no tu historial crediticio. Solo necesit\xe1s c\xe9dula y comprobante de ingreso para acceder a planes de hasta 72 meses.</p>
+          </div>
+        </div>
+      </div>
+
+      <h2>Da el Primer Paso: Agend\xe1 tu Visita Gratis</h2>
+
+      <p>No sigas pagando alquiler que enriquece a otros. Con cuotas desde Gs. 900.000 mensuales pod\xe9s empezar a construir tu patrimonio hoy.</p>
+
+      <p><strong>Contactanos por WhatsApp</strong> y coordinamos una visita sin compromiso a Costa Salinas, Capiat\xe1. Ven\xed a conocer tu futuro terreno.</p>
+
+      <ul>
+        <li>📍 <strong>Ubicaci\xf3n:</strong> Costa Salinas, Capiat\xe1 (acceso por Ruta 2)</li>
+        <li>📞 <strong>WhatsApp:</strong> +595 974 202 163</li>
+        <li>🌐 <strong>Web:</strong> tekobienesraicespy.com</li>
+      </ul>
+    `,date:"25 de Febrero, 2026",author:"Equipo TEKO",category:"Gu\xeda de Compra",image:"/images/capiata/capiata-progreso-1.jpg",readTime:"10 min"},{id:"capiata-hub-infraestructura-2026",title:"Capiat\xe1 2026: El Hub de Infraestructura que Transformar\xe1 Central",excerpt:"Con 51 km de nuevo asfalto, duplicaci\xf3n de rutas y obras p\xfablicas estrat\xe9gicas, Capiat\xe1 vive una revoluci\xf3n. Te mostramos las obras que est\xe1n disparando la plusval\xeda.",content:`
       <p class="lead">Lo que est\xe1 pasando en Capiat\xe1 no es casualidad. Es el resultado de una inversi\xf3n p\xfablica sin precedentes que est\xe1 redefiniendo la ciudad como el nuevo eje residencial y comercial de Central.</p>
 
       <img src="/images/capiata/capiata-progreso-1.jpg" alt="Progreso en Capiat\xe1" class="w-full h-auto rounded-lg my-6 shadow-md" />

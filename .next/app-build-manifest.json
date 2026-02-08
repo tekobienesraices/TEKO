@@ -12,7 +12,7 @@
       "static/chunks/4bd1b696-1d398b649b281e55.js",
       "static/chunks/517-1583ae742d04cd15.js",
       "static/chunks/main-app-1b66e90c5d217c03.js",
-      "static/css/6fa4b6324e64192a.css",
+      "static/css/97f53bca5cf82095.css",
       "static/chunks/173-22ed0ab9955039fb.js",
       "static/chunks/299-a6bc838652e3de14.js",
       "static/chunks/app/layout-76e4a736d0be8c84.js"
@@ -26,29 +26,19 @@
       "static/chunks/299-a6bc838652e3de14.js",
       "static/chunks/642-374153ad014c6143.js",
       "static/chunks/691-ba00be38993a9a37.js",
-      "static/chunks/315-c564b188f8aed8d0.js",
+      "static/chunks/315-b1f4fe8c686671ad.js",
       "static/chunks/600-1bf981b5025c289e.js",
       "static/chunks/app/page-42e2b48b6633f16d.js"
     ],
-    "/construccion/page": [
-      "static/chunks/webpack-c599165eaa9587f4.js",
-      "static/chunks/4bd1b696-1d398b649b281e55.js",
-      "static/chunks/517-1583ae742d04cd15.js",
-      "static/chunks/main-app-1b66e90c5d217c03.js",
-      "static/chunks/299-a6bc838652e3de14.js",
-      "static/chunks/642-374153ad014c6143.js",
-      "static/chunks/315-c564b188f8aed8d0.js",
-      "static/chunks/app/construccion/page-4642ffa5590e57e1.js"
-    ],
-    "/blog/[id]/page": [
+    "/blog/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
       "static/chunks/4bd1b696-1d398b649b281e55.js",
       "static/chunks/517-1583ae742d04cd15.js",
       "static/chunks/main-app-1b66e90c5d217c03.js",
       "static/chunks/173-22ed0ab9955039fb.js",
       "static/chunks/299-a6bc838652e3de14.js",
-      "static/chunks/315-c564b188f8aed8d0.js",
-      "static/chunks/app/blog/[id]/page-f2ea680cecbdc9ac.js"
+      "static/chunks/315-b1f4fe8c686671ad.js",
+      "static/chunks/app/blog/page-cb64ad414b168920.js"
     ],
     "/calculadora/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
@@ -58,27 +48,28 @@
       "static/chunks/173-22ed0ab9955039fb.js",
       "static/chunks/299-a6bc838652e3de14.js",
       "static/chunks/860-b3137f73bcf31986.js",
-      "static/chunks/315-c564b188f8aed8d0.js",
+      "static/chunks/315-b1f4fe8c686671ad.js",
       "static/chunks/app/calculadora/page-6ff681abd2beb8f4.js"
     ],
-    "/blog/page": [
+    "/blog/[id]/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
       "static/chunks/4bd1b696-1d398b649b281e55.js",
       "static/chunks/517-1583ae742d04cd15.js",
       "static/chunks/main-app-1b66e90c5d217c03.js",
       "static/chunks/173-22ed0ab9955039fb.js",
       "static/chunks/299-a6bc838652e3de14.js",
-      "static/chunks/315-c564b188f8aed8d0.js",
-      "static/chunks/app/blog/page-cb64ad414b168920.js"
+      "static/chunks/315-b1f4fe8c686671ad.js",
+      "static/chunks/app/blog/[id]/page-f2ea680cecbdc9ac.js"
     ],
-    "/guia/page": [
+    "/construccion/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
       "static/chunks/4bd1b696-1d398b649b281e55.js",
       "static/chunks/517-1583ae742d04cd15.js",
       "static/chunks/main-app-1b66e90c5d217c03.js",
-      "static/chunks/173-22ed0ab9955039fb.js",
       "static/chunks/299-a6bc838652e3de14.js",
-      "static/chunks/app/guia/page-b40cf8146df83db6.js"
+      "static/chunks/642-374153ad014c6143.js",
+      "static/chunks/315-b1f4fe8c686671ad.js",
+      "static/chunks/app/construccion/page-4642ffa5590e57e1.js"
     ],
     "/contacto/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
@@ -87,22 +78,6 @@
       "static/chunks/main-app-1b66e90c5d217c03.js",
       "static/chunks/299-a6bc838652e3de14.js",
       "static/chunks/app/contacto/page-cbf4fe3da66ab24a.js"
-    ],
-    "/cookies/page": [
-      "static/chunks/webpack-c599165eaa9587f4.js",
-      "static/chunks/4bd1b696-1d398b649b281e55.js",
-      "static/chunks/517-1583ae742d04cd15.js",
-      "static/chunks/main-app-1b66e90c5d217c03.js",
-      "static/chunks/173-22ed0ab9955039fb.js",
-      "static/chunks/app/cookies/page-e61e4d460097a8a2.js"
-    ],
-    "/privacidad/page": [
-      "static/chunks/webpack-c599165eaa9587f4.js",
-      "static/chunks/4bd1b696-1d398b649b281e55.js",
-      "static/chunks/517-1583ae742d04cd15.js",
-      "static/chunks/main-app-1b66e90c5d217c03.js",
-      "static/chunks/173-22ed0ab9955039fb.js",
-      "static/chunks/app/privacidad/page-df9c0e137f66676d.js"
     ],
     "/nosotros/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
@@ -113,13 +88,48 @@
       "static/chunks/299-a6bc838652e3de14.js",
       "static/chunks/app/nosotros/page-5d90a679336e04a5.js"
     ],
+    "/cookies/page": [
+      "static/chunks/webpack-c599165eaa9587f4.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-1583ae742d04cd15.js",
+      "static/chunks/main-app-1b66e90c5d217c03.js",
+      "static/chunks/173-22ed0ab9955039fb.js",
+      "static/chunks/app/cookies/page-6396c435e0a8b62e.js"
+    ],
+    "/guia/page": [
+      "static/chunks/webpack-c599165eaa9587f4.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-1583ae742d04cd15.js",
+      "static/chunks/main-app-1b66e90c5d217c03.js",
+      "static/chunks/173-22ed0ab9955039fb.js",
+      "static/chunks/299-a6bc838652e3de14.js",
+      "static/chunks/app/guia/page-b40cf8146df83db6.js"
+    ],
+    "/privacidad/page": [
+      "static/chunks/webpack-c599165eaa9587f4.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-1583ae742d04cd15.js",
+      "static/chunks/main-app-1b66e90c5d217c03.js",
+      "static/chunks/173-22ed0ab9955039fb.js",
+      "static/chunks/app/privacidad/page-183f1f00b8122bb8.js"
+    ],
     "/terminos/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
       "static/chunks/4bd1b696-1d398b649b281e55.js",
       "static/chunks/517-1583ae742d04cd15.js",
       "static/chunks/main-app-1b66e90c5d217c03.js",
       "static/chunks/173-22ed0ab9955039fb.js",
-      "static/chunks/app/terminos/page-3fc8afffdbd728b5.js"
+      "static/chunks/app/terminos/page-3843a0ab967fc2bb.js"
+    ],
+    "/terrenos/page": [
+      "static/chunks/webpack-c599165eaa9587f4.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-1583ae742d04cd15.js",
+      "static/chunks/main-app-1b66e90c5d217c03.js",
+      "static/chunks/173-22ed0ab9955039fb.js",
+      "static/chunks/299-a6bc838652e3de14.js",
+      "static/chunks/315-b1f4fe8c686671ad.js",
+      "static/chunks/app/terrenos/page-644d4a912b80fce7.js"
     ],
     "/propiedad/[id]/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
@@ -133,6 +143,14 @@
       "static/chunks/600-1bf981b5025c289e.js",
       "static/chunks/app/propiedad/[id]/page-a0021e6893e6f1b4.js"
     ],
+    "/lotes-cuotas-paraguay/page": [
+      "static/chunks/webpack-c599165eaa9587f4.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-1583ae742d04cd15.js",
+      "static/chunks/main-app-1b66e90c5d217c03.js",
+      "static/chunks/173-22ed0ab9955039fb.js",
+      "static/chunks/app/lotes-cuotas-paraguay/page-62eee884ebc31eae.js"
+    ],
     "/zona/[id]/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
       "static/chunks/4bd1b696-1d398b649b281e55.js",
@@ -142,15 +160,21 @@
       "static/chunks/299-a6bc838652e3de14.js",
       "static/chunks/app/zona/[id]/page-011bed3bef4a5728.js"
     ],
-    "/terrenos/page": [
+    "/venta-terrenos-capiata/page": [
       "static/chunks/webpack-c599165eaa9587f4.js",
       "static/chunks/4bd1b696-1d398b649b281e55.js",
       "static/chunks/517-1583ae742d04cd15.js",
       "static/chunks/main-app-1b66e90c5d217c03.js",
       "static/chunks/173-22ed0ab9955039fb.js",
-      "static/chunks/299-a6bc838652e3de14.js",
-      "static/chunks/315-c564b188f8aed8d0.js",
-      "static/chunks/app/terrenos/page-644d4a912b80fce7.js"
+      "static/chunks/app/venta-terrenos-capiata/page-125eee5a0dfafb6f.js"
+    ],
+    "/terrenos-baratos-paraguay/page": [
+      "static/chunks/webpack-c599165eaa9587f4.js",
+      "static/chunks/4bd1b696-1d398b649b281e55.js",
+      "static/chunks/517-1583ae742d04cd15.js",
+      "static/chunks/main-app-1b66e90c5d217c03.js",
+      "static/chunks/173-22ed0ab9955039fb.js",
+      "static/chunks/app/terrenos-baratos-paraguay/page-fec71db633c6172f.js"
     ]
   }
 }

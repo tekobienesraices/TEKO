@@ -1,4 +1,7 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://teko.com.py/sitemap.xml
+Sitemap: https://www.tekobienesraicespy.com/sitemap.xml
+
+# TEKO Bienes Raices - Terrenos en Cuotas Paraguay
+# Contact: tekobienesraices@gmail.com
