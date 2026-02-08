@@ -89,14 +89,14 @@ export default function ContactoPage() {
                                 </div>
                             </a>
 
-                            <a href="mailto:info@teko.com.py"
+                            <a href="mailto:tekobienesraices@gmail.com"
                                 className="flex items-center gap-4 p-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:shadow-md transition-all group">
                                 <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center group-hover:bg-blue-600 group-hover:text-white transition-colors">
                                     <Mail size={24} />
                                 </div>
                                 <div>
                                     <p className="text-sm text-slate-500 font-medium">Email</p>
-                                    <p className="text-teko-navy font-bold">info@teko.com.py</p>
+                                    <p className="text-teko-navy font-bold">tekobienesraices@gmail.com</p>
                                 </div>
                             </a>
                         </div>

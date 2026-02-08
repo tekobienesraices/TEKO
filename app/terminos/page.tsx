@@ -54,7 +54,7 @@ export default function TerminosPage() {
 
                     <h2 className="text-2xl font-bold text-teko-navy mt-8 mb-4">8. Contacto</h2>
                     <p className="text-slate-600">
-                        Email: <a href="mailto:info@teko.com.py" className="text-teko-gold hover:underline">info@teko.com.py</a><br />
+                        Email: <a href="mailto:tekobienesraices@gmail.com" className="text-teko-gold hover:underline">tekobienesraices@gmail.com</a><br />
                         WhatsApp: <a href="https://wa.me/595974202163" className="text-teko-gold hover:underline">+595 974 202 163</a>
                     </p>
                 </div>

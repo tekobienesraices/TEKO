@@ -47,7 +47,7 @@ export default function CookiesPage() {
                     <h2 className="text-2xl font-bold text-teko-navy mt-8 mb-4">Contacto</h2>
                     <p className="text-slate-600">
                         Para consultas sobre nuestra política de cookies:<br />
-                        Email: <a href="mailto:info@teko.com.py" className="text-teko-gold hover:underline">info@teko.com.py</a>
+                        Email: <a href="mailto:tekobienesraices@gmail.com" className="text-teko-gold hover:underline">tekobienesraices@gmail.com</a>
                     </p>
                 </div>
 
