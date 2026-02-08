@@ -19,6 +19,9 @@ export const Footer: React.FC = () => {
             <p className="text-slate-400 text-sm leading-relaxed max-w-xs">
               Redefiniendo el futuro inmobiliario. Terrenos premium financiados y arquitectura de autor para quienes exigen lo mejor.
             </p>
+            <p className="text-teko-gold text-sm font-medium italic">
+              "Tu futuro tiene raíces, empezá a sembrarlo hoy"
+            </p>
             <div className="flex space-x-4">
               <a href="https://instagram.com/teko.bienesraices" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors"><Instagram size={20} /></a>
               <a href="https://tiktok.com/@teko.bienesraices" target="_blank" rel="noopener noreferrer" className="text-slate-400 hover:text-white transition-colors">

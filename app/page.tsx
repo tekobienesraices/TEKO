@@ -59,9 +59,17 @@ export default function HomePage() {
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.6 }}
+                        className="text-xl md:text-2xl text-teko-gold mb-4 italic font-medium"
+                    >
+                        "Tu futuro tiene raíces, empezá a sembrarlo hoy"
+                    </motion.p>
+                    <motion.p
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        transition={{ delay: 0.7 }}
                         className="text-lg md:text-xl text-white/90 mb-10 max-w-2xl mx-auto font-medium"
                     >
-                        Dejá de alquilar y empezá a invertir en tu futuro. Accedé hoy a terrenos titulados en las zonas de mayor crecimiento, con financiación propia a sola firma y cuotas en guaraníes.
+                        Dejá de alquilar y empezá a invertir en tu futuro. Accedé hoy a terrenos titulados en las zonas de mayor crecimiento de Paraguay.
                     </motion.p>
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
@@ -224,6 +232,33 @@ export default function HomePage() {
                             />
                         </div>
                     </div>
+                </div>
+            </section>
+
+            {/* Slogan Brand Section */}
+            <section className="py-24 bg-[#0a1420] relative overflow-hidden">
+                <div className="absolute top-0 left-0 w-full h-full opacity-10">
+                    <div className="absolute top-0 left-0 w-96 h-96 bg-teko-gold rounded-full blur-[120px] -ml-48 -mt-48" />
+                    <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 rounded-full blur-[120px] -mr-48 -mb-48" />
+                </div>
+
+                <div className="max-w-7xl mx-auto px-4 relative z-10 text-center">
+                    <motion.div
+                        initial={{ opacity: 0, scale: 0.95 }}
+                        whileInView={{ opacity: 1, scale: 1 }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1 }}
+                        className="space-y-8"
+                    >
+                        <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif font-bold text-white leading-tight max-w-4xl mx-auto">
+                            "Tu futuro tiene raíces, <br />
+                            <span className="text-teko-gold">empezá a sembrarlo hoy"</span>
+                        </h2>
+                        <div className="w-24 h-1 bg-teko-gold mx-auto rounded-full" />
+                        <p className="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto">
+                            En TEKO, entendemos que un terreno es más que tierra; es el cimiento de tu legado y la seguridad de tu familia.
+                        </p>
+                    </motion.div>
                 </div>
             </section>
 
