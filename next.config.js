@@ -4,6 +4,7 @@ const nextConfig = {
     images: {
         unoptimized: true, // For static export or simple hosting if needed initially
     },
+    distDir: 'dist',
     // output: 'export', // Uncomment if doing purely static export later
 }
 
