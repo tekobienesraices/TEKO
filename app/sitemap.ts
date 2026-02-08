@@ -15,6 +15,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
         '/privacidad',
         '/terminos',
         '/cookies',
+        // Landing pages SEO optimizadas
+        '/venta-terrenos-capiata',
+        '/lotes-cuotas-paraguay',
+        '/terrenos-baratos-paraguay',
     ].map((route) => ({
         url: `${baseUrl}${route}`,
         lastModified: new Date(),

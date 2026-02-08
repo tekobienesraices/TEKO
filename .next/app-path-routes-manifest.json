@@ -1,18 +1,1 @@
-{
-  "/_global-error/page": "/_global-error",
-  "/_not-found/page": "/_not-found",
-  "/blog/[id]/page": "/blog/[id]",
-  "/blog/page": "/blog",
-  "/calculadora/page": "/calculadora",
-  "/construccion/page": "/construccion",
-  "/contacto/page": "/contacto",
-  "/cookies/page": "/cookies",
-  "/guia/page": "/guia",
-  "/nosotros/page": "/nosotros",
-  "/page": "/",
-  "/privacidad/page": "/privacidad",
-  "/propiedad/[id]/page": "/propiedad/[id]",
-  "/terminos/page": "/terminos",
-  "/terrenos/page": "/terrenos",
-  "/zona/[id]/page": "/zona/[id]"
-}
+{"/_not-found/page":"/_not-found","/page":"/","/construccion/page":"/construccion","/blog/[id]/page":"/blog/[id]","/calculadora/page":"/calculadora","/blog/page":"/blog","/guia/page":"/guia","/contacto/page":"/contacto","/cookies/page":"/cookies","/privacidad/page":"/privacidad","/nosotros/page":"/nosotros","/terminos/page":"/terminos","/propiedad/[id]/page":"/propiedad/[id]","/zona/[id]/page":"/zona/[id]","/terrenos/page":"/terrenos"}
