@@ -197,20 +197,20 @@ export default function HomePage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                         <div>
-                            <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6">Más que un terreno,<br />un proyecto de vida.</h2>
+                            <h2 className="text-3xl md:text-5xl font-serif font-bold mb-6">Más que un terreno,<br />construimos tu legado.</h2>
                             <p className="text-slate-300 text-lg mb-8 leading-relaxed">
-                                En TEKO elevamos el estándar inmobiliario en Paraguay. Combinamos la solidez de la tierra con una estructura financiera diseñada para el inversor moderno. No somos solo desarrolladores; somos tus aliados en la creación de patrimonio real.
+                                En TEKO no solo te entregamos tierra; te ofrecemos la solución integral para materializar tus sueños. Contamos con un equipo de élite formado por <strong>arquitectos e ingenieros de alto nivel</strong>, listos para diseñar y ejecutar el proyecto que siempre imaginaste. Ya sea una residencia de lujo o una inversión estratégica, nos encargamos de que tu visión se convierta en una realidad arquitectónica de primer nivel.
                             </p>
 
                             <ul className="space-y-6">
                                 {[
-                                    "Financiación propia o vía Carta de Oferta bancaria.",
-                                    "Escritura inmediata en todos nuestros desarrollos.",
-                                    "Equipo de arquitectos para tu proyecto ejecutivo.",
-                                    "Seguridad jurídica y acompañamiento profesional."
+                                    "Proyectos a Medida: Arquitectura e ingeniería de vanguardia para lo que desees construir.",
+                                    "Construcción 'Llave en Mano': De la idea a la entrega de llaves con estándares de alta gama.",
+                                    "Financiación Flexible: Crédito propio o bancario para la compra y el desarrollo de tu lote.",
+                                    "Seguridad Profesional: Respaldo técnico y jurídico en cada etapa de tu proyecto."
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-center gap-4">
-                                        <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-green-400">
+                                        <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-teko-gold">
                                             <TrendingUp size={16} />
                                         </div>
                                         <span className="text-lg text-slate-200">{item}</span>
