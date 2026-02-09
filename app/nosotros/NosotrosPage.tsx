@@ -24,7 +24,7 @@ export default function NosotrosPage() {
                         animate={{ opacity: 1, y: 0 }}
                         className="max-w-3xl mx-auto"
                     >
-                        <span className="text-teko-gold font-bold uppercase tracking-widest text-sm mb-4 block">Nuestra Historia</span>
+                        <span className="text-teko-gold font-bold uppercase tracking-widest text-sm mb-4 block">Nuestra Visión</span>
                         <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6">
                             Construyendo el Futuro de Paraguay
                         </h1>

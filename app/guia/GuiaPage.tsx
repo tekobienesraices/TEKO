@@ -9,13 +9,14 @@ import { Button } from '@/components/Button';
 export default function GuiaPage() {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
+    const [phone, setPhone] = useState('');
     const [submitted, setSubmitted] = useState(false);
 
     const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
         // In production, this would submit to a CRM or email service
         // For now, redirect to WhatsApp with the info
-        const text = `Hola! Quiero la guía gratuita. Soy ${name}, mi correo es ${email}`;
+        const text = `Hola! Quiero la guía gratuita. Soy ${name}, mi correo es ${email} y mi teléfono es ${phone}`;
         window.open(`https://wa.me/595974202163?text=${encodeURIComponent(text)}`, '_blank');
         setSubmitted(true);
     };
@@ -52,7 +53,7 @@ export default function GuiaPage() {
                             Lo que la mayoría <span className="text-teko-gold">no te cuenta</span> antes de comprar un terreno
                         </h1>
                         <p className="text-lg text-slate-600 mb-8 leading-relaxed font-medium">
-                            No pongas en riesgo tus ahorros. Hemos condensado años de experiencia inmobiliaria en Paraguay para que sepas exactamente qué preguntar, qué mirar y qué firmar.
+                            No pongas en riesgo tus ahorros. Hemos analizado a fondo el mercado inmobiliario en Paraguay para que sepas exactamente qué preguntar, qué mirar y qué firmar.
                         </p>
 
                         <div className="space-y-4 mb-8">
@@ -121,6 +122,20 @@ export default function GuiaPage() {
                                         onChange={(e) => setEmail(e.target.value)}
                                         className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-teko-gold focus:border-transparent transition-all"
                                         placeholder="juan@ejemplo.com"
+                                    />
+                                </div>
+                                <div>
+                                    <label htmlFor="phone" className="block text-sm font-medium text-slate-700 mb-1">
+                                        Tu WhatsApp
+                                    </label>
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        required
+                                        value={phone}
+                                        onChange={(e) => setPhone(e.target.value)}
+                                        className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-teko-gold focus:border-transparent transition-all"
+                                        placeholder="09XX XXX XXX"
                                     />
                                 </div>
                                 <Button fullWidth variant="gold" size="lg" type="submit">

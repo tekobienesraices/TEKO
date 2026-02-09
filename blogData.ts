@@ -414,7 +414,7 @@ export const blogPosts: BlogPost[] = [
 
       <blockquote>
         <p>"Pagaba Gs. 1.800.000 de alquiler en Lambaré. Hoy pago Gs. 1.200.000 de cuota por mi lote en Costa Salinas. En 4 años voy a tener mi terreno, y el valor ya subió 30% desde que compré."</p>
-        <cite>— Carlos M., propietario en Costa Salinas</cite>
+        <cite>— Análisis de Caso: Proyección de Ahorro Real</cite>
       </blockquote>
 
       <h2>El Primer Paso es el Más Importante</h2>

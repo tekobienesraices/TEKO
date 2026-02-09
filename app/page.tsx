@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
-import { ArrowRight, TrendingUp, Home as HomeIcon, Map, Download } from 'lucide-react';
+import { ArrowRight, TrendingUp, Home as HomeIcon, Map, Download, Check } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/Button';
 import { LeadModal } from '@/components/LeadModal';
@@ -227,7 +227,7 @@ export default function HomePage() {
                             <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl opacity-20 blur-xl"></div>
                             <img
                                 src="/images/blog/family-house.jpg"
-                                alt="Familia TEKO"
+                                alt="Futuro Hogar TEKO"
                                 className="relative rounded-2xl shadow-2xl border border-white/10"
                             />
                         </div>
@@ -262,10 +262,10 @@ export default function HomePage() {
                 </div>
             </section>
 
-            {/* Testimonials */}
+            {/* Value Guarantees (Formerly Testimonials) */}
             <section className="py-20 bg-slate-50">
                 <div className="max-w-7xl mx-auto px-4">
-                    <h2 className="text-3xl font-serif font-bold text-center text-teko-navy mb-16">Historias TEKO</h2>
+                    <h2 className="text-3xl font-serif font-bold text-center text-teko-navy mb-16">Garantías de Valor</h2>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         {testimonials.map((t, i) => (
                             <motion.div
@@ -276,8 +276,8 @@ export default function HomePage() {
                                 transition={{ delay: i * 0.2 }}
                                 className="bg-white p-8 rounded-xl shadow-sm border border-slate-100"
                             >
-                                <div className="flex gap-1 mb-4">
-                                    {[1, 2, 3, 4, 5].map(s => <div key={s} className="w-4 h-4 text-yellow-400 fill-current">★</div>)}
+                                <div className="w-12 h-12 bg-teko-gold/10 rounded-full flex items-center justify-center text-teko-gold mb-6">
+                                    <Check size={24} />
                                 </div>
                                 <p className="text-slate-600 italic mb-6">"{t.text}"</p>
                                 <div>

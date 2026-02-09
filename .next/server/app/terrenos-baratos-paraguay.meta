@@ -2,7 +2,7 @@
   "headers": {
     "x-nextjs-stale-time": "300",
     "x-nextjs-prerender": "1",
-    "x-next-cache-tags": "_N_T_/layout,_N_T_/terrenos-baratos-paraguay/layout,_N_T_/terrenos-baratos-paraguay/page,_N_T_/terrenos-baratos-paraguay"
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/terrenos-baratos-paraguay/layout,_N_T_/terrenos-baratos-paraguay/page,_N_T_/terrenos-baratos-paraguay/"
   },
   "segmentPaths": [
     "/_tree",

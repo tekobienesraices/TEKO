@@ -58,20 +58,20 @@ export const SocialBanner: React.FC = () => {
                 {/* Stats Row */}
                 <div className="mt-12 pt-8 border-t border-white/10 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                     <div>
-                        <div className="text-3xl font-bold text-white">500+</div>
-                        <div className="text-slate-400 text-sm">Familias Felices</div>
+                        <div className="text-3xl font-bold text-white">100%</div>
+                        <div className="text-slate-400 text-sm">Gestión Digital</div>
                     </div>
                     <div>
-                        <div className="text-3xl font-bold text-white">50+</div>
-                        <div className="text-slate-400 text-sm">Terrenos Disponibles</div>
-                    </div>
-                    <div>
-                        <div className="text-3xl font-bold text-white">10+</div>
-                        <div className="text-slate-400 text-sm">Años de Experiencia</div>
+                        <div className="text-3xl font-bold text-white">24/7</div>
+                        <div className="text-slate-400 text-sm">Atención Personalizada</div>
                     </div>
                     <div>
                         <div className="text-3xl font-bold text-white">100%</div>
                         <div className="text-slate-400 text-sm">Financiación Propia</div>
+                    </div>
+                    <div>
+                        <div className="text-3xl font-bold text-white">HOY</div>
+                        <div className="text-slate-400 text-sm">Tu Nueva Inversión</div>
                     </div>
                 </div>
             </div>
