@@ -171,8 +171,8 @@ export default function HomePage() {
                                             <span className="font-bold text-lg text-teko-navy">Gs. {prop.price.toLocaleString()}</span>
                                         </div>
                                         <div className="text-right">
-                                            <span className="block text-xs text-slate-400">Cuota desde</span>
-                                            <span className="font-bold text-lg text-teko-gold">Gs. {prop.monthlyPayment.toLocaleString()}</span>
+                                            <span className="block text-xs text-slate-400">Entrega Mínima</span>
+                                            <span className="font-bold text-lg text-teko-gold">20%</span>
                                         </div>
                                     </div>
                                     <Link href={`/propiedad/${prop.id}`}>

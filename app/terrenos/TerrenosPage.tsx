@@ -75,11 +75,7 @@ export default function TerrenosPage() {
                                             ))}
                                         </div>
 
-                                        <div className="flex items-end justify-between">
-                                            <div>
-                                                <span className="block text-sm text-white/60">Lotes desde</span>
-                                                <span className="text-2xl font-bold text-teko-gold">Gs. {minPrice.toLocaleString()}</span>
-                                            </div>
+                                        <div className="flex items-end justify-end">
                                             <Link href={`/zona/${zone.id}`}>
                                                 <Button variant="gold" size="lg">
                                                     Explorar
