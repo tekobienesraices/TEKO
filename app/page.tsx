@@ -8,10 +8,13 @@ import { Button } from '@/components/Button';
 import { LeadModal } from '@/components/LeadModal';
 import { SocialBanner } from '@/components/SocialBanner';
 import { GrowthTimeline } from '@/components/GrowthTimeline';
+import { AIGalleryModal } from '@/components/AIGalleryModal';
+import { Sparkles } from 'lucide-react';
 import { properties, testimonials } from '@/data';
 
 export default function HomePage() {
     const [modalOpen, setModalOpen] = useState(false);
+    const [galleryOpen, setGalleryOpen] = useState(false);
     const { scrollY } = useScroll();
     const y1 = useTransform(scrollY, [0, 500], [0, 200]);
     const opacity = useTransform(scrollY, [0, 300], [1, 0]);
@@ -218,8 +221,16 @@ export default function HomePage() {
                                 ))}
                             </ul>
 
-                            <div className="mt-10">
+                            <div className="mt-10 flex flex-col sm:flex-row gap-4">
                                 <Button variant="secondary" onClick={() => setModalOpen(true)}>Hablar con un Director</Button>
+                                <Button
+                                    variant="outline"
+                                    className="border-teko-gold text-teko-gold hover:bg-teko-gold hover:text-teko-navy"
+                                    onClick={() => setGalleryOpen(true)}
+                                >
+                                    <Sparkles size={18} className="mr-2" />
+                                    Explorar Diseños IA
+                                </Button>
                             </div>
                         </div>
 
@@ -409,6 +420,7 @@ export default function HomePage() {
             </section>
 
             <LeadModal isOpen={modalOpen} onClose={() => setModalOpen(false)} source="Home Bottom CTA" />
+            <AIGalleryModal isOpen={galleryOpen} onClose={() => setGalleryOpen(false)} />
         </div>
     );
 }
