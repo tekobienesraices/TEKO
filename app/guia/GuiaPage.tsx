@@ -21,21 +21,18 @@ export default function GuiaPage() {
     };
 
     const benefits = [
-        { icon: Shield, title: 'Inversión Segura', desc: 'Aprende a revisar los papeles legales y el título de propiedad antes de pagar.' },
-        { icon: Target, title: 'Números Reales', desc: 'Presupuesto honesto incluyendo impuestos, honorarios y gastos ocultos.' },
-        { icon: BookOpen, title: 'Decisión Informada', desc: 'Qué observar en una visita presencial para elegir bien y no rápido.' },
+        { icon: Shield, title: 'Blindaje Legal', desc: 'Descubre los 3 documentos críticos que la mayoría olvida pedir y que garantizan que tu terreno no tenga dueños ocultos.' },
+        { icon: Target, title: 'Ceros en tu Cuenta', desc: 'Revelamos los 4 "gastos invisibles" que disparan el precio final si no los calculas desde el primer día.' },
+        { icon: BookOpen, title: 'Ojo de Inversor', desc: 'Lo que las fotos nunca muestran: El checklist profesional para detectar terrenos con problemas de inundación o barrancos.' },
     ];
 
     const chapters = [
-        'Conocé el terreno antes de pisarlo: definir objetivos y zonas',
-        'Hacé los números como un inversor: presupuesto y financiación',
-        'Elegí bien, no rápido: qué observar en las visitas presenciales',
-        'Revisá todo lo legal: títulos, deudas e impuestos al día',
-        'Cerrá con confianza: contratos, señas y transparencia total',
-        'Pasos post-compra: Registros Públicos y organización legal',
-        'Zonas de alta plusvalía en el Departamento Central',
-        'Cómo evitar los errores más comunes de compradores primerizos',
-        'Asesoramiento TEKO: Cómo podemos acompañar tu sueño',
+        'El error #1 al elegir zona: Por qué lo más barato hoy puede ser impagable mañana.',
+        'Presupuesto Pro: Cómo hacer los números para que tu inversión crezca mes a mes.',
+        'La trampa de las fotos: Qué observar físicamente para no comprar un problema.',
+        'Auditoría Legal: Los papeles reales que aseguran tu patrimonio (y cómo verificarlos).',
+        'Contratos sin Trucos: 5 cláusulas que debes exigir antes de entregar un solo guaraní.',
+        'El día después: Pasos críticos para blindar tu propiedad ante Registros Públicos.',
     ];
 
     return (
@@ -52,10 +49,10 @@ export default function GuiaPage() {
                             Recurso Gratuito
                         </span>
                         <h1 className="text-4xl md:text-5xl font-serif font-bold text-teko-navy mb-6 leading-tight">
-                            La Guía Definitiva Para <span className="text-teko-gold">Comprar Tu Terreno</span> Sin Errores
+                            Lo que la mayoría <span className="text-teko-gold">no te cuenta</span> antes de comprar un terreno
                         </h1>
-                        <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                            Comprar un terreno es una decisión importante. Pero comprarlo bien, con información y seguridad, puede cambiar tu vida. Esta guía es nuestro aporte para ayudarte a tomar una decisión informada, sin apuros ni presiones.
+                        <p className="text-lg text-slate-600 mb-8 leading-relaxed font-medium">
+                            No pongas en riesgo tus ahorros. Hemos condensado años de experiencia inmobiliaria en Paraguay para que sepas exactamente qué preguntar, qué mirar y qué firmar.
                         </p>
 
                         <div className="space-y-4 mb-8">
@@ -92,8 +89,8 @@ export default function GuiaPage() {
                                 alt="Guía TEKO"
                                 className="max-w-[180px] mx-auto drop-shadow-lg mb-6"
                             />
-                            <h2 className="text-2xl font-bold text-teko-navy">Descargá Tu Guía Gratis</h2>
-                            <p className="text-slate-500 text-sm mt-2">Sin spam. Solo contenido de valor.</p>
+                            <h2 className="text-2xl font-bold text-teko-navy">Acceso Instantáneo</h2>
+                            <p className="text-slate-500 text-sm mt-2">Recibe la guía ahora y blinda tu inversión.</p>
                         </div>
 
                         {!submitted ? (
@@ -160,8 +157,8 @@ export default function GuiaPage() {
             <section className="py-20 bg-teko-navy text-white">
                 <div className="max-w-4xl mx-auto px-4">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl font-serif font-bold mb-4">Lo Que Vas a Aprender</h2>
-                        <p className="text-slate-300">6 capítulos esenciales para invertir con seguridad</p>
+                        <h2 className="text-3xl font-serif font-bold mb-4">Secretos de un Inversor Inteligente</h2>
+                        <p className="text-slate-300">Un vistazo rápido a las claves que encontrarás dentro:</p>
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
