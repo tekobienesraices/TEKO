@@ -7,27 +7,27 @@ import { Button } from './Button';
 const timelineData = [
     {
         year: 'Fase 1',
-        title: 'Lanzamiento: Oportunidad Cero',
-        desc: 'Identificamos tierra virgen con alto potencial de expansión. El mercado aún no lo ve, pero nuestros indicadores urbanísticos señalan este momento como el punto de entrada óptimo.',
-        insight: 'El inversor visionario compra potencial, no solo metros cuadrados. Aquí es donde se captura el mayor margen.'
+        title: 'Hallazgo: El Punto de Entrada',
+        desc: 'Identificación de suelo subvaluado en corredores de expansión demográfica. El mercado masivo aún no detecta el potencial, lo que permite la adquisición a precios de "tierra virgen" con el máximo margen de seguridad.',
+        insight: 'El "Alpha" (rendimiento superior al mercado) se genera comprando antes de la validación masiva.'
     },
     {
         year: 'Fase 2',
-        title: 'Desarrollo: El Motor de Valor',
-        desc: 'Iniciamos obras de infraestructura y apertura de calles. La zona cobra vida y la demanda natural comienza a despertar. Tu inversión empieza a materializarse.',
-        insight: 'La transformación física del terreno suele disparar la primera curva de plusvalía en el corto plazo.'
+        title: 'Desarrollo de Infraestructura',
+        desc: 'La llegada orgánica de servicios básicos y apertura de vías transforma la accesibilidad de la zona. Históricamente, este es el catalizador que dispara la primera corrección de precios al alza.',
+        insight: 'La plusvalía más agresiva ocurre cuando una zona pasa de "inaccesible" a "conectada".'
     },
     {
         year: 'Fase 3',
-        title: 'Consolidación: Efecto Multiplicador',
-        desc: 'Primeras construcciones y llegada de servicios. El entorno residencial se valida y el precio del m² se ajusta al mercado consolidado.',
-        insight: 'La densidad poblacional y la actividad comercial cercana blindan el valor de tu tierra contra la inflación.'
+        title: 'Densificación Residencial',
+        desc: 'El crecimiento poblacional alcanza la zona. Las primeras construcciones validan la habitabilidad y el "Efecto Barrio" comienza a blindar el valor del metro cuadrado contra la inflación.',
+        insight: 'La demanda real de vivienda es el fundamental más sólido para sostener el precio a largo plazo.'
     },
     {
         year: 'Fase 4',
-        title: 'Madurez: Patrimonio Líquido',
-        desc: 'Una comunidad vibrante y establecida. Tu lote ya no es una promesa, es un activo de alta demanda, listo para construir, vender o heredar.',
-        insight: 'El ciclo se completa. Convertiste una visión temprana en un patrimonio sólido y transferible.'
+        title: 'Consolidación de Mercado',
+        desc: 'Zona establecida con oferta comercial y servicios plenos. El activo alcanza su madurez y máxima liquidez, permitiendo al inversor inicial realizar su ganancia o construir patrimonio de renta.',
+        insight: 'Convertiste una visión especulativa en un activo de "Ladrillo Seguro". Ciclo completado.'
     }
 ];
 
@@ -71,16 +71,15 @@ export const GrowthTimeline: React.FC = () => {
                         className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teko-gold/20 text-teko-gold font-bold text-sm uppercase tracking-wider mb-6"
                     >
                         <TrendingUp size={16} />
-                        Modelo de Plusvalía
+                        Análisis de Mercado
                     </motion.div>
                     <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-white">
-                        El Ciclo de Valor <span className="text-teko-gold">de tu Inversión</span>
+                        La Ciencia del <span className="text-teko-gold">Valor Inmobiliario</span>
                     </h2>
                     <p className="text-slate-300 text-lg leading-relaxed">
-                        En TEKO no vendemos "lotes", vendemos un modelo de crecimiento patrimonial.
-                        Entendemos los ciclos del mercado para que vos entres en el momento justo.
+                        No adivinamos dónde invertir; analizamos hacia dónde se mueve la mancha urbana.
                         <br className="hidden md:block" />
-                        <strong className="text-white">Así es como tu dinero crece con nosotros paso a paso.</strong>
+                        <strong className="text-white">Este es el ciclo técnico de valorización que buscamos en cada ubicación que seleccionamos.</strong>
                     </p>
                 </div>
 
