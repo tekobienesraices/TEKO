@@ -30,8 +30,8 @@ export default function HomePage() {
                 >
                     <div className="absolute inset-0 bg-gradient-to-b from-teko-navy/40 via-teko-navy/20 to-slate-50 z-10" />
                     <img
-                        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2560&auto=format&fit=crop"
-                        alt="Venta de terrenos en cuotas en San Bernardino y Areguá Paraguay"
+                        src="/images/capiata/capiata-progreso-1.jpg"
+                        alt="Venta de terrenos en cuotas en Capiatá Paraguay - Vista Aérea"
                         className="w-full h-full object-cover"
                     />
                 </motion.div>
@@ -207,10 +207,10 @@ export default function HomePage() {
 
                             <ul className="space-y-6">
                                 {[
-                                    "Proyectos a Medida: Arquitectura e ingeniería de vanguardia para lo que desees construir.",
-                                    "Construcción 'Llave en Mano': De la idea a la entrega de llaves con estándares de alta gama.",
-                                    "Financiación Flexible: Crédito propio o bancario para la compra y el desarrollo de tu lote.",
-                                    "Seguridad Profesional: Respaldo técnico y jurídico en cada etapa de tu proyecto."
+                                    "Arquitectura de Élite: Equipo de ingenieros y arquitectos para diseñar el proyecto de tu vida.",
+                                    "Visión Integral: Te asesoramos desde la elección del lote hasta la entrega de llaves (Llave en Mano).",
+                                    "Financiación del Terreno: Crédito propio a sola firma hasta 72 meses para tu inversión en tierra.",
+                                    "Solución Bancaria: Facilitamos Cartas de Oferta para créditos que unifiquen terreno y construcción."
                                 ].map((item, i) => (
                                     <li key={i} className="flex items-center gap-4">
                                         <div className="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center text-teko-gold">

@@ -80,7 +80,7 @@ export const constructionPlans: ConstructionPlan[] = [
     description: 'Diseño inteligente y funcional. La entrada perfecta a tu hogar propio con terminaciones de calidad.',
     pricePerSqm: 850,
     features: ['Construcción Tradicional', 'Aberturas DVH', 'Pisos Porcelanato', 'Grifería Primera Marca', 'Entrega en 8 meses'],
-    image: '/images/blog/family-house.jpg'
+    image: '/images/render-casa-moderna.jpg'
   },
   {
     id: 'luxury',
@@ -88,7 +88,7 @@ export const constructionPlans: ConstructionPlan[] = [
     description: 'Arquitectura de vanguardia, espacios amplios y detalles de categoría superior para un estilo de vida exigente.',
     pricePerSqm: 1200,
     features: ['Diseño Personalizado', 'Domótica Integrada', 'Losa Radiante', 'Revestimientos Importados', 'Entrega en 12 meses'],
-    image: '/properties/costa-salinas-drone-2.jpg'
+    image: '/images/ai-designs/design-1.jpg'
   }
 ];
 

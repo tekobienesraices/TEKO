@@ -97,14 +97,44 @@ export default function VentaTerrenosCapiataPage() {
                 <div className="max-w-7xl mx-auto px-4">
                     <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
                         {[
-                            { icon: Shield, text: 'Título 100% Legal' },
+                            { icon: Shield, text: 'Seguridad Municipal' },
                             { icon: Clock, text: 'Aprobación 24hs' },
-                            { icon: TrendingUp, text: '+15% Plusvalía Anual' },
+                            { icon: TrendingUp, text: 'Zona en Crecimiento' },
                             { icon: CheckCircle, text: 'Sin Informconf' },
                         ].map((item, i) => (
                             <div key={i} className="flex flex-col items-center gap-2">
                                 <item.icon className="text-teko-gold" size={32} />
                                 <span className="font-semibold text-teko-navy">{item.text}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </section>
+
+            {/* City Features Section */}
+            <section className="py-20 bg-white">
+                <div className="max-w-7xl mx-auto px-4">
+                    <div className="text-center mb-16">
+                        <h2 className="text-3xl md:text-5xl font-serif font-bold text-teko-navy mb-4">Capiatá: Una Ciudad con Todo</h2>
+                        <p className="text-slate-500 max-w-2xl mx-auto text-lg">
+                            Invertir en Costa Salinas es estar cerca de los mejores servicios, entretenimiento y seguridad del Departamento Central.
+                        </p>
+                    </div>
+
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                        {[
+                            { title: 'Gestión y Seguridad', img: '/images/capiata/municipalidad.jpg', desc: 'A minutos de la Municipalidad de Capiatá.' },
+                            { title: 'Gastronomía Global', img: '/images/capiata/pizza-hut.jpg', desc: 'Acceso rápido a cadenas internacionales como Pizza Hut.' },
+                            { title: 'Vida Nocturna', img: '/images/capiata/zarveros.jpg', desc: 'Disfrutá de los mejores puntos de encuentro como Zarveros.' },
+                            { title: 'Potencia Industrial', img: '/images/blog/hotel-los-lagos.jpg', desc: 'Cerca del polo industrial ContiParaguay, fuente de empleos.' }
+                        ].map((feature, i) => (
+                            <div key={i} className="group relative rounded-2xl overflow-hidden shadow-lg h-80">
+                                <img src={feature.img} alt={feature.title} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+                                <div className="absolute inset-0 bg-gradient-to-t from-teko-navy/90 via-teko-navy/20 to-transparent" />
+                                <div className="absolute bottom-6 left-6 right-6">
+                                    <h3 className="text-white font-bold text-xl mb-1">{feature.title}</h3>
+                                    <p className="text-slate-200 text-sm">{feature.desc}</p>
+                                </div>
                             </div>
                         ))}
                     </div>

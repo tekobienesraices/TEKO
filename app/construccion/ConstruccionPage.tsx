@@ -15,7 +15,7 @@ export default function ConstruccionPage() {
         <div className="pt-20">
             {/* Hero */}
             <section className="bg-teko-navy text-white py-20 relative overflow-hidden">
-                <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1621501103258-2ad5e884e9c6?q=80&w=2669&auto=format&fit=crop')] bg-cover bg-center opacity-10"></div>
+                <div className="absolute inset-0 bg-[url('/images/render-casa-moderna.jpg')] bg-cover bg-center opacity-20"></div>
                 <div className="max-w-7xl mx-auto px-4 text-center relative z-10">
                     <h1 className="text-5xl md:text-7xl font-serif font-black mb-6 tracking-tight">Tu casa propia, <br /><span className="text-teko-gold">sin burocracia</span></h1>
                     <p className="text-xl md:text-2xl text-slate-300 max-w-2xl mx-auto mb-10 font-medium leading-relaxed">

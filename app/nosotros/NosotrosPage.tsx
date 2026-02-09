@@ -13,7 +13,7 @@ export default function NosotrosPage() {
             <section className="relative py-20 bg-teko-navy overflow-hidden">
                 <div className="absolute inset-0 opacity-20">
                     <img
-                        src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80"
+                        src="/properties/costa-salinas-drone-1.jpg"
                         alt="Background"
                         className="w-full h-full object-cover"
                     />
@@ -45,7 +45,7 @@ export default function NosotrosPage() {
                             viewport={{ once: true }}
                         >
                             <img
-                                src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&q=80"
+                                src="/images/capiata/municipalidad.jpg"
                                 alt="Equipo TEKO"
                                 className="rounded-2xl shadow-2xl"
                             />
