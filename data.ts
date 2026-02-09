@@ -103,8 +103,8 @@ export const testimonials = [
   },
   {
     name: "Sin Burocracia",
-    role: "Trato Directo",
-    text: "Olvidate de los bancos e informes comerciales. La financiación es propia, a sola firma y con aprobación inmediata."
+    role: "Flexibilidad Total",
+    text: "Financiación propia a sola firma con aprobación inmediata. También emitimos cartas de oferta si preferís gestionar un préstamo bancario (AFD)."
   },
   {
     name: "Patrimonio Seguro",

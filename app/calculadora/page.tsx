@@ -4,7 +4,7 @@ import CalculadoraPage from './CalculadoraPage';
 
 export const metadata: Metadata = {
     title: 'Calculadora de Cuotas | Simulador de Financiación',
-    description: 'Simulá tu plan de financiación para terrenos en Paraguay. Calculá tu cuota mensual, entrega inicial y plazo. Sin bancos, financiación propia hasta 72 meses.',
+    description: 'Simulá tu plan de financiación para terrenos en Paraguay. Financiación propia hasta 72 meses o vía Carta de Oferta para bancos. Sin Informconf.',
     keywords: [
         'calculadora terrenos paraguay',
         'simulador cuotas lotes',

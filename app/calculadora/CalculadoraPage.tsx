@@ -116,7 +116,7 @@ export default function CalculadoraPage() {
                 {/* Header Friendly */}
                 <div className="text-center mb-10">
                     <h1 className="text-3xl font-serif font-bold text-teko-navy mb-2">Simulá tu Inversión</h1>
-                    <p className="text-slate-500">Ajustá los valores para encontrar la cuota que mejor te quede.</p>
+                    <p className="text-slate-500">Ajustá los valores para tu plan de financiación propia (24hs) o solicitá una Carta de Oferta para tu banco.</p>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 items-start">

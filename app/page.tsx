@@ -97,7 +97,7 @@ export default function HomePage() {
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
                     {[
                         { icon: Map, title: "Lotes Listos para Transferir", desc: "Seguridad jurídica total. Tu terreno en Cordillera y Central con título inmediato.", link: "/terrenos" },
-                        { icon: HomeIcon, title: "Financiación Propia", desc: "Sin bancos, sin burocracia. Aprobación en 24hs con mínimos requisitos.", link: "/calculadora" },
+                        { icon: HomeIcon, title: "Financiación a Medida", desc: "Propia sin bancos (24hs) o vía Carta de Oferta para tu banco de preferencia.", link: "/calculadora" },
                         { icon: TrendingUp, title: "Inversión Inteligente", desc: "Hacé crecer tu capital en guaraníes con tierra, el activo más seguro.", link: "/blog" }
                     ].map((item, idx) => (
                         <motion.div
@@ -204,7 +204,7 @@ export default function HomePage() {
 
                             <ul className="space-y-6">
                                 {[
-                                    "Financiación propia en cuotas fijas.",
+                                    "Financiación propia o vía Carta de Oferta bancaria.",
                                     "Escritura inmediata en todos nuestros desarrollos.",
                                     "Equipo de arquitectos para tu proyecto ejecutivo.",
                                     "Seguridad jurídica y acompañamiento profesional."
@@ -301,8 +301,7 @@ export default function HomePage() {
                     <div className="space-y-6">
                         {[
                             {
-                                q: "¿Cuáles son los requisitos para comprar?",
-                                a: "Simplificamos todo. Solo necesitás tu Cédula de Identidad y un comprobante de ingreso (o última factura). En TEKO no importa si estás en Informconf."
+                                a: "Simplificamos todo. Solo necesitás tu Cédula de Identidad y un comprobante de ingreso. En TEKO no importa si estás en Informconf para nuestra financiación propia, y también emitimos cartas de oferta para créditos bancarios (AFD/otros)."
                             },
                             {
                                 q: "¿Ofrecen financiación?",
