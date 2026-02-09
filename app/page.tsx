@@ -75,15 +75,15 @@ export default function HomePage() {
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.8 }}
-                        className="flex flex-col sm:flex-row gap-4 justify-center"
+                        className="flex flex-col sm:flex-row gap-4 justify-center items-center px-4"
                     >
-                        <Link href="/terrenos">
-                            <Button variant="gold" size="lg" className="w-full sm:w-auto shadow-xl shadow-teko-gold/20 hover:shadow-teko-gold/40 transition-shadow">
+                        <Link href="/terrenos" className="w-full sm:w-auto">
+                            <Button variant="gold" size="lg" className="w-full shadow-xl shadow-teko-gold/20 hover:shadow-teko-gold/40 transition-shadow py-6 md:py-4">
                                 Ver Lotes Disponibles
                             </Button>
                         </Link>
-                        <Link href="/guia">
-                            <Button variant="outline" size="lg" className="w-full sm:w-auto bg-white/10 backdrop-blur-md border-white/40 text-white hover:bg-white hover:text-teko-navy font-semibold">
+                        <Link href="/guia" className="w-full sm:w-auto">
+                            <Button variant="outline" size="lg" className="w-full bg-white/20 backdrop-blur-lg border-white/60 text-white hover:bg-white hover:text-teko-navy font-bold py-6 md:py-4">
                                 <Download className="mr-2 h-5 w-5" />
                                 Bajá tu guía gratuita
                             </Button>

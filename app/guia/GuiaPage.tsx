@@ -21,18 +21,21 @@ export default function GuiaPage() {
     };
 
     const benefits = [
-        { icon: Shield, title: 'Evitá Estafas', desc: 'Aprende a verificar la documentación legal antes de comprar.' },
-        { icon: Target, title: 'Elegí la Zona Correcta', desc: 'Criterios clave para identificar zonas de alta plusvalía.' },
-        { icon: BookOpen, title: 'Entiende los Contratos', desc: 'Lo que dicen y lo que NO dicen los contratos inmobiliarios.' },
+        { icon: Shield, title: 'Inversión Segura', desc: 'Aprende a revisar los papeles legales y el título de propiedad antes de pagar.' },
+        { icon: Target, title: 'Números Reales', desc: 'Presupuesto honesto incluyendo impuestos, honorarios y gastos ocultos.' },
+        { icon: BookOpen, title: 'Decisión Informada', desc: 'Qué observar en una visita presencial para elegir bien y no rápido.' },
     ];
 
     const chapters = [
-        'Por qué invertir en tierra es la mejor decisión financiera',
-        '5 errores fatales que cometen los compradores primerizos',
-        'Cómo verificar que un terreno es 100% legal',
-        'Qué revisar en un contrato antes de firmar',
-        'Zonas de alta plusvalía en Paraguay 2026',
-        'Calculadora: ¿Cuánto necesito realmente para empezar?',
+        'Conocé el terreno antes de pisarlo: definir objetivos y zonas',
+        'Hacé los números como un inversor: presupuesto y financiación',
+        'Elegí bien, no rápido: qué observar en las visitas presenciales',
+        'Revisá todo lo legal: títulos, deudas e impuestos al día',
+        'Cerrá con confianza: contratos, señas y transparencia total',
+        'Pasos post-compra: Registros Públicos y organización legal',
+        'Zonas de alta plusvalía en el Departamento Central',
+        'Cómo evitar los errores más comunes de compradores primerizos',
+        'Asesoramiento TEKO: Cómo podemos acompañar tu sueño',
     ];
 
     return (
@@ -52,7 +55,7 @@ export default function GuiaPage() {
                             La Guía Definitiva Para <span className="text-teko-gold">Comprar Tu Terreno</span> Sin Errores
                         </h1>
                         <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                            Más de 2.500 personas ya la descargaron. Descubrí los secretos que las inmobiliarias no quieren que sepas, y comprá con total seguridad.
+                            Comprar un terreno es una decisión importante. Pero comprarlo bien, con información y seguridad, puede cambiar tu vida. Esta guía es nuestro aporte para ayudarte a tomar una decisión informada, sin apuros ni presiones.
                         </p>
 
                         <div className="space-y-4 mb-8">
