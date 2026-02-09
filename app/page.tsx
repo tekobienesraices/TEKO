@@ -226,7 +226,7 @@ export default function HomePage() {
                         <div className="relative">
                             <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl opacity-20 blur-xl"></div>
                             <img
-                                src="/images/blog/family-house.jpg"
+                                src="/images/render-casa-moderna.jpg"
                                 alt="Futuro Hogar TEKO"
                                 className="relative rounded-2xl shadow-2xl border border-white/10"
                             />
