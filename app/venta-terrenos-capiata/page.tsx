@@ -203,7 +203,7 @@ export default function VentaTerrenosCapiataPage() {
                             </Link>
 
                             <p className="text-center text-sm text-slate-500 mt-4">
-                                Sin bancos • Sin Informconf • Aprobación en 24hs
+                                Financiación Propia • Carta de Oferta • Sin Informconf
                             </p>
                         </div>
                     </div>
