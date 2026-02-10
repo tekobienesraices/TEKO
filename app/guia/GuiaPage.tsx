@@ -174,7 +174,7 @@ export default function GuiaPage() {
                                         value={phone}
                                         onChange={(e) => setPhone(e.target.value)}
                                         className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-teko-gold focus:border-transparent transition-all"
-                                        placeholder="09XX XXX XXX"
+                                        placeholder="0981234567"
                                     />
                                 </div>
                                 {error && (

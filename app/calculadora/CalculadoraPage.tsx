@@ -38,40 +38,39 @@ export default function CalculadoraPage() {
         // 1. Entrega
         const entrega = Math.round(price * downPaymentPct / 100);
 
-        // 2. Capital Base
+        // 2. Capital Base (Balance tras la entrega)
         const capitalBase = price - entrega;
 
-        // 3. Refuerzos (Reducen el capital financiables si aplica)
+        // 3. Refuerzos (Opcionales)
         const refuerzoTotal = useReinforcement ? Math.round(price * reinforcementPct / 100) : 0;
         const refuerzoPorPago = useReinforcement ? Math.round(refuerzoTotal / reinforcementPayments) : 0;
 
-        // 4. Capital a Financiar (Sobre el cual se calcula interés)
-        const capitalFinanciado = capitalBase - refuerzoTotal;
-
-        // 5. Interés Simple (Si plazo > 12)
+        // 4. Interés Simple (Si plazo > 12) - Se calcula sobre el Capital Base
         let interesTotal = 0;
         const hasInterest = months > INTEREST_CONFIG.zeroInterestMonths;
         if (hasInterest) {
             const años = months / 12;
-            interesTotal = Math.round(capitalFinanciado * INTEREST_CONFIG.annualRate * años);
+            interesTotal = Math.round(capitalBase * INTEREST_CONFIG.annualRate * años);
         }
 
-        // 6. Total a financiar en cuotas
-        const totalFinanciado = capitalFinanciado + interesTotal;
+        // 5. Total Financiado (Capital + Intereses)
+        const totalPrincipalMasInteres = capitalBase + interesTotal;
 
-        // 7. Cuota Mensual
-        const cuotaSinRedondear = totalFinanciado / months;
-        const cuotaMensual = Math.ceil(cuotaSinRedondear / 10000) * 10000;
+        // 6. Cuota Mensual
+        // Se resta el refuerzo del total financiado antes de dividir por los meses
+        const cuotaSinRedondear = (totalPrincipalMasInteres - refuerzoTotal) / months;
+        // Redondeo a la decena para mayor precisión con las planillas (estilo IRUN/TEKO)
+        const cuotaMensual = Math.round(cuotaSinRedondear / 100) * 100;
 
         return {
             entrega,
             capitalBase,
             refuerzoTotal,
             refuerzoPorPago,
-            capitalFinanciado,
+            capitalFinanciado: totalPrincipalMasInteres,
             interesTotal,
             cuotaMensual,
-            totalPagar: entrega + refuerzoTotal + totalFinanciado
+            totalPagar: entrega + totalPrincipalMasInteres
         };
     }, [price, downPaymentPct, useReinforcement, reinforcementPct, reinforcementPayments, months]);
 
@@ -184,7 +183,7 @@ export default function CalculadoraPage() {
                                                 />
                                             </div>
                                             <div className="flex gap-2">
-                                                {[1, 2, 3, 4, 5].map(n => (
+                                                {[1, 2, 3].map(n => (
                                                     <button key={n} onClick={() => setReinforcementPayments(n)}
                                                         className={`flex-1 py-2 text-sm rounded-lg border ${reinforcementPayments === n ? 'bg-teko-gold text-white border-teko-gold' : 'bg-white text-slate-600 border-slate-200'}`}>
                                                         {n} Pago{n > 1 ? 's' : ''}
@@ -207,13 +206,18 @@ export default function CalculadoraPage() {
                                 <span className="text-lg font-bold text-teko-navy">{months} cuotas</span>
                             </label>
                             <input
-                                type="range" min="12" max="72" step="12"
+                                type="range" min="12" max="72" step="6"
                                 value={months} onChange={e => setMonths(Number(e.target.value))}
                                 className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-teko-navy"
                             />
                             <div className="flex justify-between text-xs text-slate-400 mt-2">
-                                <span>1 año</span>
-                                <span>6 años</span>
+                                <span>12 meses</span>
+                                <span>18m</span>
+                                <span>24m</span>
+                                <span>36m</span>
+                                <span>48m</span>
+                                <span>60m</span>
+                                <span>72m</span>
                             </div>
                         </div>
 

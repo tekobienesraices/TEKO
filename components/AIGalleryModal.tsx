@@ -118,10 +118,16 @@ export const AIGalleryModal: React.FC<AIGalleryModalProps> = ({ isOpen, onClose 
                                 <AlertCircle size={16} className="text-teko-gold" />
                                 <span>*Estos diseños son muestras conceptuales generadas por IA para inspiración inicial.</span>
                             </div>
-                            <Button variant="secondary" onClick={onClose}>
-                                Agendar con un Arquitecto
-                                <ArrowRight size={18} className="ml-2" />
-                            </Button>
+                            <a
+                                href="https://wa.me/595974202163?text=Hola%20TEKO%2C%20me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20con%20un%20arquitecto%20para%20mi%20dise%C3%B1o."
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <Button variant="secondary">
+                                    Agendar con un Arquitecto
+                                    <ArrowRight size={18} className="ml-2" />
+                                </Button>
+                            </a>
                         </div>
                     </motion.div>
                 </div>

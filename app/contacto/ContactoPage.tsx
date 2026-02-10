@@ -128,7 +128,7 @@ export default function ContactoPage() {
                                             value={formState.phone}
                                             onChange={handleChange}
                                             className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-teko-gold focus:border-transparent transition-all"
-                                            placeholder="0981..."
+                                            placeholder="0981234567"
                                         />
                                     </div>
                                     <div>

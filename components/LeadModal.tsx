@@ -76,7 +76,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, title = "
                   {...register("phone", { required: true })}
                   type="tel"
                   className="w-full px-4 py-3 rounded-lg bg-slate-50 border border-slate-200 focus:border-teko-navy focus:ring-0 transition-colors"
-                  placeholder="+595 9..."
+                  placeholder="0981234567"
                 />
                 {errors.phone && <span className="text-xs text-red-500">Requerido para contacto</span>}
               </div>

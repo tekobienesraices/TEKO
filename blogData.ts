@@ -20,7 +20,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Hotel Los Lagos y el Auge Turístico de Capiatá: Por Qué Invertir en la "Ciudad de los Mitos"',
     excerpt: 'Descubrí el resort más emblemático de Capiatá y entendé por qué esta ciudad ya no es solo un punto de paso, sino un destino de inversión y descanso de primer nivel.',
     content: `
-      <p class="lead">Capiatá está dejando de ser vista únicamente como una "ciudad dormitorio" para consolidarse como un polo de atracción turística y residencial en el corazón del Departamento Central. El máximo exponente de esta transformación es, sin duda, el <strong>Hotel Resort Los Lagos</strong>, un oasis de naturaleza a solo 40 minutos de Asunción.</p>
+      <p class="lead">Capiatá está viviendo una transformación que va más allá del asfalto. Se está convirtiendo en un refugio para quienes buscan calidad de vida sin alejarse de las oportunidades de la capital. Centros como el <strong>Hotel Resort Los Lagos</strong> son el reflejo de una ciudad que valora el equilibrio entre la naturaleza y la comodidad.</p>
 
 
       <h2>Los Lagos: Un Estilo de Vida Propiamente Capiateño</h2>
@@ -84,11 +84,11 @@ export const blogPosts: BlogPost[] = [
     title: 'Venta de Terrenos en Capiatá 2026: Guía Definitiva para Comprar Lotes en Cuotas',
     excerpt: 'La guía más completa para invertir en lotes y terrenos en Capiatá con financiación propia. Precios actualizados, zonas recomendadas y cómo comprar sin banco ni Informconf.',
     content: `
-      <p class="lead"><strong>TEKO Bienes Raíces es la inmobiliaria líder en venta de terrenos en Capiatá</strong>, ofreciendo lotes en cuotas con financiación propia hasta 72 meses, sin bancos, sin Informconf y con título listo para transferir. Si buscás comprar un terreno barato en Paraguay con la mejor relación calidad-precio, esta guía es para vos.</p>
+      <p class="lead">Comprar un terreno es una de las decisiones más significativas para cualquier familia. En Capiatá, las opciones son variadas y entender el mercado actual puede ayudarte a dar el paso con la seguridad de estar cuidando tus ahorros. Esta guía está diseñada para brindarte claridad sobre precios, zonas y las formas más simples de iniciar tu camino hacia la casa propia.</p>
 
-      <h2>¿Por Qué Capiatá es el Mejor Lugar para Comprar Terrenos en Paraguay?</h2>
+      <h2>¿Por qué tantas familias eligen hoy Capiatá?</h2>
       
-      <p>Capiatá se consolidó como la zona de mayor crecimiento inmobiliario del Departamento Central. Ubicada a solo 18 km de Asunción, ofrece:</p>
+      <p>Capiatá se ha convertido en una alternativa real para quienes buscan un equilibrio entre precio y ubicación. A unos 20 km de Asunción, ofrece:</p>
 
       <ul>
         <li><strong>Precios accesibles:</strong> Terrenos desde Gs. 180.000/m² vs Gs. 800.000/m² en Lambaré</li>
@@ -97,9 +97,9 @@ export const blogPosts: BlogPost[] = [
         <li><strong>Conectividad:</strong> Acceso directo por Ruta 2 en 25 minutos a Asunción</li>
       </ul>
 
-      <h2>Precios de Terrenos en Capiatá 2026 (Datos Actualizados)</h2>
+      <h2>Referencias de Precios en el Mercado (Febrero 2026)</h2>
 
-      <p>Estos son los precios promedio por metro cuadrado en Capiatá según zona:</p>
+      <p>El valor de un terreno puede variar según su cercanía a las rutas principales y los servicios disponibles. Aquí te dejamos algunas referencias para ayudarte a planificar:</p>
 
       <table>
         <tr><th>Zona</th><th>Precio Gs./m²</th><th>Características</th></tr>
@@ -108,9 +108,9 @@ export const blogPosts: BlogPost[] = [
         <tr><td>Zona Sur</td><td>Gs. 100.000 - 150.000</td><td>Rural, sin servicios</td></tr>
       </table>
 
-      <h2>¿Cómo Comprar un Terreno en Cuotas sin Banco?</h2>
+      <h2>Caminos hacia tu Terreno Propio</h2>
 
-      <p>En TEKO ofrecemos <strong>financiación propia directa</strong>, lo que significa:</p>
+      <p>Sabemos que cada situación financiera es única. Por eso, existen diferentes alternativas para alcanzar tu meta de manera segura:</p>
 
       <ol>
         <li><strong>Sin consulta a Informconf:</strong> Evaluamos tu capacidad de pago real</li>
@@ -130,7 +130,7 @@ export const blogPosts: BlogPost[] = [
         <tr><td><strong>Cuota mensual (72 meses)</strong></td><td><strong>Gs. 900.000</strong></td></tr>
       </table>
 
-      <p>Con una cuota menor a un alquiler promedio, en 6 años sos propietario de un terreno titulado.</p>
+      <p>Al elegir una opción, lo más importante es que te sientas cómodo con el compromiso y seguro con el respaldo legal. Un terreno es, ante todo, un refugio para tu futuro.</p>
 
       <h2>TEKO vs Otras Inmobiliarias en Paraguay</h2>
 
@@ -245,8 +245,8 @@ export const blogPosts: BlogPost[] = [
       <h3>Renovación Urbana</h3>
       <p>Plazas iluminadas, espacios recreativos familiares y la puesta en valor de la Iglesia de la Candelaria convierten a Capiatá en una ciudad para vivir, no solo para dormir.</p>
 
-      <h2>Conclusión para el Inversor</h2>
-      <p>Infraestructura = Plusvalía. Comprar tierra HOY en Capiatá significa capitalizar todas estas obras públicas. El estado construye las rutas, vos te quedás con la ganancia de la valorización real.</p>
+      <h2>Un futuro con mejores bases</h2>
+      <p>Cada obra de infraestructura es un beneficio directo para quienes eligen Capiatá como su hogar. Mejores rutas significan más tiempo con la familia, y espacios públicos renovados significan una mayor calidad de vida. Al considerar un terreno hoy, estás apostando a una ciudad que está trabajando para brindarte el entorno que mereces.</p>
     `,
     date: '20 de Febrero, 2026',
     author: 'Redacción TEKO',
@@ -259,17 +259,17 @@ export const blogPosts: BlogPost[] = [
     title: 'Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)',
     excerpt: 'Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento "La Era Dorada" para invertir en terrenos.',
     content: `
-      <p class="lead">Si tenés ahorros en guaraníes durmiendo en una caja de ahorro, estás perdiendo dinero cada día. La inflación es el impuesto silencioso que nadie te avisa pero todos pagamos. Sin embargo, existe un refugio que los paraguayos conocemos desde siempre: <strong>la tierra</strong>.</p>
+      <p class="lead">Cuidar el fruto de años de trabajo es una preocupación que todos compartimos. En un mundo donde el valor del dinero parece cambiar constantemente, muchos paraguayos han encontrado en la tierra un refugio seguro para sus ahorros y una base sólida para sus proyectos familiares.</p>
 
-      <p>En este artículo vamos a analizar en profundidad por qué 2026 representa una ventana de oportunidad histórica para invertir en terrenos en Paraguay, especialmente en zonas como Capiatá, y cómo podés aprovechar este momento antes de que los precios suban aún más.</p>
+      <p>Explorar el mercado inmobiliario actual nos permite entender cómo las ciudades crecen y cómo ese crecimiento puede beneficiarnos. En este artículo, queremos compartir una visión clara de por qué zonas como Capiatá están captando la atención de tantas familias que buscan proteger su capital y construir un patrimonio real.</p>
 
-      <h2>El Contexto Económico Paraguayo en 2026</h2>
+      <h2>Entendiendo el contexto hoy</h2>
 
-      <p>Paraguay atraviesa un momento económico peculiar. Mientras otros países de la región luchan contra recesiones, nuestro país mantiene un crecimiento estable del PIB cercano al 4% anual. Esto genera un fenómeno interesante: <strong>más familias con capacidad de compra buscando dónde invertir</strong>.</p>
+      <p>No es secreto que el mercado paraguayo se destaca por su estabilidad en la región. Con un crecimiento proyectado del PIB cercano al 4%, vemos un movimiento natural de familias que buscan opciones fuera del sistema financiero tradicional para resguardar su esfuerzo.</p>
 
-      <p>El Banco Central del Paraguay reporta que la inflación acumulada de los últimos 5 años ha erosionado aproximadamente el 25% del poder adquisitivo del guaraní. Esto significa que si tenías Gs. 100.000.000 guardados en 2021, hoy equivalen a unos Gs. 75.000.000 en términos reales.</p>
+      <p>Históricamente, la tierra en Paraguay ha mostrado una tendencia de valorización que acompaña y, muchas veces, supera a la inflación. Esto significa que lo que hoy decidís invertir en metros cuadrados, tiende a conservar su poder adquisitivo mucho mejor que el dinero en una cuenta de ahorro tradicional.</p>
 
-      <p>¿Qué pasó con quienes invirtieron en tierra? Exactamente lo contrario. Un terreno de Gs. 50.000.000 en Capiatá en 2021 hoy vale aproximadamente Gs. 90.000.000. Eso es un 80% de ganancia nominal, o un 40% de ganancia real después de descontar la inflación.</p>
+      <p>Es una manera de que tu trabajo de hoy siga rindiendo frutos en cinco o diez años por la propia dinámica de crecimiento de nuestras ciudades. Al entrar en el mercado en el momento adecuado, te posicionás para que el desarrollo de la zona trabaje a tu favor.</p>
 
       <h2>El Fenómeno de la Expansión Urbana del Gran Asunción</h2>
 
@@ -286,9 +286,9 @@ export const blogPosts: BlogPost[] = [
 
       <p>Lo que hoy ves como "lejos" o "campo", en 3 a 5 años será barrio residencial con todos los servicios. <strong>Esta es exactamente la ventana de oportunidad que los inversores inteligentes aprovechan.</strong></p>
 
-      <h2>La Matemática de la Plusvalía: Caso Real en Costa Salinas</h2>
+      <h2>Cómo se construye el valor en un loteamiento</h2>
 
-      <p>Veamos un ejemplo concreto con números reales de nuestro desarrollo Costa Salinas en Capiatá:</p>
+      <p>El valor de la tierra no sube por arte de magia, sino por la inversión y el esfuerzo volcado en la zona. Entender este proceso te ayuda a tomar una decisión informada sobre cuándo es el mejor momento para vos:</p>
 
       <table>
         <tr><th>Año</th><th>Evento</th><th>Valor del Lote</th><th>Incremento</th></tr>
@@ -753,7 +753,7 @@ export const blogPosts: BlogPost[] = [
         <li><strong>2030:</strong> Valores duplicados respecto a 2026</li>
       </ul>
 
-      <p>Quien compre hoy a Gs. 225.000/m², podría tener un terreno valuado en Gs. 450.000/m² en 2030. <strong>Eso es 100% de ganancia en 4 años.</strong></p>
+      <p>Al observar estas tendencias, es posible proyectar que quienes inician hoy su plan de pago en áreas con servicios planificados, se posicionan para beneficiarse del crecimiento natural de la zona, protegiendo el valor de su inversión frente al paso del tiempo.</p>
 
       <h2>Qué Buscar en un Terreno en Capiatá</h2>
 
@@ -794,7 +794,7 @@ export const blogPosts: BlogPost[] = [
     title: 'Capiatá: La Capital Industrial de Paraguay y Por Qué es el Mejor Lugar para Invertir',
     excerpt: 'Con más de 5.000 empleos directos generados por gigantes como Conti, La Pradera, Schussmuller y Tecnoedil, Capiatá se consolida como el epicentro industrial del país. Descubrí cómo esto impulsa el valor de la tierra.',
     content: `
-      <p class="lead">Cuando pensás en zonas industriales de Paraguay, probablemente se te viene a la mente Villeta o Mariano Roque Alonso. Pero hay una ciudad que, silenciosamente, se ha convertido en <strong>la mayor concentración de industrias del Departamento Central</strong>: Capiatá. Y lo mejor es que esta revolución industrial está disparando el valor de los terrenos circundantes.</p>
+      <p class="lead">Capiatá se ha consolidado como uno de los polos industriales más importantes del Departamento Central. Esta actividad no solo genera empleos, sino que impulsa el desarrollo de infraestructura y servicios que benefician a toda la comunidad residencial circundante.</p>
 
       <h2>Un Gigante Industrial a Solo 20 km de Asunción</h2>
 
