@@ -220,7 +220,7 @@ export const blogPosts: BlogPost[] = [
     content: `
       <p class="lead">Lo que está pasando en Capiatá no es casualidad. Es el resultado de una inversión pública sin precedentes que está redefiniendo la ciudad como el nuevo eje residencial y comercial de Central.</p>
 
-      <img src="/images/capiata/capiata-progreso-1.jpg" alt="Progreso en Capiatá" class="w-full h-auto rounded-lg my-6 shadow-md" />
+      <img src="/images/capiata/capiata-progreso-3.jpg" alt="Progreso en Capiatá" class="w-full h-auto rounded-lg my-6 shadow-md" />
 
       <h2>Plan Central 2: 51 Kilómetros de Transformación</h2>
       <p>Según datos oficiales del MOPC, Capiatá es protagonista del programa <strong>Plan Central 2</strong>. Lo que inició como un proyecto de 24 km se duplicó a <strong>51 kilómetros de nuevos asfaltados</strong> gracias a una gestión eficiente de recursos.</p>
@@ -234,7 +234,7 @@ export const blogPosts: BlogPost[] = [
       <p>Uno de los proyectos más ambiciosos es la duplicación de la <strong>Ruta D027 (ex Ruta 1)</strong> hasta J. Augusto Saldívar. Esta obra, junto con la implementación de carriles exclusivos para transporte público, reducirá los tiempos de viaje a la mitad.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-        <img src="/images/capiata/capiata-progreso-2.jpg" alt="Obras de infraestructura Capiatá" class="w-full h-64 object-cover rounded-lg shadow-sm" />
+        <img src="/images/capiata/capiata-progreso-v2.jpg" alt="Obras de infraestructura Capiatá" class="w-full h-64 object-cover rounded-lg shadow-sm" />
         <img src="/images/capiata/capiata-progreso-3.jpg" alt="Mejoras urbanas Capiatá" class="w-full h-64 object-cover rounded-lg shadow-sm" />
       </div>
 
@@ -253,7 +253,7 @@ export const blogPosts: BlogPost[] = [
     date: '20 de Febrero, 2026',
     author: 'Redacción TEKO',
     category: 'Noticias & Obras',
-    image: '/images/capiata/capiata-progreso-v2.jpg',
+    image: '/images/capiata/capiata-progreso-3.jpg',
     readTime: '8 min'
   },
   {
@@ -491,7 +491,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Asesoría TEKO',
     category: 'Educación Financiera',
-    image: '/images/blog/family-house.jpg',
+    image: '/images/render-casa-moderna.jpg',
     readTime: '15 min'
   },
   {
@@ -637,7 +637,7 @@ export const blogPosts: BlogPost[] = [
     date: '05 de Febrero, 2026',
     author: 'Dto. Legal TEKO',
     category: 'Seguridad Legal',
-    image: '/images/blog/legal-docs.jpg',
+    image: '/images/blog/tekojoja-roga.jpg',
     readTime: '18 min'
   },
   {
@@ -874,7 +874,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: '/images/blog/capitata-aerial.jpg',
+    image: '/images/capiata/capiata-progreso-v2.jpg',
     readTime: '12 min'
   }
 ];
