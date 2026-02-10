@@ -6,28 +6,28 @@ import { Button } from './Button';
 
 const timelineData = [
     {
-        year: 'Fase 1',
-        title: 'Hallazgo: El Punto de Entrada',
-        desc: 'Identificación de suelo subvaluado en corredores de expansión demográfica. El mercado masivo aún no detecta el potencial, lo que permite la adquisición a precios de "tierra virgen" con el máximo margen de seguridad.',
-        insight: 'El "Alpha" (rendimiento superior al mercado) se genera comprando antes de la validación masiva.'
+        year: 'Paso 1',
+        title: 'Comprar Antes que Todos',
+        desc: 'El secreto de los grandes inversores es simple: llegan primero. Identificamos zonas donde la ciudad "está por llegar". Al comprar aquí, pagás el precio más bajo posible, asegurando tu ganancia desde el día uno.',
+        insight: 'Comprás barato hoy, y ganás cuando todos los demás quieran comprar mañana.'
     },
     {
-        year: 'Fase 2',
-        title: 'Desarrollo de Infraestructura',
-        desc: 'La llegada orgánica de servicios básicos y apertura de vías transforma la accesibilidad de la zona. Históricamente, este es el catalizador que dispara la primera corrección de precios al alza.',
-        insight: 'La plusvalía más agresiva ocurre cuando una zona pasa de "inaccesible" a "conectada".'
+        year: 'Paso 2',
+        title: 'El Despertar de la Zona',
+        desc: 'Empiezan a llegar los servicios, se abren nuevos caminos y se instalan los primeros vecinos. Es el momento mágico donde tu terreno deja de ser "campo" y se convierte en "ciudad". Aquí es donde tu dinero empieza a multiplicarse solo.',
+        insight: 'Cada nuevo poste de luz y cada ladrillo puesto por un vecino aumenta el valor de TU terreno.'
     },
     {
-        year: 'Fase 3',
-        title: 'Densificación Residencial',
-        desc: 'El crecimiento poblacional alcanza la zona. Las primeras construcciones validan la habitabilidad y el "Efecto Barrio" comienza a blindar el valor del metro cuadrado contra la inflación.',
-        insight: 'La demanda real de vivienda es el fundamental más sólido para sostener el precio a largo plazo.'
+        year: 'Paso 3',
+        title: 'Todos Quieren Vivir Aquí',
+        desc: 'La zona se llena de vida. Ya hay familias, comercios y transporte. La demanda explota y, como ya no quedan terrenos baratos, el tuyo vale oro. Es la ley de oferta y demanda jugando a tu favor.',
+        insight: 'Ahora sos dueño de un bien escaso y deseado. Tu visión temprana dio sus frutos.'
     },
     {
-        year: 'Fase 4',
-        title: 'Consolidación de Mercado',
-        desc: 'Zona establecida con oferta comercial y servicios plenos. El activo alcanza su madurez y máxima liquidez, permitiendo al inversor inicial realizar su ganancia o construir patrimonio de renta.',
-        insight: 'Convertiste una visión especulativa en un activo de "Ladrillo Seguro". Ciclo completado.'
+        year: 'Paso 4',
+        title: 'Tu Patrimonio Consolidado',
+        desc: 'Tenés un activo seguro, titulado y de alto valor. Podés construir la casa de tus sueños en un barrio consolidado o venderlo con una ganancia extraordinaria. El ciclo se completó y vos ganaste.',
+        insight: 'Convertiste ahorros quietos en un patrimonio real y heredable para tu familia.'
     }
 ];
 
@@ -71,15 +71,15 @@ export const GrowthTimeline: React.FC = () => {
                         className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-teko-gold/20 text-teko-gold font-bold text-sm uppercase tracking-wider mb-6"
                     >
                         <TrendingUp size={16} />
-                        Análisis de Mercado
+                        El Secreto de la Plusvalía
                     </motion.div>
                     <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-white">
-                        La Ciencia del <span className="text-teko-gold">Valor Inmobiliario</span>
+                        ¿Cómo tu terreno <span className="text-teko-gold">gana valor solo?</span>
                     </h2>
                     <p className="text-slate-300 text-lg leading-relaxed">
-                        No adivinamos dónde invertir; analizamos hacia dónde se mueve la mancha urbana.
+                        No hace falta ser economista para entenderlo. La ciudad crece hacia afuera, y quien tiene la tierra antes de que llegue el asfalto, gana.
                         <br className="hidden md:block" />
-                        <strong className="text-white">Este es el ciclo técnico de valorización que buscamos en cada ubicación que seleccionamos.</strong>
+                        <strong className="text-white">Así es como tu inversión se multiplica mientras vos dormís:</strong>
                     </p>
                 </div>
 
@@ -174,7 +174,7 @@ export const GrowthTimeline: React.FC = () => {
                                     <div className="bg-teko-gold/10 rounded-xl p-6 border border-teko-gold/20">
                                         <div className="flex items-center gap-2 text-teko-gold mb-2">
                                             <BarChart3 size={18} />
-                                            <p className="text-sm uppercase tracking-wider font-bold">Visión de Mercado</p>
+                                            <p className="text-sm uppercase tracking-wider font-bold">Dato Clave</p>
                                         </div>
                                         <p className="text-lg text-white/90 italic">"{currentData.insight}"</p>
                                     </div>
@@ -182,7 +182,7 @@ export const GrowthTimeline: React.FC = () => {
 
                                 <Link href="/terrenos">
                                     <Button variant="gold" size="lg" className="w-full sm:w-auto shadow-lg shadow-teko-gold/20 hover:shadow-teko-gold/40">
-                                        Ver Proyectos en Fase 1
+                                        Ver Lotes Disponibles
                                     </Button>
                                 </Link>
                             </motion.div>

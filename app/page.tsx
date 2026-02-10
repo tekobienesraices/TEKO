@@ -30,7 +30,7 @@ export default function HomePage() {
                 >
                     <div className="absolute inset-0 bg-gradient-to-b from-teko-navy/40 via-teko-navy/20 to-slate-50 z-10" />
                     <img
-                        src="/images/capiata/capiata-progreso-1.jpg"
+                        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2560&auto=format&fit=crop"
                         alt="Venta de terrenos en cuotas en Capiatá Paraguay - Vista Aérea"
                         className="w-full h-full object-cover"
                     />
