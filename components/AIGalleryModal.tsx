@@ -98,7 +98,14 @@ export const AIGalleryModal: React.FC<AIGalleryModalProps> = ({ isOpen, onClose 
                                     <p className="text-slate-500 text-sm font-medium mb-4">
                                         ¿Querés ver cómo quedaría tu idea en uno de nuestros lotes?
                                     </p>
-                                    <Button variant="gold" size="sm" fullWidth onClick={() => { onClose(); }}>
+                                    <Button
+                                        variant="gold"
+                                        size="sm"
+                                        fullWidth
+                                        onClick={() => {
+                                            window.open('https://wa.me/595974202163?text=Hola%20TEKO%2C%20me%20gustar%C3%ADa%20solicitar%20un%20dise%C3%B1o%20con%20IA%20para%20mi%20futuro%20terreno.', '_blank');
+                                        }}
+                                    >
                                         Solicitar Mi Diseño IA
                                     </Button>
                                 </div>

@@ -22,7 +22,6 @@ export const blogPosts: BlogPost[] = [
     content: `
       <p class="lead">Capiatá está dejando de ser vista únicamente como una "ciudad dormitorio" para consolidarse como un polo de atracción turística y residencial en el corazón del Departamento Central. El máximo exponente de esta transformación es, sin duda, el <strong>Hotel Resort Los Lagos</strong>, un oasis de naturaleza a solo 40 minutos de Asunción.</p>
 
-      <img src="/images/blog/hotel-los-lagos.jpg" alt="Hotel Los Lagos Capiatá" class="w-full h-auto rounded-lg my-6 shadow-md" />
 
       <h2>Los Lagos: Un Estilo de Vida Propiamente Capiateño</h2>
       
@@ -220,7 +219,6 @@ export const blogPosts: BlogPost[] = [
     content: `
       <p class="lead">Lo que está pasando en Capiatá no es casualidad. Es el resultado de una inversión pública sin precedentes que está redefiniendo la ciudad como el nuevo eje residencial y comercial de Central.</p>
 
-      <img src="/images/capiata/capiata-progreso-3.jpg" alt="Progreso en Capiatá" class="w-full h-auto rounded-lg my-6 shadow-md" />
 
       <h2>Plan Central 2: 51 Kilómetros de Transformación</h2>
       <p>Según datos oficiales del MOPC, Capiatá es protagonista del programa <strong>Plan Central 2</strong>. Lo que inició como un proyecto de 24 km se duplicó a <strong>51 kilómetros de nuevos asfaltados</strong> gracias a una gestión eficiente de recursos.</p>
@@ -235,7 +233,7 @@ export const blogPosts: BlogPost[] = [
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
         <img src="/images/capiata/capiata-progreso-v2.jpg" alt="Obras de infraestructura Capiatá" class="w-full h-64 object-cover rounded-lg shadow-sm" />
-        <img src="/images/capiata/capiata-progreso-3.jpg" alt="Mejoras urbanas Capiatá" class="w-full h-64 object-cover rounded-lg shadow-sm" />
+        <img src="/images/capiata/capiata-progreso-new.jpg" alt="Mejoras urbanas Capiatá" class="w-full h-64 object-cover rounded-lg shadow-sm" />
       </div>
 
       <h2>Espacios Públicos y Servicios</h2>
