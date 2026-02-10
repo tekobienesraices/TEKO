@@ -253,7 +253,7 @@ export const blogPosts: BlogPost[] = [
     date: '20 de Febrero, 2026',
     author: 'Redacción TEKO',
     category: 'Noticias & Obras',
-    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop',
+    image: '/images/capiata/capiata-progreso-3.jpg',
     readTime: '8 min'
   },
   {
