@@ -71,6 +71,23 @@ export default function PropiedadPage({ property, zone }: Props) {
                             </p>
                         </div>
 
+                        {/* Video Section (New) */}
+                        {property.videoUrl && (
+                            <div className="space-y-6">
+                                <h3 className="text-2xl font-serif font-bold text-teko-navy">Video del Loteamiento</h3>
+                                <div className="relative aspect-video rounded-3xl overflow-hidden shadow-2xl bg-slate-100 group">
+                                    <video
+                                        src={property.videoUrl}
+                                        controls
+                                        className="w-full h-full object-cover"
+                                        poster={property.image}
+                                    >
+                                        Tu navegador no soporta videos.
+                                    </video>
+                                </div>
+                            </div>
+                        )}
+
                         {/* Features */}
                         <div>
                             <h3 className="text-2xl font-serif font-bold text-teko-navy mb-6">Características y Servicios</h3>
