@@ -2,23 +2,62 @@
 
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Download, Check, ArrowRight, Shield, BookOpen, Target } from 'lucide-react';
+import { Download, Check, ArrowRight, Shield, BookOpen, Target, Loader2, CheckCircle, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/Button';
+
+// Google Apps Script Web App URL
+const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL || '';
 
 export default function GuiaPage() {
     const [email, setEmail] = useState('');
     const [name, setName] = useState('');
     const [phone, setPhone] = useState('');
+    const [isSubmitting, setIsSubmitting] = useState(false);
     const [submitted, setSubmitted] = useState(false);
+    const [error, setError] = useState('');
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault();
-        // In production, this would submit to a CRM or email service
-        // For now, redirect to WhatsApp with the info
-        const text = `Hola! Quiero la guía gratuita. Soy ${name}, mi correo es ${email} y mi teléfono es ${phone}`;
-        window.open(`https://wa.me/595974202163?text=${encodeURIComponent(text)}`, '_blank');
-        setSubmitted(true);
+        setIsSubmitting(true);
+        setError('');
+
+        try {
+            // Send lead data to Google Apps Script (non-blocking for download)
+            fetch(GOOGLE_SCRIPT_URL, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    name,
+                    email,
+                    phone,
+                    interest: 'Guía Inversión',
+                    source: 'Ebook Landing Page',
+                    timestamp: new Date().toISOString()
+                }),
+                mode: 'no-cors' // Google Apps Script requires no-cors
+            }).catch(console.error); // Log error but don't block download
+
+            // Small delay to feel robust
+            await new Promise(resolve => setTimeout(resolve, 800));
+
+            setSubmitted(true);
+
+            // Auto-download the PDF
+            setTimeout(() => {
+                const link = document.createElement('a');
+                link.href = '/guia-teko.pdf';
+                link.download = 'Guia-TEKO-Inverti-con-Claridad.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }, 1000);
+        } catch (err) {
+            // Even if backend fails, let them download
+            setSubmitted(true);
+        } finally {
+            setIsSubmitting(false);
+        }
     };
 
     const benefits = [
@@ -138,31 +177,51 @@ export default function GuiaPage() {
                                         placeholder="09XX XXX XXX"
                                     />
                                 </div>
-                                <Button fullWidth variant="gold" size="lg" type="submit">
-                                    <Download size={20} className="mr-2" />
-                                    Descargar Ahora
+                                {error && (
+                                    <p className="text-red-500 text-sm">{error}</p>
+                                )}
+                                <Button fullWidth variant="gold" size="lg" type="submit" disabled={isSubmitting}>
+                                    {isSubmitting ? (
+                                        <><Loader2 size={20} className="animate-spin mr-2" /> Preparando tu guía...</>
+                                    ) : (
+                                        <><Download size={20} className="mr-2" /> Descargar Ahora</>
+                                    )}
                                 </Button>
-                                <p className="text-xs text-center text-slate-400 mt-4">
-                                    Al descargar, aceptás recibir comunicaciones de TEKO. <br />
-                                    Podés desuscribirte en cualquier momento.
+                                <p className="text-xs text-center text-slate-400 mt-4 flex items-center justify-center gap-2">
+                                    <ShieldCheck size={14} />
+                                    Tus datos están protegidos. Al descargar, aceptás recibir comunicaciones de TEKO.
                                 </p>
                             </form>
                         ) : (
-                            <div className="text-center py-8">
+                            <motion.div
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                className="text-center py-8"
+                            >
                                 <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                                    <Check size={32} />
+                                    <CheckCircle size={32} />
                                 </div>
-                                <h3 className="text-xl font-bold text-teko-navy mb-2">¡Listo!</h3>
+                                <h3 className="text-2xl font-serif font-bold text-teko-navy mb-2">¡Felicitaciones!</h3>
                                 <p className="text-slate-500 mb-6">
-                                    Te contactaremos por WhatsApp con tu guía.
+                                    Tu guía se descargará automáticamente. Si no comienza, hacé clic abajo:
                                 </p>
+                                <a
+                                    href="/guia-teko.pdf"
+                                    download="Guia-TEKO-Inverti-con-Claridad.pdf"
+                                    className="block w-full mb-6"
+                                >
+                                    <Button variant="gold" fullWidth size="lg" className="animate-pulse hover:animate-none">
+                                        <Download size={20} className="mr-2" />
+                                        Descargar PDF Ahora
+                                    </Button>
+                                </a>
                                 <Link href="/terrenos">
                                     <Button variant="outline">
                                         Ver Terrenos Disponibles
                                         <ArrowRight size={18} className="ml-2" />
                                     </Button>
                                 </Link>
-                            </div>
+                            </motion.div>
                         )}
                     </motion.div>
                 </div>
