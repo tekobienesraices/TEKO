@@ -253,7 +253,7 @@ export const blogPosts: BlogPost[] = [
     date: '20 de Febrero, 2026',
     author: 'Redacción TEKO',
     category: 'Noticias & Obras',
-    image: '/images/capiata/capiata-progreso-3.jpg',
+    image: 'https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2070&auto=format&fit=crop',
     readTime: '8 min'
   },
   {
@@ -382,7 +382,7 @@ export const blogPosts: BlogPost[] = [
     date: '15 de Febrero, 2026',
     author: 'Equipo TEKO',
     category: 'Inversión',
-    image: '/images/blog/revista-mandua-chart.webp',
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
     readTime: '12 min'
   },
   {
@@ -491,7 +491,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Asesoría TEKO',
     category: 'Educación Financiera',
-    image: '/images/render-casa-moderna.jpg',
+    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop',
     readTime: '15 min'
   },
   {
@@ -637,7 +637,7 @@ export const blogPosts: BlogPost[] = [
     date: '05 de Febrero, 2026',
     author: 'Dto. Legal TEKO',
     category: 'Seguridad Legal',
-    image: '/images/blog/tekojoja-roga.jpg',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop',
     readTime: '18 min'
   },
   {
@@ -788,7 +788,7 @@ export const blogPosts: BlogPost[] = [
     date: '01 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: '/images/blog/capitata-aerial.jpg',
+    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop',
     readTime: '16 min'
   },
   {
@@ -874,8 +874,98 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: '/images/capiata/capiata-progreso-v2.jpg',
+    image: 'https://images.unsplash.com/photo-1565106430482-8bc1ff40c75c?q=80&w=1974&auto=format&fit=crop',
     readTime: '12 min'
+  },
+  {
+    id: 'bancos-vs-financiacion-propia-paraguay',
+    title: 'Bancos vs. Financiación Propia: Lo que Nadie te Dice sobre los Créditos en Paraguay',
+    excerpt: '¿Es mejor un préstamo hipotecario o comprar directamente de la inmobiliaria? Analizamos requisitos, intereses y la letra chica que los bancos no quieren que sepas.',
+    content: `
+      <p class="lead">Si estás pensando en comprar tu primer terreno, probablemente tu primera idea fue ir al banco. Pero en Paraguay, el camino del crédito bancario está lleno de obstáculos que dejan fuera al 70% de los trabajadores. En este artículo, vamos a comparar la realidad de los bancos frente a la agilidad de la financiación propia.</p>
+
+      <h2>El "Muro" de los Bancos en Paraguay</h2>
+      <p>Para que un banco en Paraguay te apruebe un crédito hipotecario, necesitás cumplir con un perfil casi perfecto:</p>
+      <ul>
+        <li><strong>Antigüedad Laboral:</strong> Mínimo 2 años de estabilidad comprobable.</li>
+        <li><strong>Seguro Social:</strong> Aportes a IPS al día o declaraciones de IVA impecables.</li>
+        <li><strong>Rango de Ingresos:</strong> La cuota no puede superar el 30% de tu sueldo neto (muchas veces piden ingresos familiares superiores a 3 salarios mínimos).</li>
+        <li><strong>Informconf:</strong> Un simple retraso en una factura de celular de hace 3 años puede ser motivo de rechazo instantáneo.</li>
+      </ul>
+
+      <h2>¿Por qué la Financiación Propia es la Favorita de los Inversores?</h2>
+      <p>En inmobiliarias como <strong>TEKO</strong>, eliminamos la burocracia para enfocarnos en la confianza. Nuestra financiación propia se basa en:</p>
+      <ul>
+        <li><strong>Aprobación en 24hs:</strong> Sin comités de crédito que tardan meses.</li>
+        <li><strong>Sin consulta a Informconf:</strong> Evaluamos tu presente, no tus errores del pasado.</li>
+        <li><strong>Cuota Fija:</strong> En guaraníes, sin sorpresas por el tipo de cambio del dólar.</li>
+        <li><strong>Posesión Inmediata:</strong> Podés empezar a usar tu terreno desde que pagás la entrega inicial.</li>
+      </ul>
+
+      <blockquote>"La mejor financiación no es la que tiene la tasa más baja en el papel, sino la que realmente podés pagar y te permite ser dueño hoy, no dentro de 20 años."</blockquote>
+
+      <h2>Comparativa Directa</h2>
+      <p>Mientras un banco te presta dinero para que compres algo, nosotros te vendemos la tierra directamente. Esto elimina intermediarios y reduce drásticamente los requisitos de entrada.</p>
+    `,
+    date: '10 de Febrero, 2026',
+    author: 'Asesoría TEKO',
+    category: 'Finanzas',
+    image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop',
+    readTime: '14 min'
+  },
+  {
+    id: 'mejores-libros-inversion-inmobiliaria-2026',
+    title: 'Biblioteca del Inversor: Los 5 Libros que Todo Dueño de Terrenos Debe Leer',
+    excerpt: 'Invertir en tu educación es la mejor inversión de todas. Te recomendamos las lecturas que transformarán tu mentalidad de "comprador" a "inversor sofisticado".',
+    content: `
+      <p class="lead">Como dice el famoso inversor Robert Kiyosaki: <em>"La inversión en propiedades te permite generar ingresos pasivos y aumentar tu patrimonio neto"</em>. Pero para llegar ahí, primero tenés que entrenar tu mente.</p>
+
+      <h2>Nuestras Recomendaciones de Oro</h2>
+      
+      <h3>1. "Padre Rico, Padre Pobre" - Robert Kiyosaki</h3>
+      <p>El libro que lo cambió todo. Te enseña la diferencia fundamental entre un <strong>activo</strong> (tu terreno que sube de valor) y un <strong>pasivo</strong> (tu auto que se deprecia). Una cita clave: <em>"Un activo es algo que pone dinero en tu bolsillo. Un pasivo es algo que extrae dinero de tu bolsillo."</em></p>
+
+      <h3>2. "El ABC de la Inversión en Bienes Raíces" - Ken McElroy</h3>
+      <p>Si querés pasar de la teoría a la práctica, este es tu libro. Ken explica cómo encontrar mercados que están a punto de explotar (como Capiatá hoy) y cómo evaluar un terreno con ojos profesionales.</p>
+
+      <h3>3. "El Libro sobre la Inversión en Propiedades de Alquiler" - Brandon Turner</h3>
+      <p>Brandon es el maestro del flujo de caja. Te enseña a comprar tierra pensando en el futuro: ¿qué tipo de propiedad podrías construir ahí para vivir de tus rentas algún día?</p>
+
+      <h2>¿Por qué leer sobre bienes raíces?</h2>
+      <p>El conocimiento te da la seguridad para aprovechar las oportunidades cuando otros tienen miedo. La diferencia entre el rico y el pobre, según estos autores, es que el rico invierte su dinero primero y gasta lo que queda, mientras que el pobre gasta primero y espera que sobre algo para invertir.</p>
+    `,
+    date: '10 de Febrero, 2026',
+    author: 'Research TEKO',
+    category: 'Libros & Consejos',
+    image: 'https://images.unsplash.com/photo-1491841573634-28140fc7ced7?q=80&w=2070&auto=format&fit=crop',
+    readTime: '16 min'
+  },
+  {
+    id: 'ojo-de-inversor-inspeccion-tecnica-terrenos',
+    title: 'Ojo de Inversor: Guía Técnica para Inspeccionar un Terreno antes de Firmar',
+    excerpt: 'No te dejes engañar por una cara bonita. Te enseñamos a ver lo que los demás ignoran: drenaje, orientación del sol y servicios ocultos.',
+    content: `
+      <p class="lead">Comprar un terreno no es solo mirar el mapa. Es ir al lugar y saber leer la tierra. Un error técnico hoy puede significar millones en gastos de nivelación o problemas de humedad mañana.</p>
+
+      <h2>El Checklist del Inversor Profesional</h2>
+      
+      <h3>1. La Topografía y el Drenaje</h3>
+      <p>Mirá hacia dónde fluye el agua cuando llueve. Un terreno que está por debajo del nivel de la calle requerirá mucha "carga" (tierra de relleno) para no inundarse. Lo ideal es un terreno con una pendiente suave hacia el frente para evacuar el agua de lluvia naturalmente.</p>
+
+      <h3>2. La Orientación del Sol</h3>
+      <p>En Paraguay, el sol es un factor crítico. La mejor orientación para tu futura casa es que el frente dé hacia el <strong>Sureste</strong>. Esto mantiene la casa fresca y reduce el consumo de energía en aire acondicionado.</p>
+
+      <h3>3. Servicios Básicos (Ver para Creer)</h3>
+      <p>No confíes solo en la palabra del vendedor. Buscá los postes de ANDE más cercanos y preguntá a los vecinos sobre la presión de agua de la aguatería local o ESSAP. Un terreno sin energía trifásica cerca puede ser un dolor de cabeza si planeás un comercio o industria pequeña.</p>
+
+      <h2>El Valor de los Papeles Municipales</h2>
+      <p>Verificá que el loteamiento tenga la aprobación municipal definitiva. Esto te garantiza que las calles están trazadas legalmente y que no tendrás problemas para obtener tu número de cuenta catastral.</p>
+    `,
+    date: '10 de Febrero, 2026',
+    author: 'Dto. Técnico TEKO',
+    category: 'Consejos Técnicos',
+    image: 'https://images.unsplash.com/photo-1541462608141-ad4d05ed5a41?q=80&w=2070&auto=format&fit=crop',
+    readTime: '15 min'
   }
 ];
 
