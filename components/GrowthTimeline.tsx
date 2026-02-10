@@ -49,7 +49,7 @@ export const GrowthTimeline: React.FC = () => {
         const images = [
             '/growth/2010.jpg', // Keep existing path but treat as generic
             '/growth/2015.jpg',
-            '/growth-2020.jpg',
+            '/growth/2020.jpg',
             '/growth/2025.jpg'
         ];
         return images[index] || images[0];

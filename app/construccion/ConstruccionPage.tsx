@@ -33,9 +33,9 @@ export default function ConstruccionPage() {
 
                     <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                         {[
-                            { icon: Hammer, title: "1. Diseño Proyectual", text: "Personalizamos cada espacio con arquitectos de primer nivel." },
+                            { icon: Hammer, title: "1. Arquitectura a Medida", text: "Personalizamos cada espacio con arquitectos de primer nivel." },
                             { icon: CheckCircle2, title: "2. Gestión Integral", text: "Nos ocupamos de todos los permisos y planos municipales." },
-                            { icon: Clock, title: "3. Construcción Ágil", text: "Obra optimizada con reportes semanales de avance vía WhatsApp." },
+                            { icon: Clock, title: "3. Construcción Real", text: "Obra optimizada con reportes semanales de avance vía WhatsApp." },
                             { icon: Key, title: "4. Entrega de Llaves", text: "Tu hogar listo para habitar, con garantía de calidad TEKO." }
                         ].map((step, idx) => (
                             <motion.div

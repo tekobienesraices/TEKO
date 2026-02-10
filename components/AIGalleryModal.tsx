@@ -9,9 +9,9 @@ interface AIGalleryModalProps {
 }
 
 const aiDesigns = [
-    { src: '/images/ai-designs/design-1.jpg', label: 'Residencia Alpha - Modernismo Tropical' },
-    { src: '/images/ai-designs/design-2.png', label: 'Concepto Minimalista - Integración Paisajística' },
-    { src: '/images/ai-designs/design-3.png', label: 'Lujo Contemporáneo - Espacios de Alta Gama' }
+    { src: '/images/ai-designs/design-1.jpg', label: 'Hogar del Futuro - Estilo Natural' },
+    { src: '/images/ai-designs/design-2.png', label: 'Refugio Minimalista - Conexión con el Verde' },
+    { src: '/images/ai-designs/design-3.png', label: 'Elegancia Moderna - Espacios Para Disfrutar' }
 ];
 
 export const AIGalleryModal: React.FC<AIGalleryModalProps> = ({ isOpen, onClose }) => {

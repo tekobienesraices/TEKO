@@ -92,6 +92,25 @@ export default function PropiedadPage({ property, zone }: Props) {
                             </div>
                         </div>
 
+                        {/* Gallery Section (New) */}
+                        {property.gallery && property.gallery.length > 0 && (
+                            <div className="space-y-6">
+                                <h3 className="text-2xl font-serif font-bold text-teko-navy">Galería de Imágenes</h3>
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                    {property.gallery.map((img, idx) => (
+                                        <div key={idx} className="relative aspect-video rounded-2xl overflow-hidden border border-slate-200 shadow-md group cursor-pointer">
+                                            <img
+                                                src={img}
+                                                alt={`${property.title} - Vista ${idx + 1}`}
+                                                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                                            />
+                                            <div className="absolute inset-0 bg-black/20 group-hover:bg-transparent transition-colors" />
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
+                        )}
+
                         {/* Map Preview */}
                         <div className="space-y-4">
                             <h3 className="text-2xl font-serif font-bold text-teko-navy mb-4">Ubicación Estratégica</h3>

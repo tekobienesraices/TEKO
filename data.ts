@@ -31,7 +31,7 @@ export const properties: Property[] = [
   {
     id: 'cs-001',
     zoneId: 'costa-salinas',
-    title: 'Costa Salinas: Tu Inversión Segura',
+    title: 'Costa Salinas: Residencial I',
     location: 'Costa Salinas - Zona de Alto Valor',
     originalPrice: 125000000,
     price: 120000000,
@@ -46,13 +46,14 @@ export const properties: Property[] = [
   {
     id: 'cs-003',
     zoneId: 'costa-salinas',
-    title: 'Costa Salinas: Para tu Familia',
+    title: 'Costa Salinas: Residencial II',
     location: 'Costa Salinas - Barrio Tranquilo',
     originalPrice: 86000000,
     price: 81000000,
     monthlyPayment: 1750000,
     description: 'Imaginá a tus hijos jugando en su propio patio. Costa Salinas es un barrio consolidado, seguro y lleno de vida. Dejá de pagar alquiler y empezá a pagar por lo que será tuyo para siempre. La mejor herencia es un techo propio.',
-    image: '/properties/costa-salinas-drone-2.jpg',
+    image: '/properties/residencial-dos-1.jpg',
+    gallery: ['/properties/residencial-dos-1.jpg', '/properties/residencial-2-2.jpg'],
     features: ['Barrio Seguro', 'Vecinos Reales', 'Servicios Listos', 'Tu Propio Hogar'],
     type: 'terreno',
     coordinates: { lat: -25.3210, lng: -57.4440 },
@@ -61,6 +62,7 @@ export const properties: Property[] = [
 ];
 
 // Helper function to get properties by zone
+// Updated property data for Residencial I and II
 export const getPropertiesByZone = (zoneId: string): Property[] => {
   return properties.filter(p => p.zoneId === zoneId);
 };
@@ -97,19 +99,19 @@ export const constructionPlans: ConstructionPlan[] = [
 // ==========================================
 export const testimonials = [
   {
-    name: "Oportunidad de Inversión",
+    name: "Crecimiento Real",
     role: "Plusvalía Asegurada",
-    text: "Al invertir en etapa de lanzamiento, asegurás el precio más bajo posible antes de que la zona se desarrolle por completo."
+    text: "Al comprar antes de que la zona se desarrolle por completo, bloqueás el precio más bajo y asegurás tu ganancia futura."
   },
   {
     name: "Sin Burocracia",
-    role: "Flexibilidad Total",
-    text: "Financiación propia a sola firma con aprobación inmediata. También emitimos cartas de oferta si preferís gestionar un préstamo bancario (AFD)."
+    role: "Financiación Propia",
+    text: "A sola firma y con aprobación inmediata. Tu puerta de entrada al patrimonio sin depender de bancos ni Informconf."
   },
   {
-    name: "Patrimonio Seguro",
-    role: "Tierra Propia",
-    text: "La tierra es el único bien que nunca se deprecia. Protegé tus ahorros de la inflación invirtiendo en ladrillos y tierra."
+    name: "Seguridad Legal",
+    role: "Título Inmediato",
+    text: "Toda nuestra tierra está titulada e inscripta. Tu inversión tiene el respaldo legal total que te da tranquilidad absoluta."
   }
 ];
 

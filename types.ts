@@ -20,6 +20,7 @@ export interface Property {
   monthlyPayment: number;
   description: string;
   image: string;
+  gallery?: string[];
   videoUrl?: string;
   features: string[];
   type: 'terreno' | 'casa';

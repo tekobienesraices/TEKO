@@ -86,7 +86,7 @@ export default function HomePage() {
                             </Button>
                         </Link>
                         <Link href="/guia" className="w-full sm:w-auto">
-                            <Button variant="outline" size="lg" className="w-full bg-white/20 backdrop-blur-lg border-white/60 text-white hover:bg-white hover:text-teko-navy font-bold py-6 md:py-4">
+                            <Button variant="white" size="lg" className="w-full font-bold py-6 md:py-4 shadow-lg text-teko-navy hover:bg-slate-100">
                                 <Download className="mr-2 h-5 w-5" />
                                 Bajá tu guía gratuita
                             </Button>
@@ -96,7 +96,7 @@ export default function HomePage() {
             </section>
 
             {/* Quick Actions / Value Proposition */}
-            <section className="relative z-30 -mt-20 px-4 pb-20">
+            <section className="relative z-30 -mt-10 md:-mt-20 px-4 pb-20">
                 <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
                     {[
                         { icon: Map, title: "Lotes Listos para Transferir", desc: "Seguridad jurídica total. Tu terreno en Cordillera y Central con título inmediato.", link: "/terrenos" },
@@ -111,7 +111,7 @@ export default function HomePage() {
                             transition={{ delay: idx * 0.1 }}
                         >
                             <Link href={item.link} className="block group">
-                                <div className="glass p-8 rounded-2xl border border-white/50 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 h-full">
+                                <div className="glass p-8 rounded-2xl border border-white/50 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 h-full bg-white/80 backdrop-blur-md">
                                     <div className="w-12 h-12 bg-teko-navy/5 rounded-xl flex items-center justify-center text-teko-navy mb-6 group-hover:bg-teko-navy group-hover:text-white transition-colors">
                                         <item.icon size={24} />
                                     </div>
@@ -224,8 +224,8 @@ export default function HomePage() {
                             <div className="mt-10 flex flex-col sm:flex-row gap-4">
                                 <Button variant="secondary" onClick={() => setModalOpen(true)}>Hablar con un Director</Button>
                                 <Button
-                                    variant="outline"
-                                    className="border-teko-gold text-teko-gold hover:bg-teko-gold hover:text-teko-navy"
+                                    variant="gold"
+                                    className="border-teko-gold text-teko-navy hover:bg-white hover:text-teko-navy"
                                     onClick={() => setGalleryOpen(true)}
                                 >
                                     <Sparkles size={18} className="mr-2" />

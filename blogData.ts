@@ -248,12 +248,12 @@ export const blogPosts: BlogPost[] = [
       <p>Plazas iluminadas, espacios recreativos familiares y la puesta en valor de la Iglesia de la Candelaria convierten a Capiatá en una ciudad para vivir, no solo para dormir.</p>
 
       <h2>Conclusión para el Inversor</h2>
-      <p>Infraestructura = Plusvalía. Comprar tierra HOY en Capiatá significa capitalizar todas estas obras públicas. El estado construye las rutas, vos te quedás con la ganancia de la valorización.</p>
+      <p>Infraestructura = Plusvalía. Comprar tierra HOY en Capiatá significa capitalizar todas estas obras públicas. El estado construye las rutas, vos te quedás con la ganancia de la valorización real.</p>
     `,
     date: '20 de Febrero, 2026',
     author: 'Redacción TEKO',
     category: 'Noticias & Obras',
-    image: '/images/capiata/capiata-progreso-1.jpg',
+    image: '/images/capiata/capiata-progreso-v2.jpg',
     readTime: '8 min'
   },
   {

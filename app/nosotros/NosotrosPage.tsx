@@ -11,6 +11,12 @@ export default function NosotrosPage() {
         <div className="pt-20 bg-white min-h-screen">
             {/* Hero Section */}
             <section className="relative py-20 bg-teko-navy overflow-hidden">
+                {/* Background Decor */}
+                <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-0 opacity-20">
+                    <div className="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-teko-gold rounded-full blur-[120px]" />
+                    <div className="absolute bottom-[-10%] right-[-10%] w-[600px] h-[600px] bg-blue-500 rounded-full blur-[150px]" />
+                </div>
+
                 <div className="absolute inset-0 opacity-20">
                     <img
                         src="/properties/costa-salinas-drone-1.jpg"
@@ -18,7 +24,7 @@ export default function NosotrosPage() {
                         className="w-full h-full object-cover"
                     />
                 </div>
-                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center py-12">
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -46,7 +52,7 @@ export default function NosotrosPage() {
                         >
                             <img
                                 src="/images/capiata/municipalidad.jpg"
-                                alt="Equipo TEKO"
+                                alt="Crecimiento Urbano"
                                 className="rounded-2xl shadow-2xl"
                             />
                         </motion.div>
@@ -57,10 +63,10 @@ export default function NosotrosPage() {
                         >
                             <h2 className="text-3xl font-serif font-bold text-teko-navy mb-6">Más que una Inmobiliaria, un Aliado</h2>
                             <p className="text-slate-600 text-lg mb-6">
-                                Nacimos con una misión clara: romper las barreras que impiden a los paraguayos acceder a su primer terreno. Creemos que la tierra es la base de la riqueza generacional.
+                                Nacimos con una misión clara: romper las barreras que impiden a las personas acceder a su primer terreno. Creemos que la tierra es la base de la seguridad para tu familia.
                             </p>
                             <p className="text-slate-600 text-lg mb-8">
-                                Contra el sistema bancario tradicional que excluye, nosotros proponemos <strong className="font-semibold text-teko-navy">inclusión financiera</strong>. Contra la informalidad del mercado, nosotros ofrecemos <strong className="font-semibold text-teko-navy">seguridad jurídica total</strong>.
+                                Contra el sistema bancario tradicional que excluye, nosotros proponemos <strong className="font-semibold text-teko-navy">tu propia oportunidad</strong>. Contra la informalidad del mercado, nosotros ofrecemos <strong className="font-semibold text-teko-navy">seguridad jurídica total</strong>.
                             </p>
 
                             <div className="space-y-4">
