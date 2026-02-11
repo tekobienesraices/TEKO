@@ -190,9 +190,9 @@ export default function ContactoPage() {
                             <div className="p-4 flex items-start gap-4">
                                 <MapPin className="text-teko-gold mt-1" size={20} />
                                 <div>
-                                    <h3 className="font-bold text-teko-navy">Oficina Central (Showroom)</h3>
-                                    <p className="text-slate-600 text-sm">Av. Mariscal López esq. San Martín, Asunción</p>
-                                    <p className="text-slate-500 text-xs mt-1">(Referencial para reuniones)</p>
+                                    <h3 className="font-bold text-teko-navy">Operaciones Online & Encuentros Presenciales</h3>
+                                    <p className="text-slate-600 text-sm">Operamos de forma 100% digital para mayor agilidad.</p>
+                                    <p className="text-slate-500 text-xs mt-1">Coordinamos visitas guiadas y reuniones personalizadas directamente en los terrenos o puntos de interés.</p>
                                 </div>
                             </div>
                         </div>
