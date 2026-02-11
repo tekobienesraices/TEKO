@@ -13,7 +13,7 @@ export const zones: Zone[] = [
     tagline: 'Asegurá tu futuro en la zona que más crece',
     description: 'Asegurá tu terreno con cuotas fijas en Guaraníes. Invertí en tierra, protegete de la inflación y construí tu legado hoy mismo.',
     mapUrl: 'https://maps.app.goo.gl/XDMHDZXgcjQy4h3p6',
-    heroImage: '/properties/costa-salinas-drone-1.jpg',
+    heroImage: '/properties/Residencial%20I/costa-salinas-drone-1.jpg',
     highlights: [
       'Título al instante',
       'Papeles 100% en regla',
@@ -37,7 +37,7 @@ export const properties: Property[] = [
     price: 120000000,
     monthlyPayment: 2590000,
     description: 'La seguridad que buscás para tu capital. En un contexto económico incierto, la tierra es el único refugio que nunca pierde valor. Costa Salinas te ofrece posesión inmediata, documentos al día y la certeza de que tu dinero está creciendo mes a mes. Es hoy.',
-    image: '/properties/costa-salinas-drone-1.jpg',
+    image: '/properties/Residencial%20I/costa-salinas-drone-1.jpg',
     videoUrl: '/videos/residencial-1.mp4',
     features: ['Título Inmediato', 'Inversión Blindada', 'Sin Bancos', 'Plusvalía Asegurada'],
     type: 'terreno',
@@ -53,14 +53,14 @@ export const properties: Property[] = [
     price: 81000000,
     monthlyPayment: 1750000,
     description: 'Imaginá a tus hijos jugando en su propio patio. Costa Salinas es un barrio consolidado, seguro y lleno de vida. Dejá de pagar alquiler y empezá a pagar por lo que será tuyo para siempre. La mejor herencia es un techo propio.',
-    image: '/properties/residencial-dos-1.jpg',
+    image: '/properties/Residencial%20II/costa-salinas-drone-2.jpg',
     videoUrl: '/videos/residencial-2.mp4',
     gallery: [
-      '/properties/residencial-dos-2.jpg',
-      '/properties/residencial-2-1.jpg',
-      '/properties/residencial-2-2.jpg',
-      '/properties/residencial-2-drone-3.jpg',
-      '/properties/residencial-2-drone-4.jpg'
+      '/properties/Residencial%20II/costa-salinas-drone-2.jpg',
+      '/properties/Residencial%20II/residencial-2-drone-3.jpg',
+      '/properties/Residencial%20II/residencial-2-drone-4.jpg',
+      '/properties/Residencial%20II/residencial-dos-2.jpg',
+      '/properties/Residencial%20II/IMG_7281.JPG'
     ],
     features: ['Barrio Seguro', 'Vecinos Reales', 'Servicios Listos', 'Tu Propio Hogar'],
     type: 'terreno',

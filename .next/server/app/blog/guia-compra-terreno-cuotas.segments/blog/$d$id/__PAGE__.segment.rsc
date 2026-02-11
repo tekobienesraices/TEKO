@@ -1,8 +1,8 @@
 1:"$Sreact.fragment"
-2:I[61899,["/_next/static/chunks/23ae5cb51002ed02.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/d956eb8fc3e4f47b.js"],"default"]
-6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-7:"$Sreact.suspense"
-3:T1549,
+2:I[61899,["/_next/static/chunks/df0f0bc11e004e9c.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/951b6920bc9b8fab.js","/_next/static/chunks/25486b7be5f07736.js"],"default"]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
+3:T154f,
       <p class="lead">Hay un mito profundamente arraigado en Paraguay: "Para comprar algo propio necesitás mucha plata o ir al banco". Falso. En esta guía te demostramos con números reales cómo pasar de inquilino a propietario usando exactamente el mismo dinero que hoy gastás en alquiler.</p>
 
       <h2>La Verdad Sobre el Alquiler que Nadie Te Cuenta</h2>
@@ -92,7 +92,7 @@
 
       <blockquote>
         <p>"Pagaba Gs. 1.800.000 de alquiler en Lambaré. Hoy pago Gs. 1.200.000 de cuota por mi lote en Costa Salinas. En 4 años voy a tener mi terreno, y el valor ya subió 30% desde que compré."</p>
-        <cite>— Carlos M., propietario en Costa Salinas</cite>
+        <cite>— Análisis de Caso: Proyección de Ahorro Real</cite>
       </blockquote>
 
       <h2>El Primer Paso es el Más Importante</h2>
@@ -100,7 +100,8 @@
       <p>Dejá de pagar el sueño ajeno y empezá a construir el tuyo. Cada mes que pasa pagando alquiler es dinero que perdés para siempre. Con TEKO, cada cuota te acerca más a la propiedad.</p>
 
       <p>¿Listo para cambiar tu futuro? Contactanos hoy y empezá el camino hacia tu terreno propio.</p>
-    0:{"buildId":"yAW-TqTP9apqhA8738Y3e","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)\",\"image\":\"/images/blog/family-house.jpg\",\"author\":{\"@type\":\"Organization\",\"name\":\"Asesoría TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.\"}"}}],["$","$L2",null,{"post":{"id":"guia-compra-terreno-cuotas","title":"Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)","excerpt":"Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.","content":"$3","date":"10 de Febrero, 2026","author":"Asesoría TEKO","category":"Educación Financiera","image":"/images/blog/family-house.jpg","readTime":"15 min"}}]],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
-4:["$","script","script-0",{"src":"/_next/static/chunks/d956eb8fc3e4f47b.js","async":true}]
-5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
-8:null
+    0:{"buildId":"lDJ2ygeYEqSLPN4xIOMtF","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)\",\"image\":\"https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop\",\"author\":{\"@type\":\"Organization\",\"name\":\"Asesoría TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.\"}"}}],["$","$L2",null,{"post":{"id":"guia-compra-terreno-cuotas","title":"Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)","excerpt":"Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.","content":"$3","date":"10 de Febrero, 2026","author":"Asesoría TEKO","category":"Educación Financiera","image":"https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop","readTime":"15 min"}}]],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/951b6920bc9b8fab.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/25486b7be5f07736.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[61899,["/_next/static/chunks/23ae5cb51002ed02.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/d956eb8fc3e4f47b.js"],"default"]
-6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-7:"$Sreact.suspense"
+2:I[61899,["/_next/static/chunks/df0f0bc11e004e9c.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/951b6920bc9b8fab.js","/_next/static/chunks/25486b7be5f07736.js"],"default"]
+7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+8:"$Sreact.suspense"
 3:T1bb1,
       <p class="lead">Cada año, cientos de familias paraguayas pierden todo lo que invirtieron en terrenos por caer en estafas o comprar sin documentación en regla. Esta guía puede ahorrarte millones de guaraníes y años de problemas legales.</p>
 
@@ -137,7 +137,8 @@
       <p>Comprar un terreno es probablemente la inversión más grande de tu vida. No dejes que la urgencia o un "buen precio" te hagan tomar una decisión que lamentarás por años.</p>
 
       <p><strong>Con TEKO, dormís tranquilo.</strong> Todos nuestros terrenos cumplen con cada punto de esta lista. Te invitamos a verificarlo personalmente.</p>
-    0:{"buildId":"yAW-TqTP9apqhA8738Y3e","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)\",\"image\":\"/images/blog/legal-docs.jpg\",\"author\":{\"@type\":\"Organization\",\"name\":\"Dto. Legal TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.\"}"}}],["$","$L2",null,{"post":{"id":"seguridad-juridica-loteamientos","title":"Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)","excerpt":"El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.","content":"$3","date":"05 de Febrero, 2026","author":"Dto. Legal TEKO","category":"Seguridad Legal","image":"/images/blog/legal-docs.jpg","readTime":"18 min"}}]],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
-4:["$","script","script-0",{"src":"/_next/static/chunks/d956eb8fc3e4f47b.js","async":true}]
-5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
-8:null
+    0:{"buildId":"lDJ2ygeYEqSLPN4xIOMtF","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)\",\"image\":\"https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop\",\"author\":{\"@type\":\"Organization\",\"name\":\"Dto. Legal TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.\"}"}}],["$","$L2",null,{"post":{"id":"seguridad-juridica-loteamientos","title":"Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)","excerpt":"El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.","content":"$3","date":"05 de Febrero, 2026","author":"Dto. Legal TEKO","category":"Seguridad Legal","image":"https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop","readTime":"18 min"}}]],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/951b6920bc9b8fab.js","async":true}]
+5:["$","script","script-1",{"src":"/_next/static/chunks/25486b7be5f07736.js","async":true}]
+6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
+9:null

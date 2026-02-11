@@ -1,9 +1,62 @@
-module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar-terrenos-capiata-2026",title:"Venta de Terrenos en Capiatá 2026: Guía Definitiva para Comprar Lotes en Cuotas",excerpt:"La guía más completa para invertir en lotes y terrenos en Capiatá con financiación propia. Precios actualizados, zonas recomendadas y cómo comprar sin banco ni Informconf.",content:`
-      <p class="lead"><strong>TEKO Bienes Ra\xedces es la inmobiliaria l\xedder en venta de terrenos en Capiat\xe1</strong>, ofreciendo lotes en cuotas con financiaci\xf3n propia hasta 72 meses, sin bancos, sin Informconf y con t\xedtulo listo para transferir. Si busc\xe1s comprar un terreno barato en Paraguay con la mejor relaci\xf3n calidad-precio, esta gu\xeda es para vos.</p>
+module.exports=[78953,99780,a=>{"use strict";let b=[{id:"hotel-los-lagos-turismo-capiata-2026",title:'Hotel Los Lagos y el Auge Turístico de Capiatá: Por Qué Invertir en la "Ciudad de los Mitos"',excerpt:"Descubrí el resort más emblemático de Capiatá y entendé por qué esta ciudad ya no es solo un punto de paso, sino un destino de inversión y descanso de primer nivel.",content:`
+      <p class="lead">Capiat\xe1 est\xe1 viviendo una transformaci\xf3n que va m\xe1s all\xe1 del asfalto. Se est\xe1 convirtiendo en un refugio para quienes buscan calidad de vida sin alejarse de las oportunidades de la capital. Centros como el <strong>Hotel Resort Los Lagos</strong> son el reflejo de una ciudad que valora el equilibrio entre la naturaleza y la comodidad.</p>
 
-      <h2>\xbfPor Qu\xe9 Capiat\xe1 es el Mejor Lugar para Comprar Terrenos en Paraguay?</h2>
+
+      <h2>Los Lagos: Un Estilo de Vida Propiamente Capiate\xf1o</h2>
       
-      <p>Capiat\xe1 se consolid\xf3 como la zona de mayor crecimiento inmobiliario del Departamento Central. Ubicada a solo 18 km de Asunci\xf3n, ofrece:</p>
+      <p>Ubicado estrat\xe9gicamente en el KM 20 de la Ruta 1, Hotel Los Lagos representa lo que muchos inversores buscan hoy: <strong>calidad de vida, aire puro y desconexi\xf3n sin alejarse de la capital.</strong> Este complejo no es solo un lugar para dormir; es un centro de experiencias que incluye:</p>
+
+      <ul>
+        <li><strong>Piscinas y Parque Acu\xe1tico:</strong> Ideales para los veranos paraguayos, siendo uno de los principales atractivos familiares de la zona.</li>
+        <li><strong>Interacci\xf3n con la Naturaleza:</strong> Lagos artificiales donde se puede practicar kayak, puentes colgantes y senderos rodeados de densa vegetaci\xf3n.</li>
+        <li><strong>Gastronom\xeda Local:</strong> Un restaurante que ofrece lo mejor del sabor paraguayo e internacional, atrayendo a visitantes de todo Central cada fin de semana.</li>
+        <li><strong>Actividades de Recreaci\xf3n:</strong> Paseos a caballo y espacios deportivos que lo convierten en el destino predilecto para eventos corporativos y escapadas de fin de semana.</li>
+      </ul>
+
+      <h2>Capiat\xe1: Mucho M\xe1s que Infraestructura</h2>
+
+      <p>Cuando analizamos el valor de un terreno en Capiat\xe1, no solo miramos los metros cuadrados. Miramos el entorno. La ciudad ofrece una riqueza cultural que blinda su identidad y atractivo:</p>
+
+      <h3>1. El Museo Mitol\xf3gico Ram\xf3n El\xedas</h3>
+      <p>\xdanico en su clase en Paraguay, este museo es una joya cultural que atrae a turistas nacionales y extranjeros. Sus tallas en madera representan a los seres de la mitolog\xeda guaran\xed, otorgando a Capiat\xe1 el t\xedtulo de "Ciudad de los Mitos".</p>
+
+      <h3>2. Historia Viva: La Iglesia de la Candelaria</h3>
+      <p>Construida en el siglo XVIII, es uno de los templos coloniales mejor conservados del pa\xeds. Su arquitectura franciscana es un testimonio de la historia de la ciudad, fundada en 1640.</p>
+
+      <h3>3. Hub de Servicios y Conectividad</h3>
+      <p>Capiat\xe1 es el nexo entre las Rutas 1 y 2. Su crecimiento comercial es explosivo: Shoppings, universidades (como la Americana Campus Capiat\xe1) y modernos centros log\xedsticos est\xe1n transformando el paisaje urbano en un "eje de progreso".</p>
+
+      <h2>An\xe1lisis para el Inversor: El "Geo-Arbitraje" Inmobiliario</h2>
+
+      <p>Para el inversor inteligente, la presencia de infraestructuras de ocio de alto nivel como <strong>Hotel Los Lagos</strong> es un indicador de "validaci\xf3n de zona".</p>
+
+      <ul>
+        <li><strong>Efecto Resort:</strong> La cercan\xeda a centros de recreaci\xf3n aumenta la demanda de terrenos para casas de fin de semana o alquileres temporales (tipo Airbnb).</li>
+        <li><strong>Crecimiento Demogr\xe1fico:</strong> Capiat\xe1 ya supera los 280.000 habitantes. La presi\xf3n de la mancha urbana de Asunci\xf3n est\xe1 empujando los precios hacia arriba de forma irreversible.</li>
+        <li><strong>Saturaci\xf3n de Zonas Aleda\xf1as:</strong> Con precios prohibitivos en San Lorenzo o Lambar\xe9, Capiat\xe1 se presenta como la zona con el mejor "entry price" (precio de entrada) y mayor potencial de apreciaci\xf3n por su oferta tur\xedstica y comercial.</li>
+      </ul>
+
+      <div class="bg-teko-navy text-white p-8 rounded-2xl my-10">
+        <h3 class="text-teko-gold font-bold mb-4">\xbfPor qu\xe9 invertir cerca de polos tur\xedsticos como Los Lagos?</h3>
+        <p class="italic">"La plusval\xeda inmobiliaria no se genera solo por el asfalto, se genera por la deseabilidad. Una zona con museos, iglesias hist\xf3ricas y resorts de lujo es una zona donde el valor de la tierra nunca retrocede."</p>
+      </div>
+
+      <h2>Planific\xe1 tu Visita a Capiat\xe1</h2>
+
+      <p>Si est\xe1s pensando en invertir, te recomendamos pasar un fin de semana en Capiat\xe1. Hospedate en <strong>Los Lagos</strong>, visit\xe1 el <strong>Museo Ram\xf3n El\xedas</strong> y aprovech\xe1 para conocer nuestros desarrollos como <strong>Costa Salinas</strong>.</p>
+
+      <p><strong>TEKO Bienes Ra\xedces</strong> te ofrece la oportunidad de ser parte de este crecimiento. Tenemos lotes en zonas estrat\xe9gicas de Capiat\xe1 con financiaci\xf3n propia, t\xedtulo inmediato y la seguridad de invertir en una ciudad con un futuro brillante.</p>
+
+      <div class="mt-8">
+        <p>📞 <strong>WhatsApp Asesor\xeda:</strong> +595 974 202 163</p>
+        <p>📍 <strong>Visitas Guiadas:</strong> Disponibles todos los d\xedas en Capiat\xe1.</p>
+      </div>
+    `,date:"10 de Febrero, 2026",author:"Equipo TEKO Strategy",category:"Turismo & Inversión",image:"/images/blog/hotel-los-lagos.jpg",readTime:"15 min"},{id:"guia-definitiva-comprar-terrenos-capiata-2026",title:"Venta de Terrenos en Capiatá 2026: Guía Definitiva para Comprar Lotes en Cuotas",excerpt:"La guía más completa para invertir en lotes y terrenos en Capiatá con financiación propia. Precios actualizados, zonas recomendadas y cómo comprar sin banco ni Informconf.",content:`
+      <p class="lead">Comprar un terreno es una de las decisiones m\xe1s significativas para cualquier familia. En Capiat\xe1, las opciones son variadas y entender el mercado actual puede ayudarte a dar el paso con la seguridad de estar cuidando tus ahorros. Esta gu\xeda est\xe1 dise\xf1ada para brindarte claridad sobre precios, zonas y las formas m\xe1s simples de iniciar tu camino hacia la casa propia.</p>
+
+      <h2>\xbfPor qu\xe9 tantas familias eligen hoy Capiat\xe1?</h2>
+      
+      <p>Capiat\xe1 se ha convertido en una alternativa real para quienes buscan un equilibrio entre precio y ubicaci\xf3n. A unos 20 km de Asunci\xf3n, ofrece:</p>
 
       <ul>
         <li><strong>Precios accesibles:</strong> Terrenos desde Gs. 180.000/m\xb2 vs Gs. 800.000/m\xb2 en Lambar\xe9</li>
@@ -12,9 +65,9 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
         <li><strong>Conectividad:</strong> Acceso directo por Ruta 2 en 25 minutos a Asunci\xf3n</li>
       </ul>
 
-      <h2>Precios de Terrenos en Capiat\xe1 2026 (Datos Actualizados)</h2>
+      <h2>Referencias de Precios en el Mercado (Febrero 2026)</h2>
 
-      <p>Estos son los precios promedio por metro cuadrado en Capiat\xe1 seg\xfan zona:</p>
+      <p>El valor de un terreno puede variar seg\xfan su cercan\xeda a las rutas principales y los servicios disponibles. Aqu\xed te dejamos algunas referencias para ayudarte a planificar:</p>
 
       <table>
         <tr><th>Zona</th><th>Precio Gs./m\xb2</th><th>Caracter\xedsticas</th></tr>
@@ -23,9 +76,9 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
         <tr><td>Zona Sur</td><td>Gs. 100.000 - 150.000</td><td>Rural, sin servicios</td></tr>
       </table>
 
-      <h2>\xbfC\xf3mo Comprar un Terreno en Cuotas sin Banco?</h2>
+      <h2>Caminos hacia tu Terreno Propio</h2>
 
-      <p>En TEKO ofrecemos <strong>financiaci\xf3n propia directa</strong>, lo que significa:</p>
+      <p>Sabemos que cada situaci\xf3n financiera es \xfanica. Por eso, existen diferentes alternativas para alcanzar tu meta de manera segura:</p>
 
       <ol>
         <li><strong>Sin consulta a Informconf:</strong> Evaluamos tu capacidad de pago real</li>
@@ -45,7 +98,7 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
         <tr><td><strong>Cuota mensual (72 meses)</strong></td><td><strong>Gs. 900.000</strong></td></tr>
       </table>
 
-      <p>Con una cuota menor a un alquiler promedio, en 6 a\xf1os sos propietario de un terreno titulado.</p>
+      <p>Al elegir una opci\xf3n, lo m\xe1s importante es que te sientas c\xf3modo con el compromiso y seguro con el respaldo legal. Un terreno es, ante todo, un refugio para tu futuro.</p>
 
       <h2>TEKO vs Otras Inmobiliarias en Paraguay</h2>
 
@@ -123,7 +176,6 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
     `,date:"25 de Febrero, 2026",author:"Equipo TEKO",category:"Guía de Compra",image:"/images/capiata/capiata-progreso-1.jpg",readTime:"10 min"},{id:"capiata-hub-infraestructura-2026",title:"Capiatá 2026: El Hub de Infraestructura que Transformará Central",excerpt:"Con 51 km de nuevo asfalto, duplicación de rutas y obras públicas estratégicas, Capiatá vive una revolución. Te mostramos las obras que están disparando la plusvalía.",content:`
       <p class="lead">Lo que est\xe1 pasando en Capiat\xe1 no es casualidad. Es el resultado de una inversi\xf3n p\xfablica sin precedentes que est\xe1 redefiniendo la ciudad como el nuevo eje residencial y comercial de Central.</p>
 
-      <img src="/images/capiata/capiata-progreso-1.jpg" alt="Progreso en Capiat\xe1" class="w-full h-auto rounded-lg my-6 shadow-md" />
 
       <h2>Plan Central 2: 51 Kil\xf3metros de Transformaci\xf3n</h2>
       <p>Seg\xfan datos oficiales del MOPC, Capiat\xe1 es protagonista del programa <strong>Plan Central 2</strong>. Lo que inici\xf3 como un proyecto de 24 km se duplic\xf3 a <strong>51 kil\xf3metros de nuevos asfaltados</strong> gracias a una gesti\xf3n eficiente de recursos.</p>
@@ -137,8 +189,8 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
       <p>Uno de los proyectos m\xe1s ambiciosos es la duplicaci\xf3n de la <strong>Ruta D027 (ex Ruta 1)</strong> hasta J. Augusto Sald\xedvar. Esta obra, junto con la implementaci\xf3n de carriles exclusivos para transporte p\xfablico, reducir\xe1 los tiempos de viaje a la mitad.</p>
 
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
-        <img src="/images/capiata/capiata-progreso-2.jpg" alt="Obras de infraestructura Capiat\xe1" class="w-full h-64 object-cover rounded-lg shadow-sm" />
-        <img src="/images/capiata/capiata-progreso-3.jpg" alt="Mejoras urbanas Capiat\xe1" class="w-full h-64 object-cover rounded-lg shadow-sm" />
+        <img src="/images/capiata/capiata-progreso-v2.jpg" alt="Obras de infraestructura Capiat\xe1" class="w-full h-64 object-cover rounded-lg shadow-sm" />
+        <img src="/images/capiata/capiata-progreso-new.jpg" alt="Mejoras urbanas Capiat\xe1" class="w-full h-64 object-cover rounded-lg shadow-sm" />
       </div>
 
       <h2>Espacios P\xfablicos y Servicios</h2>
@@ -150,20 +202,20 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
       <h3>Renovaci\xf3n Urbana</h3>
       <p>Plazas iluminadas, espacios recreativos familiares y la puesta en valor de la Iglesia de la Candelaria convierten a Capiat\xe1 en una ciudad para vivir, no solo para dormir.</p>
 
-      <h2>Conclusi\xf3n para el Inversor</h2>
-      <p>Infraestructura = Plusval\xeda. Comprar tierra HOY en Capiat\xe1 significa capitalizar todas estas obras p\xfablicas. El estado construye las rutas, vos te qued\xe1s con la ganancia de la valorizaci\xf3n.</p>
-    `,date:"20 de Febrero, 2026",author:"Redacción TEKO",category:"Noticias & Obras",image:"/images/capiata/capiata-progreso-1.jpg",readTime:"8 min"},{id:"plusvalia-paraguay-2026",title:"Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)",excerpt:'Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento "La Era Dorada" para invertir en terrenos.',content:`
-      <p class="lead">Si ten\xe9s ahorros en guaran\xedes durmiendo en una caja de ahorro, est\xe1s perdiendo dinero cada d\xeda. La inflaci\xf3n es el impuesto silencioso que nadie te avisa pero todos pagamos. Sin embargo, existe un refugio que los paraguayos conocemos desde siempre: <strong>la tierra</strong>.</p>
+      <h2>Un futuro con mejores bases</h2>
+      <p>Cada obra de infraestructura es un beneficio directo para quienes eligen Capiat\xe1 como su hogar. Mejores rutas significan m\xe1s tiempo con la familia, y espacios p\xfablicos renovados significan una mayor calidad de vida. Al considerar un terreno hoy, est\xe1s apostando a una ciudad que est\xe1 trabajando para brindarte el entorno que mereces.</p>
+    `,date:"20 de Febrero, 2026",author:"Redacción TEKO",category:"Noticias & Obras",image:"/images/capiata/capiata-progreso-3.jpg",readTime:"8 min"},{id:"plusvalia-paraguay-2026",title:"Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)",excerpt:'Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento "La Era Dorada" para invertir en terrenos.',content:`
+      <p class="lead">Cuidar el fruto de a\xf1os de trabajo es una preocupaci\xf3n que todos compartimos. En un mundo donde el valor del dinero parece cambiar constantemente, muchos paraguayos han encontrado en la tierra un refugio seguro para sus ahorros y una base s\xf3lida para sus proyectos familiares.</p>
 
-      <p>En este art\xedculo vamos a analizar en profundidad por qu\xe9 2026 representa una ventana de oportunidad hist\xf3rica para invertir en terrenos en Paraguay, especialmente en zonas como Capiat\xe1, y c\xf3mo pod\xe9s aprovechar este momento antes de que los precios suban a\xfan m\xe1s.</p>
+      <p>Explorar el mercado inmobiliario actual nos permite entender c\xf3mo las ciudades crecen y c\xf3mo ese crecimiento puede beneficiarnos. En este art\xedculo, queremos compartir una visi\xf3n clara de por qu\xe9 zonas como Capiat\xe1 est\xe1n captando la atenci\xf3n de tantas familias que buscan proteger su capital y construir un patrimonio real.</p>
 
-      <h2>El Contexto Econ\xf3mico Paraguayo en 2026</h2>
+      <h2>Entendiendo el contexto hoy</h2>
 
-      <p>Paraguay atraviesa un momento econ\xf3mico peculiar. Mientras otros pa\xedses de la regi\xf3n luchan contra recesiones, nuestro pa\xeds mantiene un crecimiento estable del PIB cercano al 4% anual. Esto genera un fen\xf3meno interesante: <strong>m\xe1s familias con capacidad de compra buscando d\xf3nde invertir</strong>.</p>
+      <p>No es secreto que el mercado paraguayo se destaca por su estabilidad en la regi\xf3n. Con un crecimiento proyectado del PIB cercano al 4%, vemos un movimiento natural de familias que buscan opciones fuera del sistema financiero tradicional para resguardar su esfuerzo.</p>
 
-      <p>El Banco Central del Paraguay reporta que la inflaci\xf3n acumulada de los \xfaltimos 5 a\xf1os ha erosionado aproximadamente el 25% del poder adquisitivo del guaran\xed. Esto significa que si ten\xedas Gs. 100.000.000 guardados en 2021, hoy equivalen a unos Gs. 75.000.000 en t\xe9rminos reales.</p>
+      <p>Hist\xf3ricamente, la tierra en Paraguay ha mostrado una tendencia de valorizaci\xf3n que acompa\xf1a y, muchas veces, supera a la inflaci\xf3n. Esto significa que lo que hoy decid\xeds invertir en metros cuadrados, tiende a conservar su poder adquisitivo mucho mejor que el dinero en una cuenta de ahorro tradicional.</p>
 
-      <p>\xbfQu\xe9 pas\xf3 con quienes invirtieron en tierra? Exactamente lo contrario. Un terreno de Gs. 50.000.000 en Capiat\xe1 en 2021 hoy vale aproximadamente Gs. 90.000.000. Eso es un 80% de ganancia nominal, o un 40% de ganancia real despu\xe9s de descontar la inflaci\xf3n.</p>
+      <p>Es una manera de que tu trabajo de hoy siga rindiendo frutos en cinco o diez a\xf1os por la propia din\xe1mica de crecimiento de nuestras ciudades. Al entrar en el mercado en el momento adecuado, te posicion\xe1s para que el desarrollo de la zona trabaje a tu favor.</p>
 
       <h2>El Fen\xf3meno de la Expansi\xf3n Urbana del Gran Asunci\xf3n</h2>
 
@@ -180,9 +232,9 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
 
       <p>Lo que hoy ves como "lejos" o "campo", en 3 a 5 a\xf1os ser\xe1 barrio residencial con todos los servicios. <strong>Esta es exactamente la ventana de oportunidad que los inversores inteligentes aprovechan.</strong></p>
 
-      <h2>La Matem\xe1tica de la Plusval\xeda: Caso Real en Costa Salinas</h2>
+      <h2>C\xf3mo se construye el valor en un loteamiento</h2>
 
-      <p>Veamos un ejemplo concreto con n\xfameros reales de nuestro desarrollo Costa Salinas en Capiat\xe1:</p>
+      <p>El valor de la tierra no sube por arte de magia, sino por la inversi\xf3n y el esfuerzo volcado en la zona. Entender este proceso te ayuda a tomar una decisi\xf3n informada sobre cu\xe1ndo es el mejor momento para vos:</p>
 
       <table>
         <tr><th>A\xf1o</th><th>Evento</th><th>Valor del Lote</th><th>Incremento</th></tr>
@@ -270,7 +322,7 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
       </ol>
 
       <p>En TEKO, hacemos que comprar tu terreno sea simple, seguro y accesible. Sin bancos, sin burocracia, con t\xedtulo inmediato.</p>
-    `,date:"15 de Febrero, 2026",author:"Equipo TEKO",category:"Inversión",image:"/images/blog/revista-mandua-chart.webp",readTime:"12 min"},{id:"guia-compra-terreno-cuotas",title:"Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)",excerpt:"Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.",content:`
+    `,date:"15 de Febrero, 2026",author:"Equipo TEKO",category:"Inversión",image:"https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",readTime:"12 min"},{id:"guia-compra-terreno-cuotas",title:"Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)",excerpt:"Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.",content:`
       <p class="lead">Hay un mito profundamente arraigado en Paraguay: "Para comprar algo propio necesit\xe1s mucha plata o ir al banco". Falso. En esta gu\xeda te demostramos con n\xfameros reales c\xf3mo pasar de inquilino a propietario usando exactamente el mismo dinero que hoy gast\xe1s en alquiler.</p>
 
       <h2>La Verdad Sobre el Alquiler que Nadie Te Cuenta</h2>
@@ -360,7 +412,7 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
 
       <blockquote>
         <p>"Pagaba Gs. 1.800.000 de alquiler en Lambar\xe9. Hoy pago Gs. 1.200.000 de cuota por mi lote en Costa Salinas. En 4 a\xf1os voy a tener mi terreno, y el valor ya subi\xf3 30% desde que compr\xe9."</p>
-        <cite>— Carlos M., propietario en Costa Salinas</cite>
+        <cite>— An\xe1lisis de Caso: Proyecci\xf3n de Ahorro Real</cite>
       </blockquote>
 
       <h2>El Primer Paso es el M\xe1s Importante</h2>
@@ -368,7 +420,7 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
       <p>Dej\xe1 de pagar el sue\xf1o ajeno y empez\xe1 a construir el tuyo. Cada mes que pasa pagando alquiler es dinero que perd\xe9s para siempre. Con TEKO, cada cuota te acerca m\xe1s a la propiedad.</p>
 
       <p>\xbfListo para cambiar tu futuro? Contactanos hoy y empez\xe1 el camino hacia tu terreno propio.</p>
-    `,date:"10 de Febrero, 2026",author:"Asesoría TEKO",category:"Educación Financiera",image:"/images/blog/family-house.jpg",readTime:"15 min"},{id:"seguridad-juridica-loteamientos",title:"Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)",excerpt:"El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.",content:`
+    `,date:"10 de Febrero, 2026",author:"Asesoría TEKO",category:"Educación Financiera",image:"https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop",readTime:"15 min"},{id:"seguridad-juridica-loteamientos",title:"Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)",excerpt:"El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.",content:`
       <p class="lead">Cada a\xf1o, cientos de familias paraguayas pierden todo lo que invirtieron en terrenos por caer en estafas o comprar sin documentaci\xf3n en regla. Esta gu\xeda puede ahorrarte millones de guaran\xedes y a\xf1os de problemas legales.</p>
 
       <h2>La Realidad del Mercado Inmobiliario Informal</h2>
@@ -503,7 +555,7 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
       <p>Comprar un terreno es probablemente la inversi\xf3n m\xe1s grande de tu vida. No dejes que la urgencia o un "buen precio" te hagan tomar una decisi\xf3n que lamentar\xe1s por a\xf1os.</p>
 
       <p><strong>Con TEKO, dorm\xeds tranquilo.</strong> Todos nuestros terrenos cumplen con cada punto de esta lista. Te invitamos a verificarlo personalmente.</p>
-    `,date:"05 de Febrero, 2026",author:"Dto. Legal TEKO",category:"Seguridad Legal",image:"/images/blog/legal-docs.jpg",readTime:"18 min"},{id:"terrenos-cuotas-capiata-2026",title:"Terrenos en Cuotas en Capiatá 2026: Guía Completa de Zonas, Precios y Oportunidades",excerpt:"Capiatá se consolida como el destino #1 para familias paraguayas que buscan lotes accesibles. Analizamos las mejores zonas, precios actuales del metro cuadrado y proyección de valorización para 2026.",content:`
+    `,date:"05 de Febrero, 2026",author:"Dto. Legal TEKO",category:"Seguridad Legal",image:"https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop",readTime:"18 min"},{id:"terrenos-cuotas-capiata-2026",title:"Terrenos en Cuotas en Capiatá 2026: Guía Completa de Zonas, Precios y Oportunidades",excerpt:"Capiatá se consolida como el destino #1 para familias paraguayas que buscan lotes accesibles. Analizamos las mejores zonas, precios actuales del metro cuadrado y proyección de valorización para 2026.",content:`
       <p class="lead">Capiat\xe1 ha experimentado una transformaci\xf3n extraordinaria en la \xfaltima d\xe9cada. Lo que antes era considerado "muy lejos de Asunci\xf3n" hoy es una de las ciudades con mayor crecimiento demogr\xe1fico y valorizaci\xf3n inmobiliaria de todo el Departamento Central.</p>
 
       <h2>Por Qu\xe9 Capiat\xe1 es la Mejor Opci\xf3n para Comprar Terreno en 2026</h2>
@@ -614,7 +666,7 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
         <li><strong>2030:</strong> Valores duplicados respecto a 2026</li>
       </ul>
 
-      <p>Quien compre hoy a Gs. 225.000/m\xb2, podr\xeda tener un terreno valuado en Gs. 450.000/m\xb2 en 2030. <strong>Eso es 100% de ganancia en 4 a\xf1os.</strong></p>
+      <p>Al observar estas tendencias, es posible proyectar que quienes inician hoy su plan de pago en \xe1reas con servicios planificados, se posicionan para beneficiarse del crecimiento natural de la zona, protegiendo el valor de su inversi\xf3n frente al paso del tiempo.</p>
 
       <h2>Qu\xe9 Buscar en un Terreno en Capiat\xe1</h2>
 
@@ -643,6 +695,138 @@ module.exports=[78953,99780,a=>{"use strict";let b=[{id:"guia-definitiva-comprar
       </ul>
 
       <p>Coordinamos visitas personalizadas todos los d\xedas. Contactanos por WhatsApp y te llevamos a conocer tu futuro terreno.</p>
-    `,date:"01 de Febrero, 2026",author:"Research TEKO",category:"Análisis de Mercado",image:"/images/blog/capitata-aerial.jpg",readTime:"16 min"}];a.s(["blogPosts",0,b],99780);let c=[{id:"cs-001",zoneId:"costa-salinas",title:"Costa Salinas: Tu Inversión Segura",location:"Costa Salinas - Zona de Alto Valor",originalPrice:125e6,price:12e7,monthlyPayment:259e4,description:"La seguridad que buscás para tu capital. En un contexto económico incierto, la tierra es el único refugio que nunca pierde valor. Costa Salinas te ofrece posesión inmediata, documentos al día y la certeza de que tu dinero está creciendo mes a mes. Es hoy.",image:"/properties/costa-salinas-drone-1.jpg",features:["Título Inmediato","Inversión Blindada","Sin Bancos","Plusvalía Asegurada"],type:"terreno",coordinates:{lat:-25.3203,lng:-57.4434},status:"available"},{id:"cs-003",zoneId:"costa-salinas",title:"Costa Salinas: Para tu Familia",location:"Costa Salinas - Barrio Tranquilo",originalPrice:86e6,price:81e6,monthlyPayment:175e4,description:"Imaginá a tus hijos jugando en su propio patio. Costa Salinas es un barrio consolidado, seguro y lleno de vida. Dejá de pagar alquiler y empezá a pagar por lo que será tuyo para siempre. La mejor herencia es un techo propio.",image:"/properties/costa-salinas-drone-2.jpg",features:["Barrio Seguro","Vecinos Reales","Servicios Listos","Tu Propio Hogar"],type:"terreno",coordinates:{lat:-25.321,lng:-57.444},status:"available"}];a.s(["FINANCING_CONFIG",0,{minDownPaymentPercent:20,maxDownPaymentPercent:60,minReinforcementPercent:20,maxReinforcementPercent:50,maxTermMonths:72,defaultReinforcementPayments:3,whatsappNumber:"595974202163"},"PRICE_RANGE",0,{min:81e6,max:135e6,default:81e6,step:1e6},"constructionPlans",0,[{id:"essential",name:"TEKO Essential",description:"Diseño inteligente y funcional. La entrada perfecta a tu hogar propio con terminaciones de calidad.",pricePerSqm:850,features:["Construcción Tradicional","Aberturas DVH","Pisos Porcelanato","Grifería Primera Marca","Entrega en 8 meses"],image:"/images/blog/family-house.jpg"},{id:"luxury",name:"TEKO Luxury",description:"Arquitectura de vanguardia, espacios amplios y detalles de categoría superior para un estilo de vida exigente.",pricePerSqm:1200,features:["Diseño Personalizado","Domótica Integrada","Losa Radiante","Revestimientos Importados","Entrega en 12 meses"],image:"/properties/costa-salinas-drone-2.jpg"}],"getPropertiesByZone",0,a=>c.filter(b=>b.zoneId===a),"properties",0,c,"testimonials",0,[{name:"Oportunidad de Inversión",role:"Plusvalía Asegurada",text:"Al invertir en etapa de lanzamiento, asegurás el precio más bajo posible antes de que la zona se desarrolle por completo."},{name:"Sin Burocracia",role:"Trato Directo",text:"Olvidate de los bancos e informes comerciales. La financiación es propia, a sola firma y con aprobación inmediata."},{name:"Patrimonio Seguro",role:"Tierra Propia",text:"La tierra es el único bien que nunca se deprecia. Protegé tus ahorros de la inflación invirtiendo en ladrillos y tierra."}],"zones",0,[{id:"costa-salinas",name:"Costa Salinas",tagline:"Asegurá tu futuro en la zona que más crece",description:"Asegurá tu terreno con cuotas fijas en Guaraníes. Invertí en tierra, protegete de la inflación y construí tu legado hoy mismo.",mapUrl:"https://maps.app.goo.gl/XDMHDZXgcjQy4h3p6",heroImage:"/properties/costa-salinas-drone-1.jpg",highlights:["Título al instante","Papeles 100% en regla","Entrega mínima y ya es tuyo","Pagá hasta en 6 años"]}]],78953)}];
+    `,date:"01 de Febrero, 2026",author:"Research TEKO",category:"Análisis de Mercado",image:"https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop",readTime:"16 min"},{id:"capiata-capital-industrial-paraguay-2026",title:"Capiatá: La Capital Industrial de Paraguay y Por Qué es el Mejor Lugar para Invertir",excerpt:"Con más de 5.000 empleos directos generados por gigantes como Conti, La Pradera, Schussmuller y Tecnoedil, Capiatá se consolida como el epicentro industrial del país. Descubrí cómo esto impulsa el valor de la tierra.",content:`
+      <p class="lead">Capiat\xe1 se ha consolidado como uno de los polos industriales m\xe1s importantes del Departamento Central. Esta actividad no solo genera empleos, sino que impulsa el desarrollo de infraestructura y servicios que benefician a toda la comunidad residencial circundante.</p>
+
+      <h2>Un Gigante Industrial a Solo 20 km de Asunci\xf3n</h2>
+
+      <p>Capiat\xe1, la cuarta ciudad m\xe1s poblada de Paraguay, alberga un corredor industrial que se extiende a lo largo de la Ruta Mariscal Estigarribia (Ruta PY02) y sus alrededores. Este corredor no solo genera <strong>m\xe1s de 5.000 empleos directos</strong>, sino que transforma la econom\xeda local y multiplica la demanda de vivienda, servicios y terrenos residenciales.</p>
+
+      <p>\xbfQu\xe9 significa esto para vos como inversor? Que cada nueva f\xe1brica, cada nueva nave industrial, es un motor que empuja el precio de la tierra hacia arriba. Veamos las empresas que hacen de Capiat\xe1 una potencia.</p>
+
+      <h2>Las Grandes Industrias de Capiat\xe1</h2>
+
+      <h3>🏗️ Tecnoedil S.A. – Infraestructura de Primer Nivel</h3>
+      <p>Con m\xe1s de cinco d\xe9cadas de trayectoria, <strong>Tecnoedil</strong> es una de las constructoras m\xe1s grandes del pa\xeds, especializada en obras viales, civiles y portuarias. Su presencia activa en Capiat\xe1 incluye proyectos de asfaltado y mejoramiento de rutas que benefician directamente a los barrios residenciales de la zona. Cada kil\xf3metro de asfalto nuevo que Tecnoedil construye en Capiat\xe1 suma valor inmediato a los terrenos cercanos.</p>
+
+      <h3>⚙️ Schussmuller S.A. – Acero Paraguayo desde 1995</h3>
+      <p>Ubicada en el Km 18.5 de la Ruta Mcal. Estigarribia, la <strong>Industria Metal\xfargica Schussmuller</strong> es sin\xf3nimo de acero en Paraguay. Desde 1995, su planta en Capiat\xe1 produce estructuras met\xe1licas, perfiles y materiales de construcci\xf3n que abastecen a todo el pa\xeds. Su operaci\xf3n genera cientos de empleos directos y una red de proveedores locales que dinamizan la econom\xeda capiate\xf1a.</p>
+
+      <h3>🥛 La Pradera (SAPROCAL) – De Capiat\xe1 al Pa\xeds Entero</h3>
+      <p>El barrio Naranjaty de Capiat\xe1 alberga la planta industrial de <strong>La Pradera</strong>, una de las marcas l\xe1cteas m\xe1s reconocidas del Paraguay. Fundada en 1995, esta empresa procesa miles de litros de leche diariamente y en 2022 inaugur\xf3 una <strong>mega-f\xe1brica con una inversi\xf3n superior a los USD 8.000.000</strong>. Este tipo de inversi\xf3n industrial no solo crea empleos directos; genera una ola de desarrollo en servicios, comercio y vivienda para los trabajadores.</p>
+
+      <h3>🏭 Conti Paraguay (ex CAPSA) – Un \xcdcono Industrial desde 1951</h3>
+      <p>Situada en el Km 22-25 de la Ruta PY02, <strong>Conti Paraguay</strong> es una de las industrias m\xe1s antiguas y emblem\xe1ticas de Capiat\xe1, operando desde 1951. Su presencia de m\xe1s de 70 a\xf1os ha sido un pilar del empleo industrial en la ciudad, y ha contribuido a consolidar a Capiat\xe1 como un polo de atracci\xf3n para trabajadores y familias que buscan establecerse cerca de fuentes de empleo estable.</p>
+
+      <h3>🔧 Cavallaro – Excelencia en Producci\xf3n</h3>
+      <p><strong>Cavallaro</strong> es otra de las empresas que eligieron Capiat\xe1 como base de operaciones. Su planta contribuye al ecosistema industrial de la ciudad, generando empleo calificado y fortaleciendo la cadena productiva local. La presencia de empresas de este calibre eleva el perfil econ\xf3mico de toda la zona.</p>
+
+      <h3>🔌 Sumidenso – Tecnolog\xeda Japonesa en Suelo Capiate\xf1o</h3>
+      <p>Con ra\xedces en la tecnolog\xeda japonesa, <strong>Sumidenso</strong> opera su planta en Capiat\xe1 fabricando componentes el\xe9ctricos y arneses para la industria automotriz. Esta empresa es un ejemplo perfecto de c\xf3mo Capiat\xe1 atrae inversi\xf3n extranjera de alto valor, creando empleos t\xe9cnicos y especializados que elevan el nivel de ingresos de la zona.</p>
+
+      <h3>🪵 Altieri Industrial Maderil – Tradici\xf3n en Madera</h3>
+      <p><strong>Altieri Industrial Maderil</strong> representa el sector maderero dentro del corredor industrial de Capiat\xe1. Su operaci\xf3n agrega diversidad al tejido industrial de la ciudad y genera empleo en un sector con profundas ra\xedces en la econom\xeda paraguaya.</p>
+
+      <h3>🏗️ Copalsa – Construcci\xf3n y Desarrollo</h3>
+      <p><strong>Copalsa</strong> es otra empresa del sector de la construcci\xf3n con presencia en Capiat\xe1. Junto con Tecnoedil, estas constructoras no solo emplean mano de obra local, sino que son las responsables de la infraestructura que conecta y valoriza los barrios residenciales de la ciudad.</p>
+
+      <h3>🐔 Granja Av\xedcola La Blanca – Alimentando al Pa\xeds</h3>
+      <p><strong>Granja Av\xedcola La Blanca</strong> refuerza el sector agroindustrial de Capiat\xe1. La producci\xf3n av\xedcola a escala industrial genera empleo constante y estable, y contribuye a la cadena alimentaria nacional desde el coraz\xf3n de la ciudad.</p>
+
+      <h2>El Efecto Multiplicador: M\xe1s Industria = M\xe1s Valor</h2>
+
+      <p>La concentraci\xf3n de industrias en Capiat\xe1 genera lo que los economistas llaman un <strong>efecto multiplicador</strong>. Por cada empleo industrial directo, se crean entre 2 y 3 empleos indirectos en comercio, servicios, transporte y construcci\xf3n. Esto significa que los 5.000+ empleos directos de la zona industrial se traducen en:</p>
+
+      <ul>
+        <li><strong>15.000+ familias</strong> que necesitan vivienda cerca de su lugar de trabajo</li>
+        <li><strong>M\xe1s comercios</strong> (supermercados, farmacias, restaurantes) que se instalan para atender esa demanda</li>
+        <li><strong>M\xe1s servicios</strong> (escuelas, centros de salud) que mejoran la calidad de vida</li>
+        <li><strong>M\xe1s infraestructura</strong> (calles, rutas, servicios b\xe1sicos) que valoriza los terrenos</li>
+      </ul>
+
+      <h2>\xbfQu\xe9 Significa Esto para Tu Inversi\xf3n?</h2>
+
+      <p>La ecuaci\xf3n es simple: <strong>donde hay empleo, hay demanda de terrenos y viviendas</strong>. Y donde hay demanda, los precios suben. Capiat\xe1 est\xe1 viviendo este fen\xf3meno en tiempo real:</p>
+
+      <ul>
+        <li>📈 Los terrenos cerca de zonas industriales han visto incrementos de <strong>hasta el 40% en los \xfaltimos 3 a\xf1os</strong></li>
+        <li>🏠 La demanda de lotes residenciales supera ampliamente la oferta disponible</li>
+        <li>🛣️ Cada nueva obra de infraestructura (asfaltado, alcantarillado) suma valor inmediato</li>
+        <li>💼 El empleo estable en la zona garantiza compradores con capacidad de pago real</li>
+      </ul>
+
+      <h2>Capiat\xe1 vs. Otras Ciudades: La Ventaja Competitiva</h2>
+
+      <p>Comparemos brevemente:</p>
+
+      <ul>
+        <li><strong>Luque y San Lorenzo</strong>: ya est\xe1n saturadas, con precios muy elevados y poco espacio para crecer</li>
+        <li><strong>Villeta y Mariano R. Alonso</strong>: tienen industrias pero est\xe1n m\xe1s lejos de Asunci\xf3n</li>
+        <li><strong>Capiat\xe1</strong>: combina industria activa + proximidad a Asunci\xf3n (20 km) + terrenos a\xfan accesibles + infraestructura en expansi\xf3n. Es la <strong>ventana de oportunidad perfecta</strong></li>
+      </ul>
+
+      <h2>Costa Salinas: Tu Puerta de Entrada</h2>
+
+      <p>Nuestro desarrollo <strong>Costa Salinas</strong> est\xe1 ubicado estrat\xe9gicamente en Capiat\xe1, en una zona que se beneficia directamente del crecimiento industrial y residencial de la ciudad. Con lotes desde 360 m\xb2, acceso a servicios b\xe1sicos y papeles 100% en regla, es la inversi\xf3n inteligente para quienes entienden que <strong>el momento de comprar es ahora, antes de que los precios sigan subiendo</strong>.</p>
+
+      <p><strong>Coordinamos visitas personalizadas todos los d\xedas.</strong> Contactanos por WhatsApp y te llevamos a conocer tu futuro terreno en la capital industrial de Paraguay.</p>
+    `,date:"10 de Febrero, 2026",author:"Research TEKO",category:"Análisis de Mercado",image:"https://images.unsplash.com/photo-1565106430482-8bc1ff40c75c?q=80&w=1974&auto=format&fit=crop",readTime:"12 min"},{id:"bancos-vs-financiacion-propia-paraguay",title:"Bancos vs. Financiación Propia: Lo que Nadie te Dice sobre los Créditos en Paraguay",excerpt:"¿Es mejor un préstamo hipotecario o comprar directamente de la inmobiliaria? Analizamos requisitos, intereses y la letra chica que los bancos no quieren que sepas.",content:`
+      <p class="lead">Si est\xe1s pensando en comprar tu primer terreno, probablemente tu primera idea fue ir al banco. Pero en Paraguay, el camino del cr\xe9dito bancario est\xe1 lleno de obst\xe1culos que dejan fuera al 70% de los trabajadores. En este art\xedculo, vamos a comparar la realidad de los bancos frente a la agilidad de la financiaci\xf3n propia.</p>
+
+      <h2>El "Muro" de los Bancos en Paraguay</h2>
+      <p>Para que un banco en Paraguay te apruebe un cr\xe9dito hipotecario, necesit\xe1s cumplir con un perfil casi perfecto:</p>
+      <ul>
+        <li><strong>Antig\xfcedad Laboral:</strong> M\xednimo 2 a\xf1os de estabilidad comprobable.</li>
+        <li><strong>Seguro Social:</strong> Aportes a IPS al d\xeda o declaraciones de IVA impecables.</li>
+        <li><strong>Rango de Ingresos:</strong> La cuota no puede superar el 30% de tu sueldo neto (muchas veces piden ingresos familiares superiores a 3 salarios m\xednimos).</li>
+        <li><strong>Informconf:</strong> Un simple retraso en una factura de celular de hace 3 a\xf1os puede ser motivo de rechazo instant\xe1neo.</li>
+      </ul>
+
+      <h2>\xbfPor qu\xe9 la Financiaci\xf3n Propia es la Favorita de los Inversores?</h2>
+      <p>En inmobiliarias como <strong>TEKO</strong>, eliminamos la burocracia para enfocarnos en la confianza. Nuestra financiaci\xf3n propia se basa en:</p>
+      <ul>
+        <li><strong>Aprobaci\xf3n en 24hs:</strong> Sin comit\xe9s de cr\xe9dito que tardan meses.</li>
+        <li><strong>Sin consulta a Informconf:</strong> Evaluamos tu presente, no tus errores del pasado.</li>
+        <li><strong>Cuota Fija:</strong> En guaran\xedes, sin sorpresas por el tipo de cambio del d\xf3lar.</li>
+        <li><strong>Posesi\xf3n Inmediata:</strong> Pod\xe9s empezar a usar tu terreno desde que pag\xe1s la entrega inicial.</li>
+      </ul>
+
+      <blockquote>"La mejor financiaci\xf3n no es la que tiene la tasa m\xe1s baja en el papel, sino la que realmente pod\xe9s pagar y te permite ser due\xf1o hoy, no dentro de 20 a\xf1os."</blockquote>
+
+      <h2>Comparativa Directa</h2>
+      <p>Mientras un banco te presta dinero para que compres algo, nosotros te vendemos la tierra directamente. Esto elimina intermediarios y reduce dr\xe1sticamente los requisitos de entrada.</p>
+    `,date:"10 de Febrero, 2026",author:"Asesoría TEKO",category:"Finanzas",image:"https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop",readTime:"14 min"},{id:"mejores-libros-inversion-inmobiliaria-2026",title:"Biblioteca del Inversor: Los 5 Libros que Todo Dueño de Terrenos Debe Leer",excerpt:'Invertir en tu educación es la mejor inversión de todas. Te recomendamos las lecturas que transformarán tu mentalidad de "comprador" a "inversor sofisticado".',content:`
+      <p class="lead">Como dice el famoso inversor Robert Kiyosaki: <em>"La inversi\xf3n en propiedades te permite generar ingresos pasivos y aumentar tu patrimonio neto"</em>. Pero para llegar ah\xed, primero ten\xe9s que entrenar tu mente.</p>
+
+      <h2>Nuestras Recomendaciones de Oro</h2>
+      
+      <h3>1. "Padre Rico, Padre Pobre" - Robert Kiyosaki</h3>
+      <p>El libro que lo cambi\xf3 todo. Te ense\xf1a la diferencia fundamental entre un <strong>activo</strong> (tu terreno que sube de valor) y un <strong>pasivo</strong> (tu auto que se deprecia). Una cita clave: <em>"Un activo es algo que pone dinero en tu bolsillo. Un pasivo es algo que extrae dinero de tu bolsillo."</em></p>
+
+      <h3>2. "El ABC de la Inversi\xf3n en Bienes Ra\xedces" - Ken McElroy</h3>
+      <p>Si quer\xe9s pasar de la teor\xeda a la pr\xe1ctica, este es tu libro. Ken explica c\xf3mo encontrar mercados que est\xe1n a punto de explotar (como Capiat\xe1 hoy) y c\xf3mo evaluar un terreno con ojos profesionales.</p>
+
+      <h3>3. "El Libro sobre la Inversi\xf3n en Propiedades de Alquiler" - Brandon Turner</h3>
+      <p>Brandon es el maestro del flujo de caja. Te ense\xf1a a comprar tierra pensando en el futuro: \xbfqu\xe9 tipo de propiedad podr\xedas construir ah\xed para vivir de tus rentas alg\xfan d\xeda?</p>
+
+      <h2>\xbfPor qu\xe9 leer sobre bienes ra\xedces?</h2>
+      <p>El conocimiento te da la seguridad para aprovechar las oportunidades cuando otros tienen miedo. La diferencia entre el rico y el pobre, seg\xfan estos autores, es que el rico invierte su dinero primero y gasta lo que queda, mientras que el pobre gasta primero y espera que sobre algo para invertir.</p>
+    `,date:"10 de Febrero, 2026",author:"Research TEKO",category:"Libros & Consejos",image:"https://images.unsplash.com/photo-1491841573634-28140fc7ced7?q=80&w=2070&auto=format&fit=crop",readTime:"16 min"},{id:"ojo-de-inversor-inspeccion-tecnica-terrenos",title:"Ojo de Inversor: Guía Técnica para Inspeccionar un Terreno antes de Firmar",excerpt:"No te dejes engañar por una cara bonita. Te enseñamos a ver lo que los demás ignoran: drenaje, orientación del sol y servicios ocultos.",content:`
+      <p class="lead">Comprar un terreno no es solo mirar el mapa. Es ir al lugar y saber leer la tierra. Un error t\xe9cnico hoy puede significar millones en gastos de nivelaci\xf3n o problemas de humedad ma\xf1ana.</p>
+
+      <h2>El Checklist del Inversor Profesional</h2>
+      
+      <h3>1. La Topograf\xeda y el Drenaje</h3>
+      <p>Mir\xe1 hacia d\xf3nde fluye el agua cuando llueve. Un terreno que est\xe1 por debajo del nivel de la calle requerir\xe1 mucha "carga" (tierra de relleno) para no inundarse. Lo ideal es un terreno con una pendiente suave hacia el frente para evacuar el agua de lluvia naturalmente.</p>
+
+      <h3>2. La Orientaci\xf3n del Sol</h3>
+      <p>En Paraguay, el sol es un factor cr\xedtico. La mejor orientaci\xf3n para tu futura casa es que el frente d\xe9 hacia el <strong>Sureste</strong>. Esto mantiene la casa fresca y reduce el consumo de energ\xeda en aire acondicionado.</p>
+
+      <h3>3. Servicios B\xe1sicos (Ver para Creer)</h3>
+      <p>No conf\xedes solo en la palabra del vendedor. Busc\xe1 los postes de ANDE m\xe1s cercanos y pregunt\xe1 a los vecinos sobre la presi\xf3n de agua de la aguater\xeda local o ESSAP. Un terreno sin energ\xeda trif\xe1sica cerca puede ser un dolor de cabeza si plane\xe1s un comercio o industria peque\xf1a.</p>
+
+      <h2>El Valor de los Papeles Municipales</h2>
+      <p>Verific\xe1 que el loteamiento tenga la aprobaci\xf3n municipal definitiva. Esto te garantiza que las calles est\xe1n trazadas legalmente y que no tendr\xe1s problemas para obtener tu n\xfamero de cuenta catastral.</p>
+    `,date:"10 de Febrero, 2026",author:"Dto. Técnico TEKO",category:"Consejos Técnicos",image:"https://images.unsplash.com/photo-1541462608141-ad4d05ed5a41?q=80&w=2070&auto=format&fit=crop",readTime:"15 min"}];a.s(["blogPosts",0,b],99780);let c=[{id:"cs-001",zoneId:"costa-salinas",title:"Costa Salinas: Residencial I",location:"Costa Salinas - Zona de Alto Valor",originalPrice:125e6,price:12e7,monthlyPayment:259e4,description:"La seguridad que buscás para tu capital. En un contexto económico incierto, la tierra es el único refugio que nunca pierde valor. Costa Salinas te ofrece posesión inmediata, documentos al día y la certeza de que tu dinero está creciendo mes a mes. Es hoy.",image:"/properties/costa-salinas-drone-1.jpg",videoUrl:"/videos/residencial-1.mp4",features:["Título Inmediato","Inversión Blindada","Sin Bancos","Plusvalía Asegurada"],type:"terreno",coordinates:{lat:-25.3203,lng:-57.4434},status:"available"},{id:"cs-003",zoneId:"costa-salinas",title:"Costa Salinas: Residencial II",location:"Costa Salinas - Barrio Tranquilo",originalPrice:86e6,price:81e6,monthlyPayment:175e4,description:"Imaginá a tus hijos jugando en su propio patio. Costa Salinas es un barrio consolidado, seguro y lleno de vida. Dejá de pagar alquiler y empezá a pagar por lo que será tuyo para siempre. La mejor herencia es un techo propio.",image:"/properties/costa-salinas-drone-2.jpg",videoUrl:"/videos/residencial-2.mp4",gallery:["/properties/residencial-2-drone-3.jpg","/properties/residencial-2-drone-4.jpg"],features:["Barrio Seguro","Vecinos Reales","Servicios Listos","Tu Propio Hogar"],type:"terreno",coordinates:{lat:-25.321,lng:-57.444},status:"available"}];a.s(["FINANCING_CONFIG",0,{minDownPaymentPercent:20,maxDownPaymentPercent:60,minReinforcementPercent:20,maxReinforcementPercent:50,maxTermMonths:72,defaultReinforcementPayments:3,whatsappNumber:"595974202163"},"PRICE_RANGE",0,{min:81e6,max:135e6,default:81e6,step:1e6},"constructionPlans",0,[{id:"essential",name:"TEKO Essential",description:"Diseño inteligente y funcional. La entrada perfecta a tu hogar propio con terminaciones de calidad.",pricePerSqm:850,features:["Construcción Tradicional","Aberturas DVH","Pisos Porcelanato","Grifería Primera Marca","Entrega en 8 meses"],image:"/images/render-casa-moderna.jpg"},{id:"luxury",name:"TEKO Luxury",description:"Arquitectura de vanguardia, espacios amplios y detalles de categoría superior para un estilo de vida exigente.",pricePerSqm:1200,features:["Diseño Personalizado","Domótica Integrada","Losa Radiante","Revestimientos Importados","Entrega en 12 meses"],image:"/images/ai-designs/design-1.jpg"}],"getPropertiesByZone",0,a=>c.filter(b=>b.zoneId===a),"properties",0,c,"testimonials",0,[{name:"Crecimiento Real",role:"Plusvalía Asegurada",text:"Al comprar antes de que la zona se desarrolle por completo, bloqueás el precio más bajo y asegurás tu ganancia futura."},{name:"Sin Burocracia",role:"Financiación Propia",text:"A sola firma y con aprobación inmediata. Tu puerta de entrada al patrimonio sin depender de bancos ni Informconf."},{name:"Seguridad Legal",role:"Título Inmediato",text:"Toda nuestra tierra está titulada e inscripta. Tu inversión tiene el respaldo legal total que te da tranquilidad absoluta."}],"zones",0,[{id:"costa-salinas",name:"Costa Salinas",tagline:"Asegurá tu futuro en la zona que más crece",description:"Asegurá tu terreno con cuotas fijas en Guaraníes. Invertí en tierra, protegete de la inflación y construí tu legado hoy mismo.",mapUrl:"https://maps.app.goo.gl/XDMHDZXgcjQy4h3p6",heroImage:"/properties/costa-salinas-drone-1.jpg",highlights:["Título al instante","Papeles 100% en regla","Entrega mínima y ya es tuyo","Pagá hasta en 6 años"]}]],78953)}];
 
 //# sourceMappingURL=data_ts_2ea64882._.js.map

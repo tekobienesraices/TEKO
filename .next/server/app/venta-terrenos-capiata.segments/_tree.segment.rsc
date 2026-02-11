@@ -1,5 +1,9 @@
-:HL["/_next/static/chunks/703d56f284308384.css","style"]
+:HL["/_next/static/chunks/445119e7df864d9b.css","style"]
 :HL["/_next/static/media/2a65768255d6b625-s.p.d19752fb.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/_next/static/media/83afe278b6a6bb3c-s.p.3a6ba036.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/logo-vertical-white.png","image"]
-0:{"buildId":"yAW-TqTP9apqhA8738Y3e","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"venta-terrenos-capiata","paramType":null,"paramKey":"venta-terrenos-capiata","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+:HL["/images/capiata/municipalidad.jpg","image"]
+:HL["/images/capiata/pizza-hut.jpg","image"]
+:HL["/images/capiata/zarveros.jpg","image"]
+:HL["/images/blog/hotel-los-lagos.jpg","image"]
+0:{"buildId":"lDJ2ygeYEqSLPN4xIOMtF","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"venta-terrenos-capiata","paramType":null,"paramKey":"venta-terrenos-capiata","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
