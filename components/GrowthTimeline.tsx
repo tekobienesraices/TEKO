@@ -6,28 +6,28 @@ import { Button } from './Button';
 
 const timelineData = [
     {
-        year: 'Paso 1',
-        title: 'Comprar Antes que Todos',
-        desc: 'El secreto de los grandes inversores es simple: llegan primero. Identificamos zonas donde la ciudad "está por llegar". Al comprar aquí, pagás el precio más bajo posible, asegurando tu ganancia desde el día uno.',
-        insight: 'Comprás barato hoy, y ganás cuando todos los demás quieran comprar mañana.'
+        year: '2010',
+        title: 'Visión: El Origen de la Plusvalía',
+        desc: 'Costa Salinas nace de la visión de llegar primero. Identificamos en Capiatá una fracción con potencial estratégico inigualable, antes de que el mercado despertara. En este momento, comprar significó asegurar el precio más bajo posible por hectárea.',
+        insight: 'La plusvalía más grande se construye sobre el suelo que compraste cuando nadie más lo veía.'
     },
     {
-        year: 'Paso 2',
-        title: 'El Despertar de la Zona',
-        desc: 'Empiezan a llegar los servicios, se abren nuevos caminos y se instalan los primeros vecinos. Es el momento mágico donde tu terreno deja de ser "campo" y se convierte en "ciudad". Aquí es donde tu dinero empieza a multiplicarse solo.',
-        insight: 'Cada nuevo poste de luz y cada ladrillo puesto por un vecino aumenta el valor de TU terreno.'
+        year: '2015',
+        title: 'Infraestructura y Promesa Real',
+        desc: 'Iniciamos la apertura de calles y la delimitación de los primeros lotes. Costa Salinas dejó de ser solo tierra para convertirse en un desarrollo inmobiliario con servicios básicos. Cada mejora técnica fue un escalón más en la valorización de tu inversión.',
+        insight: 'Vimos cómo el valor por metro cuadrado creció apenas instalamos el primer poste de electricidad.'
     },
     {
-        year: 'Paso 3',
-        title: 'Todos Quieren Vivir Aquí',
-        desc: 'La zona se llena de vida. Ya hay familias, comercios y transporte. La demanda explota y, como ya no quedan terrenos baratos, el tuyo vale oro. Es la ley de oferta y demanda jugando a tu favor.',
-        insight: 'Ahora sos dueño de un bien escaso y deseado. Tu visión temprana dio sus frutos.'
+        year: '2020',
+        title: 'Crecimiento Exponencial',
+        desc: 'El barrio se llenó de vida y las primeras familias construyeron sus hogares. Con el auge industrial de Capiatá, la demanda en Costa Salinas explotó. Quienes invirtieron al inicio ya veían su capital triplicado por el simple crecimiento de la zona.',
+        insight: 'Invertir en una zona en plena consolidación es la forma más inteligente de blindar tus ahorros.'
     },
     {
-        year: 'Paso 4',
-        title: 'Tu Patrimonio Consolidado',
-        desc: 'Tenés un activo seguro, titulado y de alto valor. Podés construir la casa de tus sueños en un barrio consolidado o venderlo con una ganancia extraordinaria. El ciclo se completó y vos ganaste.',
-        insight: 'Convertiste ahorros quietos en un patrimonio real y heredable para tu familia.'
+        year: '2025',
+        title: 'Patrimonio Consolidado y Escaso',
+        desc: 'Hoy, Costa Salinas es un referente premium en Capiatá con títulos listos y alta demanda residencial. Ser dueño aquí hoy es poseer un activo escaso que sigue ganando valor día a día en un entorno totalmente urbanizado.',
+        insight: 'Costa Salinas es la prueba de que el tiempo y la ubicación correcta son los mejores socios de tu patrimonio.'
     }
 ];
 
@@ -79,7 +79,7 @@ export const GrowthTimeline: React.FC = () => {
                     <p className="text-slate-300 text-lg leading-relaxed">
                         No hace falta ser economista para entenderlo. La ciudad crece hacia afuera, y quien tiene la tierra antes de que llegue el asfalto, gana.
                         <br className="hidden md:block" />
-                        <strong className="text-white">Así es como tu inversión se multiplica mientras vos dormís:</strong>
+                        <strong className="text-white">Así creció Costa Salinas, Capiatá — y así crece tu inversión:</strong>
                     </p>
                 </div>
 
@@ -92,7 +92,7 @@ export const GrowthTimeline: React.FC = () => {
                                 <motion.img
                                     key={currentIndex}
                                     src={getPhaseImage(currentIndex)}
-                                    alt={`Fase ${currentIndex + 1}: ${currentData.title}`}
+                                    alt={`Evolución ${currentData.year}: ${currentData.title}`}
                                     initial={{ opacity: 0, scale: 1.1 }}
                                     animate={{ opacity: 1, scale: 1 }}
                                     exit={{ opacity: 0 }}
@@ -159,7 +159,7 @@ export const GrowthTimeline: React.FC = () => {
                             >
                                 <div className="flex items-center gap-3 text-teko-gold font-bold mb-4">
                                     <Clock size={20} />
-                                    <span>Evolución: Paso {currentIndex + 1}</span>
+                                    <span>Costa Salinas · {currentData.year}</span>
                                 </div>
 
                                 <h3 className="text-3xl md:text-4xl font-serif font-bold text-white mb-6">
