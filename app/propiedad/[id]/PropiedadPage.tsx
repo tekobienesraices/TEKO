@@ -7,6 +7,7 @@ import type { Property, Zone } from '@/types';
 import { Button } from '@/components/Button';
 import { LeadModal } from '@/components/LeadModal';
 import { GrowthTimeline } from '@/components/GrowthTimeline';
+import { Lightbox } from '@/components/Lightbox';
 
 interface Props {
     property: Property;
@@ -15,6 +16,13 @@ interface Props {
 
 export default function PropiedadPage({ property, zone }: Props) {
     const [modalOpen, setModalOpen] = useState(false);
+    const [lightboxOpen, setLightboxOpen] = useState(false);
+    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+
+    const openLightbox = (index: number) => {
+        setCurrentImageIndex(index);
+        setLightboxOpen(true);
+    };
 
     return (
         <div className="pt-0 min-h-screen bg-white">
@@ -115,7 +123,11 @@ export default function PropiedadPage({ property, zone }: Props) {
                                 <h3 className="text-2xl font-serif font-bold text-teko-navy">Galería de Imágenes</h3>
                                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                     {property.gallery.map((img, idx) => (
-                                        <div key={idx} className="relative aspect-video rounded-2xl overflow-hidden border border-slate-200 shadow-md group cursor-pointer">
+                                        <div
+                                            key={idx}
+                                            className="relative aspect-video rounded-2xl overflow-hidden border border-slate-200 shadow-md group cursor-pointer"
+                                            onClick={() => openLightbox(idx)}
+                                        >
                                             <img
                                                 src={img}
                                                 alt={`${property.title} - Vista ${idx + 1}`}
@@ -253,6 +265,13 @@ export default function PropiedadPage({ property, zone }: Props) {
                     </div>
                 </div>
                 <LeadModal isOpen={modalOpen} onClose={() => setModalOpen(false)} title={`Interés: ${property.title}`} source="Property Detail" />
+
+                <Lightbox
+                    images={property.gallery || []}
+                    initialIndex={currentImageIndex}
+                    isOpen={lightboxOpen}
+                    onClose={() => setLightboxOpen(false)}
+                />
             </div>
         </div>
     );
