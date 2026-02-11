@@ -25,9 +25,9 @@ const timelineData = [
     },
     {
         year: '2025',
-        title: 'Patrimonio Consolidado',
-        desc: 'Hoy, Costa Salinas representa un activo seguro y de alto valor. Con un entorno totalmente urbanizado y títulos listos, el ciclo de valorización se completa. Quien compró antes hoy tiene un patrimonio sólido y heredable para su familia.',
-        insight: 'Costa Salinas demuestra que quien tiene la tierra antes que el asfalto, siempre gana.'
+        title: 'El Próximo Salto Exponencial',
+        desc: 'Si creés que llegaste tarde, mirá de nuevo. Costa Salinas hoy no es el final, es el inicio de un nuevo ciclo. Con la infraestructura actual consolidada, estamos ante la base de una revalorización explosiva: en los próximos 5 años, este ciclo de crecimiento se repetirá de forma exponencial gracias a la hiper-conectividad y proyectos comerciales de gran escala que ya asoman.',
+        insight: 'No estás comprando el pasado de Costa Salinas, estás asegurando tu lugar en el ciclo más lucrativo de su historia.'
     }
 ];
 
