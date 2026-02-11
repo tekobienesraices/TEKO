@@ -234,7 +234,7 @@ export default function PropiedadPage({ property, zone }: Props) {
                                         onClick={() => setModalOpen(true)}
                                         className="shadow-teko-navy/20"
                                     >
-                                        Consultar Disponibilidad
+                                        Agendar Visita al Lote
                                     </Button>
 
                                     <Link href={`/calculadora?price=${property.price}`} className="block">
@@ -264,7 +264,16 @@ export default function PropiedadPage({ property, zone }: Props) {
                         </div>
                     </div>
                 </div>
-                <LeadModal isOpen={modalOpen} onClose={() => setModalOpen(false)} title={`Interés: ${property.title}`} source="Property Detail" />
+                <LeadModal
+                    isOpen={modalOpen}
+                    onClose={() => setModalOpen(false)}
+                    title={`Agendar Visita a ${property.title}`}
+                    subtitle="Debido a la alta demanda, coordinamos visitas por orden de llegada. Completá tus datos para asegurar tu turno y conocer el potencial de este terreno."
+                    ctaText="Coordinar mi Visita"
+                    successTitle="¡Solicitud Recibida!"
+                    successMessage="Tu interés ha sido registrado. Un asesor te contactará en breve para confirmar el horario de tu visita."
+                    source="Property Detail"
+                />
 
                 <Lightbox
                     images={property.gallery || []}

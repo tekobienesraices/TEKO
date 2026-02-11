@@ -8,10 +8,23 @@ interface LeadModalProps {
   isOpen: boolean;
   onClose: () => void;
   title?: string;
+  subtitle?: string;
+  ctaText?: string;
   source?: string;
+  successTitle?: string;
+  successMessage?: string;
 }
 
-export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, title = "Recibir Asesoría", source }) => {
+export const LeadModal: React.FC<LeadModalProps> = ({
+  isOpen,
+  onClose,
+  title = "Recibir Asesoría",
+  subtitle = "Completa tus datos para recibir información exclusiva y planes de financiación.",
+  ctaText = "Recibir Información",
+  source,
+  successTitle = "¡Gracias!",
+  successMessage = "Un asesor premium se contactará contigo a la brevedad vía WhatsApp."
+}) => {
   const { register, handleSubmit, formState: { errors, isSubmitting, isSubmitSuccessful }, reset } = useForm<LeadForm>();
 
   const onSubmit = async (data: LeadForm) => {
@@ -48,15 +61,15 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, title = "
             <div className="w-16 h-16 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-4">
               <CheckCircle size={32} />
             </div>
-            <h3 className="text-2xl font-serif font-bold text-teko-navy mb-2">¡Gracias!</h3>
-            <p className="text-slate-600">Un asesor premium se contactará contigo a la brevedad vía WhatsApp.</p>
+            <h3 className="text-2xl font-serif font-bold text-teko-navy mb-2">{successTitle}</h3>
+            <p className="text-slate-600">{successMessage}</p>
             <Button className="mt-6" onClick={() => { reset(); onClose(); }}>Cerrar</Button>
           </div>
         ) : (
           <>
             <div className="mb-6">
               <h3 className="text-2xl font-serif font-bold text-teko-navy mb-2">{title}</h3>
-              <p className="text-sm text-slate-500">Completa tus datos para recibir información exclusiva y planes de financiación.</p>
+              <p className="text-sm text-slate-500 leading-relaxed">{subtitle}</p>
             </div>
 
             <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
@@ -102,7 +115,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({ isOpen, onClose, title = "
                 disabled={isSubmitting}
                 className="mt-4 bg-gradient-to-r from-teko-navy to-slate-800"
               >
-                {isSubmitting ? 'Enviando...' : 'Recibir Información'}
+                {isSubmitting ? 'Enviando...' : ctaText}
               </Button>
 
               <p className="text-xs text-center text-slate-400 mt-4">
