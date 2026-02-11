@@ -53,9 +53,12 @@ export const properties: Property[] = [
     price: 81000000,
     monthlyPayment: 1750000,
     description: 'Imaginá a tus hijos jugando en su propio patio. Costa Salinas es un barrio consolidado, seguro y lleno de vida. Dejá de pagar alquiler y empezá a pagar por lo que será tuyo para siempre. La mejor herencia es un techo propio.',
-    image: '/properties/costa-salinas-drone-2.jpg',
+    image: '/properties/residencial-dos-1.jpg',
     videoUrl: '/videos/residencial-2.mp4',
     gallery: [
+      '/properties/residencial-dos-2.jpg',
+      '/properties/residencial-2-1.jpg',
+      '/properties/residencial-2-2.jpg',
       '/properties/residencial-2-drone-3.jpg',
       '/properties/residencial-2-drone-4.jpg'
     ],

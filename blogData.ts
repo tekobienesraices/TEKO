@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: 'https://images.unsplash.com/photo-1565034946487-077786496e27?q=80&w=2070&auto=format&fit=crop',
+    image: '/images/blog/Conti-2.jpg',
     readTime: '12 min'
   },
   {
@@ -280,7 +280,7 @@ export const blogPosts: BlogPost[] = [
     date: '25 de Febrero, 2026',
     author: 'Equipo TEKO',
     category: 'Guía de Compra',
-    image: 'https://images.unsplash.com/photo-1582408921715-18e7806367c1?q=80&w=2070&auto=format&fit=crop',
+    image: '/images/blog/Deportivo_Capiatá.jpg',
     readTime: '10 min'
   },
   {
@@ -322,7 +322,7 @@ export const blogPosts: BlogPost[] = [
     date: '20 de Febrero, 2026',
     author: 'Redacción TEKO',
     category: 'Noticias & Obras',
-    image: '/images/capiata/capiata-progreso-3.jpg',
+    image: '/images/blog/muni.jpg',
     readTime: '8 min'
   },
   {
@@ -451,7 +451,7 @@ export const blogPosts: BlogPost[] = [
     date: '15 de Febrero, 2026',
     author: 'Equipo TEKO',
     category: 'Inversión',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop',
+    image: '/images/blog/la pradera.jpg',
     readTime: '12 min'
   },
   {
@@ -560,7 +560,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Asesoría TEKO',
     category: 'Educación Financiera',
-    image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop',
+    image: '/images/blog/family-house.jpg',
     readTime: '15 min'
   },
   {
@@ -706,7 +706,7 @@ export const blogPosts: BlogPost[] = [
     date: '05 de Febrero, 2026',
     author: 'Dto. Legal TEKO',
     category: 'Seguridad Legal',
-    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop',
+    image: '/images/blog/legal-docs.jpg',
     readTime: '18 min'
   },
   {
