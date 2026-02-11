@@ -16,57 +16,128 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
   {
-    id: 'hotel-los-lagos-turismo-capiata-2026',
-    title: 'Hotel Los Lagos y el Auge Turístico de Capiatá: Por Qué Invertir en la "Ciudad de los Mitos"',
-    excerpt: 'Descubrí el resort más emblemático de Capiatá y entendé por qué esta ciudad ya no es solo un punto de paso, sino un destino de inversión y descanso de primer nivel.',
+    id: 'capiata-capital-industrial-paraguay-2026',
+    title: 'Capiatá: La Capital Industrial de Paraguay y Por Qué es el Mejor Lugar para Invertir',
+    excerpt: 'Con más de 5.000 empleos directos generados por gigantes como Conti, La Pradera, Schussmuller y Tecnoedil, Capiatá se consolida como el epicentro industrial del país. Descubrí cómo esto impulsa el valor de la tierra.',
     content: `
-      <p class="lead">Capiatá está viviendo una transformación que va más allá del asfalto. Se está convirtiendo en un refugio para quienes buscan calidad de vida sin alejarse de las oportunidades de la capital. Centros como el <strong>Hotel Resort Los Lagos</strong> son el reflejo de una ciudad que valora el equilibrio entre la naturaleza y la comodidad.</p>
+      <p class="lead">Capiatá se ha consolidado como uno de los polos industriales más importantes del Departamento Central. Esta actividad no solo genera empleos, sino que impulsa el desarrollo de infraestructura y servicios que benefician a toda la comunidad residencial circundante.</p>
 
+      <h2>Un Gigante Industrial a Solo 20 km de Asunción</h2>
 
-      <h2>Los Lagos: Un Estilo de Vida Propiamente Capiateño</h2>
-      
-      <p>Ubicado estratégicamente en el KM 20 de la Ruta 1, Hotel Los Lagos representa lo que muchos inversores buscan hoy: <strong>calidad de vida, aire puro y desconexión sin alejarse de la capital.</strong> Este complejo no es solo un lugar para dormir; es un centro de experiencias que incluye:</p>
+      <p>Capiatá, la cuarta ciudad más poblada de Paraguay, alberga un corredor industrial que se extiende a lo largo de la Ruta Mariscal Estigarribia (Ruta PY02) y sus alrededores. Este corredor no solo genera <strong>más de 5.000 empleos directos</strong>, sino que transforma la economía local y multiplica la demanda de vivienda, servicios y terrenos residenciales.</p>
+
+      <p>¿Qué significa esto para vos como inversor? Que cada nueva fábrica, cada nueva nave industrial, es un motor que empuja el precio de la tierra hacia arriba. Veamos las empresas que hacen de Capiatá una potencia.</p>
+
+      <h2>Las Grandes Industrias de Capiatá</h2>
+
+      <h3>🏗️ Tecnoedil S.A. – Infraestructura de Primer Nivel</h3>
+      <p>Con más de cinco décadas de trayectoria, <strong>Tecnoedil</strong> es una de las constructoras más grandes del país, especializada en obras viales, civiles y portuarias. Su presencia activa en Capiatá incluye proyectos de asfaltado y mejoramiento de rutas que benefician directamente a los barrios residenciales de la zona. Cada kilómetro de asfalto nuevo que Tecnoedil construye en Capiatá suma valor inmediato a los terrenos cercanos.</p>
+
+      <h3>⚙️ Schussmuller S.A. – Acero Paraguayo desde 1995</h3>
+      <p>Ubicada en el Km 18.5 de la Ruta Mcal. Estigarribia, la <strong>Industria Metalúrgica Schussmuller</strong> es sinónimo de acero en Paraguay. Desde 1995, su planta en Capiatá produce estructuras metálicas, perfiles y materiales de construcción que abastecen a todo el país. Su operación genera cientos de empleos directos y una red de proveedores locales que dinamizan la economía capiateña.</p>
+
+      <h3>🥛 La Pradera (SAPROCAL) – De Capiatá al País Entero</h3>
+      <p>El barrio Naranjaty de Capiatá alberga la planta industrial de <strong>La Pradera</strong>, una de las marcas lácteas más reconocidas del Paraguay. Fundada en 1995, esta empresa procesa miles de litros de leche diariamente y en 2022 inauguró una <strong>mega-fábrica con una inversión superior a los USD 8.000.000</strong>. Este tipo de inversión industrial no solo crea empleos directos; genera una ola de desarrollo en servicios, comercio y vivienda para los trabajadores.</p>
+
+      <h3>🏭 Conti Paraguay (ex CAPSA) – Un Ícono Industrial desde 1951</h3>
+      <p>Situada en el Km 22-25 de la Ruta PY02, <strong>Conti Paraguay</strong> es una de las industrias más antiguas y emblemáticas de Capiatá, operando desde 1951. Su presencia de más de 70 años ha sido un pilar del empleo industrial en la ciudad, y ha contribuido a consolidar a Capiatá como un polo de atracción para trabajadores y familias que buscan establecerse cerca de fuentes de empleo estable.</p>
+
+      <h3>🔧 Cavallaro – Excelencia en Producción</h3>
+      <p><strong>Cavallaro</strong> es otra de las empresas que eligieron Capiatá como base de operaciones. Su planta contribuye al ecosistema industrial de la ciudad, generando empleo calificado y fortaleciendo la cadena productiva local. La presencia de empresas de este calibre eleva el perfil económico de toda la zona.</p>
+
+      <h3>🔌 Sumidenso – Tecnología Japonesa en Suelo Capiateño</h3>
+      <p>Con raíces en la tecnología japonesa, <strong>Sumidenso</strong> opera su planta en Capiatá fabricando componentes eléctricos y arneses para la industria automotriz. Esta empresa es un ejemplo perfecto de cómo Capiatá atrae inversión extranjera de alto valor, creando empleos técnicos y especializados que elevan el nivel de ingresos de la zona.</p>
+
+      <h3>🪵 Altieri Industrial Maderil – Tradición en Madera</h3>
+      <p><strong>Altieri Industrial Maderil</strong> representa el sector maderero dentro del corredor industrial de Capiatá. Su operación agrega diversidad al tejido industrial de la ciudad y genera empleo en un sector con profundas raíces en la economía paraguaya.</p>
+
+      <h3>🏗️ Copalsa – Construcción y Desarrollo</h3>
+      <p><strong>Copalsa</strong> es otra empresa del sector de la construcción con presencia en Capiatá. Junto con Tecnoedil, estas constructoras no solo emplean mano de obra local, sino que son las responsables de la infraestructura que conecta y valoriza los barrios residenciales de la ciudad.</p>
+
+      <h3>🐔 Granja Avícola La Blanca – Alimentando al País</h3>
+      <p><strong>Granja Avícola La Blanca</strong> refuerza el sector agroindustrial de Capiatá. La producción avícola a escala industrial genera empleo constante y estable, y contribuye a la cadena alimentaria nacional desde el corazón de la ciudad.</p>
+
+      <h2>El Efecto Multiplicador: Más Industria = Más Valor</h2>
+
+      <p>La concentración de industrias en Capiatá genera lo que los economistas llaman un <strong>efecto multiplicador</strong>. Por cada empleo industrial directo, se crean entre 2 y 3 empleos indirectos en comercio, servicios, transporte y construcción. Esto significa que los 5.000+ empleos directos de la zona industrial se traducen en:</p>
 
       <ul>
-        <li><strong>Piscinas y Parque Acuático:</strong> Ideales para los veranos paraguayos, siendo uno de los principales atractivos familiares de la zona.</li>
-        <li><strong>Interacción con la Naturaleza:</strong> Lagos artificiales donde se puede practicar kayak, puentes colgantes y senderos rodeados de densa vegetación.</li>
-        <li><strong>Gastronomía Local:</strong> Un restaurante que ofrece lo mejor del sabor paraguayo e internacional, atrayendo a visitantes de todo Central cada fin de semana.</li>
-        <li><strong>Actividades de Recreación:</strong> Paseos a caballo y espacios deportivos que lo convierten en el destino predilecto para eventos corporativos y escapadas de fin de semana.</li>
+        <li><strong>15.000+ familias</strong> que necesitan vivienda cerca de su lugar de trabajo</li>
+        <li><strong>Más comercios</strong> (supermercados, farmacias, restaurantes) que se instalan para atender esa demanda</li>
+        <li><strong>Más servicios</strong> (escuelas, centros de salud) que mejoran la calidad de vida</li>
+        <li><strong>Más infraestructura</strong> (calles, rutas, servicios básicos) que valoriza los terrenos</li>
+      </ul>
+
+      <h2>¿Qué Significa Esto para Tu Inversión?</h2>
+
+      <p>La ecuación es simple: <strong>donde hay empleo, hay demanda de terrenos y viviendas</strong>. Y donde hay demanda, los precios suben. Capiatá está viviendo este fenómeno en tiempo real:</p>
+
+      <ul>
+        <li>📈 Los terrenos cerca de zonas industriales han visto incrementos de <strong>hasta el 40% en los últimos 3 años</strong></li>
+        <li>🏠 La demanda de lotes residenciales supera ampliamente la oferta disponible</li>
+        <li>🛣️ Cada nueva obra de infraestructura (asfaltado, alcantarillado) suma valor inmediato</li>
+        <li>💼 El empleo estable en la zona garantiza compradores con capacidad de pago real</li>
+      </ul>
+
+      <h2>Capiatá vs. Otras Ciudades: La Ventaja Competitiva</h2>
+
+      <p>Comparemos brevemente:</p>
+
+      <ul>
+        <li><strong>Luque y San Lorenzo</strong>: ya están saturadas, con precios muy elevados y poco espacio para crecer</li>
+        <li><strong>Villeta y Mariano R. Alonso</strong>: tienen industrias pero están más lejos de Asunción</li>
+        <li><strong>Capiatá</strong>: combina industria activa + proximidad a Asunción (20 km) + terrenos aún accesibles + infraestructura en expansión. Es la <strong>ventana de oportunidad perfecta</strong></li>
+      </ul>
+
+      <h2>Costa Salinas: Tu Puerta de Entrada</h2>
+
+      <p>Nuestro desarrollo <strong>Costa Salinas</strong> está ubicado estratégicamente en Capiatá, en una zona que se beneficia directamente del crecimiento industrial y residencial de la ciudad. Con lotes desde 360 m², acceso a servicios básicos y papeles 100% en regla, es la inversión inteligente para quienes entienden que <strong>el momento de comprar es ahora, antes de que los precios sigan subiendo</strong>.</p>
+
+      <p><strong>Coordinamos visitas personalizadas todos los días.</strong> Contactanos por WhatsApp y te llevamos a conocer tu futuro terreno en la capital industrial de Paraguay.</p>
+    `,
+    date: '10 de Febrero, 2026',
+    author: 'Research TEKO',
+    category: 'Análisis de Mercado',
+    image: '/images/capiata/conti-2.jpg',
+    readTime: '12 min'
+  },
+  {
+    id: 'hotel-los-lagos-turismo-capiata-2026',
+    title: 'Hotel Los Lagos y el Auge Turístico de Capiatá: Por Qué Invertir en la "Ciudad de los Mitos"',
+    excerpt: 'Capiatá ha dejado de ser una ciudad de paso para convertirse en un destino estratégico. Analizamos cómo el desarrollo de infraestructuras como el Hotel Los Lagos valida el crecimiento de la zona.',
+    content: `
+      <p class="lead">Capiatá está viviendo una transformación que va más allá del asfalto. Centros como el <strong>Hotel Resort Los Lagos</strong> son el reflejo de una ciudad que valora el equilibrio entre la naturaleza y la comodidad, validando el potencial de plusvalía para quienes deciden comprar terrenos en sus alrededores.</p>
+
+      <h2>El Efecto "Resort" en la Valorización de Tierras</h2>
+      
+      <p>Ubicado estratégicamente en el KM 20 de la Ruta 1, Hotel Los Lagos representa un indicador de confianza para el inversor inmobiliario. Cuando una zona atrae servicios de este nivel, la calidad de vida percibida aumenta sustancialmente, beneficiando directamente a los loteamientos residenciales cercanos.</p>
+
+      <ul>
+        <li><strong>Consolidación de Zona:</strong> La presencia de infraestructuras de ocio de alto nivel confirma que Capiatá ya no es solo "periferia", sino un núcleo con servicios propios.</li>
+        <li><strong>Deseabilidad Residencial:</strong> Estar cerca de centros de recreación aumenta el valor emocional y comercial de tu futuro hogar o terreno de inversión.</li>
+        <li><strong>Validación de Inversión:</strong> Los grandes capitales eligen Capiatá por su ubicación estratégica entre las Rutas 1 y 2, un "eje de progreso" imparable.</li>
       </ul>
 
       <h2>Capiatá: Mucho Más que Infraestructura</h2>
 
-      <p>Cuando analizamos el valor de un terreno en Capiatá, no solo miramos los metros cuadrados. Miramos el entorno. La ciudad ofrece una riqueza cultural que blinda su identidad y atractivo:</p>
+      <p>Al analizar un terreno, miramos el entorno que protegerá tu capital. Capiatá ofrece una riqueza cultural única:</p>
 
-      <h3>1. El Museo Mitológico Ramón Elías</h3>
-      <p>Único en su clase en Paraguay, este museo es una joya cultural que atrae a turistas nacionales y extranjeros. Sus tallas en madera representan a los seres de la mitología guaraní, otorgando a Capiatá el título de "Ciudad de los Mitos".</p>
+      <h3>1. Patrimonio y Cultura</h3>
+      <p>El <strong>Museo Mitológico Ramón Elías</strong> y la históica church <strong>Iglesia de la Candelaria</strong> otorgan a la ciudad una identidad propia que blinda su atractivo a largo plazo.</p>
 
-      <h3>2. Historia Viva: La Iglesia de la Candelaria</h3>
-      <p>Construida en el siglo XVIII, es uno de los templos coloniales mejor conservados del país. Su arquitectura franciscana es un testimonio de la historia de la ciudad, fundada en 1640.</p>
-
-      <h3>3. Hub de Servicios y Conectividad</h3>
-      <p>Capiatá es el nexo entre las Rutas 1 y 2. Su crecimiento comercial es explosivo: Shoppings, universidades (como la Americana Campus Capiatá) y modernos centros logísticos están transformando el paisaje urbano en un "eje de progreso".</p>
-
-      <h2>Análisis para el Inversor: El "Geo-Arbitraje" Inmobiliario</h2>
-
-      <p>Para el inversor inteligente, la presencia de infraestructuras de ocio de alto nivel como <strong>Hotel Los Lagos</strong> es un indicador de "validación de zona".</p>
-
-      <ul>
-        <li><strong>Efecto Resort:</strong> La cercanía a centros de recreación aumenta la demanda de terrenos para casas de fin de semana o alquileres temporales (tipo Airbnb).</li>
-        <li><strong>Crecimiento Demográfico:</strong> Capiatá ya supera los 280.000 habitantes. La presión de la mancha urbana de Asunción está empujando los precios hacia arriba de forma irreversible.</li>
-        <li><strong>Saturación de Zonas Aledañas:</strong> Con precios prohibitivos en San Lorenzo o Lambaré, Capiatá se presenta como la zona con el mejor "entry price" (precio de entrada) y mayor potencial de apreciación por su oferta turística y comercial.</li>
-      </ul>
+      <h3>2. Conectividad y Servicios</h3>
+      <p>Shoppings, universidades (como la Americana Campus Capiatá) y modernos centros logísticos están transformando el paisaje urbano, garantizando que tu inversión esté en el epicentro del crecimiento de Central.</p>
 
       <div class="bg-teko-navy text-white p-8 rounded-2xl my-10">
-        <h3 class="text-teko-gold font-bold mb-4">¿Por qué invertir cerca de polos turísticos como Los Lagos?</h3>
-        <p class="italic">"La plusvalía inmobiliaria no se genera solo por el asfalto, se genera por la deseabilidad. Una zona con museos, iglesias históricas y resorts de lujo es una zona donde el valor de la tierra nunca retrocede."</p>
+        <h3 class="text-teko-gold font-bold mb-4">La Visión de TEKO</h3>
+        <p class="italic">"La plusvalía inmobiliaria se genera por la deseabilidad. Una zona con servicios de primer nivel como Los Lagos es una zona donde el valor de la tierra está blindado por el desarrollo real, no por promesas."</p>
       </div>
 
-      <h2>Planificá tu Visita a Capiatá</h2>
+      <h2>Invertí en el Futuro de Capiatá</h2>
 
-      <p>Si estás pensando en invertir, te recomendamos pasar un fin de semana en Capiatá. Hospedate en <strong>Los Lagos</strong>, visitá el <strong>Museo Ramón Elías</strong> y aprovechá para conocer nuestros desarrollos como <strong>Costa Salinas</strong>.</p>
+      <p>Si estás pensando en asegurar tu patrimonio, te invitamos a conocer nuestros desarrollos como <strong>Costa Salinas</strong>, ubicados estratégicamente para aprovechar este auge de servicios y conectividad.</p>
 
-      <p><strong>TEKO Bienes Raíces</strong> te ofrece la oportunidad de ser parte de este crecimiento. Tenemos lotes en zonas estratégicas de Capiatá con financiación propia, título inmediato y la seguridad de invertir en una ciudad con un futuro brillante.</p>
+      <p><strong>TEKO Bienes Raíces</strong> te ofrece la oportunidad de ser parte de este crecimiento con financiación propia, título inmediato y la seguridad de invertir en una ciudad con un futuro brillante.</p>
 
       <div class="mt-8">
         <p>📞 <strong>WhatsApp Asesoría:</strong> +595 974 202 163</p>
@@ -786,94 +857,8 @@ export const blogPosts: BlogPost[] = [
     date: '01 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop',
+    image: '/images/blog/terreno-aereo.jpg',
     readTime: '16 min'
-  },
-  {
-    id: 'capiata-capital-industrial-paraguay-2026',
-    title: 'Capiatá: La Capital Industrial de Paraguay y Por Qué es el Mejor Lugar para Invertir',
-    excerpt: 'Con más de 5.000 empleos directos generados por gigantes como Conti, La Pradera, Schussmuller y Tecnoedil, Capiatá se consolida como el epicentro industrial del país. Descubrí cómo esto impulsa el valor de la tierra.',
-    content: `
-      <p class="lead">Capiatá se ha consolidado como uno de los polos industriales más importantes del Departamento Central. Esta actividad no solo genera empleos, sino que impulsa el desarrollo de infraestructura y servicios que benefician a toda la comunidad residencial circundante.</p>
-
-      <h2>Un Gigante Industrial a Solo 20 km de Asunción</h2>
-
-      <p>Capiatá, la cuarta ciudad más poblada de Paraguay, alberga un corredor industrial que se extiende a lo largo de la Ruta Mariscal Estigarribia (Ruta PY02) y sus alrededores. Este corredor no solo genera <strong>más de 5.000 empleos directos</strong>, sino que transforma la economía local y multiplica la demanda de vivienda, servicios y terrenos residenciales.</p>
-
-      <p>¿Qué significa esto para vos como inversor? Que cada nueva fábrica, cada nueva nave industrial, es un motor que empuja el precio de la tierra hacia arriba. Veamos las empresas que hacen de Capiatá una potencia.</p>
-
-      <h2>Las Grandes Industrias de Capiatá</h2>
-
-      <h3>🏗️ Tecnoedil S.A. – Infraestructura de Primer Nivel</h3>
-      <p>Con más de cinco décadas de trayectoria, <strong>Tecnoedil</strong> es una de las constructoras más grandes del país, especializada en obras viales, civiles y portuarias. Su presencia activa en Capiatá incluye proyectos de asfaltado y mejoramiento de rutas que benefician directamente a los barrios residenciales de la zona. Cada kilómetro de asfalto nuevo que Tecnoedil construye en Capiatá suma valor inmediato a los terrenos cercanos.</p>
-
-      <h3>⚙️ Schussmuller S.A. – Acero Paraguayo desde 1995</h3>
-      <p>Ubicada en el Km 18.5 de la Ruta Mcal. Estigarribia, la <strong>Industria Metalúrgica Schussmuller</strong> es sinónimo de acero en Paraguay. Desde 1995, su planta en Capiatá produce estructuras metálicas, perfiles y materiales de construcción que abastecen a todo el país. Su operación genera cientos de empleos directos y una red de proveedores locales que dinamizan la economía capiateña.</p>
-
-      <h3>🥛 La Pradera (SAPROCAL) – De Capiatá al País Entero</h3>
-      <p>El barrio Naranjaty de Capiatá alberga la planta industrial de <strong>La Pradera</strong>, una de las marcas lácteas más reconocidas del Paraguay. Fundada en 1995, esta empresa procesa miles de litros de leche diariamente y en 2022 inauguró una <strong>mega-fábrica con una inversión superior a los USD 8.000.000</strong>. Este tipo de inversión industrial no solo crea empleos directos; genera una ola de desarrollo en servicios, comercio y vivienda para los trabajadores.</p>
-
-      <h3>🏭 Conti Paraguay (ex CAPSA) – Un Ícono Industrial desde 1951</h3>
-      <p>Situada en el Km 22-25 de la Ruta PY02, <strong>Conti Paraguay</strong> es una de las industrias más antiguas y emblemáticas de Capiatá, operando desde 1951. Su presencia de más de 70 años ha sido un pilar del empleo industrial en la ciudad, y ha contribuido a consolidar a Capiatá como un polo de atracción para trabajadores y familias que buscan establecerse cerca de fuentes de empleo estable.</p>
-
-      <h3>🔧 Cavallaro – Excelencia en Producción</h3>
-      <p><strong>Cavallaro</strong> es otra de las empresas que eligieron Capiatá como base de operaciones. Su planta contribuye al ecosistema industrial de la ciudad, generando empleo calificado y fortaleciendo la cadena productiva local. La presencia de empresas de este calibre eleva el perfil económico de toda la zona.</p>
-
-      <h3>🔌 Sumidenso – Tecnología Japonesa en Suelo Capiateño</h3>
-      <p>Con raíces en la tecnología japonesa, <strong>Sumidenso</strong> opera su planta en Capiatá fabricando componentes eléctricos y arneses para la industria automotriz. Esta empresa es un ejemplo perfecto de cómo Capiatá atrae inversión extranjera de alto valor, creando empleos técnicos y especializados que elevan el nivel de ingresos de la zona.</p>
-
-      <h3>🪵 Altieri Industrial Maderil – Tradición en Madera</h3>
-      <p><strong>Altieri Industrial Maderil</strong> representa el sector maderero dentro del corredor industrial de Capiatá. Su operación agrega diversidad al tejido industrial de la ciudad y genera empleo en un sector con profundas raíces en la economía paraguaya.</p>
-
-      <h3>🏗️ Copalsa – Construcción y Desarrollo</h3>
-      <p><strong>Copalsa</strong> es otra empresa del sector de la construcción con presencia en Capiatá. Junto con Tecnoedil, estas constructoras no solo emplean mano de obra local, sino que son las responsables de la infraestructura que conecta y valoriza los barrios residenciales de la ciudad.</p>
-
-      <h3>🐔 Granja Avícola La Blanca – Alimentando al País</h3>
-      <p><strong>Granja Avícola La Blanca</strong> refuerza el sector agroindustrial de Capiatá. La producción avícola a escala industrial genera empleo constante y estable, y contribuye a la cadena alimentaria nacional desde el corazón de la ciudad.</p>
-
-      <h2>El Efecto Multiplicador: Más Industria = Más Valor</h2>
-
-      <p>La concentración de industrias en Capiatá genera lo que los economistas llaman un <strong>efecto multiplicador</strong>. Por cada empleo industrial directo, se crean entre 2 y 3 empleos indirectos en comercio, servicios, transporte y construcción. Esto significa que los 5.000+ empleos directos de la zona industrial se traducen en:</p>
-
-      <ul>
-        <li><strong>15.000+ familias</strong> que necesitan vivienda cerca de su lugar de trabajo</li>
-        <li><strong>Más comercios</strong> (supermercados, farmacias, restaurantes) que se instalan para atender esa demanda</li>
-        <li><strong>Más servicios</strong> (escuelas, centros de salud) que mejoran la calidad de vida</li>
-        <li><strong>Más infraestructura</strong> (calles, rutas, servicios básicos) que valoriza los terrenos</li>
-      </ul>
-
-      <h2>¿Qué Significa Esto para Tu Inversión?</h2>
-
-      <p>La ecuación es simple: <strong>donde hay empleo, hay demanda de terrenos y viviendas</strong>. Y donde hay demanda, los precios suben. Capiatá está viviendo este fenómeno en tiempo real:</p>
-
-      <ul>
-        <li>📈 Los terrenos cerca de zonas industriales han visto incrementos de <strong>hasta el 40% en los últimos 3 años</strong></li>
-        <li>🏠 La demanda de lotes residenciales supera ampliamente la oferta disponible</li>
-        <li>🛣️ Cada nueva obra de infraestructura (asfaltado, alcantarillado) suma valor inmediato</li>
-        <li>💼 El empleo estable en la zona garantiza compradores con capacidad de pago real</li>
-      </ul>
-
-      <h2>Capiatá vs. Otras Ciudades: La Ventaja Competitiva</h2>
-
-      <p>Comparemos brevemente:</p>
-
-      <ul>
-        <li><strong>Luque y San Lorenzo</strong>: ya están saturadas, con precios muy elevados y poco espacio para crecer</li>
-        <li><strong>Villeta y Mariano R. Alonso</strong>: tienen industrias pero están más lejos de Asunción</li>
-        <li><strong>Capiatá</strong>: combina industria activa + proximidad a Asunción (20 km) + terrenos aún accesibles + infraestructura en expansión. Es la <strong>ventana de oportunidad perfecta</strong></li>
-      </ul>
-
-      <h2>Costa Salinas: Tu Puerta de Entrada</h2>
-
-      <p>Nuestro desarrollo <strong>Costa Salinas</strong> está ubicado estratégicamente en Capiatá, en una zona que se beneficia directamente del crecimiento industrial y residencial de la ciudad. Con lotes desde 360 m², acceso a servicios básicos y papeles 100% en regla, es la inversión inteligente para quienes entienden que <strong>el momento de comprar es ahora, antes de que los precios sigan subiendo</strong>.</p>
-
-      <p><strong>Coordinamos visitas personalizadas todos los días.</strong> Contactanos por WhatsApp y te llevamos a conocer tu futuro terreno en la capital industrial de Paraguay.</p>
-    `,
-    date: '10 de Febrero, 2026',
-    author: 'Research TEKO',
-    category: 'Análisis de Mercado',
-    image: 'https://images.unsplash.com/photo-1565106430482-8bc1ff40c75c?q=80&w=1974&auto=format&fit=crop',
-    readTime: '12 min'
   },
   {
     id: 'bancos-vs-financiacion-propia-paraguay',
