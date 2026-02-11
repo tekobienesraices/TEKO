@@ -268,10 +268,10 @@ export default function PropiedadPage({ property, zone }: Props) {
                     isOpen={modalOpen}
                     onClose={() => setModalOpen(false)}
                     title={`Agendar Visita a ${property.title}`}
-                    subtitle="Debido a la alta demanda, coordinamos visitas por orden de llegada. Completá tus datos para asegurar tu turno y un asesor te escribirá hoy mismo por WhatsApp."
+                    subtitle="Debido a la alta demanda, coordinamos visitas por orden de llegada. Completá tus datos para asegurar tu turno y un asesor se pondrá en contacto contigo a la brevedad."
                     ctaText="Coordinar mi Visita"
                     successTitle="¡Solicitud Recibida!"
-                    successMessage="Tu interés ha sido registrado. Un asesor te escribirá por WhatsApp en breve para confirmar el horario de tu visita."
+                    successMessage="Tu interés ha sido registrado. Un asesor se pondrá en contacto contigo a la brevedad para confirmar el horario de tu visita."
                     source="Property Detail"
                 />
 
