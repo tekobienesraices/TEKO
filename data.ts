@@ -59,7 +59,6 @@ export const properties: Property[] = [
       '/properties/Residencial%20II/costa-salinas-drone-2.jpg',
       '/properties/Residencial%20II/residencial-2-drone-3.jpg',
       '/properties/Residencial%20II/residencial-2-drone-4.jpg',
-      '/properties/Residencial%20II/residencial-dos-2.jpg',
       '/properties/Residencial%20II/IMG_7281.JPG'
     ],
     features: ['Barrio Seguro', 'Vecinos Reales', 'Servicios Listos', 'Tu Propio Hogar'],

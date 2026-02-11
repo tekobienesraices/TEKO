@@ -280,7 +280,7 @@ export const blogPosts: BlogPost[] = [
     date: '25 de Febrero, 2026',
     author: 'Equipo TEKO',
     category: 'Guía de Compra',
-    image: '/images/blog/Deportivo_Capiatá.jpg',
+    image: '/images/blog/juan-cruz-mountford-oFweDg39ldw-unsplash.jpg',
     readTime: '10 min'
   },
   {
@@ -947,7 +947,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Dto. Técnico TEKO',
     category: 'Consejos Técnicos',
-    image: 'https://images.unsplash.com/photo-1503387762-592dea58ef23?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070&auto=format&fit=crop',
     readTime: '15 min'
   }
 ];
