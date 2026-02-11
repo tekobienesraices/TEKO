@@ -7,27 +7,27 @@ import { Button } from './Button';
 const timelineData = [
     {
         year: '2010',
-        title: 'Visión: El Origen de la Plusvalía',
-        desc: 'Costa Salinas nace de la visión de llegar primero. Identificamos en Capiatá una fracción con potencial estratégico inigualable, antes de que el mercado despertara. En este momento, comprar significó asegurar el precio más bajo posible por hectárea.',
-        insight: 'La plusvalía más grande se construye sobre el suelo que compraste cuando nadie más lo veía.'
+        title: 'Comprar Antes que Todos',
+        desc: 'El secreto de los grandes inversores es simple: llegan primero. En 2010, Costa Salinas era una zona donde la ciudad "estaba por llegar". Identificar el potencial en este punto permitió asegurar el precio más bajo posible, garantizando una ganancia desde el día uno.',
+        insight: 'Comprar barato cuando la zona es apenas una proyección es el paso más rentable de cualquier inversión.'
     },
     {
         year: '2015',
-        title: 'Infraestructura y Promesa Real',
-        desc: 'Iniciamos la apertura de calles y la delimitación de los primeros lotes. Costa Salinas dejó de ser solo tierra para convertirse en un desarrollo inmobiliario con servicios básicos. Cada mejora técnica fue un escalón más en la valorización de tu inversión.',
-        insight: 'Vimos cómo el valor por metro cuadrado creció apenas instalamos el primer poste de electricidad.'
+        title: 'El Despertar de la Zona',
+        desc: 'Para 2015, Costa Salinas empezó a recibir los primeros servicios y caminos trazados. Es el momento donde el terreno deja de ser campo y se convierte en ciudad. Aquí es donde el valor de la tierra empieza a multiplicarse orgánicamente con cada nueva mejora.',
+        insight: 'Cada nuevo poste de luz y cada calle abierta en el barrio suma valor inmediato a la inversión inicial.'
     },
     {
         year: '2020',
-        title: 'Crecimiento Exponencial',
-        desc: 'El barrio se llenó de vida y las primeras familias construyeron sus hogares. Con el auge industrial de Capiatá, la demanda en Costa Salinas explotó. Quienes invirtieron al inicio ya veían su capital triplicado por el simple crecimiento de la zona.',
-        insight: 'Invertir en una zona en plena consolidación es la forma más inteligente de blindar tus ahorros.'
+        title: 'Todos Quieren Vivir Aquí',
+        desc: 'En 2020, la zona se llenó de vida con familias y comercios instalados. La demanda en Capiatá explotó y, como los terrenos disponibles se volvieron escasos, el valor en Costa Salinas se disparó. Es la ley de oferta y demanda trabajando a tu favor.',
+        insight: 'Al ser dueño de un bien deseado en un barrio ya consolidado, tu visión temprana dio sus frutos.'
     },
     {
         year: '2025',
-        title: 'Patrimonio Consolidado y Escaso',
-        desc: 'Hoy, Costa Salinas es un referente premium en Capiatá con títulos listos y alta demanda residencial. Ser dueño aquí hoy es poseer un activo escaso que sigue ganando valor día a día en un entorno totalmente urbanizado.',
-        insight: 'Costa Salinas es la prueba de que el tiempo y la ubicación correcta son los mejores socios de tu patrimonio.'
+        title: 'Patrimonio Consolidado',
+        desc: 'Hoy, Costa Salinas representa un activo seguro y de alto valor. Con un entorno totalmente urbanizado y títulos listos, el ciclo de valorización se completa. Quien compró antes hoy tiene un patrimonio sólido y heredable para su familia.',
+        insight: 'Costa Salinas demuestra que quien tiene la tierra antes que el asfalto, siempre gana.'
     }
 ];
 
