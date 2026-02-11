@@ -38,7 +38,7 @@ export const properties: Property[] = [
     monthlyPayment: 2590000,
     description: 'La seguridad que buscás para tu capital. En un contexto económico incierto, la tierra es el único refugio que nunca pierde valor. Costa Salinas te ofrece posesión inmediata, documentos al día y la certeza de que tu dinero está creciendo mes a mes. Es hoy.',
     image: '/properties/costa-salinas-drone-1.jpg',
-    videoUrl: '/videos/costa-salinas-1.mp4',
+    videoUrl: '/videos/residencial-1.mp4',
     features: ['Título Inmediato', 'Inversión Blindada', 'Sin Bancos', 'Plusvalía Asegurada'],
     type: 'terreno',
     coordinates: { lat: -25.3203, lng: -57.4434 },
@@ -53,8 +53,12 @@ export const properties: Property[] = [
     price: 81000000,
     monthlyPayment: 1750000,
     description: 'Imaginá a tus hijos jugando en su propio patio. Costa Salinas es un barrio consolidado, seguro y lleno de vida. Dejá de pagar alquiler y empezá a pagar por lo que será tuyo para siempre. La mejor herencia es un techo propio.',
-    image: '/properties/residencial-2-drone-1.jpg',
-    gallery: ['/properties/residencial-2-drone-1.jpg', '/properties/residencial-2-drone-2.jpg'],
+    image: '/properties/costa-salinas-drone-2.jpg',
+    videoUrl: '/videos/residencial-2.mp4',
+    gallery: [
+      '/properties/residencial-2-drone-3.jpg',
+      '/properties/residencial-2-drone-4.jpg'
+    ],
     features: ['Barrio Seguro', 'Vecinos Reales', 'Servicios Listos', 'Tu Propio Hogar'],
     type: 'terreno',
     coordinates: { lat: -25.3210, lng: -57.4440 },
