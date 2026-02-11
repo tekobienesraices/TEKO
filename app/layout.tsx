@@ -5,6 +5,8 @@ import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { Loader } from '@/components/Loader';
 import { MessageCircle } from 'lucide-react';
+import { FacebookPixel } from '@/components/FacebookPixel';
+import { Suspense } from 'react';
 
 const inter = Inter({
     subsets: ['latin'],
@@ -200,6 +202,9 @@ export default function RootLayout({
                 />
             </head>
             <body className="bg-slate-50 text-teko-navy antialiased selection:bg-teko-navy selection:text-white font-sans">
+                <Suspense fallback={null}>
+                    <FacebookPixel />
+                </Suspense>
                 <Loader />
                 <div className="flex flex-col min-h-screen">
                     <Navbar />

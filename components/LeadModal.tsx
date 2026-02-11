@@ -3,6 +3,8 @@ import { useForm } from 'react-hook-form';
 import { X, CheckCircle } from 'lucide-react';
 import { Button } from './Button';
 import { LeadForm } from '../types';
+import * as fp from '@/lib/fpixel';
+import { useEffect } from 'react';
 
 interface LeadModalProps {
   isOpen: boolean;
@@ -26,6 +28,16 @@ export const LeadModal: React.FC<LeadModalProps> = ({
   successMessage = "Un asesor premium se contactará contigo a la brevedad vía WhatsApp."
 }) => {
   const { register, handleSubmit, formState: { errors, isSubmitting, isSubmitSuccessful }, reset } = useForm<LeadForm>();
+
+  useEffect(() => {
+    if (isSubmitSuccessful) {
+      fp.event('Lead', {
+        content_name: title,
+        content_category: 'Real Estate',
+        source: source
+      });
+    }
+  }, [isSubmitSuccessful, title, source]);
 
   const onSubmit = async (data: LeadForm) => {
     try {
