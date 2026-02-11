@@ -706,7 +706,7 @@ export const blogPosts: BlogPost[] = [
     date: '05 de Febrero, 2026',
     author: 'Dto. Legal TEKO',
     category: 'Seguridad Legal',
-    image: '/images/blog/legal-docs.jpg',
+    image: 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?q=80&w=2070&auto=format&fit=crop',
     readTime: '18 min'
   },
   {
@@ -947,7 +947,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Dto. Técnico TEKO',
     category: 'Consejos Técnicos',
-    image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?q=80&w=2070&auto=format&fit=crop',
+    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=2070&auto=format&fit=crop',
     readTime: '15 min'
   }
 ];
