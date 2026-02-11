@@ -8,6 +8,8 @@ import { Button } from '@/components/Button';
 import { LeadModal } from '@/components/LeadModal';
 import { GrowthTimeline } from '@/components/GrowthTimeline';
 import { Lightbox } from '@/components/Lightbox';
+import * as fp from '@/lib/fpixel';
+
 
 interface Props {
     property: Property;
@@ -231,7 +233,13 @@ export default function PropiedadPage({ property, zone }: Props) {
                                     <Button
                                         fullWidth
                                         size="lg"
-                                        onClick={() => setModalOpen(true)}
+                                        onClick={() => {
+                                            fp.customEvent('InitiateVisitCoordination', {
+                                                property: property.title,
+                                                price: property.price
+                                            });
+                                            setModalOpen(true);
+                                        }}
                                         className="shadow-teko-navy/20"
                                     >
                                         Agendar Visita al Lote

@@ -7,6 +7,8 @@ import { Loader } from '@/components/Loader';
 import { MessageCircle } from 'lucide-react';
 import { FacebookPixel } from '@/components/FacebookPixel';
 import { Suspense } from 'react';
+import * as fp from '@/lib/fpixel';
+
 
 const inter = Inter({
     subsets: ['latin'],
@@ -178,6 +180,13 @@ const WhatsAppButton = () => (
         href="https://wa.me/595974202163"
         target="_blank"
         rel="noopener noreferrer"
+        onClick={() => {
+            fp.customEvent('WhatsAppClick', {
+                location: 'Floating Button',
+                source: 'GlobalLayout'
+            });
+            // Also standard Lead event if you want, but custom is better for noise
+        }}
         className="fixed bottom-8 right-8 z-50 group flex items-center justify-center"
         aria-label="Contactar por WhatsApp"
     >

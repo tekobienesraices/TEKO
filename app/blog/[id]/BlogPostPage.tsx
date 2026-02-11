@@ -5,6 +5,8 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, Calendar, User, Clock, Share2, Facebook, Twitter } from 'lucide-react';
 import Link from 'next/link';
 import { blogPosts, BlogPost } from '@/data';
+import * as fp from '@/lib/fpixel';
+
 
 interface Props {
     post: BlogPost;
@@ -80,9 +82,24 @@ export default function BlogPostPage({ post }: Props) {
                     <div className="mt-16 pt-8 border-t border-slate-100 flex items-center justify-between">
                         <div className="flex items-center gap-4">
                             <span className="text-sm font-bold text-teko-navy uppercase tracking-wider">Compartir:</span>
-                            <button className="p-2 hover:bg-slate-100 rounded-full transition-colors"><Facebook size={20} /></button>
-                            <button className="p-2 hover:bg-slate-100 rounded-full transition-colors"><Twitter size={20} /></button>
-                            <button className="p-2 hover:bg-slate-100 rounded-full transition-colors"><Share2 size={20} /></button>
+                            <a
+                                href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(typeof window !== 'undefined' ? window.location.href : '')}`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={() => fp.customEvent('SocialShare', { platform: 'facebook', post: post.title })}
+                                className="p-2 hover:bg-slate-100 rounded-full transition-colors text-[#1877F2]"
+                            >
+                                <Facebook size={20} />
+                            </a>
+                            <a
+                                href={`https://www.instagram.com/teko.bienesraices`}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                onClick={() => fp.customEvent('SocialClick', { platform: 'instagram_profile', location: 'blog_footer' })}
+                                className="p-2 hover:bg-slate-100 rounded-full transition-colors text-[#E4405F]"
+                            >
+                                <Share2 size={20} />
+                            </a>
                         </div>
                     </div>
                 </div>
