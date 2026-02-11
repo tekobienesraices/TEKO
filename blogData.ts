@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: '/images/capiata/capiata-progreso-1.jpg',
+    image: 'https://images.unsplash.com/photo-1565034946487-077786496e27?q=80&w=2070&auto=format&fit=crop',
     readTime: '12 min'
   },
   {
@@ -280,7 +280,7 @@ export const blogPosts: BlogPost[] = [
     date: '25 de Febrero, 2026',
     author: 'Equipo TEKO',
     category: 'Guía de Compra',
-    image: '/images/capiata/capiata-progreso-1.jpg',
+    image: 'https://images.unsplash.com/photo-1582408921715-18e7806367c1?q=80&w=2070&auto=format&fit=crop',
     readTime: '10 min'
   },
   {
@@ -857,7 +857,7 @@ export const blogPosts: BlogPost[] = [
     date: '01 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: '/images/blog/capitata-aerial.jpg',
+    image: 'https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2089&auto=format&fit=crop',
     readTime: '16 min'
   },
   {
@@ -947,7 +947,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Dto. Técnico TEKO',
     category: 'Consejos Técnicos',
-    image: '/images/capiata/capiata-progreso-3.jpg',
+    image: 'https://images.unsplash.com/photo-1503387762-592dea58ef23?q=80&w=2070&auto=format&fit=crop',
     readTime: '15 min'
   }
 ];

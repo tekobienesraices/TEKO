@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { MapPin, Check, Ruler, Calendar, Share2, ArrowLeft, ExternalLink } from 'lucide-react';
+import { MapPin, Check, Ruler, Calendar, Share2, ArrowLeft, ExternalLink, Eye, Zap } from 'lucide-react';
 import type { Property, Zone } from '@/types';
 import { Button } from '@/components/Button';
 import { LeadModal } from '@/components/LeadModal';
@@ -179,60 +179,81 @@ export default function PropiedadPage({ property, zone }: Props) {
 
                     {/* Sidebar Sticky */}
                     <div className="lg:col-span-1">
-                        <div className="sticky top-28 bg-white p-6 rounded-2xl shadow-xl border border-slate-100">
-                            <div className="mb-6">
-                                <span className="text-slate-500 text-sm">Precio de lista</span>
-                                {property.originalPrice && (
-                                    <div className="flex items-center gap-2 mb-1">
-                                        <span className="text-lg text-slate-400 line-through">Gs. {property.originalPrice.toLocaleString()}</span>
-                                        <span className="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">
-                                            Oferta 5M OFF
-                                        </span>
+                        <div className="sticky top-28 space-y-4">
+                            {/* Urgency Counter */}
+                            <div className="bg-orange-50 border border-orange-100 p-3 rounded-xl flex items-center justify-between text-orange-700">
+                                <div className="flex items-center gap-2 text-sm font-medium">
+                                    <div className="flex h-2 w-2 relative">
+                                        <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-orange-400 opacity-75"></span>
+                                        <span className="relative inline-flex rounded-full h-2 w-2 bg-orange-500"></span>
                                     </div>
-                                )}
-                                <div className="text-4xl font-bold text-teko-navy">Gs. {property.price.toLocaleString()}</div>
-                            </div>
-
-                            <div className="mb-8 p-4 bg-teko-navy/5 rounded-lg border border-teko-navy/10">
-                                <span className="block text-xs text-teko-navy font-bold uppercase tracking-wide mb-1">Financiación TEKO</span>
-                                <div className="flex justify-between items-baseline">
-                                    <span className="text-sm text-slate-600">Cuota desde</span>
-                                    <span className="text-2xl font-bold text-teko-navy">Gs. {property.monthlyPayment.toLocaleString()}</span>
+                                    <span className="animate-pulse">3 personas viendo este lote</span>
                                 </div>
+                                <Zap size={16} className="text-orange-400 fill-orange-400" />
                             </div>
 
-                            <div className="space-y-3">
-                                <Button
-                                    fullWidth
-                                    size="lg"
-                                    onClick={() => setModalOpen(true)}
-                                    className="shadow-teko-navy/20"
-                                >
-                                    Consultar Disponibilidad
-                                </Button>
 
-                                <Link href={`/calculadora?price=${property.price}`} className="block">
-                                    <Button fullWidth variant="secondary">
-                                        Personalizar Plan de Pagos
+                            <div className="bg-white p-6 rounded-2xl shadow-xl border border-slate-100">
+                                <div className="mb-6">
+                                    <span className="text-slate-500 text-sm">Precio de lista</span>
+                                    {property.originalPrice && (
+                                        <div className="flex items-center gap-2 mb-1">
+                                            <span className="text-lg text-slate-400 line-through">Gs. {property.originalPrice.toLocaleString()}</span>
+                                            <span className="bg-red-500 text-white text-[10px] font-bold px-2 py-0.5 rounded-full uppercase">
+                                                Oferta 5M OFF
+                                            </span>
+                                        </div>
+                                    )}
+                                    <div className="text-4xl font-bold text-teko-navy">Gs. {property.price.toLocaleString()}</div>
+                                </div>
+
+                                <div className="mb-8 p-4 bg-teko-navy/5 rounded-lg border border-teko-navy/10">
+                                    <span className="block text-xs text-teko-navy font-bold uppercase tracking-wide mb-1">Financiación TEKO</span>
+                                    <div className="flex justify-between items-baseline">
+                                        <span className="text-sm text-slate-600">Cuota desde</span>
+                                        <span className="text-2xl font-bold text-teko-navy">Gs. {property.monthlyPayment.toLocaleString()}</span>
+                                    </div>
+                                </div>
+
+                                <div className="space-y-3">
+                                    <Button
+                                        fullWidth
+                                        size="lg"
+                                        onClick={() => setModalOpen(true)}
+                                        className="shadow-teko-navy/20"
+                                    >
+                                        Consultar Disponibilidad
                                     </Button>
-                                </Link>
 
-                                <Button fullWidth variant="ghost" className="text-slate-400 hover:text-teko-navy">
-                                    <Share2 size={16} className="mr-2" /> Compartir ficha
-                                </Button>
-                            </div>
+                                    <Link href={`/calculadora?price=${property.price}`} className="block">
+                                        <Button fullWidth variant="secondary">
+                                            Personalizar Plan de Pagos
+                                        </Button>
+                                    </Link>
 
-                            <div className="mt-6 text-center">
-                                <p className="text-xs text-slate-400">
-                                    Reserva online 100% segura. <br />Garantía de devolución 48hs.
-                                </p>
+                                    <Button fullWidth variant="ghost" className="text-slate-400 hover:text-teko-navy">
+                                        <Share2 size={16} className="mr-2" /> Compartir ficha
+                                    </Button>
+                                </div>
+
+                                {/* Interest Tag */}
+                                <div className="mt-6 pt-6 border-t border-slate-50">
+                                    <div className="flex items-center gap-2 text-xs font-bold text-teko-navy/60 uppercase tracking-widest bg-slate-50 py-2 px-3 rounded-lg justify-center italic">
+                                        <Eye size={14} /> 12 interesados este mes
+                                    </div>
+                                </div>
+
+                                <div className="mt-4 text-center">
+                                    <p className="text-xs text-slate-400">
+                                        Reserva online 100% segura. <br />Garantía de devolución 48hs.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
+                <LeadModal isOpen={modalOpen} onClose={() => setModalOpen(false)} title={`Interés: ${property.title}`} source="Property Detail" />
             </div>
-            <LeadModal isOpen={modalOpen} onClose={() => setModalOpen(false)} title={`Interés: ${property.title}`} source="Property Detail" />
         </div>
     );
 }
