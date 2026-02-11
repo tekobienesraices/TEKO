@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { Download, Check, ArrowRight, Shield, BookOpen, Target, Loader2, CheckCircle, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from '@/components/Button';
+import * as fp from '@/lib/fpixel';
 
 // Google Apps Script Web App URL
 const GOOGLE_SCRIPT_URL = process.env.NEXT_PUBLIC_GOOGLE_SCRIPT_URL || '';
@@ -42,6 +43,13 @@ export default function GuiaPage() {
             await new Promise(resolve => setTimeout(resolve, 800));
 
             setSubmitted(true);
+
+            // Meta Pixel Tracking
+            fp.event('Lead', {
+                content_name: 'Guía de Inversión',
+                content_category: 'Ebook',
+                source: 'Ebook Landing Page'
+            });
 
             // Auto-download the PDF
             setTimeout(() => {
