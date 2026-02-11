@@ -224,7 +224,7 @@ export default function GuiaPage() {
                                     </Button>
                                 </a>
                                 <Link href="/terrenos">
-                                    <Button variant="outline">
+                                    <Button variant="outline" onClick={() => fp.customEvent('PostDownloadAction', { action: 'view_plots' })}>
                                         Ver Terrenos Disponibles
                                         <ArrowRight size={18} className="ml-2" />
                                     </Button>

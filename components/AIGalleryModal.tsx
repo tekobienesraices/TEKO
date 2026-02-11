@@ -2,6 +2,8 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Sparkles, ArrowRight, BrainCircuit, AlertCircle } from 'lucide-react';
 import { Button } from './Button';
+import * as fp from '@/lib/fpixel';
+
 
 interface AIGalleryModalProps {
     isOpen: boolean;
@@ -103,6 +105,7 @@ export const AIGalleryModal: React.FC<AIGalleryModalProps> = ({ isOpen, onClose 
                                         size="sm"
                                         fullWidth
                                         onClick={() => {
+                                            fp.customEvent('AIDesignRequest', { type: 'button_click' });
                                             window.open('https://wa.me/595974202163?text=Hola%20TEKO%2C%20me%20gustar%C3%ADa%20solicitar%20un%20dise%C3%B1o%20con%20IA%20para%20mi%20futuro%20terreno.', '_blank');
                                         }}
                                     >
@@ -122,6 +125,7 @@ export const AIGalleryModal: React.FC<AIGalleryModalProps> = ({ isOpen, onClose 
                                 href="https://wa.me/595974202163?text=Hola%20TEKO%2C%20me%20gustar%C3%ADa%20agendar%20una%20reuni%C3%B3n%20con%20un%20arquitecto%20para%20mi%20dise%C3%B1o."
                                 target="_blank"
                                 rel="noopener noreferrer"
+                                onClick={() => fp.customEvent('ArchitectReunionRequest', { source: 'ai_modal' })}
                             >
                                 <Button variant="secondary">
                                     Agendar con un Arquitecto

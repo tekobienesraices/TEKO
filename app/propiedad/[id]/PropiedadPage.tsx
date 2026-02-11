@@ -22,6 +22,10 @@ export default function PropiedadPage({ property, zone }: Props) {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const openLightbox = (index: number) => {
+        fp.customEvent('ImageGalleryOpen', {
+            property: property.title,
+            imageIndex: index
+        });
         setCurrentImageIndex(index);
         setLightboxOpen(true);
     };
@@ -91,6 +95,10 @@ export default function PropiedadPage({ property, zone }: Props) {
                                         controls
                                         className="w-full h-full object-cover"
                                         poster={property.image}
+                                        onPlay={() => fp.customEvent('VideoPlay', {
+                                            property: property.title,
+                                            type: 'property_detail'
+                                        })}
                                     >
                                         Tu navegador no soporta videos.
                                     </video>
