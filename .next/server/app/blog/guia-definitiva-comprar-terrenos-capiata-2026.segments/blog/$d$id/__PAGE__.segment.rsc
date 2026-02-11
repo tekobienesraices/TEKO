@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[61899,["/_next/static/chunks/df0f0bc11e004e9c.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/951b6920bc9b8fab.js","/_next/static/chunks/25486b7be5f07736.js"],"default"]
-7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-8:"$Sreact.suspense"
+2:I[61899,["/_next/static/chunks/3362fdbd13c7f7bc.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/40687a1eaf36aa33.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
 3:T1e33,
       <p class="lead">Comprar un terreno es una de las decisiones más significativas para cualquier familia. En Capiatá, las opciones son variadas y entender el mercado actual puede ayudarte a dar el paso con la seguridad de estar cuidando tus ahorros. Esta guía está diseñada para brindarte claridad sobre precios, zonas y las formas más simples de iniciar tu camino hacia la casa propia.</p>
 
@@ -124,8 +124,7 @@
         <li>📞 <strong>WhatsApp:</strong> +595 974 202 163</li>
         <li>🌐 <strong>Web:</strong> tekobienesraicespy.com</li>
       </ul>
-    0:{"buildId":"lDJ2ygeYEqSLPN4xIOMtF","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Venta de Terrenos en Capiatá 2026: Guía Definitiva para Comprar Lotes en Cuotas\",\"image\":\"/images/capiata/capiata-progreso-1.jpg\",\"author\":{\"@type\":\"Organization\",\"name\":\"Equipo TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"La guía más completa para invertir en lotes y terrenos en Capiatá con financiación propia. Precios actualizados, zonas recomendadas y cómo comprar sin banco ni Informconf.\"}"}}],["$","$L2",null,{"post":{"id":"guia-definitiva-comprar-terrenos-capiata-2026","title":"Venta de Terrenos en Capiatá 2026: Guía Definitiva para Comprar Lotes en Cuotas","excerpt":"La guía más completa para invertir en lotes y terrenos en Capiatá con financiación propia. Precios actualizados, zonas recomendadas y cómo comprar sin banco ni Informconf.","content":"$3","date":"25 de Febrero, 2026","author":"Equipo TEKO","category":"Guía de Compra","image":"/images/capiata/capiata-progreso-1.jpg","readTime":"10 min"}}]],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
-4:["$","script","script-0",{"src":"/_next/static/chunks/951b6920bc9b8fab.js","async":true}]
-5:["$","script","script-1",{"src":"/_next/static/chunks/25486b7be5f07736.js","async":true}]
-6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
-9:null
+    0:{"buildId":"vrO_MhKl5mCy4Zupyc0Wx","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Venta de Terrenos en Capiatá 2026: Guía Definitiva para Comprar Lotes en Cuotas\",\"image\":\"/images/blog/juan-cruz-mountford-oFweDg39ldw-unsplash.jpg\",\"author\":{\"@type\":\"Organization\",\"name\":\"Equipo TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"La guía más completa para invertir en lotes y terrenos en Capiatá con financiación propia. Precios actualizados, zonas recomendadas y cómo comprar sin banco ni Informconf.\"}"}}],["$","$L2",null,{"post":{"id":"guia-definitiva-comprar-terrenos-capiata-2026","title":"Venta de Terrenos en Capiatá 2026: Guía Definitiva para Comprar Lotes en Cuotas","excerpt":"La guía más completa para invertir en lotes y terrenos en Capiatá con financiación propia. Precios actualizados, zonas recomendadas y cómo comprar sin banco ni Informconf.","content":"$3","date":"25 de Febrero, 2026","author":"Equipo TEKO","category":"Guía de Compra","image":"/images/blog/juan-cruz-mountford-oFweDg39ldw-unsplash.jpg","readTime":"10 min"}}]],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/40687a1eaf36aa33.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[61899,["/_next/static/chunks/df0f0bc11e004e9c.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/951b6920bc9b8fab.js","/_next/static/chunks/25486b7be5f07736.js"],"default"]
-7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-8:"$Sreact.suspense"
+2:I[61899,["/_next/static/chunks/3362fdbd13c7f7bc.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/40687a1eaf36aa33.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
 3:Tb13,
       <p class="lead">Lo que está pasando en Capiatá no es casualidad. Es el resultado de una inversión pública sin precedentes que está redefiniendo la ciudad como el nuevo eje residencial y comercial de Central.</p>
 
@@ -33,8 +33,7 @@
 
       <h2>Un futuro con mejores bases</h2>
       <p>Cada obra de infraestructura es un beneficio directo para quienes eligen Capiatá como su hogar. Mejores rutas significan más tiempo con la familia, y espacios públicos renovados significan una mayor calidad de vida. Al considerar un terreno hoy, estás apostando a una ciudad que está trabajando para brindarte el entorno que mereces.</p>
-    0:{"buildId":"lDJ2ygeYEqSLPN4xIOMtF","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Capiatá 2026: El Hub de Infraestructura que Transformará Central\",\"image\":\"/images/capiata/capiata-progreso-3.jpg\",\"author\":{\"@type\":\"Organization\",\"name\":\"Redacción TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"Con 51 km de nuevo asfalto, duplicación de rutas y obras públicas estratégicas, Capiatá vive una revolución. Te mostramos las obras que están disparando la plusvalía.\"}"}}],["$","$L2",null,{"post":{"id":"capiata-hub-infraestructura-2026","title":"Capiatá 2026: El Hub de Infraestructura que Transformará Central","excerpt":"Con 51 km de nuevo asfalto, duplicación de rutas y obras públicas estratégicas, Capiatá vive una revolución. Te mostramos las obras que están disparando la plusvalía.","content":"$3","date":"20 de Febrero, 2026","author":"Redacción TEKO","category":"Noticias & Obras","image":"/images/capiata/capiata-progreso-3.jpg","readTime":"8 min"}}]],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
-4:["$","script","script-0",{"src":"/_next/static/chunks/951b6920bc9b8fab.js","async":true}]
-5:["$","script","script-1",{"src":"/_next/static/chunks/25486b7be5f07736.js","async":true}]
-6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
-9:null
+    0:{"buildId":"vrO_MhKl5mCy4Zupyc0Wx","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Capiatá 2026: El Hub de Infraestructura que Transformará Central\",\"image\":\"/images/blog/muni.jpg\",\"author\":{\"@type\":\"Organization\",\"name\":\"Redacción TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"Con 51 km de nuevo asfalto, duplicación de rutas y obras públicas estratégicas, Capiatá vive una revolución. Te mostramos las obras que están disparando la plusvalía.\"}"}}],["$","$L2",null,{"post":{"id":"capiata-hub-infraestructura-2026","title":"Capiatá 2026: El Hub de Infraestructura que Transformará Central","excerpt":"Con 51 km de nuevo asfalto, duplicación de rutas y obras públicas estratégicas, Capiatá vive una revolución. Te mostramos las obras que están disparando la plusvalía.","content":"$3","date":"20 de Febrero, 2026","author":"Redacción TEKO","category":"Noticias & Obras","image":"/images/blog/muni.jpg","readTime":"8 min"}}]],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/40687a1eaf36aa33.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

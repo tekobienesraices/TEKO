@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[61899,["/_next/static/chunks/df0f0bc11e004e9c.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/951b6920bc9b8fab.js","/_next/static/chunks/25486b7be5f07736.js"],"default"]
-7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-8:"$Sreact.suspense"
+2:I[61899,["/_next/static/chunks/3362fdbd13c7f7bc.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/40687a1eaf36aa33.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
 3:T8b2,
       <p class="lead">Si estás pensando en comprar tu primer terreno, probablemente tu primera idea fue ir al banco. Pero en Paraguay, el camino del crédito bancario está lleno de obstáculos que dejan fuera al 70% de los trabajadores. En este artículo, vamos a comparar la realidad de los bancos frente a la agilidad de la financiación propia.</p>
 
@@ -27,8 +27,7 @@
 
       <h2>Comparativa Directa</h2>
       <p>Mientras un banco te presta dinero para que compres algo, nosotros te vendemos la tierra directamente. Esto elimina intermediarios y reduce drásticamente los requisitos de entrada.</p>
-    0:{"buildId":"lDJ2ygeYEqSLPN4xIOMtF","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Bancos vs. Financiación Propia: Lo que Nadie te Dice sobre los Créditos en Paraguay\",\"image\":\"https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop\",\"author\":{\"@type\":\"Organization\",\"name\":\"Asesoría TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"¿Es mejor un préstamo hipotecario o comprar directamente de la inmobiliaria? Analizamos requisitos, intereses y la letra chica que los bancos no quieren que sepas.\"}"}}],["$","$L2",null,{"post":{"id":"bancos-vs-financiacion-propia-paraguay","title":"Bancos vs. Financiación Propia: Lo que Nadie te Dice sobre los Créditos en Paraguay","excerpt":"¿Es mejor un préstamo hipotecario o comprar directamente de la inmobiliaria? Analizamos requisitos, intereses y la letra chica que los bancos no quieren que sepas.","content":"$3","date":"10 de Febrero, 2026","author":"Asesoría TEKO","category":"Finanzas","image":"https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop","readTime":"14 min"}}]],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
-4:["$","script","script-0",{"src":"/_next/static/chunks/951b6920bc9b8fab.js","async":true}]
-5:["$","script","script-1",{"src":"/_next/static/chunks/25486b7be5f07736.js","async":true}]
-6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
-9:null
+    0:{"buildId":"vrO_MhKl5mCy4Zupyc0Wx","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Bancos vs. Financiación Propia: Lo que Nadie te Dice sobre los Créditos en Paraguay\",\"image\":\"https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop\",\"author\":{\"@type\":\"Organization\",\"name\":\"Asesoría TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"¿Es mejor un préstamo hipotecario o comprar directamente de la inmobiliaria? Analizamos requisitos, intereses y la letra chica que los bancos no quieren que sepas.\"}"}}],["$","$L2",null,{"post":{"id":"bancos-vs-financiacion-propia-paraguay","title":"Bancos vs. Financiación Propia: Lo que Nadie te Dice sobre los Créditos en Paraguay","excerpt":"¿Es mejor un préstamo hipotecario o comprar directamente de la inmobiliaria? Analizamos requisitos, intereses y la letra chica que los bancos no quieren que sepas.","content":"$3","date":"10 de Febrero, 2026","author":"Asesoría TEKO","category":"Finanzas","image":"https://images.unsplash.com/photo-1554224155-6726b3ff858f?q=80&w=2011&auto=format&fit=crop","readTime":"14 min"}}]],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/40687a1eaf36aa33.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

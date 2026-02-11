@@ -1,51 +1,111 @@
-(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,9792,33243,e=>{"use strict";let a=[{id:"hotel-los-lagos-turismo-capiata-2026",title:'Hotel Los Lagos y el Auge Turístico de Capiatá: Por Qué Invertir en la "Ciudad de los Mitos"',excerpt:"Descubrí el resort más emblemático de Capiatá y entendé por qué esta ciudad ya no es solo un punto de paso, sino un destino de inversión y descanso de primer nivel.",content:`
-      <p class="lead">Capiat\xe1 est\xe1 viviendo una transformaci\xf3n que va m\xe1s all\xe1 del asfalto. Se est\xe1 convirtiendo en un refugio para quienes buscan calidad de vida sin alejarse de las oportunidades de la capital. Centros como el <strong>Hotel Resort Los Lagos</strong> son el reflejo de una ciudad que valora el equilibrio entre la naturaleza y la comodidad.</p>
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,69638,e=>{"use strict";let a=(0,e.i(75254).default)("circle-check-big",[["path",{d:"M21.801 10A10 10 0 1 1 17 3.335",key:"yps3ct"}],["path",{d:"m9 11 3 3L22 4",key:"1pflzl"}]]);e.s(["CheckCircle",()=>a],69638)},9792,33243,e=>{"use strict";let a=[{id:"capiata-capital-industrial-paraguay-2026",title:"Capiatá: La Capital Industrial de Paraguay y Por Qué es el Mejor Lugar para Invertir",excerpt:"Con más de 5.000 empleos directos generados por gigantes como Conti, La Pradera, Schussmuller y Tecnoedil, Capiatá se consolida como el epicentro industrial del país. Descubrí cómo esto impulsa el valor de la tierra.",content:`
+      <p class="lead">Capiat\xe1 se ha consolidado como uno de los polos industriales m\xe1s importantes del Departamento Central. Esta actividad no solo genera empleos, sino que impulsa el desarrollo de infraestructura y servicios que benefician a toda la comunidad residencial circundante.</p>
 
+      <h2>Un Gigante Industrial a Solo 20 km de Asunci\xf3n</h2>
 
-      <h2>Los Lagos: Un Estilo de Vida Propiamente Capiate\xf1o</h2>
-      
-      <p>Ubicado estrat\xe9gicamente en el KM 20 de la Ruta 1, Hotel Los Lagos representa lo que muchos inversores buscan hoy: <strong>calidad de vida, aire puro y desconexi\xf3n sin alejarse de la capital.</strong> Este complejo no es solo un lugar para dormir; es un centro de experiencias que incluye:</p>
+      <p>Capiat\xe1, la cuarta ciudad m\xe1s poblada de Paraguay, alberga un corredor industrial que se extiende a lo largo de la Ruta Mariscal Estigarribia (Ruta PY02) y sus alrededores. Este corredor no solo genera <strong>m\xe1s de 5.000 empleos directos</strong>, sino que transforma la econom\xeda local y multiplica la demanda de vivienda, servicios y terrenos residenciales.</p>
+
+      <p>\xbfQu\xe9 significa esto para vos como inversor? Que cada nueva f\xe1brica, cada nueva nave industrial, es un motor que empuja el precio de la tierra hacia arriba. Veamos las empresas que hacen de Capiat\xe1 una potencia.</p>
+
+      <h2>Las Grandes Industrias de Capiat\xe1</h2>
+
+      <h3>🏗️ Tecnoedil S.A. – Infraestructura de Primer Nivel</h3>
+      <p>Con m\xe1s de cinco d\xe9cadas de trayectoria, <strong>Tecnoedil</strong> es una de las constructoras m\xe1s grandes del pa\xeds, especializada en obras viales, civiles y portuarias. Su presencia activa en Capiat\xe1 incluye proyectos de asfaltado y mejoramiento de rutas que benefician directamente a los barrios residenciales de la zona. Cada kil\xf3metro de asfalto nuevo que Tecnoedil construye en Capiat\xe1 suma valor inmediato a los terrenos cercanos.</p>
+
+      <h3>⚙️ Schussmuller S.A. – Acero Paraguayo desde 1995</h3>
+      <p>Ubicada en el Km 18.5 de la Ruta Mcal. Estigarribia, la <strong>Industria Metal\xfargica Schussmuller</strong> es sin\xf3nimo de acero en Paraguay. Desde 1995, su planta en Capiat\xe1 produce estructuras met\xe1licas, perfiles y materiales de construcci\xf3n que abastecen a todo el pa\xeds. Su operaci\xf3n genera cientos de empleos directos y una red de proveedores locales que dinamizan la econom\xeda capiate\xf1a.</p>
+
+      <h3>🥛 La Pradera (SAPROCAL) – De Capiat\xe1 al Pa\xeds Entero</h3>
+      <p>El barrio Naranjaty de Capiat\xe1 alberga la planta industrial de <strong>La Pradera</strong>, una de las marcas l\xe1cteas m\xe1s reconocidas del Paraguay. Fundada en 1995, esta empresa procesa miles de litros de leche diariamente y en 2022 inaugur\xf3 una <strong>mega-f\xe1brica con una inversi\xf3n superior a los USD 8.000.000</strong>. Este tipo de inversi\xf3n industrial no solo crea empleos directos; genera una ola de desarrollo en servicios, comercio y vivienda para los trabajadores.</p>
+
+      <h3>🏭 Conti Paraguay (ex CAPSA) – Un \xcdcono Industrial desde 1951</h3>
+      <p>Situada en el Km 22-25 de la Ruta PY02, <strong>Conti Paraguay</strong> es una de las industrias m\xe1s antiguas y emblem\xe1ticas de Capiat\xe1, operando desde 1951. Su presencia de m\xe1s de 70 a\xf1os ha sido un pilar del empleo industrial en la ciudad, y ha contribuido a consolidar a Capiat\xe1 como un polo de atracci\xf3n para trabajadores y familias que buscan establecerse cerca de fuentes de empleo estable.</p>
+
+      <h3>🔧 Cavallaro – Excelencia en Producci\xf3n</h3>
+      <p><strong>Cavallaro</strong> es otra de las empresas que eligieron Capiat\xe1 como base de operaciones. Su planta contribuye al ecosistema industrial de la ciudad, generando empleo calificado y fortaleciendo la cadena productiva local. La presencia de empresas de este calibre eleva el perfil econ\xf3mico de toda la zona.</p>
+
+      <h3>🔌 Sumidenso – Tecnolog\xeda Japonesa en Suelo Capiate\xf1o</h3>
+      <p>Con ra\xedces en la tecnolog\xeda japonesa, <strong>Sumidenso</strong> opera su planta en Capiat\xe1 fabricando componentes el\xe9ctricos y arneses para la industria automotriz. Esta empresa es un ejemplo perfecto de c\xf3mo Capiat\xe1 atrae inversi\xf3n extranjera de alto valor, creando empleos t\xe9cnicos y especializados que elevan el nivel de ingresos de la zona.</p>
+
+      <h3>🪵 Altieri Industrial Maderil – Tradici\xf3n en Madera</h3>
+      <p><strong>Altieri Industrial Maderil</strong> representa el sector maderero dentro del corredor industrial de Capiat\xe1. Su operaci\xf3n agrega diversidad al tejido industrial de la ciudad y genera empleo en un sector con profundas ra\xedces en la econom\xeda paraguaya.</p>
+
+      <h3>🏗️ Copalsa – Construcci\xf3n y Desarrollo</h3>
+      <p><strong>Copalsa</strong> es otra empresa del sector de la construcci\xf3n con presencia en Capiat\xe1. Junto con Tecnoedil, estas constructoras no solo emplean mano de obra local, sino que son las responsables de la infraestructura que conecta y valoriza los barrios residenciales de la ciudad.</p>
+
+      <h3>🐔 Granja Av\xedcola La Blanca – Alimentando al Pa\xeds</h3>
+      <p><strong>Granja Av\xedcola La Blanca</strong> refuerza el sector agroindustrial de Capiat\xe1. La producci\xf3n av\xedcola a escala industrial genera empleo constante y estable, y contribuye a la cadena alimentaria nacional desde el coraz\xf3n de la ciudad.</p>
+
+      <h2>El Efecto Multiplicador: M\xe1s Industria = M\xe1s Valor</h2>
+
+      <p>La concentraci\xf3n de industrias en Capiat\xe1 genera lo que los economistas llaman un <strong>efecto multiplicador</strong>. Por cada empleo industrial directo, se crean entre 2 y 3 empleos indirectos en comercio, servicios, transporte y construcci\xf3n. Esto significa que los 5.000+ empleos directos de la zona industrial se traducen en:</p>
 
       <ul>
-        <li><strong>Piscinas y Parque Acu\xe1tico:</strong> Ideales para los veranos paraguayos, siendo uno de los principales atractivos familiares de la zona.</li>
-        <li><strong>Interacci\xf3n con la Naturaleza:</strong> Lagos artificiales donde se puede practicar kayak, puentes colgantes y senderos rodeados de densa vegetaci\xf3n.</li>
-        <li><strong>Gastronom\xeda Local:</strong> Un restaurante que ofrece lo mejor del sabor paraguayo e internacional, atrayendo a visitantes de todo Central cada fin de semana.</li>
-        <li><strong>Actividades de Recreaci\xf3n:</strong> Paseos a caballo y espacios deportivos que lo convierten en el destino predilecto para eventos corporativos y escapadas de fin de semana.</li>
+        <li><strong>15.000+ familias</strong> que necesitan vivienda cerca de su lugar de trabajo</li>
+        <li><strong>M\xe1s comercios</strong> (supermercados, farmacias, restaurantes) que se instalan para atender esa demanda</li>
+        <li><strong>M\xe1s servicios</strong> (escuelas, centros de salud) que mejoran la calidad de vida</li>
+        <li><strong>M\xe1s infraestructura</strong> (calles, rutas, servicios b\xe1sicos) que valoriza los terrenos</li>
+      </ul>
+
+      <h2>\xbfQu\xe9 Significa Esto para Tu Inversi\xf3n?</h2>
+
+      <p>La ecuaci\xf3n es simple: <strong>donde hay empleo, hay demanda de terrenos y viviendas</strong>. Y donde hay demanda, los precios suben. Capiat\xe1 est\xe1 viviendo este fen\xf3meno en tiempo real:</p>
+
+      <ul>
+        <li>📈 Los terrenos cerca de zonas industriales han visto incrementos de <strong>hasta el 40% en los \xfaltimos 3 a\xf1os</strong></li>
+        <li>🏠 La demanda de lotes residenciales supera ampliamente la oferta disponible</li>
+        <li>🛣️ Cada nueva obra de infraestructura (asfaltado, alcantarillado) suma valor inmediato</li>
+        <li>💼 El empleo estable en la zona garantiza compradores con capacidad de pago real</li>
+      </ul>
+
+      <h2>Capiat\xe1 vs. Otras Ciudades: La Ventaja Competitiva</h2>
+
+      <p>Comparemos brevemente:</p>
+
+      <ul>
+        <li><strong>Luque y San Lorenzo</strong>: ya est\xe1n saturadas, con precios muy elevados y poco espacio para crecer</li>
+        <li><strong>Villeta y Mariano R. Alonso</strong>: tienen industrias pero est\xe1n m\xe1s lejos de Asunci\xf3n</li>
+        <li><strong>Capiat\xe1</strong>: combina industria activa + proximidad a Asunci\xf3n (20 km) + terrenos a\xfan accesibles + infraestructura en expansi\xf3n. Es la <strong>ventana de oportunidad perfecta</strong></li>
+      </ul>
+
+      <h2>Costa Salinas: Tu Puerta de Entrada</h2>
+
+      <p>Nuestro desarrollo <strong>Costa Salinas</strong> est\xe1 ubicado estrat\xe9gicamente en Capiat\xe1, en una zona que se beneficia directamente del crecimiento industrial y residencial de la ciudad. Con lotes desde 360 m\xb2, acceso a servicios b\xe1sicos y papeles 100% en regla, es la inversi\xf3n inteligente para quienes entienden que <strong>el momento de comprar es ahora, antes de que los precios sigan subiendo</strong>.</p>
+
+      <p><strong>Coordinamos visitas personalizadas todos los d\xedas.</strong> Contactanos por WhatsApp y te llevamos a conocer tu futuro terreno en la capital industrial de Paraguay.</p>
+    `,date:"10 de Febrero, 2026",author:"Research TEKO",category:"Análisis de Mercado",image:"/images/blog/Conti-2.jpg",readTime:"12 min"},{id:"hotel-los-lagos-turismo-capiata-2026",title:'Hotel Los Lagos y el Auge Turístico de Capiatá: Por Qué Invertir en la "Ciudad de los Mitos"',excerpt:"Capiatá ha dejado de ser una ciudad de paso para convertirse en un destino estratégico. Analizamos cómo el desarrollo de infraestructuras como el Hotel Los Lagos valida el crecimiento de la zona.",content:`
+      <p class="lead">Capiat\xe1 est\xe1 viviendo una transformaci\xf3n que va m\xe1s all\xe1 del asfalto. Centros como el <strong>Hotel Resort Los Lagos</strong> son el reflejo de una ciudad que valora el equilibrio entre la naturaleza y la comodidad, validando el potencial de plusval\xeda para quienes deciden comprar terrenos en sus alrededores.</p>
+
+      <h2>El Efecto "Resort" en la Valorizaci\xf3n de Tierras</h2>
+      
+      <p>Ubicado estrat\xe9gicamente en el KM 20 de la Ruta 1, Hotel Los Lagos representa un indicador de confianza para el inversor inmobiliario. Cuando una zona atrae servicios de este nivel, la calidad de vida percibida aumenta sustancialmente, beneficiando directamente a los loteamientos residenciales cercanos.</p>
+
+      <ul>
+        <li><strong>Consolidaci\xf3n de Zona:</strong> La presencia de infraestructuras de ocio de alto nivel confirma que Capiat\xe1 ya no es solo "periferia", sino un n\xfacleo con servicios propios.</li>
+        <li><strong>Deseabilidad Residencial:</strong> Estar cerca de centros de recreaci\xf3n aumenta el valor emocional y comercial de tu futuro hogar o terreno de inversi\xf3n.</li>
+        <li><strong>Validaci\xf3n de Inversi\xf3n:</strong> Los grandes capitales eligen Capiat\xe1 por su ubicaci\xf3n estrat\xe9gica entre las Rutas 1 y 2, un "eje de progreso" imparable.</li>
       </ul>
 
       <h2>Capiat\xe1: Mucho M\xe1s que Infraestructura</h2>
 
-      <p>Cuando analizamos el valor de un terreno en Capiat\xe1, no solo miramos los metros cuadrados. Miramos el entorno. La ciudad ofrece una riqueza cultural que blinda su identidad y atractivo:</p>
+      <p>Al analizar un terreno, miramos el entorno que proteger\xe1 tu capital. Capiat\xe1 ofrece una riqueza cultural \xfanica:</p>
 
-      <h3>1. El Museo Mitol\xf3gico Ram\xf3n El\xedas</h3>
-      <p>\xdanico en su clase en Paraguay, este museo es una joya cultural que atrae a turistas nacionales y extranjeros. Sus tallas en madera representan a los seres de la mitolog\xeda guaran\xed, otorgando a Capiat\xe1 el t\xedtulo de "Ciudad de los Mitos".</p>
+      <h3>1. Patrimonio y Cultura</h3>
+      <p>El <strong>Museo Mitol\xf3gico Ram\xf3n El\xedas</strong> y la hist\xf3ica church <strong>Iglesia de la Candelaria</strong> otorgan a la ciudad una identidad propia que blinda su atractivo a largo plazo.</p>
 
-      <h3>2. Historia Viva: La Iglesia de la Candelaria</h3>
-      <p>Construida en el siglo XVIII, es uno de los templos coloniales mejor conservados del pa\xeds. Su arquitectura franciscana es un testimonio de la historia de la ciudad, fundada en 1640.</p>
-
-      <h3>3. Hub de Servicios y Conectividad</h3>
-      <p>Capiat\xe1 es el nexo entre las Rutas 1 y 2. Su crecimiento comercial es explosivo: Shoppings, universidades (como la Americana Campus Capiat\xe1) y modernos centros log\xedsticos est\xe1n transformando el paisaje urbano en un "eje de progreso".</p>
-
-      <h2>An\xe1lisis para el Inversor: El "Geo-Arbitraje" Inmobiliario</h2>
-
-      <p>Para el inversor inteligente, la presencia de infraestructuras de ocio de alto nivel como <strong>Hotel Los Lagos</strong> es un indicador de "validaci\xf3n de zona".</p>
-
-      <ul>
-        <li><strong>Efecto Resort:</strong> La cercan\xeda a centros de recreaci\xf3n aumenta la demanda de terrenos para casas de fin de semana o alquileres temporales (tipo Airbnb).</li>
-        <li><strong>Crecimiento Demogr\xe1fico:</strong> Capiat\xe1 ya supera los 280.000 habitantes. La presi\xf3n de la mancha urbana de Asunci\xf3n est\xe1 empujando los precios hacia arriba de forma irreversible.</li>
-        <li><strong>Saturaci\xf3n de Zonas Aleda\xf1as:</strong> Con precios prohibitivos en San Lorenzo o Lambar\xe9, Capiat\xe1 se presenta como la zona con el mejor "entry price" (precio de entrada) y mayor potencial de apreciaci\xf3n por su oferta tur\xedstica y comercial.</li>
-      </ul>
+      <h3>2. Conectividad y Servicios</h3>
+      <p>Shoppings, universidades (como la Americana Campus Capiat\xe1) y modernos centros log\xedsticos est\xe1n transformando el paisaje urbano, garantizando que tu inversi\xf3n est\xe9 en el epicentro del crecimiento de Central.</p>
 
       <div class="bg-teko-navy text-white p-8 rounded-2xl my-10">
-        <h3 class="text-teko-gold font-bold mb-4">\xbfPor qu\xe9 invertir cerca de polos tur\xedsticos como Los Lagos?</h3>
-        <p class="italic">"La plusval\xeda inmobiliaria no se genera solo por el asfalto, se genera por la deseabilidad. Una zona con museos, iglesias hist\xf3ricas y resorts de lujo es una zona donde el valor de la tierra nunca retrocede."</p>
+        <h3 class="text-teko-gold font-bold mb-4">La Visi\xf3n de TEKO</h3>
+        <p class="italic">"La plusval\xeda inmobiliaria se genera por la deseabilidad. Una zona con servicios de primer nivel como Los Lagos es una zona donde el valor de la tierra est\xe1 blindado por el desarrollo real, no por promesas."</p>
       </div>
 
-      <h2>Planific\xe1 tu Visita a Capiat\xe1</h2>
+      <h2>Invert\xed en el Futuro de Capiat\xe1</h2>
 
-      <p>Si est\xe1s pensando en invertir, te recomendamos pasar un fin de semana en Capiat\xe1. Hospedate en <strong>Los Lagos</strong>, visit\xe1 el <strong>Museo Ram\xf3n El\xedas</strong> y aprovech\xe1 para conocer nuestros desarrollos como <strong>Costa Salinas</strong>.</p>
+      <p>Si est\xe1s pensando en asegurar tu patrimonio, te invitamos a conocer nuestros desarrollos como <strong>Costa Salinas</strong>, ubicados estrat\xe9gicamente para aprovechar este auge de servicios y conectividad.</p>
 
-      <p><strong>TEKO Bienes Ra\xedces</strong> te ofrece la oportunidad de ser parte de este crecimiento. Tenemos lotes en zonas estrat\xe9gicas de Capiat\xe1 con financiaci\xf3n propia, t\xedtulo inmediato y la seguridad de invertir en una ciudad con un futuro brillante.</p>
+      <p><strong>TEKO Bienes Ra\xedces</strong> te ofrece la oportunidad de ser parte de este crecimiento con financiaci\xf3n propia, t\xedtulo inmediato y la seguridad de invertir en una ciudad con un futuro brillante.</p>
 
       <div class="mt-8">
         <p>📞 <strong>WhatsApp Asesor\xeda:</strong> +595 974 202 163</p>
@@ -173,7 +233,7 @@
         <li>📞 <strong>WhatsApp:</strong> +595 974 202 163</li>
         <li>🌐 <strong>Web:</strong> tekobienesraicespy.com</li>
       </ul>
-    `,date:"25 de Febrero, 2026",author:"Equipo TEKO",category:"Guía de Compra",image:"/images/capiata/capiata-progreso-1.jpg",readTime:"10 min"},{id:"capiata-hub-infraestructura-2026",title:"Capiatá 2026: El Hub de Infraestructura que Transformará Central",excerpt:"Con 51 km de nuevo asfalto, duplicación de rutas y obras públicas estratégicas, Capiatá vive una revolución. Te mostramos las obras que están disparando la plusvalía.",content:`
+    `,date:"25 de Febrero, 2026",author:"Equipo TEKO",category:"Guía de Compra",image:"/images/blog/juan-cruz-mountford-oFweDg39ldw-unsplash.jpg",readTime:"10 min"},{id:"capiata-hub-infraestructura-2026",title:"Capiatá 2026: El Hub de Infraestructura que Transformará Central",excerpt:"Con 51 km de nuevo asfalto, duplicación de rutas y obras públicas estratégicas, Capiatá vive una revolución. Te mostramos las obras que están disparando la plusvalía.",content:`
       <p class="lead">Lo que est\xe1 pasando en Capiat\xe1 no es casualidad. Es el resultado de una inversi\xf3n p\xfablica sin precedentes que est\xe1 redefiniendo la ciudad como el nuevo eje residencial y comercial de Central.</p>
 
 
@@ -204,7 +264,7 @@
 
       <h2>Un futuro con mejores bases</h2>
       <p>Cada obra de infraestructura es un beneficio directo para quienes eligen Capiat\xe1 como su hogar. Mejores rutas significan m\xe1s tiempo con la familia, y espacios p\xfablicos renovados significan una mayor calidad de vida. Al considerar un terreno hoy, est\xe1s apostando a una ciudad que est\xe1 trabajando para brindarte el entorno que mereces.</p>
-    `,date:"20 de Febrero, 2026",author:"Redacción TEKO",category:"Noticias & Obras",image:"/images/capiata/capiata-progreso-3.jpg",readTime:"8 min"},{id:"plusvalia-paraguay-2026",title:"Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)",excerpt:'Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento "La Era Dorada" para invertir en terrenos.',content:`
+    `,date:"20 de Febrero, 2026",author:"Redacción TEKO",category:"Noticias & Obras",image:"/images/blog/muni.jpg",readTime:"8 min"},{id:"plusvalia-paraguay-2026",title:"Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)",excerpt:'Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento "La Era Dorada" para invertir en terrenos.',content:`
       <p class="lead">Cuidar el fruto de a\xf1os de trabajo es una preocupaci\xf3n que todos compartimos. En un mundo donde el valor del dinero parece cambiar constantemente, muchos paraguayos han encontrado en la tierra un refugio seguro para sus ahorros y una base s\xf3lida para sus proyectos familiares.</p>
 
       <p>Explorar el mercado inmobiliario actual nos permite entender c\xf3mo las ciudades crecen y c\xf3mo ese crecimiento puede beneficiarnos. En este art\xedculo, queremos compartir una visi\xf3n clara de por qu\xe9 zonas como Capiat\xe1 est\xe1n captando la atenci\xf3n de tantas familias que buscan proteger su capital y construir un patrimonio real.</p>
@@ -322,7 +382,7 @@
       </ol>
 
       <p>En TEKO, hacemos que comprar tu terreno sea simple, seguro y accesible. Sin bancos, sin burocracia, con t\xedtulo inmediato.</p>
-    `,date:"15 de Febrero, 2026",author:"Equipo TEKO",category:"Inversión",image:"https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",readTime:"12 min"},{id:"guia-compra-terreno-cuotas",title:"Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)",excerpt:"Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.",content:`
+    `,date:"15 de Febrero, 2026",author:"Equipo TEKO",category:"Inversión",image:"/images/blog/la pradera.jpg",readTime:"12 min"},{id:"guia-compra-terreno-cuotas",title:"Guía Definitiva: De Inquilino a Propietario en Paraguay (Sin Bancos)",excerpt:"Romper el ciclo del alquiler es posible. Te enseñamos la estrategia financiera exacta para tener tu lote propio con tu mismo sueldo actual, sin depender de ningún banco.",content:`
       <p class="lead">Hay un mito profundamente arraigado en Paraguay: "Para comprar algo propio necesit\xe1s mucha plata o ir al banco". Falso. En esta gu\xeda te demostramos con n\xfameros reales c\xf3mo pasar de inquilino a propietario usando exactamente el mismo dinero que hoy gast\xe1s en alquiler.</p>
 
       <h2>La Verdad Sobre el Alquiler que Nadie Te Cuenta</h2>
@@ -420,7 +480,7 @@
       <p>Dej\xe1 de pagar el sue\xf1o ajeno y empez\xe1 a construir el tuyo. Cada mes que pasa pagando alquiler es dinero que perd\xe9s para siempre. Con TEKO, cada cuota te acerca m\xe1s a la propiedad.</p>
 
       <p>\xbfListo para cambiar tu futuro? Contactanos hoy y empez\xe1 el camino hacia tu terreno propio.</p>
-    `,date:"10 de Febrero, 2026",author:"Asesoría TEKO",category:"Educación Financiera",image:"https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=2073&auto=format&fit=crop",readTime:"15 min"},{id:"seguridad-juridica-loteamientos",title:"Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)",excerpt:"El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.",content:`
+    `,date:"10 de Febrero, 2026",author:"Asesoría TEKO",category:"Educación Financiera",image:"/images/blog/family-house.jpg",readTime:"15 min"},{id:"seguridad-juridica-loteamientos",title:"Los 7 Peligros de Comprar Terreno Sin Título en Paraguay (Y Cómo Protegerte)",excerpt:"El mercado informal está lleno de trampas que pueden hacerte perder años de ahorro. Te explicamos las estafas más comunes y cómo verificar que una inmobiliaria es seria.",content:`
       <p class="lead">Cada a\xf1o, cientos de familias paraguayas pierden todo lo que invirtieron en terrenos por caer en estafas o comprar sin documentaci\xf3n en regla. Esta gu\xeda puede ahorrarte millones de guaran\xedes y a\xf1os de problemas legales.</p>
 
       <h2>La Realidad del Mercado Inmobiliario Informal</h2>
@@ -695,82 +755,7 @@
       </ul>
 
       <p>Coordinamos visitas personalizadas todos los d\xedas. Contactanos por WhatsApp y te llevamos a conocer tu futuro terreno.</p>
-    `,date:"01 de Febrero, 2026",author:"Research TEKO",category:"Análisis de Mercado",image:"https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop",readTime:"16 min"},{id:"capiata-capital-industrial-paraguay-2026",title:"Capiatá: La Capital Industrial de Paraguay y Por Qué es el Mejor Lugar para Invertir",excerpt:"Con más de 5.000 empleos directos generados por gigantes como Conti, La Pradera, Schussmuller y Tecnoedil, Capiatá se consolida como el epicentro industrial del país. Descubrí cómo esto impulsa el valor de la tierra.",content:`
-      <p class="lead">Capiat\xe1 se ha consolidado como uno de los polos industriales m\xe1s importantes del Departamento Central. Esta actividad no solo genera empleos, sino que impulsa el desarrollo de infraestructura y servicios que benefician a toda la comunidad residencial circundante.</p>
-
-      <h2>Un Gigante Industrial a Solo 20 km de Asunci\xf3n</h2>
-
-      <p>Capiat\xe1, la cuarta ciudad m\xe1s poblada de Paraguay, alberga un corredor industrial que se extiende a lo largo de la Ruta Mariscal Estigarribia (Ruta PY02) y sus alrededores. Este corredor no solo genera <strong>m\xe1s de 5.000 empleos directos</strong>, sino que transforma la econom\xeda local y multiplica la demanda de vivienda, servicios y terrenos residenciales.</p>
-
-      <p>\xbfQu\xe9 significa esto para vos como inversor? Que cada nueva f\xe1brica, cada nueva nave industrial, es un motor que empuja el precio de la tierra hacia arriba. Veamos las empresas que hacen de Capiat\xe1 una potencia.</p>
-
-      <h2>Las Grandes Industrias de Capiat\xe1</h2>
-
-      <h3>🏗️ Tecnoedil S.A. – Infraestructura de Primer Nivel</h3>
-      <p>Con m\xe1s de cinco d\xe9cadas de trayectoria, <strong>Tecnoedil</strong> es una de las constructoras m\xe1s grandes del pa\xeds, especializada en obras viales, civiles y portuarias. Su presencia activa en Capiat\xe1 incluye proyectos de asfaltado y mejoramiento de rutas que benefician directamente a los barrios residenciales de la zona. Cada kil\xf3metro de asfalto nuevo que Tecnoedil construye en Capiat\xe1 suma valor inmediato a los terrenos cercanos.</p>
-
-      <h3>⚙️ Schussmuller S.A. – Acero Paraguayo desde 1995</h3>
-      <p>Ubicada en el Km 18.5 de la Ruta Mcal. Estigarribia, la <strong>Industria Metal\xfargica Schussmuller</strong> es sin\xf3nimo de acero en Paraguay. Desde 1995, su planta en Capiat\xe1 produce estructuras met\xe1licas, perfiles y materiales de construcci\xf3n que abastecen a todo el pa\xeds. Su operaci\xf3n genera cientos de empleos directos y una red de proveedores locales que dinamizan la econom\xeda capiate\xf1a.</p>
-
-      <h3>🥛 La Pradera (SAPROCAL) – De Capiat\xe1 al Pa\xeds Entero</h3>
-      <p>El barrio Naranjaty de Capiat\xe1 alberga la planta industrial de <strong>La Pradera</strong>, una de las marcas l\xe1cteas m\xe1s reconocidas del Paraguay. Fundada en 1995, esta empresa procesa miles de litros de leche diariamente y en 2022 inaugur\xf3 una <strong>mega-f\xe1brica con una inversi\xf3n superior a los USD 8.000.000</strong>. Este tipo de inversi\xf3n industrial no solo crea empleos directos; genera una ola de desarrollo en servicios, comercio y vivienda para los trabajadores.</p>
-
-      <h3>🏭 Conti Paraguay (ex CAPSA) – Un \xcdcono Industrial desde 1951</h3>
-      <p>Situada en el Km 22-25 de la Ruta PY02, <strong>Conti Paraguay</strong> es una de las industrias m\xe1s antiguas y emblem\xe1ticas de Capiat\xe1, operando desde 1951. Su presencia de m\xe1s de 70 a\xf1os ha sido un pilar del empleo industrial en la ciudad, y ha contribuido a consolidar a Capiat\xe1 como un polo de atracci\xf3n para trabajadores y familias que buscan establecerse cerca de fuentes de empleo estable.</p>
-
-      <h3>🔧 Cavallaro – Excelencia en Producci\xf3n</h3>
-      <p><strong>Cavallaro</strong> es otra de las empresas que eligieron Capiat\xe1 como base de operaciones. Su planta contribuye al ecosistema industrial de la ciudad, generando empleo calificado y fortaleciendo la cadena productiva local. La presencia de empresas de este calibre eleva el perfil econ\xf3mico de toda la zona.</p>
-
-      <h3>🔌 Sumidenso – Tecnolog\xeda Japonesa en Suelo Capiate\xf1o</h3>
-      <p>Con ra\xedces en la tecnolog\xeda japonesa, <strong>Sumidenso</strong> opera su planta en Capiat\xe1 fabricando componentes el\xe9ctricos y arneses para la industria automotriz. Esta empresa es un ejemplo perfecto de c\xf3mo Capiat\xe1 atrae inversi\xf3n extranjera de alto valor, creando empleos t\xe9cnicos y especializados que elevan el nivel de ingresos de la zona.</p>
-
-      <h3>🪵 Altieri Industrial Maderil – Tradici\xf3n en Madera</h3>
-      <p><strong>Altieri Industrial Maderil</strong> representa el sector maderero dentro del corredor industrial de Capiat\xe1. Su operaci\xf3n agrega diversidad al tejido industrial de la ciudad y genera empleo en un sector con profundas ra\xedces en la econom\xeda paraguaya.</p>
-
-      <h3>🏗️ Copalsa – Construcci\xf3n y Desarrollo</h3>
-      <p><strong>Copalsa</strong> es otra empresa del sector de la construcci\xf3n con presencia en Capiat\xe1. Junto con Tecnoedil, estas constructoras no solo emplean mano de obra local, sino que son las responsables de la infraestructura que conecta y valoriza los barrios residenciales de la ciudad.</p>
-
-      <h3>🐔 Granja Av\xedcola La Blanca – Alimentando al Pa\xeds</h3>
-      <p><strong>Granja Av\xedcola La Blanca</strong> refuerza el sector agroindustrial de Capiat\xe1. La producci\xf3n av\xedcola a escala industrial genera empleo constante y estable, y contribuye a la cadena alimentaria nacional desde el coraz\xf3n de la ciudad.</p>
-
-      <h2>El Efecto Multiplicador: M\xe1s Industria = M\xe1s Valor</h2>
-
-      <p>La concentraci\xf3n de industrias en Capiat\xe1 genera lo que los economistas llaman un <strong>efecto multiplicador</strong>. Por cada empleo industrial directo, se crean entre 2 y 3 empleos indirectos en comercio, servicios, transporte y construcci\xf3n. Esto significa que los 5.000+ empleos directos de la zona industrial se traducen en:</p>
-
-      <ul>
-        <li><strong>15.000+ familias</strong> que necesitan vivienda cerca de su lugar de trabajo</li>
-        <li><strong>M\xe1s comercios</strong> (supermercados, farmacias, restaurantes) que se instalan para atender esa demanda</li>
-        <li><strong>M\xe1s servicios</strong> (escuelas, centros de salud) que mejoran la calidad de vida</li>
-        <li><strong>M\xe1s infraestructura</strong> (calles, rutas, servicios b\xe1sicos) que valoriza los terrenos</li>
-      </ul>
-
-      <h2>\xbfQu\xe9 Significa Esto para Tu Inversi\xf3n?</h2>
-
-      <p>La ecuaci\xf3n es simple: <strong>donde hay empleo, hay demanda de terrenos y viviendas</strong>. Y donde hay demanda, los precios suben. Capiat\xe1 est\xe1 viviendo este fen\xf3meno en tiempo real:</p>
-
-      <ul>
-        <li>📈 Los terrenos cerca de zonas industriales han visto incrementos de <strong>hasta el 40% en los \xfaltimos 3 a\xf1os</strong></li>
-        <li>🏠 La demanda de lotes residenciales supera ampliamente la oferta disponible</li>
-        <li>🛣️ Cada nueva obra de infraestructura (asfaltado, alcantarillado) suma valor inmediato</li>
-        <li>💼 El empleo estable en la zona garantiza compradores con capacidad de pago real</li>
-      </ul>
-
-      <h2>Capiat\xe1 vs. Otras Ciudades: La Ventaja Competitiva</h2>
-
-      <p>Comparemos brevemente:</p>
-
-      <ul>
-        <li><strong>Luque y San Lorenzo</strong>: ya est\xe1n saturadas, con precios muy elevados y poco espacio para crecer</li>
-        <li><strong>Villeta y Mariano R. Alonso</strong>: tienen industrias pero est\xe1n m\xe1s lejos de Asunci\xf3n</li>
-        <li><strong>Capiat\xe1</strong>: combina industria activa + proximidad a Asunci\xf3n (20 km) + terrenos a\xfan accesibles + infraestructura en expansi\xf3n. Es la <strong>ventana de oportunidad perfecta</strong></li>
-      </ul>
-
-      <h2>Costa Salinas: Tu Puerta de Entrada</h2>
-
-      <p>Nuestro desarrollo <strong>Costa Salinas</strong> est\xe1 ubicado estrat\xe9gicamente en Capiat\xe1, en una zona que se beneficia directamente del crecimiento industrial y residencial de la ciudad. Con lotes desde 360 m\xb2, acceso a servicios b\xe1sicos y papeles 100% en regla, es la inversi\xf3n inteligente para quienes entienden que <strong>el momento de comprar es ahora, antes de que los precios sigan subiendo</strong>.</p>
-
-      <p><strong>Coordinamos visitas personalizadas todos los d\xedas.</strong> Contactanos por WhatsApp y te llevamos a conocer tu futuro terreno en la capital industrial de Paraguay.</p>
-    `,date:"10 de Febrero, 2026",author:"Research TEKO",category:"Análisis de Mercado",image:"https://images.unsplash.com/photo-1565106430482-8bc1ff40c75c?q=80&w=1974&auto=format&fit=crop",readTime:"12 min"},{id:"bancos-vs-financiacion-propia-paraguay",title:"Bancos vs. Financiación Propia: Lo que Nadie te Dice sobre los Créditos en Paraguay",excerpt:"¿Es mejor un préstamo hipotecario o comprar directamente de la inmobiliaria? Analizamos requisitos, intereses y la letra chica que los bancos no quieren que sepas.",content:`
+    `,date:"01 de Febrero, 2026",author:"Research TEKO",category:"Análisis de Mercado",image:"https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2089&auto=format&fit=crop",readTime:"16 min"},{id:"bancos-vs-financiacion-propia-paraguay",title:"Bancos vs. Financiación Propia: Lo que Nadie te Dice sobre los Créditos en Paraguay",excerpt:"¿Es mejor un préstamo hipotecario o comprar directamente de la inmobiliaria? Analizamos requisitos, intereses y la letra chica que los bancos no quieren que sepas.",content:`
       <p class="lead">Si est\xe1s pensando en comprar tu primer terreno, probablemente tu primera idea fue ir al banco. Pero en Paraguay, el camino del cr\xe9dito bancario est\xe1 lleno de obst\xe1culos que dejan fuera al 70% de los trabajadores. En este art\xedculo, vamos a comparar la realidad de los bancos frente a la agilidad de la financiaci\xf3n propia.</p>
 
       <h2>El "Muro" de los Bancos en Paraguay</h2>
@@ -827,4 +812,4 @@
 
       <h2>El Valor de los Papeles Municipales</h2>
       <p>Verific\xe1 que el loteamiento tenga la aprobaci\xf3n municipal definitiva. Esto te garantiza que las calles est\xe1n trazadas legalmente y que no tendr\xe1s problemas para obtener tu n\xfamero de cuenta catastral.</p>
-    `,date:"10 de Febrero, 2026",author:"Dto. Técnico TEKO",category:"Consejos Técnicos",image:"https://images.unsplash.com/photo-1541462608141-ad4d05ed5a41?q=80&w=2070&auto=format&fit=crop",readTime:"15 min"}];e.s(["blogPosts",0,a],33243);let o=[{id:"cs-001",zoneId:"costa-salinas",title:"Costa Salinas: Residencial I",location:"Costa Salinas - Zona de Alto Valor",originalPrice:125e6,price:12e7,monthlyPayment:259e4,description:"La seguridad que buscás para tu capital. En un contexto económico incierto, la tierra es el único refugio que nunca pierde valor. Costa Salinas te ofrece posesión inmediata, documentos al día y la certeza de que tu dinero está creciendo mes a mes. Es hoy.",image:"/properties/costa-salinas-drone-1.jpg",videoUrl:"/videos/residencial-1.mp4",features:["Título Inmediato","Inversión Blindada","Sin Bancos","Plusvalía Asegurada"],type:"terreno",coordinates:{lat:-25.3203,lng:-57.4434},status:"available"},{id:"cs-003",zoneId:"costa-salinas",title:"Costa Salinas: Residencial II",location:"Costa Salinas - Barrio Tranquilo",originalPrice:86e6,price:81e6,monthlyPayment:175e4,description:"Imaginá a tus hijos jugando en su propio patio. Costa Salinas es un barrio consolidado, seguro y lleno de vida. Dejá de pagar alquiler y empezá a pagar por lo que será tuyo para siempre. La mejor herencia es un techo propio.",image:"/properties/costa-salinas-drone-2.jpg",videoUrl:"/videos/residencial-2.mp4",gallery:["/properties/residencial-2-drone-3.jpg","/properties/residencial-2-drone-4.jpg"],features:["Barrio Seguro","Vecinos Reales","Servicios Listos","Tu Propio Hogar"],type:"terreno",coordinates:{lat:-25.321,lng:-57.444},status:"available"}];e.s(["FINANCING_CONFIG",0,{minDownPaymentPercent:20,maxDownPaymentPercent:60,minReinforcementPercent:20,maxReinforcementPercent:50,maxTermMonths:72,defaultReinforcementPayments:3,whatsappNumber:"595974202163"},"PRICE_RANGE",0,{min:81e6,max:135e6,default:81e6,step:1e6},"constructionPlans",0,[{id:"essential",name:"TEKO Essential",description:"Diseño inteligente y funcional. La entrada perfecta a tu hogar propio con terminaciones de calidad.",pricePerSqm:850,features:["Construcción Tradicional","Aberturas DVH","Pisos Porcelanato","Grifería Primera Marca","Entrega en 8 meses"],image:"/images/render-casa-moderna.jpg"},{id:"luxury",name:"TEKO Luxury",description:"Arquitectura de vanguardia, espacios amplios y detalles de categoría superior para un estilo de vida exigente.",pricePerSqm:1200,features:["Diseño Personalizado","Domótica Integrada","Losa Radiante","Revestimientos Importados","Entrega en 12 meses"],image:"/images/ai-designs/design-1.jpg"}],"getPropertiesByZone",0,e=>o.filter(a=>a.zoneId===e),"properties",0,o,"testimonials",0,[{name:"Crecimiento Real",role:"Plusvalía Asegurada",text:"Al comprar antes de que la zona se desarrolle por completo, bloqueás el precio más bajo y asegurás tu ganancia futura."},{name:"Sin Burocracia",role:"Financiación Propia",text:"A sola firma y con aprobación inmediata. Tu puerta de entrada al patrimonio sin depender de bancos ni Informconf."},{name:"Seguridad Legal",role:"Título Inmediato",text:"Toda nuestra tierra está titulada e inscripta. Tu inversión tiene el respaldo legal total que te da tranquilidad absoluta."}],"zones",0,[{id:"costa-salinas",name:"Costa Salinas",tagline:"Asegurá tu futuro en la zona que más crece",description:"Asegurá tu terreno con cuotas fijas en Guaraníes. Invertí en tierra, protegete de la inflación y construí tu legado hoy mismo.",mapUrl:"https://maps.app.goo.gl/XDMHDZXgcjQy4h3p6",heroImage:"/properties/costa-salinas-drone-1.jpg",highlights:["Título al instante","Papeles 100% en regla","Entrega mínima y ya es tuyo","Pagá hasta en 6 años"]}]],9792)}]);
+    `,date:"10 de Febrero, 2026",author:"Dto. Técnico TEKO",category:"Consejos Técnicos",image:"https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=2070&auto=format&fit=crop",readTime:"15 min"}];e.s(["blogPosts",0,a],33243);let o=[{id:"cs-001",zoneId:"costa-salinas",title:"Costa Salinas: Residencial I",location:"Costa Salinas - Zona de Alto Valor",originalPrice:125e6,price:12e7,monthlyPayment:259e4,description:"La seguridad que buscás para tu capital. En un contexto económico incierto, la tierra es el único refugio que nunca pierde valor. Costa Salinas te ofrece posesión inmediata, documentos al día y la certeza de que tu dinero está creciendo mes a mes. Es hoy.",image:"/properties/Residencial%20I/costa-salinas-drone-1.jpg",videoUrl:"/videos/residencial-1.mp4",features:["Título Inmediato","Inversión Blindada","Sin Bancos","Plusvalía Asegurada"],type:"terreno",coordinates:{lat:-25.3203,lng:-57.4434},status:"available"},{id:"cs-003",zoneId:"costa-salinas",title:"Costa Salinas: Residencial II",location:"Costa Salinas - Barrio Tranquilo",originalPrice:86e6,price:81e6,monthlyPayment:175e4,description:"Imaginá a tus hijos jugando en su propio patio. Costa Salinas es un barrio consolidado, seguro y lleno de vida. Dejá de pagar alquiler y empezá a pagar por lo que será tuyo para siempre. La mejor herencia es un techo propio.",image:"/properties/Residencial%20II/costa-salinas-drone-2.jpg",videoUrl:"/videos/residencial-2.mp4",gallery:["/properties/Residencial%20II/costa-salinas-drone-2.jpg","/properties/Residencial%20II/residencial-2-drone-3.jpg","/properties/Residencial%20II/residencial-2-drone-4.jpg","/properties/Residencial%20II/IMG_7281.JPG"],features:["Barrio Seguro","Vecinos Reales","Servicios Listos","Tu Propio Hogar"],type:"terreno",coordinates:{lat:-25.321,lng:-57.444},status:"available"}];e.s(["FINANCING_CONFIG",0,{minDownPaymentPercent:20,maxDownPaymentPercent:60,minReinforcementPercent:20,maxReinforcementPercent:50,maxTermMonths:72,defaultReinforcementPayments:3,whatsappNumber:"595974202163"},"PRICE_RANGE",0,{min:81e6,max:135e6,default:81e6,step:1e6},"constructionPlans",0,[{id:"essential",name:"TEKO Essential",description:"Diseño inteligente y funcional. La entrada perfecta a tu hogar propio con terminaciones de calidad.",pricePerSqm:850,features:["Construcción Tradicional","Aberturas DVH","Pisos Porcelanato","Grifería Primera Marca","Entrega en 8 meses"],image:"/images/render-casa-moderna.jpg"},{id:"luxury",name:"TEKO Luxury",description:"Arquitectura de vanguardia, espacios amplios y detalles de categoría superior para un estilo de vida exigente.",pricePerSqm:1200,features:["Diseño Personalizado","Domótica Integrada","Losa Radiante","Revestimientos Importados","Entrega en 12 meses"],image:"/images/ai-designs/design-1.jpg"}],"getPropertiesByZone",0,e=>o.filter(a=>a.zoneId===e),"properties",0,o,"testimonials",0,[{name:"Crecimiento Real",role:"Plusvalía Asegurada",text:"Al comprar antes de que la zona se desarrolle por completo, bloqueás el precio más bajo y asegurás tu ganancia futura."},{name:"Sin Burocracia",role:"Financiación Propia",text:"A sola firma y con aprobación inmediata. Tu puerta de entrada al patrimonio sin depender de bancos ni Informconf."},{name:"Seguridad Legal",role:"Título Inmediato",text:"Toda nuestra tierra está titulada e inscripta. Tu inversión tiene el respaldo legal total que te da tranquilidad absoluta."}],"zones",0,[{id:"costa-salinas",name:"Costa Salinas",tagline:"Asegurá tu futuro en la zona que más crece",description:"Asegurá tu terreno con cuotas fijas en Guaraníes. Invertí en tierra, protegete de la inflación y construí tu legado hoy mismo.",mapUrl:"https://maps.app.goo.gl/XDMHDZXgcjQy4h3p6",heroImage:"/properties/Residencial%20I/costa-salinas-drone-1.jpg",highlights:["Título al instante","Papeles 100% en regla","Entrega mínima y ya es tuyo","Pagá hasta en 6 años"]}]],9792)},3116,e=>{"use strict";let a=(0,e.i(75254).default)("clock",[["path",{d:"M12 6v6l4 2",key:"mmk7yg"}],["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}]]);e.s(["Clock",()=>a],3116)},54347,e=>{"use strict";var a=e.i(43476),o=e.i(71645),r=e.i(46932),s=e.i(9792),i=e.i(48978),n=e.i(59226),t=e.i(75254);let l=(0,t.default)("circle-check",[["circle",{cx:"12",cy:"12",r:"10",key:"1mglay"}],["path",{d:"m9 12 2 2 4-4",key:"dzmm74"}]]),d=(0,t.default)("hammer",[["path",{d:"m15 12-9.373 9.373a1 1 0 0 1-3.001-3L12 9",key:"1hayfq"}],["path",{d:"m18 15 4-4",key:"16gjal"}],["path",{d:"m21.5 11.5-1.914-1.914A2 2 0 0 1 19 8.172v-.344a2 2 0 0 0-.586-1.414l-1.657-1.657A6 6 0 0 0 12.516 3H9l1.243 1.243A6 6 0 0 1 12 8.485V10l2 2h1.172a2 2 0 0 1 1.414.586L18.5 14.5",key:"15ts47"}]]),c=(0,t.default)("key",[["path",{d:"m15.5 7.5 2.3 2.3a1 1 0 0 0 1.4 0l2.1-2.1a1 1 0 0 0 0-1.4L19 4",key:"g0fldk"}],["path",{d:"m21 2-9.6 9.6",key:"1j0ho8"}],["circle",{cx:"7.5",cy:"15.5",r:"5.5",key:"yqb3hr"}]]);var u=e.i(3116);function p(){let[e,t]=(0,o.useState)(!1);return(0,a.jsxs)("div",{className:"pt-20",children:[(0,a.jsxs)("section",{className:"bg-teko-navy text-white py-20 relative overflow-hidden",children:[(0,a.jsx)("div",{className:"absolute inset-0 bg-[url('/images/render-casa-moderna.jpg')] bg-cover bg-center opacity-20"}),(0,a.jsxs)("div",{className:"max-w-7xl mx-auto px-4 text-center relative z-10",children:[(0,a.jsxs)("h1",{className:"text-5xl md:text-7xl font-serif font-black mb-6 tracking-tight",children:["Tu casa propia, ",(0,a.jsx)("br",{}),(0,a.jsx)("span",{className:"text-teko-gold",children:"sin burocracia"})]}),(0,a.jsx)("p",{className:"text-xl md:text-2xl text-slate-300 max-w-2xl mx-auto mb-10 font-medium leading-relaxed",children:"Sistema Llave en Mano Premium. Desde el plano hasta la entrega de llaves, nosotros lideramos el proceso para que vos solo proyectes tu futuro."})]})]}),(0,a.jsx)("section",{className:"py-20 bg-slate-50",children:(0,a.jsxs)("div",{className:"max-w-7xl mx-auto px-4",children:[(0,a.jsx)("div",{className:"text-center mb-16",children:(0,a.jsx)("h2",{className:"text-3xl font-serif font-bold text-teko-navy",children:"Proceso Constructivo TEKO"})}),(0,a.jsx)("div",{className:"grid grid-cols-1 md:grid-cols-4 gap-8",children:[{icon:d,title:"1. Arquitectura a Medida",text:"Personalizamos cada espacio con arquitectos de primer nivel."},{icon:l,title:"2. Gestión Integral",text:"Nos ocupamos de todos los permisos y planos municipales."},{icon:u.Clock,title:"3. Construcción Real",text:"Obra optimizada con reportes semanales de avance vía WhatsApp."},{icon:c,title:"4. Entrega de Llaves",text:"Tu hogar listo para habitar, con garantía de calidad TEKO."}].map((e,o)=>(0,a.jsxs)(r.motion.div,{initial:{opacity:0,y:20},whileInView:{opacity:1,y:0},viewport:{once:!0},transition:{delay:.2*o},className:"text-center p-6",children:[(0,a.jsx)("div",{className:"w-16 h-16 mx-auto bg-white rounded-2xl shadow-md flex items-center justify-center text-teko-navy mb-6 transform rotate-3 hover:rotate-0 transition-all",children:(0,a.jsx)(e.icon,{size:32})}),(0,a.jsx)("h3",{className:"font-bold text-xl mb-3",children:e.title}),(0,a.jsx)("p",{className:"text-slate-600 text-sm",children:e.text})]},o))})]})}),(0,a.jsx)("section",{className:"py-20 bg-white",children:(0,a.jsx)("div",{className:"max-w-7xl mx-auto px-4",children:(0,a.jsx)("div",{className:"grid grid-cols-1 md:grid-cols-2 gap-12",children:s.constructionPlans.map(e=>(0,a.jsxs)("div",{className:"bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-100 flex flex-col",children:[(0,a.jsxs)("div",{className:"h-64 relative",children:[(0,a.jsx)("img",{src:e.image,alt:e.name,className:"w-full h-full object-cover"}),(0,a.jsx)("div",{className:"absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex items-end p-8",children:(0,a.jsx)("h3",{className:"text-3xl font-serif font-bold text-white",children:e.name})})]}),(0,a.jsxs)("div",{className:"p-8 flex-1 flex flex-col",children:[(0,a.jsx)("p",{className:"text-slate-600 mb-8 flex-1",children:e.description}),(0,a.jsx)("div",{className:"space-y-3 mb-8",children:e.features.map((e,o)=>(0,a.jsxs)("div",{className:"flex items-center gap-3",children:[(0,a.jsx)(l,{size:16,className:"text-teko-navy"}),(0,a.jsx)("span",{className:"text-sm font-medium text-slate-700",children:e})]},o))}),(0,a.jsxs)("div",{className:"flex items-center justify-between pt-6 border-t border-slate-100",children:[(0,a.jsxs)("div",{children:[(0,a.jsx)("span",{className:"block text-xs text-slate-400",children:"Precio construcción"}),(0,a.jsxs)("span",{className:"font-bold text-xl text-teko-navy",children:["USD ",e.pricePerSqm," ",(0,a.jsx)("span",{className:"text-sm font-normal text-slate-400",children:"/ m²"})]})]}),(0,a.jsxs)(i.Button,{onClick:()=>t(!0),children:["Cotizar ",e.name]})]})]})]},e.id))})})}),(0,a.jsx)(n.LeadModal,{isOpen:e,onClose:()=>t(!1),title:"Cotizar Construcción",source:"Construction Page"})]})}e.s(["default",()=>p],54347)}]);

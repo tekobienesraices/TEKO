@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[61899,["/_next/static/chunks/df0f0bc11e004e9c.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/951b6920bc9b8fab.js","/_next/static/chunks/25486b7be5f07736.js"],"default"]
-7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-8:"$Sreact.suspense"
+2:I[61899,["/_next/static/chunks/3362fdbd13c7f7bc.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/40687a1eaf36aa33.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
 3:T1bbb,
       <p class="lead">Capiatá ha experimentado una transformación extraordinaria en la última década. Lo que antes era considerado "muy lejos de Asunción" hoy es una de las ciudades con mayor crecimiento demográfico y valorización inmobiliaria de todo el Departamento Central.</p>
 
@@ -142,8 +142,7 @@
       </ul>
 
       <p>Coordinamos visitas personalizadas todos los días. Contactanos por WhatsApp y te llevamos a conocer tu futuro terreno.</p>
-    0:{"buildId":"lDJ2ygeYEqSLPN4xIOMtF","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Terrenos en Cuotas en Capiatá 2026: Guía Completa de Zonas, Precios y Oportunidades\",\"image\":\"https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop\",\"author\":{\"@type\":\"Organization\",\"name\":\"Research TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"Capiatá se consolida como el destino #1 para familias paraguayas que buscan lotes accesibles. Analizamos las mejores zonas, precios actuales del metro cuadrado y proyección de valorización para 2026.\"}"}}],["$","$L2",null,{"post":{"id":"terrenos-cuotas-capiata-2026","title":"Terrenos en Cuotas en Capiatá 2026: Guía Completa de Zonas, Precios y Oportunidades","excerpt":"Capiatá se consolida como el destino #1 para familias paraguayas que buscan lotes accesibles. Analizamos las mejores zonas, precios actuales del metro cuadrado y proyección de valorización para 2026.","content":"$3","date":"01 de Febrero, 2026","author":"Research TEKO","category":"Análisis de Mercado","image":"https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=2070&auto=format&fit=crop","readTime":"16 min"}}]],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
-4:["$","script","script-0",{"src":"/_next/static/chunks/951b6920bc9b8fab.js","async":true}]
-5:["$","script","script-1",{"src":"/_next/static/chunks/25486b7be5f07736.js","async":true}]
-6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
-9:null
+    0:{"buildId":"vrO_MhKl5mCy4Zupyc0Wx","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Terrenos en Cuotas en Capiatá 2026: Guía Completa de Zonas, Precios y Oportunidades\",\"image\":\"https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2089&auto=format&fit=crop\",\"author\":{\"@type\":\"Organization\",\"name\":\"Research TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"Capiatá se consolida como el destino #1 para familias paraguayas que buscan lotes accesibles. Analizamos las mejores zonas, precios actuales del metro cuadrado y proyección de valorización para 2026.\"}"}}],["$","$L2",null,{"post":{"id":"terrenos-cuotas-capiata-2026","title":"Terrenos en Cuotas en Capiatá 2026: Guía Completa de Zonas, Precios y Oportunidades","excerpt":"Capiatá se consolida como el destino #1 para familias paraguayas que buscan lotes accesibles. Analizamos las mejores zonas, precios actuales del metro cuadrado y proyección de valorización para 2026.","content":"$3","date":"01 de Febrero, 2026","author":"Research TEKO","category":"Análisis de Mercado","image":"https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2089&auto=format&fit=crop","readTime":"16 min"}}]],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/40687a1eaf36aa33.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null

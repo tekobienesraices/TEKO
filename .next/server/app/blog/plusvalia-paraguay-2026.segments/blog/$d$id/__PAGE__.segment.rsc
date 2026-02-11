@@ -1,7 +1,7 @@
 1:"$Sreact.fragment"
-2:I[61899,["/_next/static/chunks/df0f0bc11e004e9c.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/951b6920bc9b8fab.js","/_next/static/chunks/25486b7be5f07736.js"],"default"]
-7:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
-8:"$Sreact.suspense"
+2:I[61899,["/_next/static/chunks/3362fdbd13c7f7bc.js","/_next/static/chunks/315fbd9cfb2e1796.js","/_next/static/chunks/40687a1eaf36aa33.js"],"default"]
+6:I[97367,["/_next/static/chunks/ff1a16fafef87110.js","/_next/static/chunks/d2be314c3ece3fbe.js"],"OutletBoundary"]
+7:"$Sreact.suspense"
 3:T1f48,
       <p class="lead">Cuidar el fruto de años de trabajo es una preocupación que todos compartimos. En un mundo donde el valor del dinero parece cambiar constantemente, muchos paraguayos han encontrado en la tierra un refugio seguro para sus ahorros y una base sólida para sus proyectos familiares.</p>
 
@@ -120,8 +120,7 @@
       </ol>
 
       <p>En TEKO, hacemos que comprar tu terreno sea simple, seguro y accesible. Sin bancos, sin burocracia, con título inmediato.</p>
-    0:{"buildId":"lDJ2ygeYEqSLPN4xIOMtF","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)\",\"image\":\"https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop\",\"author\":{\"@type\":\"Organization\",\"name\":\"Equipo TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento \\\"La Era Dorada\\\" para invertir en terrenos.\"}"}}],["$","$L2",null,{"post":{"id":"plusvalia-paraguay-2026","title":"Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)","excerpt":"Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento \"La Era Dorada\" para invertir en terrenos.","content":"$3","date":"15 de Febrero, 2026","author":"Equipo TEKO","category":"Inversión","image":"https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop","readTime":"12 min"}}]],["$L4","$L5"],"$L6"]}],"loading":null,"isPartial":false}
-4:["$","script","script-0",{"src":"/_next/static/chunks/951b6920bc9b8fab.js","async":true}]
-5:["$","script","script-1",{"src":"/_next/static/chunks/25486b7be5f07736.js","async":true}]
-6:["$","$L7",null,{"children":["$","$8",null,{"name":"Next.MetadataOutlet","children":"$@9"}]}]
-9:null
+    0:{"buildId":"vrO_MhKl5mCy4Zupyc0Wx","rsc":["$","$1","c",{"children":[[["$","script",null,{"type":"application/ld+json","dangerouslySetInnerHTML":{"__html":"{\"@context\":\"https://schema.org\",\"@type\":\"BlogPosting\",\"headline\":\"Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)\",\"image\":\"/images/blog/la pradera.jpg\",\"author\":{\"@type\":\"Organization\",\"name\":\"Equipo TEKO\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"TEKO Bienes Raíces\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://teko.com.py/logo-symbol.png\"}},\"datePublished\":\"2026-02-15\",\"description\":\"Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento \\\"La Era Dorada\\\" para invertir en terrenos.\"}"}}],["$","$L2",null,{"post":{"id":"plusvalia-paraguay-2026","title":"Por qué la Tierra en Paraguay es la Mejor Inversión de la Década (Análisis 2026)","excerpt":"Mientras la inflación erosiona tus ahorros en el banco, el suelo paraguayo se revaloriza a tasas de dos dígitos. Descubrí por qué los expertos llaman a este momento \"La Era Dorada\" para invertir en terrenos.","content":"$3","date":"15 de Febrero, 2026","author":"Equipo TEKO","category":"Inversión","image":"/images/blog/la pradera.jpg","readTime":"12 min"}}]],["$L4"],"$L5"]}],"loading":null,"isPartial":false}
+4:["$","script","script-0",{"src":"/_next/static/chunks/40687a1eaf36aa33.js","async":true}]
+5:["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]
+8:null
