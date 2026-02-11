@@ -98,7 +98,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: '/images/capiata/conti-2.jpg',
+    image: '/images/capiata/capiata-progreso-1.jpg',
     readTime: '12 min'
   },
   {
@@ -857,7 +857,7 @@ export const blogPosts: BlogPost[] = [
     date: '01 de Febrero, 2026',
     author: 'Research TEKO',
     category: 'Análisis de Mercado',
-    image: '/images/blog/terreno-aereo.jpg',
+    image: '/images/blog/capitata-aerial.jpg',
     readTime: '16 min'
   },
   {
@@ -947,7 +947,7 @@ export const blogPosts: BlogPost[] = [
     date: '10 de Febrero, 2026',
     author: 'Dto. Técnico TEKO',
     category: 'Consejos Técnicos',
-    image: 'https://images.unsplash.com/photo-1541462608141-ad4d05ed5a41?q=80&w=2070&auto=format&fit=crop',
+    image: '/images/capiata/capiata-progreso-3.jpg',
     readTime: '15 min'
   }
 ];
