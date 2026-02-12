@@ -46,7 +46,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
         });
       }, 500);
 
-      console.log('✅ Evento AgendarVisita enviado con éxito corre de nuevo');
+      console.log('✅ Versión FINAL: Enviando AgendarVisita');
     }
   }, [isSubmitSuccessful, title, source]);
 
