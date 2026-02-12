@@ -31,17 +31,22 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 
   useEffect(() => {
     if (isSubmitSuccessful) {
-      // Master Custom Event (PRIMARY for Meta Ads)
+      // 1. Mandar el evento personalizado PRIMERO (Es el que queremos ver en el Resumen)
       fp.customEvent('AgendarVisita_Premium', {
         property_title: title,
         source: source
       });
-      // Standard Event
-      fp.event('Lead', {
-        content_name: title,
-        content_category: 'Real Estate',
-        variant: 'premium_lead'
-      });
+
+      // 2. Mandar el evento estándar de Meta con un pequeño retraso
+      // Esto evita que Meta los "fusione" en uno solo
+      setTimeout(() => {
+        fp.event('Lead', {
+          content_name: title,
+          content_category: 'Real Estate'
+        });
+      }, 500);
+
+      console.log('✅ Eventos de Meta enviados: AgendarVisita_Premium y Lead');
     }
   }, [isSubmitSuccessful, title, source]);
 
