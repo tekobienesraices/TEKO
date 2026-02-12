@@ -31,8 +31,8 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 
   useEffect(() => {
     if (isSubmitSuccessful) {
-      // 1. Mandar el evento personalizado PRIMERO (Es el que queremos ver en el Resumen)
-      fp.customEvent('AgendarVisita_Premium', {
+      // 1. Mandar el evento personalizado PRIMERO (Nombre limpio original)
+      fp.customEvent('AgendarVisita', {
         property_title: title,
         source: source
       });
@@ -46,7 +46,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
         });
       }, 500);
 
-      console.log('✅ Eventos de Meta enviados: AgendarVisita_Premium y Lead');
+      console.log('✅ Evento AgendarVisita enviado con éxito corre de nuevo');
     }
   }, [isSubmitSuccessful, title, source]);
 
