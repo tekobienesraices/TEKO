@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Image from 'next/image';
 import { ChevronLeft, ChevronRight, TrendingUp, Clock, BarChart3 } from 'lucide-react';
 import Link from 'next/link';
 import { Button } from './Button';
@@ -89,16 +90,22 @@ export const GrowthTimeline: React.FC = () => {
                         <div className="absolute inset-0 bg-teko-gold/10 rounded-3xl transform rotate-3 scale-105 blur-xl transition-all duration-500 group-hover:bg-teko-gold/20" />
                         <div className="relative rounded-2xl overflow-hidden shadow-2xl border border-white/10 aspect-[4/3]">
                             <AnimatePresence mode="wait">
-                                <motion.img
+                                <motion.div
                                     key={currentIndex}
-                                    src={getPhaseImage(currentIndex)}
-                                    alt={`Evolución ${currentData.year}: ${currentData.title}`}
                                     initial={{ opacity: 0, scale: 1.1 }}
                                     animate={{ opacity: 1, scale: 1 }}
                                     exit={{ opacity: 0 }}
                                     transition={{ duration: 0.5 }}
-                                    className="w-full h-full object-cover"
-                                />
+                                    className="relative w-full h-full"
+                                >
+                                    <Image
+                                        src={getPhaseImage(currentIndex)}
+                                        alt={`Evolución ${currentData.year}: ${currentData.title}`}
+                                        fill
+                                        className="w-full h-full object-cover"
+                                        sizes="(max-width: 1024px) 100vw, 50vw"
+                                    />
+                                </motion.div>
                             </AnimatePresence>
 
                             {/* Overlay Controls */}
@@ -106,12 +113,14 @@ export const GrowthTimeline: React.FC = () => {
                                 <button
                                     onClick={prevStep}
                                     className="p-3 rounded-full bg-black/50 hover:bg-teko-gold text-white backdrop-blur-md transition-all transform hover:scale-110"
+                                    aria-label="Fase anterior"
                                 >
                                     <ChevronLeft size={24} />
                                 </button>
                                 <button
                                     onClick={nextStep}
                                     className="p-3 rounded-full bg-black/50 hover:bg-teko-gold text-white backdrop-blur-md transition-all transform hover:scale-110"
+                                    aria-label="Siguiente fase"
                                 >
                                     <ChevronRight size={24} />
                                 </button>

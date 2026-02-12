@@ -92,8 +92,8 @@ export const viewport: Viewport = {
     themeColor: '#0c1c2e',
     width: 'device-width',
     initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
+    maximumScale: 5,
+    userScalable: true,
 };
 
 // JSON-LD Structured Data

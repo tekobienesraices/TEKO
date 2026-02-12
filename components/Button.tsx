@@ -22,7 +22,7 @@ export const Button: React.FC<ButtonProps> = ({
     secondary: "bg-teko-grey text-teko-navy hover:bg-slate-300 shadow-md hover:shadow-lg hover:-translate-y-0.5",
     outline: "bg-transparent border-2 border-teko-navy text-teko-navy hover:bg-teko-navy hover:text-white",
     ghost: "bg-transparent text-teko-navy hover:bg-slate-100",
-    gold: "bg-teko-gold text-white hover:bg-teko-navy shadow-lg hover:shadow-xl hover:-translate-y-0.5 border border-transparent",
+    gold: "bg-teko-gold text-teko-navy hover:bg-teko-navy hover:text-white shadow-lg hover:shadow-xl hover:-translate-y-0.5 border border-transparent",
     white: "bg-white text-teko-navy hover:bg-slate-100 shadow-lg hover:shadow-xl hover:-translate-y-0.5 border border-transparent",
   };
 

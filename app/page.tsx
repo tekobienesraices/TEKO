@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, TrendingUp, Home as HomeIcon, Map, Download, Check } from 'lucide-react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Button } from '@/components/Button';
 import { LeadModal } from '@/components/LeadModal';
 import { SocialBanner } from '@/components/SocialBanner';
@@ -29,10 +30,13 @@ export default function HomePage() {
                     className="absolute inset-0 z-0"
                 >
                     <div className="absolute inset-0 bg-gradient-to-b from-teko-navy/40 via-teko-navy/20 to-slate-50 z-10" />
-                    <img
+                    <Image
                         src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?q=80&w=2560&auto=format&fit=crop"
                         alt="Venta de terrenos en cuotas en Capiatá Paraguay - Vista Aérea"
+                        fill
+                        priority
                         className="w-full h-full object-cover"
+                        sizes="100vw"
                     />
                 </motion.div>
 
@@ -152,13 +156,15 @@ export default function HomePage() {
                                 viewport={{ once: true }}
                                 className="group relative bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 border border-slate-100"
                             >
-                                <div className="aspect-[4/3] overflow-hidden">
-                                    <img
+                                <div className="aspect-[4/3] overflow-hidden relative">
+                                    <Image
                                         src={prop.image}
                                         alt={prop.title}
+                                        fill
                                         className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                                     />
-                                    <div className="absolute top-4 right-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-teko-navy uppercase">
+                                    <div className="absolute top-4 right-4 z-10 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-teko-navy uppercase">
                                         {prop.status === 'reserved' ? 'Reservado' : 'Disponible'}
                                     </div>
                                 </div>
@@ -234,12 +240,14 @@ export default function HomePage() {
                             </div>
                         </div>
 
-                        <div className="relative">
+                        <div className="relative aspect-video lg:aspect-square">
                             <div className="absolute -inset-4 bg-gradient-to-r from-blue-500 to-purple-500 rounded-2xl opacity-20 blur-xl"></div>
-                            <img
+                            <Image
                                 src="/images/render-casa-moderna.jpg"
                                 alt="Futuro Hogar TEKO"
-                                className="relative rounded-2xl shadow-2xl border border-white/10"
+                                fill
+                                className="relative rounded-2xl shadow-2xl border border-white/10 object-cover"
+                                sizes="(max-width: 1024px) 100vw, 50vw"
                             />
                         </div>
                     </div>

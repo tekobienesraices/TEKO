@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Sparkles, ArrowRight, BrainCircuit, AlertCircle } from 'lucide-react';
+import Image from 'next/image';
 import { Button } from './Button';
 import * as fp from '@/lib/fpixel';
 
@@ -49,6 +50,7 @@ export const AIGalleryModal: React.FC<AIGalleryModalProps> = ({ isOpen, onClose 
                             <button
                                 onClick={onClose}
                                 className="p-2 hover:bg-slate-200 rounded-full transition-colors text-slate-400 hover:text-teko-navy"
+                                aria-label="Cerrar modal de IA"
                             >
                                 <X size={24} />
                             </button>
@@ -80,13 +82,15 @@ export const AIGalleryModal: React.FC<AIGalleryModalProps> = ({ isOpen, onClose 
                                         className="group cursor-pointer"
                                     >
                                         <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-slate-100 relative">
-                                            <img
+                                            <Image
                                                 src={design.src}
                                                 alt={design.label}
+                                                fill
                                                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                                                sizes="(max-width: 768px) 100vw, 33vw"
                                             />
-                                            <div className="absolute inset-0 bg-gradient-to-t from-teko-navy/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
-                                            <div className="absolute bottom-4 left-4 right-4 translate-y-4 group-hover:translate-y-0 transition-transform">
+                                            <div className="absolute inset-0 z-10 bg-gradient-to-t from-teko-navy/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity" />
+                                            <div className="absolute bottom-4 left-4 right-4 z-20 translate-y-4 group-hover:translate-y-0 transition-transform">
                                                 <p className="text-white font-medium text-sm">{design.label}</p>
                                             </div>
                                         </div>

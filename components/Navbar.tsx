@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import { Button } from './Button';
 
 export const Navbar: React.FC = () => {
@@ -37,9 +38,12 @@ export const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link href="/" className="flex items-center">
-            <img
+            <Image
               src="/logo-horizontal.png"
-              alt="TEKO"
+              alt="TEKO Bienes Raíces"
+              width={160}
+              height={64}
+              priority
               className={`h-16 w-auto object-contain transition-all duration-300 cursor-pointer ${!scrolled && isHome ? 'brightness-0 invert' : ''}`}
             />
           </Link>
@@ -66,6 +70,7 @@ export const Navbar: React.FC = () => {
             <button
               onClick={() => setIsOpen(!isOpen)}
               className={`p-2 rounded-md ${!scrolled && isHome ? 'text-white' : 'text-teko-navy'}`}
+              aria-label={isOpen ? "Cerrar menú" : "Abrir menú"}
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
             </button>

@@ -75,6 +75,7 @@ export const LeadModal: React.FC<LeadModalProps> = ({
         <button
           onClick={() => { reset(); onClose(); }}
           className="absolute top-4 right-4 text-slate-400 hover:text-teko-navy transition-colors"
+          aria-label="Cerrar formulario"
         >
           <X size={24} />
         </button>
