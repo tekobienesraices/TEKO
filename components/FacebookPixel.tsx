@@ -41,57 +41,6 @@ export const FacebookPixel = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, [pathname]);
 
-    // Advanced Event: Exit Intent (Optimized for Desktop & Mobile)
-    useEffect(() => {
-        let lastScrollY = window.scrollY;
-
-        // Desktop: Mouse leaves tab area
-        const handleMouseOut = (e: MouseEvent) => {
-            if (e.clientY <= 0 || e.relatedTarget === null) {
-                fp.customEvent('ExitIntent', {
-                    device: 'desktop',
-                    type: 'mouse_leave',
-                    path: pathname
-                });
-            }
-        };
-
-        // Universal (Desktop & Mobile): User closes tab, switches app, or locks screen
-        const handleVisibilityChange = () => {
-            if (document.visibilityState === 'hidden') {
-                fp.customEvent('ExitIntent', {
-                    device: 'universal',
-                    type: 'visibility_hidden',
-                    path: pathname
-                });
-            }
-        };
-
-        // Mobile specific: Fast scroll up near the top (often indicates intent to leave)
-        const handleScroll = () => {
-            const currentScrollY = window.scrollY;
-            const velocity = lastScrollY - currentScrollY;
-
-            if (velocity > 50 && currentScrollY < 100) {
-                fp.customEvent('ExitIntent', {
-                    device: 'mobile',
-                    type: 'fast_scroll_up',
-                    path: pathname
-                });
-            }
-            lastScrollY = currentScrollY;
-        };
-
-        document.addEventListener('mouseout', handleMouseOut);
-        document.addEventListener('visibilitychange', handleVisibilityChange);
-        window.addEventListener('scroll', handleScroll);
-
-        return () => {
-            document.removeEventListener('mouseout', handleMouseOut);
-            document.removeEventListener('visibilitychange', handleVisibilityChange);
-            window.removeEventListener('scroll', handleScroll);
-        };
-    }, [pathname]);
 
     // Advanced Event: Time on Page (Engaged User)
     useEffect(() => {
