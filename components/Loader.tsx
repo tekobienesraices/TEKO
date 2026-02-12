@@ -15,10 +15,9 @@ export const Loader: React.FC = () => {
             setIsFirstVisit(true);
             sessionStorage.setItem('teko-visited', 'true');
 
-            // Auto-hide after animation completes
             const timer = setTimeout(() => {
                 setIsVisible(false);
-            }, 3000);
+            }, 800);
 
             return () => clearTimeout(timer);
         } else {
