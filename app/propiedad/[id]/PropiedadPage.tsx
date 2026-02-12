@@ -242,9 +242,8 @@ export default function PropiedadPage({ property, zone }: Props) {
                                         fullWidth
                                         size="lg"
                                         onClick={() => {
-                                            fp.customEvent('InitiateVisitCoordination', {
-                                                property: property.title,
-                                                price: property.price
+                                            fp.customEvent('Click_Boton_Agendar', {
+                                                property: property.title
                                             });
                                             setModalOpen(true);
                                         }}

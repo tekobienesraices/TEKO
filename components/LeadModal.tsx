@@ -31,16 +31,16 @@ export const LeadModal: React.FC<LeadModalProps> = ({
 
   useEffect(() => {
     if (isSubmitSuccessful) {
+      // Master Custom Event (PRIMARY for Meta Ads)
+      fp.customEvent('AgendarVisita_Premium', {
+        property_title: title,
+        source: source
+      });
       // Standard Event
       fp.event('Lead', {
         content_name: title,
         content_category: 'Real Estate',
-        source: source
-      });
-      // Master Custom Event (for Ads)
-      fp.customEvent('AgendarVisita', {
-        property_title: title,
-        source: source
+        variant: 'premium_lead'
       });
     }
   }, [isSubmitSuccessful, title, source]);
